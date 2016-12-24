@@ -1,0 +1,10 @@
+index:
+  get_started: 'get start'
+	download: 'download'
+	main_title: 'Building Better Applications By'
+	sub_title: 'Lemonce Editor'
+	abstract_title: 'Start Test Automation'
+	abstract_sub_title: 'Right now'
+
+footer:
+  help: 'help'

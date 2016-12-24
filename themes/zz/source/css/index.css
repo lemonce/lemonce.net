@@ -1,0 +1,27 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif;
+	color: #555;
+}
+
+.bg-teal-gradient {
+	background-color: #43b7bf;
+	color: white;
+}
+
+.btn-orange {
+	color: white;
+	background-color: #f88900;
+}
+.btn-orange:hover {
+	background-color: #ffa12c;
+}
+
+.btn-teal-outline {
+	color: #3fb5bf;
+	background-color: white;
+	border-color: #6dc7cf;
+}
+
+.border-grey {
+	border: 1px solid #dbdbdb;
+}

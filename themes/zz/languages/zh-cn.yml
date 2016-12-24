@@ -1,0 +1,10 @@
+index:
+  get_started: 开始使用
+	download: 下载最新版
+	main_title: '更好的自动化测试工具'
+	sub_title: '灵萌测'
+	abstract_title: '立刻开始'
+	abstract_sub_title: '自动化测试'
+
+footer:
+  help: '帮助'
