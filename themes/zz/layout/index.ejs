@@ -24,10 +24,10 @@
 <section class="py-3">
 	<div class="container text-xs-center pb-3">
 		<h2 class="pb-1">
-			欢迎使用 Lemonce 测试工具
+			<%= __('index.intro_title') %>
 		</h2>
 		<h4 class="pb-2">
-			Lemonce 将帮助您提高WEB工程发布时的可靠性，并依靠以下优势显著改善您的测试环节
+			<%= __('index.intro_sub_title') %>
 		</h4>
 		<div class="row pb-1">
 			<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
@@ -37,8 +37,12 @@
 		<div class="row pt-2">
 			<a href="http://www.bilibili.com/mobile/video/av6449358.html?from=message"
 				target="_blank"
-				class="btn btn-orange btn-lg mr-3">产品介绍</a>
-			<a href="https://pan.baidu.com/s/1eRYBodG" target="_blank" class="btn btn-orange btn-lg">使用手册</a>
+				class="btn btn-orange btn-lg mr-3">
+				<%= __('index.intro_btn_video') %>
+			</a>
+			<a href="https://pan.baidu.com/s/1eRYBodG" target="_blank" class="btn btn-orange btn-lg">
+				<%= __('index.intro_btn_manual') %>
+			</a>
 		</div>
 	</div>
 </section>
@@ -46,17 +50,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 pt-3">
-				<h2 class="pb-1">简单到几分钟就能上手</h2>
+				<h2 class="pb-1">
+					<%= __('index.get_started') %>
+				</h2>
 				<p class="lead pb-1">
-					灵萌测是本地安装的客户端软件，
-					没有复杂的部署流程。
-					它能够跨平台使用，支持 Windows, Mac 操作系统
+					<%= __('index.get_started_detail') %>
 				</p>
 				<div>
 					<a href="http://www.bilibili.com/mobile/video/av6449358.html?from=message"
 						target="_blank"
 						class="btn pull-left btn-lg btn-teal-outline">
-						帮助视频
+						<%= __('index.get_started_btn_video') %>
 					</a>
 				</div>
 			</div>
