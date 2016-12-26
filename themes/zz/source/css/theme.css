@@ -1,0 +1,52 @@
+.sublemon-keyword {
+	color: #bc9c91;
+}
+.sublemon-name {
+	color: white;
+}
+.sublemon-operator {
+	color: white;
+	opacity: .7;
+}
+.sublemon-regexp {
+	color: #3380cc;
+}
+.sublemon-string,
+.sublemon-template {
+	color: #2d70b3;
+}
+.sublemon-number {
+	color: #3380cc;
+}
+.sublemon-line-comment,
+.sublemon-block-comment {
+	color: green;
+	font-style: italic;
+}
+.sublemon-macro {
+	color: #84b380;
+}
+.sublemon-gutter {
+	display: table-cell;
+	color: #666666;
+}
+.sublemon-code {
+	display: table-cell;
+}
+.sublemon-line-number {
+	text-align: right;
+	padding: 0 1em;
+}
+.sublemon-view-line {
+	white-space: pre;
+}
+.sublemon-view-line.highlight {
+	background-color: rgba(0,50,99,.1);
+}
+.sublemon-wrap-inner {
+	display: table-row;
+}
+.sublemon-wrap {
+	font-family: "Consolas", monospace;
+	padding: 8px 0;
+}

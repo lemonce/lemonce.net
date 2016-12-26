@@ -22,6 +22,9 @@ index:
   script_detail: '简单的仿真指令（动作、等待与断言）语法能更加流畅的描述测试用例。项目变量与字典变量特性显著提升测试的可维护性。'
   script_btn_manual: '语言文档'
   customer_title: '客户说'
+  customer_quote: '解决问题速度快，兼容众多浏览器，集成化程度高，简单易学的 LemonCase2 用例语言降低了学习成本，使 UI 测试更容易。'
+  customer_name: '李彦伟'
+  customer_position: '技术负责人'
 
 footer:
   help: '帮助'
