@@ -21,6 +21,7 @@ index:
   script_title: 'LemonCase2 Language'
   script_detail: 'Lemoncase2 is a high level script language used to describe test case. It uses simple yet intuitive syntax to emulate user actions which makes it more readible and improve maintainability.'
   script_btn_manual: 'Language Documentation'
+  customer_title: 'What our customers say'
 
 footer:
   help: 'help'
@@ -30,3 +31,6 @@ footer:
   contract: 'contract us'
   social: ' '
   email: 'email'
+  about: 'about'
+  agreement: 'agreement'
+  security: 'security'

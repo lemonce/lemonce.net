@@ -21,6 +21,7 @@ index:
   script_title: 'LemonCase2 语言'
   script_detail: '简单的仿真指令（动作、等待与断言）语法能更加流畅的描述测试用例。项目变量与字典变量特性显著提升测试的可维护性。'
   script_btn_manual: '语言文档'
+  customer_title: '客户说'
 
 footer:
   help: '帮助'
@@ -30,3 +31,6 @@ footer:
   contract: '联系我们'
   social: 'QQ群:462067451'
   email: '邮箱'
+  about: '关于'
+  agreement: '用户协议'
+  security: '数据安全'
