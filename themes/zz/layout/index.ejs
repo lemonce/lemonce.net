@@ -73,30 +73,34 @@
 <section class="py-3">
 	<div class="container text-xs-center pb-3">
 		<h2>
-			我们的优势
+			<%= __('index.feature_title') %>
 		</h2>
 		<div class="row">
 			<div class="col-md-4">
 				<img class="img-fluid px-2" src="/images/icon-02.png" alt="">
 				<h3>
-					图形操作
+					<%= __('index.feature_GUI_title') %>
 				</h3>
 				<p>
-					用视窗的 UI 风格设计的测试用例编辑器，更加符合使用习惯。方便的HTML元素抓取与查询功能，进一步提升测试用例编写效率。
+					<%= __('index.feature_GUI_detail') %>
 				</p>
 			</div>
 			<div class="col-md-4">
 				<img class="img-fluid px-2" src="/images/icon-03.png" alt="">
-				<h3>便捷部署</h3>
+				<h3>
+					<%= __('index.feature_integration_title') %>
+				</h3>
 				<p>
-					LemonProbe 几乎没有侵入性，将它放入您的工程路径，不再担心复杂的环境与配置。通过浏览器访问即可迅速展开工作。
+					<%= __('index.feature_integration_detail') %>
 				</p>
 			</div>
 			<div class="col-md-4">
 				<img class="img-fluid px-2" src="/images/icon-01.png" alt="">
-				<h3>测试报告</h3>
+				<h3>
+					<%= __('index.feature_report_title') %>
+				</h3>
 				<p>
-					我们的测试报告维度科学、简洁可读，既有用于查看总体项目执行通过率的总览也有完整的测试日志，有效定位与回溯错误过程。
+					<%= __('index.feature_report_detail') %>
 				</p>
 			</div>
 		</div>
@@ -106,17 +110,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<img src="/images/icon-04.png" alt="" class="img-fluid">
+				<img src="/images/icon-04.png" alt="" class="img-fluid" />
 			</div>
 			<div class="col-md-4 pt-3">
-				<h2>LemonCase2 语言</h2>
+				<h2>
+					<%= __('index.script_title') %>
+				</h2>
 				<p>
-					简单的仿真指令（动作、等待与断言）语法能更加流畅
-					的描述测试用例。项目变量与字典变量特性显著提升测试的可维护性。
+					<%= __('index.script_detail') %>
 				</p>
 				<div>
 					<a href="/syntax" class="btn pull-left btn-lg btn-teal-outline">
-						语言文档
+						<%= __('index.script_btn_manual') %>
 					</a>
 				</div>
 			</div>
@@ -125,7 +130,9 @@
 </section>
 <section class="py-3">
 	<div class="container">
-		<h2 class="text-xs-center py-2">客户说</h2>
+		<h2 class="text-xs-center py-2">
+			<%= __('index.customer_title') %>
+		</h2>
 		<div class="row border-grey px-2 py-2">
 			<div class="col-md-3">
 				<div class="mx-auto text-xs-center">

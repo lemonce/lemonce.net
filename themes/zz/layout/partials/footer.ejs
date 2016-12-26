@@ -2,24 +2,33 @@
 	<div class="container pt-3">
 		<div class="row">
 			<div class="col-md-8 col-xs-12">
-				<a href="/">帮助</a>
+				<a href="/">
+					<%= __('footer.help') %>
+				</a>
 				<ul class="list-unstyled">
-					<li><a class="text-muted" href="/">售后支持</a></li>
-					<li><a class="text-muted" href="/">API 文档</a></li>
-					<li><a class="text-muted" href="/">微博</a></li>
+					<li><a class="text-muted" href="/">
+						<%= __('footer.support') %>
+					</a></li>
+					<li><a class="text-muted" href="/">
+						<%= __('footer.api_doc') %>
+					</a></li>
+					<li><a class="text-muted" href="/">
+						<%= __('footer.blog') %>
+					</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 col-xs-12">
 				<div class="card card-block text-xs-center">
 					<div class="card-title">
-						联系我们
+						<%= __('footer.contract') %>
 					</div>
 					<a href="tel://022-27956116" class="card-link">022-27956116</a>
 					<p class="card-text">
-						QQ群:462067451
+						<%= __('footer.social') %>
 					</p>
 					<a href="mailto:business@or-change.cn" class="card-link">
-						邮箱:business@or-change.cn
+						<%= __('footer.email') %>
+						:business@or-change.cn
 					</a>
 				</div>
 			</div>
