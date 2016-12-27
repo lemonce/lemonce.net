@@ -4,7 +4,7 @@ body {
 }
 
 .bg-teal-gradient {
-	background-color: #43b7bf;
+	background-color: #56a8ae;
 	color: white;
 }
 
@@ -18,13 +18,14 @@ body {
 }
 
 .btn-teal-outline {
-	color: #3fb5bf;
-	background-color: white;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.1);
 	border-color: #6dc7cf;
 }
 
 .btn-teal-outline:hover {
 	color: #3fb5bf;
+	background-color: white;
 }
 
 .border-grey {
@@ -32,13 +33,14 @@ body {
 }
 
 #lang .nav-link {
-	background-color: #ccc;
-	color: #666;
+	background-color: #f5f5f5;
+	color: #363636;
 }
 
 #lang .nav-link.active {
-	background-color: #f2f2f2;
-	color: #bca580;
+	background-color: #f88900;
+	border-color: #ffa12c;
+	color: white;
 }
 
 #lang .tab-pane {
@@ -54,4 +56,21 @@ pre.sublemon {
 
 .text-faded-grey {
 	color: #ccc;
+}
+
+.pt-80 {
+	padding-top: 80px !important;
+}
+
+.pb-80 {
+	padding-bottom: 80px !important;
+}
+
+.py-80 {
+	padding-top: 80px !important;
+	padding-bottom: 80px !important;
+}
+
+.text-white-dark {
+	color: #f5f3f2;
 }
