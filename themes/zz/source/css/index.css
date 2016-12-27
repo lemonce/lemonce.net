@@ -13,6 +13,7 @@ body {
 	background-color: #f88900;
 }
 .btn-orange:hover {
+	color: white;
 	background-color: #ffa12c;
 }
 
@@ -20,6 +21,10 @@ body {
 	color: #3fb5bf;
 	background-color: white;
 	border-color: #6dc7cf;
+}
+
+.btn-teal-outline:hover {
+	color: #3fb5bf;
 }
 
 .border-grey {

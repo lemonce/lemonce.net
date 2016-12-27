@@ -1,9 +1,16 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-light">
 	<div class="container">
 		<div class="navbar-header">
-			<a href="/" class="navbar-brand">Lemonce</a>
+			<a href="<%= url_for_lang('') %>" class="navbar-brand">Lemonce</a>
 		</div>
-		<div class="btn-group">
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a href="/news" class="nav-link">
+					news
+				</a>
+			</li>
+		</ul>
+		<div class="btn-group float-xs-right">
 			<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
 				Language
 			</button>

@@ -1,0 +1,14 @@
+<% page.title = 'News' %>
+<div id="post-wrap">
+	<% page.posts.forEach(function (post, index) { %>
+		<% if (index === 0) { %>
+			<%- partial('partials/post', {post: post}) %>
+		<% } else { %>
+			<article class="post">
+				<a href class="post-link">
+					<%= post.title %>
+				</a>
+			</article>
+		<% } %>
+	<% }) %>
+</div>
