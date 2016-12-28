@@ -3,6 +3,10 @@ body {
 	color: #555;
 }
 
+.btn {
+	transition: .2s background ease-out;
+}
+
 .bg-teal-gradient {
 	background-color: #56a8ae;
 	color: white;
