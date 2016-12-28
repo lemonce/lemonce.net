@@ -4,10 +4,9 @@
 			<h1 class="article-title">
 				<%= post.title %>
 			</h1>
-			<time>
-				<%= post.date.format() %>
-			</time>
-			<a href="<%= url_for(post.path) %>" class="post-link text-muted">link</a>
+			<a href="<%= url_for(post.path) %>" class="post-link text-white">
+				<%= post.date.format('YYYY-MM-DD') %>
+			</a>
 		</div>
 	</div>
 	<div class="post-content container pt-2">

@@ -18,8 +18,8 @@ body {
 }
 
 .btn-teal-outline {
-	color: white;
-	background-color: rgba(255, 255, 255, 0.1);
+	color: #3fb5bf;
+	background-color: #f5f5f5;
 	border-color: #6dc7cf;
 }
 
@@ -31,7 +31,7 @@ body {
 .border-grey {
 	border: 1px solid #dbdbdb;
 }
-
+/* tab code */
 #lang .nav-link {
 	background-color: #f5f5f5;
 	color: #363636;
@@ -53,11 +53,15 @@ body {
 pre.sublemon {
 	overflow: visible;
 }
-
+/* text style helper */
 .text-faded-grey {
 	color: #ccc;
 }
 
+.text-white-dark {
+	color: #f5f3f2;
+}
+/* spacing helper */
 .pt-80 {
 	padding-top: 80px !important;
 }
@@ -70,7 +74,20 @@ pre.sublemon {
 	padding-top: 80px !important;
 	padding-bottom: 80px !important;
 }
+/* highlight helper */
+figure.highlight {
+	background-color: #e0e4ef;
+	border-left: 2px solid #909fa8;
+	padding: 10px;
+}
 
-.text-white-dark {
-	color: #f5f3f2;
+figure.highlight pre {
+	margin-bottom: 0;
+}
+
+.post-item {
+	border-top: 1px solid #dbdbdb;
+}
+.post-item:last-child {
+	border-bottom: 1px solid #dbdbdb;
 }

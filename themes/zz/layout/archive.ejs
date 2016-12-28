@@ -4,9 +4,14 @@
 		<% if (index === 0) { %>
 			<%- partial('partials/post', {post: post}) %>
 		<% } else { %>
-			<article class="post">
-				<a href class="post-link">
+			<article class="post-item container">
+				<a 
+					href="<%= url_for(post.path) %>"
+					class="post-link text-warning d-block py-1">
 					<%= post.title %>
+					<span class="float-xs-right">
+						<%= post.date.format('YYYY-MM-DD') %>
+					</span>
 				</a>
 			</article>
 		<% } %>
