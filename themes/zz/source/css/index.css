@@ -2,49 +2,73 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif;
 	color: #555;
 }
-
+/* override bootstrap */
 .btn {
 	transition: .2s background ease-out;
 }
 
 .bg-teal-gradient {
-	background-color: #56a8ae;
+	background-color: #71c3c3;
 	color: white;
 }
 
-.btn-orange {
+.btn-white-outline {
+	background-color: transparent;
 	color: white;
-	background-color: #f88900;
+	border-radius: 0;
+	border: 2px solid white;
 }
-.btn-orange:hover {
+
+.btn-white-outline:hover {
+	background-color: white;
+	color: #4eb4b4;
+}
+
+.btn-teal {
 	color: white;
-	background-color: #ffa12c;
+	background-color: #4eb4b4;
+	border-radius: 0;
+	border: 2px solid #6dc7cf;
+}
+
+.btn-teal:hover {
+	color: white;
+	background-color: #6dc7cf;
 }
 
 .btn-teal-outline {
-	color: #3fb5bf;
-	background-color: #f5f5f5;
-	border-color: #6dc7cf;
+	color: #4eb4b4;
+	background-color: transparent;
+	border-radius: 0;
+	border: 2px solid #4eb4b4;
 }
 
 .btn-teal-outline:hover {
-	color: #3fb5bf;
-	background-color: white;
+	background-color: #4eb4b4;
+	color: white;
 }
 
 .border-grey {
 	border: 1px solid #dbdbdb;
 }
 /* tab code */
+#lang .nav {
+	margin-bottom: 5px;
+}
 #lang .nav-link {
-	background-color: #f5f5f5;
-	color: #363636;
+	background-color: transparent;
+	border: 2px solid #c6d7d7;
+	color: #c6d7d7;
+	border-radius: 0;
 }
 
 #lang .nav-link.active {
-	background-color: #f88900;
-	border-color: #ffa12c;
-	color: white;
+	background-color: #c6d7d7;
+	color: #042a2a;
+}
+#lang .nav-link:hover {
+	background-color: white;
+	border-color: white;
 }
 
 #lang .tab-pane {
