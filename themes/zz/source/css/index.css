@@ -119,3 +119,12 @@ figure.highlight pre {
 .post-item:last-child {
 	border-bottom: 1px solid #dbdbdb;
 }
+/* docs */
+.page-inner {
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+#doc-sidebar {
+	width: 220px;
+}

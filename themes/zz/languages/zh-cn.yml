@@ -37,3 +37,10 @@ footer:
   about: '关于'
   agreement: '用户协议'
   security: '数据安全'
+
+nav:
+  news: '新闻'
+  docs: '文档'
+
+page:
+  last_updated: '最后更新：'

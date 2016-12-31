@@ -37,3 +37,10 @@ footer:
   about: 'about'
   agreement: 'agreement'
   security: 'security'
+
+nav:
+  news: 'news'
+  docs: 'docs'
+
+page:
+  last_updated: 'Last Updated:'
