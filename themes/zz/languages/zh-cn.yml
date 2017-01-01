@@ -44,3 +44,7 @@ nav:
 
 page:
   last_updated: '最后更新：'
+
+docs:
+  get_started: '开始使用'
+  syntax: '语法'

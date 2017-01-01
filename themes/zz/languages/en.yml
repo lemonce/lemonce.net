@@ -44,3 +44,7 @@ nav:
 
 page:
   last_updated: 'Last Updated:'
+
+docs:
+  get_started: 'Getting Started'
+  syntax: 'Syntax'
