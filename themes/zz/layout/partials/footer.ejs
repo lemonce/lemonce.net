@@ -31,28 +31,27 @@
 				</ul>
 			</div>
 			<div class="col-md-4 col-xs-12">
-				<div class="card card-block text-xs-center">
-					<div class="card-title">
-						<%= __('footer.contract') %>
-					</div>
-					<a href="tel://022-27956116" class="card-link">022-27956116</a>
-					<p class="card-text">
-						<%= __('footer.social') %>
-					</p>
-					<a href="mailto:business@or-change.cn" class="card-link">
-						<%= __('footer.email') %>
-						:business@or-change.cn
-					</a>
-				</div>
+				<a href="/contact.html">contact us</a>
 			</div>
 		</div>
 		<div class="row py-2">
 			<div class="col-xs-12">
+				<div class="btn-group float-xs-right dropup">
+					<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+						Language
+					</button>
+					<div class="dropdown-menu">
+						<a href="/" class="dropdown-item">English</a>
+						<a href="/zh-cn" class="dropdown-item">Chinese</a>
+					</div>
+				</div>
 				<span class="mr-2">
 					&copy;2014-<%= new Date().getFullYear() %>
 					 or-change, Co., Ltd. All rights reserved.
 					<% if (page.path.indexOf('zh-cn') > -1) { %>
 						<a class="text-faded-grey small" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action"> 津ICP备14003159号-2</a>
+					<% } else { %>
+						<a class="text-faded-grey small" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action"> JIN-ICP14003159-2</a>
 					<% } %>
 				</span>
 			</div>
