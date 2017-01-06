@@ -14,9 +14,10 @@ hexo.extend.helper.register('url_for_lang', function(path){
 hexo.extend.helper.register('title_for', function () {
   var pageTitle = this.page.title;
   var siteTitle = this.config.title;
+  var siteSurfixPos = siteTitle.indexOf('-');
 
   if (pageTitle) {
-    return pageTitle + ' - ' + siteTitle;
+    return pageTitle + ' ' + siteTitle.substr(siteSurfixPos);
   }
 
   return siteTitle;
