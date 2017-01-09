@@ -19,7 +19,8 @@ body {
 	border: 2px solid white;
 }
 
-.btn-white-outline:hover {
+.btn-white-outline:hover,
+.btn-white-outline:focus {
 	background-color: white;
 	color: #4eb4b4;
 }
@@ -31,7 +32,8 @@ body {
 	border: 2px solid #6dc7cf;
 }
 
-.btn-teal:hover {
+.btn-teal:hover,
+.btn-teal:focus {
 	color: white;
 	background-color: #6dc7cf;
 }
@@ -43,7 +45,8 @@ body {
 	border: 2px solid #4eb4b4;
 }
 
-.btn-teal-outline:hover {
+.btn-teal-outline:hover,
+.btn-teal-outline:focus {
 	background-color: #4eb4b4;
 	color: white;
 }
@@ -66,7 +69,8 @@ body {
 	background-color: #c6d7d7;
 	color: #042a2a;
 }
-#lang .nav-link:hover {
+#lang .nav-link:hover,
+#lang .nav-link:focus {
 	background-color: white;
 	border-color: white;
 }
