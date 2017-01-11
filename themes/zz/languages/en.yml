@@ -1,5 +1,6 @@
 index:
   download: 'Download Free Trial'
+  download_link: 'https://github.com/lemonce/lemonce-publisher/releases'
   main_title: 'A Better Web Test Automation Tool'
   sub_title: 'Lemonce Editor'
   abstract_title: 'Start Test Automation'
@@ -8,6 +9,7 @@ index:
   intro_sub_title: 'Lemonce Editor is an automation testing tool for web applications'
   intro_btn_video: 'watch video intro'
   intro_btn_manual: 'download manual'
+  intro_manual_link: '/docs'
   get_started: 'Get Start with Lemonce Editor in a few minutes'
   get_started_detail: 'Lemonce Editor has a click installer and run on both Windows and Mac'
   get_started_btn_video: 'watch video tutorial'

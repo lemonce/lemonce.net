@@ -1,5 +1,6 @@
 index:
   download: 下载最新版
+  download_link: 'https://pan.baidu.com/s/1eRZrtuy'
   main_title: '更好的自动化测试工具'
   sub_title: '灵萌测'
   abstract_title: '立刻开始'
@@ -8,6 +9,7 @@ index:
   intro_sub_title: 'Lemonce 将帮助您提高WEB工程发布时的可靠性，并依靠以下优势显著改善您的测试环节'
   intro_btn_video: '产品介绍'
   intro_btn_manual: '使用手册'
+  intro_manual_link: 'https://pan.baidu.com/s/1eRYBodG'
   get_started: '简单到几分钟就能上手'
   get_started_detail: '灵萌测是本地安装的客户端软件，没有复杂的部署流程。它能够跨平台使用，支持 Windows, Mac 操作系统'
   get_started_btn_video: '帮助视频'
