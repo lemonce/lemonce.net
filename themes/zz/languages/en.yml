@@ -41,6 +41,9 @@ footer:
   security: 'security'
 
 nav:
+  home: 'home'
+  feature: 'feature'
+  compare: 'compare'
   news: 'news'
   docs: 'docs'
 
@@ -50,4 +53,3 @@ page:
 docs:
   get_started: 'Getting Started'
   syntax: 'Syntax'
-  features: 'Features'

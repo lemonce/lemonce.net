@@ -41,6 +41,9 @@ footer:
   security: '数据安全'
 
 nav:
+  home: '首页'
+  feature: '特性'
+  compare: '对比'
   news: '新闻'
   docs: '文档'
 
@@ -50,4 +53,3 @@ page:
 docs:
   get_started: '开始使用'
   syntax: '语法'
-  features: '特性'
