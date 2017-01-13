@@ -1,16 +1,17 @@
 <section class="bg-teal-gradient py-80">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 hero-image text-xs-center">
-				<h1 class="pb-2">
+			<div class="col-xs-12 hero-image">
+				<h1 class="">
 					<%= __('index.main_title') %>
 					<br>
-					<%= __('index.sub_title') %>
+					<u><%= __('index.sub_title') %></u>
 				</h1>
-				<h4 class="pb-2 text-white-dark">
+				<h4 class="pb-2r text-white-dark">
 					<%= __('index.abstract_title') %>
-					<br>
-					<%= __('index.abstract_sub_title') %>
+					<span class="font-weight-bold">
+						<%= __('index.abstract_sub_title') %>
+					</span>
 				</h4>
 				<a href="<%= __('index.download_link') %>"
 					target="_blank"
@@ -22,40 +23,42 @@
 	</div>
 </section>
 <section class="py-80">
-	<div class="container text-xs-center pb-3">
-		<h2 class="pb-1">
-			<%= __('index.intro_title') %>
-		</h2>
-		<h4 class="pb-2 text-muted">
-			<%= __('index.intro_sub_title') %>
-		</h4>
-		<div class="row pb-1">
-			<div class="col-md-6 col-sm-8 offset-md-3 offset-sm-2">
+	<div class="container text-xs-center py-3">
+		<div class="row">
+			<div class="col-md-5">
 				<img src="/images/eg.png" alt="" class="img-fluid" style="border: 1px solid #cdcdcd">
 			</div>
-		</div>
-		<div class="row pt-2">
-			<a href="http://www.bilibili.com/mobile/video/av6449358.html?from=message"
-				target="_blank"
-				class="btn btn-teal btn-lg mr-3">
-				<%= __('index.intro_btn_video') %>
-			</a>
-			<a href="<%= __('index.intro_manual_link') %>"
-				target="_blank"
-				class="btn btn-teal-outline btn-lg">
-				<%= __('index.intro_btn_manual') %>
-			</a>
+			<div class="col-md-7 px-5">
+				<h2 class="pb-3 mb-3 bottom-dash">
+					<%= __('index.intro_title') %>
+				</h2>
+				<h4 class="pb-2r text-grey-dark">
+					<%= __('index.intro_sub_title') %>
+				</h4>
+				<div>
+					<a href="http://www.bilibili.com/mobile/video/av6449358.html?from=message"
+						target="_blank"
+						class="btn btn-teal btn-lg mr-3">
+						<%= __('index.intro_btn_video') %>
+					</a>
+					<a href="<%= __('index.intro_manual_link') %>"
+						target="_blank"
+						class="btn btn-teal-outline btn-lg">
+						<%= __('index.intro_btn_manual') %>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
-<section class="bg-teal-gradient py-3">
+<section class="bg-teal-gradient py-80">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 pt-3">
-				<h2 class="pb-1">
+			<div class="col-md-6">
+				<h2 class="pt-5 ">
 					<%= __('index.get_started') %>
 				</h2>
-				<h5 class="text-white-dark pb-1">
+				<h5 class="text-white-dark pt-1 pb-5">
 					<%= __('index.get_started_detail') %>
 				</h5>
 				<div class="pt-1">
@@ -73,32 +76,42 @@
 	</div>
 </section>
 <section class="py-80">
-	<div class="container text-xs-center">
-		<h2>
+	<div class="container">
+		<h2 class="pb-4 bottom-dash">
 			<%= __('index.feature_title') %>
 		</h2>
 		<div class="row">
 			<div class="col-md-4">
-				<img class="img-fluid px-2" src="/images/icon-02.png" alt="">
-				<h3>
+				<img class="img-fluid" src="/images/icon-02.png" alt="">
+			</div>
+			<div class="col-md-4 pl-5">
+				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_GUI_title') %>
 				</h3>
 				<p class="text-muted">
 					<%= __('index.feature_GUI_detail') %>
 				</p>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4">
-				<img class="img-fluid px-2" src="/images/icon-03.png" alt="">
-				<h3>
+				<img class="img-fluid" src="/images/icon-03.png" alt="">
+			</div>
+			<div class="col-md-4 pl-5">
+				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_integration_title') %>
 				</h3>
 				<p class="text-muted">
 					<%= __('index.feature_integration_detail') %>
 				</p>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4">
-				<img class="img-fluid px-2" src="/images/icon-01.png" alt="">
-				<h3>
+				<img class="img-fluid" src="/images/icon-01.png" alt="">
+			</div>
+			<div class="col-md-4 pl-5">
+				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_report_title') %>
 				</h3>
 				<p class="text-muted">
@@ -108,7 +121,7 @@
 		</div>
 	</div>
 </section>
-<section class="bg-teal-gradient py-3" id="lang">
+<section class="bg-teal-gradient py-80" id="lang">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
@@ -184,11 +197,11 @@ public class GoogleTranslate {
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 pt-3">
+			<div class="col-md-4 pt-5">
 				<h2>
 					<%= __('index.script_title') %>
 				</h2>
-				<p class="py-1">
+				<p class="py-1 pb-2r">
 					<%= __('index.script_detail') %>
 				</p>
 				<div>
@@ -200,20 +213,20 @@ public class GoogleTranslate {
 		</div>
 	</div>
 </section>
-<section class="py-3">
+<section class="py-5">
 	<div class="container">
-		<h2 class="text-xs-center py-2">
+		<h2 class="py-4 mb-5 bottom-dash">
 			<%= __('index.customer_title') %>
 		</h2>
-		<div class="row border-grey px-2 py-2">
-			<div class="col-md-3">
-				<div class="mx-auto text-xs-center">
-					<img src="/images/relink.jpg" alt="" class="img-fluid">
-					<br>
-					<span>relink</span>
+		<div class="media">
+			<div class="d-flex flex-column px-5 mr-3">
+				<img src="/images/relink.jpg" alt="" class="img-fluid">
+				<br>
+				<div class="text-center">
+					relink
 				</div>
 			</div>
-			<div class="col-md-9">
+			<div class="media-body">
 				<blockquote class="blockquote">
 					<p>
 						<%= __('index.customer_quote') %>
