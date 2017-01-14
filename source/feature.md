@@ -1,40 +1,33 @@
 title: Features
 ---
-### Editing Process
-Recorder can finish most of the test cases. 
-Recording operation outputs the code and comments(coming soon) automatically, 
-only a small amount of code needs to be written to improve the test cases. 
-You can also select the exact element through Iframe when recording.
+# Easier Edtion
+## Recorder
+- Recorder can finish most of the test cases
+- Recording generate the code and comments automatically
+- Support to select the exact element in Iframe when recording
+- Only a small amount of code needs to be written to improve the test cases
 
-### Lemoncase2
-with a simple syntax, the inbuilt language Lemoncase2 converts 
-frequently-used actions in test into more than 20 codes, 
-which greatly simplify the coding of test cases.
+## Test Space
+- Associated with the local system
+- Support one-key to generate test suite from test cases
 
-### Execution Process
-Different from the simple events distribution of WebDriver, 
-LemonceDriver able to distribute all the events of mouseover, 
-so as to achieve the process how the mouse operates browser.
+## Programing language of Lemoncase2
+- Inbuilt in Lemonce Editor
+- Converts frequently-used actions in test into more than 20 codes
+- simplify the coding of test cases with a simple syntax structure
 
-- Trigger CSS hover
-- Element/Content drag
+# More Convenient Execution
+## LemonceDriver
+- Support to trigger CSS hover
+- Support element/content drag
 - CORS support
-- support http/https
-- support popup
-- support upload
-- adopt Chromium as the browser core
+- Support http/https
+- Support popup
+- Support upload
+- Set Chromium as the browser core
 
-Different from Selenium IDE, Lemonce adopt 
-Chromium as the browser core and execution environment when testing. 
-
-### Test space associated with the local system
-Establishing the test task from the file system will 
-generate test space in local system and simplify the edition, 
-management and execution of the test cases and suites.
-
-### Testing Report
-Lemonce offers testing reports automatically after the end of test task, 
-meanwhile the client will take a screen shot of 
-the very steps when the test fails. 
-Test report contains browser debugging information to show the wrong contents.
-(Details in Execution engine)
+# More Detailed Report
+## Report Content
+- Generate test logs of every step in the case
+- Contains browser debugging information
+- Take a screen shot of the very steps when the test fails
