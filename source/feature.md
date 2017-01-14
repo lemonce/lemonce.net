@@ -1,6 +1,7 @@
 title: Features
 ---
 # Easier Edtion
+---
 ## Recorder
 - Recorder can finish most of the test cases
 - Recording generate the code and comments automatically
@@ -17,6 +18,7 @@ title: Features
 - simplify the coding of test cases with a simple syntax structure
 
 # More Convenient Execution
+---
 ## LemonceDriver
 - Support to trigger CSS hover
 - Support element/content drag
@@ -27,6 +29,7 @@ title: Features
 - Set Chromium as the browser core
 
 # More Detailed Report
+---
 ## Report Content
 - Generate test logs of every step in the case
 - Contains browser debugging information
