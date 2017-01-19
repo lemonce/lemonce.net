@@ -1,7 +1,7 @@
 <section class="bg-teal-gradient py-80">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 hero-image">
+			<div class="col hero-image">
 				<h1 class="">
 					<%= __('index.main_title') %>
 					<br>
@@ -25,10 +25,10 @@
 <section class="py-80">
 	<div class="container text-xs-center py-3">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-md-5 hidden-sm-down">
 				<img src="/images/eg.png" alt="" class="img-fluid" style="border: 1px solid #cdcdcd">
 			</div>
-			<div class="col-md-7 px-5">
+			<div class="col-md-7 px-md-5">
 				<h2 class="pb-3 mb-3 bottom-dash">
 					<%= __('index.intro_title') %>
 				</h2>
@@ -38,12 +38,12 @@
 				<div>
 					<a href="http://www.bilibili.com/mobile/video/av6449358.html?from=message"
 						target="_blank"
-						class="btn btn-teal btn-lg mr-3">
+						class="btn btn-teal btn-lg mr-md-3 mb-3">
 						<%= __('index.intro_btn_video') %>
 					</a>
 					<a href="<%= __('index.intro_manual_link') %>"
 						target="_blank"
-						class="btn btn-teal-outline btn-lg">
+						class="btn btn-teal-outline btn-lg mb-3">
 						<%= __('index.intro_btn_manual') %>
 					</a>
 				</div>
@@ -58,7 +58,7 @@
 				<h2 class="pt-5 ">
 					<%= __('index.get_started') %>
 				</h2>
-				<p class="text-white-dark pt-1 pb-5">
+				<p class="text-white-dark pt-1 pb-md-5 pb-3">
 					<%= __('index.get_started_detail') %>
 				</p>
 				<div class="pt-1">
@@ -69,7 +69,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-6 text-xs-center">
+			<div class="col-md-6 text-md-center">
 				<img src="/images/icon-04.png" alt="" class="img-fluid">
 			</div>
 		</div>
@@ -84,7 +84,7 @@
 			<div class="col-md-4">
 				<img class="img-fluid" src="/images/icon-02.png" alt="">
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_GUI_title') %>
 				</h3>
@@ -97,7 +97,7 @@
 			<div class="col-md-4">
 				<img class="img-fluid" src="/images/icon-03.png" alt="">
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_integration_title') %>
 				</h3>
@@ -110,7 +110,7 @@
 			<div class="col-md-4">
 				<img class="img-fluid" src="/images/icon-01.png" alt="">
 			</div>
-			<div class="col-md-6 pl-5">
+			<div class="col-md-6 pl-md-5">
 				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_report_title') %>
 				</h3>
@@ -124,7 +124,7 @@
 <section class="bg-teal-gradient py-80" id="lang">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-8 hidden-sm-down">
 				<ul class="nav nav-pills" role="tablist">
 					<li class="nav-item">
 						<a href="#lc2" class="nav-link active" data-toggle="tab" role="tab">LemonCase2</a>
@@ -219,7 +219,7 @@ public class GoogleTranslate {
 			<%= __('index.customer_title') %>
 		</h2>
 		<div class="media">
-			<div class="d-flex flex-column px-5 mr-3">
+			<div class="d-flex flex-column px-md-5 mr-3">
 				<img src="/images/relink.jpg" alt="" class="img-fluid">
 				<br>
 				<div class="text-center">
