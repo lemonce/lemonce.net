@@ -1,16 +1,19 @@
-layout: text
 title: Features
 ---
 ## Easier Edtion
+
+
 ### Recorder
 - Recorder can finish most of the test cases
 - Recording generate the code and comments automatically
 - Support to select the exact element in Iframe when recording
 - Only a small amount of code needs to be written to improve the test cases
 
+
 ### Test Space
 - Associated with the local system
 - Support one-key to generate test suite from test cases
+
 
 ### Programing language of Lemoncase2
 - Inbuilt in Lemonce Editor
@@ -20,6 +23,8 @@ title: Features
 ---
 
 ## More Convenient Execution
+
+
 ### LemonceDriver
 - CORS support
 - Support popup
@@ -32,6 +37,8 @@ title: Features
 ---
 
 ## More Detailed Report
+
+
 ### Report Content
 - Contains browser debugging information
 - Generate test logs of every step in the case
