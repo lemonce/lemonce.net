@@ -30,7 +30,7 @@ title: Compare
 |Support parallel playback				         |Cloud			 |Yes			   |No         |
 |Support for multiple ways to select element 		|Yes	 |Yes			   |No         |
 |Inbuilt detailed logging and reporting		 |Yes			   |No			   |Yes        |
-|Report readable 					                 |Easy			 |Hard			 |Easy		   |		
+|Report readable 					                 |Easy			 |Hard			 |Easy		   |
 |Error screenshot					                 |Yes			   |No			   |unknown    |
 |Cost of building a test team				       |Low			   |High			 |Low        |
 |Operational assistance available			     |Soon			 |No			   |Yes        |
