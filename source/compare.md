@@ -1,10 +1,10 @@
 title: Compare
 ---
 |                                          |Lemonce    |Selenium   |QTP        |
-|------------------------------------------|-----------|-----------|-----------|
+|------------------------------------------|:---------:|:---------:|:---------:|
 |Works on Browsers Only                    |Yes        |Yes        |No         |
 |Works on Mac OS / Linux                   |Yes        |Yes        |No         |
-|Test Every Web Applications               |Yes        |Yes     	 |Yes        |
+|Test Every Web Applications               |Yes        |Yes        |Yes        |
 |Tool integration                          |High       |Low        |Low        |
 |Chromium as the browser core and execution environment|Yes  |No   |No         |
 |Ways to select element         |CSS/sizzle/Xpath      |CSS/Xpath  |Xpath      |
