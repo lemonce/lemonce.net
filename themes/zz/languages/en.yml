@@ -5,7 +5,7 @@ index:
   sub_title: 'Lemonce Editor'
   abstract_title: 'Easy-to-Use and Affordable'
   abstract_sub_title: ' '
-  intro_title: 'Automate Functional and Regression Testing with Ease'
+  intro_title: 'Functional and Regression Testing'
   intro_sub_title: 'Lemonce Editor is an automated web UI testing tool that lets you create and perform tests with less effort. Its advanced GUI recognition techniques allow you to record and play back tests accurately and reliably. Its intuitive code editor helps you easily modify, update, and customize multiple test cases as needed with minimum coding workload.'
   intro_btn_video: 'watch video intro'
   intro_btn_manual: 'download manual'
@@ -41,11 +41,11 @@ footer:
   security: 'security'
 
 nav:
-  home: 'home'
-  feature: 'feature'
-  compare: 'compare'
-  news: 'news'
-  docs: 'docs'
+  home: 'Home'
+  feature: 'Feature'
+  compare: 'Compare'
+  news: 'News'
+  docs: 'Docs'
 
 page:
   last_updated: 'Last Updated:'
