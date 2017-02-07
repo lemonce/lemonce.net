@@ -3,6 +3,9 @@ title: Lemonce Editor v1.2.2 beta
 date: 2016-12-28 13:50:33
 keywords: 'Editor'
 ---
+## news for version 1.3.0
+
+Lemonce 1.3.0 is coming soon.
 
 ## Version 1.2.2 is in beta
 
