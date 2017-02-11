@@ -1,7 +1,7 @@
 title: 'Complete a test suite'
 ---
 
-## Create a Test Suite
+## Create a test suite
 ---
 
 **create test suite in work space**
@@ -12,7 +12,7 @@ Same as creating a test case, test suite can be create in the work space, in ord
 
 You can export the test case in the editing area as a whole test suite according to the current order of the cases.
 
-## Suite Editor
+## Suite editor
 ---
 
 **activate test suite**
