@@ -11,6 +11,7 @@ title: Compare
 |Works on Chromium browser core & execution environment|Yes  |No   |No         |
 |Webdriver required as executive agent	   |No			   |Yes			   |No         |
 |Needs updates when  browsers' versions update	|No		 |Yes			   |Yes        |
+<br><br/>
 
 ## Programming Language
 |                                          |Lemonce    |Selenium   |QTP        |
@@ -18,6 +19,7 @@ title: Compare
 |Proprietary language for web UI testing   |Yes			   |No			   |No         |
 |Ease of programming language learning	   |Easy		   |Average		 |Average     |
 |Branches and cycle statements				     |Yes			   |Yes			   |Yes        |
+<br><br/>
 
 ## Record Test Case
 |                                          |Lemonce    |Selenium   |QTP        |
@@ -30,6 +32,7 @@ title: Compare
 |Auto-generate comments when recording		 |Yes			   |No			   |No         |
 |Web action recording accuracy             |High		   |Medium	   |High       |
 |Intelligent waiting for web actions & page loading |Yes		|No	   |No         |
+<br><br/>
 
 ## Edit Test Case
 |                                          |Lemonce    |Selenium   |QTP        |
@@ -40,6 +43,7 @@ title: Compare
 |Reusable sub-process library				       |Yes			   |No			   |Yes        |
 |Import existing test cases to create new tests 	|Yes |No			   |Yes        |
 |Reusability of code modules               |High			 |Medium		 |High       |
+<br><br/>
 
 ## Run Test Case
 |                                          |Lemonce    |Selenium   |QTP        |
@@ -50,9 +54,11 @@ title: Compare
 |Inbuilt detailed logs and reports     	   |Yes			   |Need Plug-in	  |Yes        |
 |Report readability 				       |Easy			 |Hard			 |Easy		   |
 |Error screenshot					       |Yes			   |Need Plug-in    |Yes    |
+<br><br/>
 
 ## Others
 |                                          |Lemonce    |Selenium   |QTP        |
 |------------------------------------------|:---------:|:---------:|:---------:|
 |Cost of building a test team			   |Low			   |High			 |Low        |
 |Technical support 			               |Yes 			 |No			   |Yes        |
+<br><br/>

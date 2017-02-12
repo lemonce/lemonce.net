@@ -4,14 +4,15 @@ Here are some examples for you to get started with the language.
 
 ## Hello World
 ---
-
+How to output the most classic phrase.
 ```
 process main {
     log 'hello world';
 }
 ```
+<br><br/>
 
-## A typical test case
+## A Typical test case
 ---
 A test case that runs only once.
 
@@ -26,6 +27,7 @@ process main {
     ...
 }
 ```
+<br><br/>
 
 ## Typical examples
 ---
