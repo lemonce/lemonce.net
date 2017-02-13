@@ -4,8 +4,9 @@ title: 'Features'
 ---
 
 #### Recorder
-- Recorder can finish most of the test cases
-- Recording generate the code and comments automatically
+- Record every web action with high web UI recognition accuracycan 
+- Complete most of test casese with less coding required 
+- Generate codes and comments automatically when recording
 - Support to select the exact element in Iframe when recording
 - Only a small amount of code needs to be written to improve the test cases
 
