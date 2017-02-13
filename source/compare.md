@@ -6,7 +6,7 @@ title: Compare
 |------------------------------------------|:---------:|:---------:|:---------:|
 |Works on all browsers                     |Yes (v2.1) |Yes        |No         |
 |Works on Mac OS / Windows / Linux         |Yes        |Yes        |No         |
-|Test Every Web Applications               |Yes        |Yes        |Yes        |
+|Test every web applications               |Yes        |Yes        |Yes        |
 |Tool integration                          |High       |Low        |High        |
 |Works on Chromium browser core & execution environment|Yes  |No   |No         |
 |Webdriver required as executive agent	   |No			   |Yes			   |No         |
