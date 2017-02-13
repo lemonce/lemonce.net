@@ -150,6 +150,11 @@ figure.highlight pre {
 	margin-right: 220px;
 }
 
+.page-inner2{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 #doc-sidebar {
 	width: 220px;
 }
@@ -161,23 +166,27 @@ figure.highlight pre {
 }
 
 /* markdown table */
-#wrap-page .page-inner>table {
+#wrap-page .page-inner>table,
+#wrap-page .page-inner2>table {
 	width: 100%;
 	border-collapse: collapse;
 	margin: 1.75rem 0;
 	color: #778087;
 }
-#wrap-page .page-inner>table th {
+#wrap-page .page-inner>table th,
+#wrap-page .page-inner2>table th {
 	vertical-align: top;
 	border: 1px solid #ccc;
 	padding: 10px;
 }
-#wrap-page .page-inner>table td {
+#wrap-page .page-inner>table td,
+#wrap-page .page-inner2>table td{
 	vertical-align: top;
 	border: 1px solid #ccc;
 	padding: 10px;
 }
-#wrap-page .page-inner>table tbody td:first-child {
+#wrap-page .page-inner>table tbody td:first-child,
+#wrap-page .page-inner2>table tbody td:first-child {
 	font-weight: bold;
 	color: #333;
 }

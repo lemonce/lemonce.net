@@ -1,4 +1,5 @@
-title: Compare
+title: 'Compare'
+layout: page without sidebar
 ---
 
 ## Product Positioning

@@ -1,6 +1,52 @@
-title:'Inbuilt sub-procedure'
+title: 'Inbuilt sub-procedure'
+---
+All the Inbuilt sub-process should have a form as `sub-process()`
+## Data
 ---
 
-## Inbuilt sub-procedure
+**format**
+
+**now**
+
+Time stamp.Output current Greenwich time(in ms),
+
+## Type
 ---
-Below is the list of type of Inbuilt sub-procedure.[read more]()
+
+## Math
+---
+
+**ceil**
+
+The nearest integer larger than the current number.
+```
+ceil(3.14) // Output  4
+```
+
+**floor**
+
+The nearest integer smaller than the current number.
+```
+floor(3.14) // Output  3
+```
+
+**max**
+
+**min**
+
+**random**
+
+<br>
+
+## String
+---
+
+**length** 
+
+**charAt**
+
+**indexOf**
+
+**substr**
+
+**trim**
