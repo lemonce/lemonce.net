@@ -27,7 +27,7 @@ log <@ '#no'/>; // Output false
 
 **<! [selector:string] />** 
 
-Check for element visibility.The result is `true` if such element exist && width > 0 && height > 0.Otherwise it is false
+Check for element visibility.The result is `true` if such element exist && width > 0 && height > 0.Otherwise it is `false`.
 
 ```C
 // <div id="link" class="case">Text</div>
@@ -36,3 +36,19 @@ log <@ 'a'/>; // Output false
 log <@ 'div'/>; // Output true
 log <@ '#link2'/>; // Output false
 ```
+<br>
+
+## Compare operator
+---
+
+**[exp_A:string] ~~ [exp_B:string|RegExp]**
+
+- exp_B is not a string or RegExp, false. 
+
+- exp_A is not a string, false.
+- exp_A is not matched to exp_B(RegExp), false.
+- exp_A has a sub string like exp_B, true.
+- exp_A is matched to exp_B(RegExp), true.
+
+**[exp_A:string] !~ [exp_B:string|RegExp]**
+

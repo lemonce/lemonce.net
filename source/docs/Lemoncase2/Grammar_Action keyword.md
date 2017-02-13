@@ -1,26 +1,28 @@
 title: 'Action Keyword'
 ---
 
-**input** 
+## input
 
 Type a string into an element like <input type="text" /> or <textarea>.
+
 ```C 
 // <input id="link" class="case" />
 input 'div#link.case' by "hello world.";
 ```
 
-**click** 
+## click 
 
 Click a HTML element.
 ```C
         // <a href="...">Text</a>
         click 'a';
-
+```
+```
 // <a id="link" href="...">Text</a>
 click 'a#link';
 ```
 
-**dbclick** 
+## dbclick 
 
 Double click a HTML element.
 ```C
@@ -28,7 +30,7 @@ Double click a HTML element.
 dblclick 'div#link.case';
 ```
 
-**rclick** 
+## rclick 
 
 Right click a HTML element.
 ```C
@@ -36,7 +38,19 @@ Right click a HTML element.
 rclick 'div#link.case';
 ```
 
-**move** 
+## move 
 
 Trigger move enter/leave events on a HTML element.
 <br><br/>
+
+## hold
+
+Hold an element by mouse.
+
+## drop
+
+Release an element by mouse.
+
+## scroll
+
+Move an element to the center of the screen.

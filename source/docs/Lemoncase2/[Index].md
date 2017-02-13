@@ -64,18 +64,21 @@ Macro is the global setting for your case during runtime. [`more details`](/docs
 **Instruction keyword** 
 
 Simulate an action.[`read more`](/docs/Lemoncase2/Grammar_Instruction keyword.html)
-- process
+- process (main/sub)
 - assertion (in)
-- wait
+- return/wait
 - log
 - jumpto
+- forward/back
+- upload
 
 **Action keyword** 
 
 [`read more`](/docs/Lemoncase2/Grammar_Action keyword.html)
 - input
 - click/dbclick/rclick
-- move
+- move/hold/drop
+- scroll
 
 **Expression** 
 
