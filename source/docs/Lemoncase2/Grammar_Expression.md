@@ -46,8 +46,11 @@ log <@ '#link2'/>; // Output false
 - exp_B is not a string or RegExp, false. 
 
 - exp_A is not a string, false.
+
 - exp_A is not matched to exp_B(RegExp), false.
+
 - exp_A has a sub string like exp_B, true.
+
 - exp_A is matched to exp_B(RegExp), true.
 
 **[exp_A:string] !~ [exp_B:string|RegExp]**

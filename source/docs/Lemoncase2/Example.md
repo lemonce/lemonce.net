@@ -1,6 +1,5 @@
 title: 'Example'
 ---
-Here are some examples for you to get started with the language.
 
 ## Hello World
 ---
@@ -10,7 +9,7 @@ process main {
     log 'hello world';
 }
 ```
-<br><br/>
+<br>
 
 ## A Typical test case
 ---
@@ -27,7 +26,7 @@ process main {
     ...
 }
 ```
-<br><br/>
+<br>
 
 ## Typical examples
 ---

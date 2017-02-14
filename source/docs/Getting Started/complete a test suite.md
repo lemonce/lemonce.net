@@ -11,6 +11,7 @@ Same as creating a test case, test suite can be create in the work space, in ord
 **one key to output test suite**
 
 You can export the test case in the editing area as a whole test suite according to the current order of the cases.
+<br>
 
 ## Suite editor
 ---

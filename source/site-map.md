@@ -5,5 +5,5 @@ layout: text
 * [feature](/feature.html)
 * [compare](/compare.html)
 * [news](/news)
-* [get started](/docs)
+* [docs](/docs/Getting Started/[Index].html)
 * [syntax reference](/docs/syntax.html)

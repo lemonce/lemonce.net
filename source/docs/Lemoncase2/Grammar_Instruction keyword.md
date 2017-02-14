@@ -18,7 +18,7 @@ process main{ }
 process sub{ }
 process sub1{ }
 ```
-**assertion** 
+**assert** 
 
 Assert that the expression is true[ within overtime].
 
@@ -48,17 +48,3 @@ Record the value of an expression.
 ```C
 log [exp]
 ```
-
-**jumpto**
-
-Jump to a URL.
-
-```C
-jumpto [exp]
-```
-
-**forward**
-
-**back**
-
-**upload**

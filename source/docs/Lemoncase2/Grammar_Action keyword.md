@@ -41,7 +41,6 @@ rclick 'div#link.case';
 ## move 
 
 Trigger move enter/leave events on a HTML element.
-<br><br/>
 
 ## hold
 
@@ -54,3 +53,17 @@ Release an element by mouse.
 ## scroll
 
 Move an element to the center of the screen.
+
+**jumpto**
+
+Jump to a URL.
+
+```C
+jumpto [exp]
+```
+
+**forward**
+
+**back**
+
+**upload**

@@ -1,39 +1,31 @@
 title: 'Marco'
 ---
-Macro is the global setting for your case during runtime.
 
-**#TIMES**
+## #TIMES
+---
 
-```C
-        [// The case will run 10 times.]
-        #TIMES 10
-```
-
-**#INTERVAL**
+The times of running the same test case.The defaut value is 1.
 
 ```C
-        // The case will wait 1000ms before start another one.
-        #INTERVAL 1000
+// The case will run 10 times.
+#TIMES 10
+```
+<br>
+
+## #AUTOWAIT
+---
+The defaut value is 500.
+
 ```
 
-**#CLOCK**
-
-```C
-        // The frequency of the engine, the engine will tick per 30ms.
-        #CLOCK 30
+// 
 ```
+<br>
 
-**#SCREEN**
-
-```C
-// Set the screen to width 800px and height 600px.
-#SCREEN 800,600
-```
-
-**#AUTOSROLL**
+## #LIMIT
+---
 
 ```C
 // Auto scroll the window when trigger an instruction.
 #AUTOSCROLL
 ```
-<br><br/>

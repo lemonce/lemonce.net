@@ -4,6 +4,7 @@ title: ' Create a test case'
 ## Create test case in tool bar
 ---
 You can create new test cases from the toolbar or use the shortcut key CTRL+N, in which case you need to create a path to save.
+<br>
 
 ## Create test case in work space
 ---
