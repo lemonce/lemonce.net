@@ -17,7 +17,7 @@ layout: page without sidebar
 - Support one-key to generate test suite from test cases
 
 
-[**Programing language of Lemoncase2**](/docs/Lemoncase2/[Index].html)
+[**Programing language of Lemoncase2**](/docs/Lemoncase2/Index.html)
 - Inbuilt in Lemonce Editor
 - Converts frequently-used actions in test into more than 20 codes
 - simplify the coding of test cases with a simple syntax structure
