@@ -5,7 +5,8 @@ Simulate an action.
 
 `[action] [selector:string] by/to [params|params1,params2]`
 
-**process**
+## process
+---
 
 Define a process,including the main process and sub process.
 
@@ -18,7 +19,8 @@ process main{ }
 process sub{ }
 process sub1{ }
 ```
-**assert** 
+## assert
+---
 
 Assert that the expression is true[ within overtime].
 
@@ -30,9 +32,11 @@ assert <#"textarea#test"/>;
 //Asserts that a input box with the id of "test" will appear in 2 seconds.
 assert <#"textarea#test"/> in 2000;
 ```
-**return**
+## return
+---
 
-**wait** 
+## wait
+---
 
 Wait a few time like a person.
 
@@ -41,7 +45,8 @@ Wait a few time like a person.
 wait 3000;
 ```
 
-**log** 
+## log
+---
 
 Record the value of an expression.
 

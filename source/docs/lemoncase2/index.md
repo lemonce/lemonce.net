@@ -10,7 +10,7 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 **Zoom Table**
 
-|[Instruction keyword](/docs/Lemoncase2/Grammar_Instruction keyword.html)|[Action keyword](/docs/Lemoncase2/Grammar_Action keyword.html)|[Expression](/docs/Lemoncase2/Grammar_Expression.html) |[Macro](/docs/Lemoncase2/Grammar_Marco.html)|[Magic keyword](/docs/Lemoncase2/Grammar_Magic keyword.html)
+|[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/magickeyword.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
 |process         |click      |<@"cssPath"> |#TIMES   |
 |in              |input      |<#"cssPath"> |#AUTOWAIT|
@@ -56,14 +56,14 @@ Use it if you want to do some fuzzy testing.
 
 **Marco** 
 
-Macro is the global setting for your case during runtime. [`more details`](/docs/Lemoncase2/Grammar_Marco.html)
+Macro is the global setting for your case during runtime. [`more details`](/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
 
 **Instruction keyword** 
 
-Simulate an action.[`read more`](/docs/Lemoncase2/Grammar_Instruction keyword.html)
+Simulate an action.[`read more`](/docs/lemoncase2/instructionkeyword.html)
 - process (main/sub)
 - assertion (in)
 - return/wait
@@ -71,7 +71,7 @@ Simulate an action.[`read more`](/docs/Lemoncase2/Grammar_Instruction keyword.ht
 
 **Action keyword** 
 
-[`read more`](/docs/Lemoncase2/Grammar_Action keyword.html)
+[`read more`](/docs/lemoncase2/actionkeyword.html)
 - input
 - click/dbclick/rclick
 - move/hold/drop
@@ -82,28 +82,28 @@ Simulate an action.[`read more`](/docs/Lemoncase2/Grammar_Instruction keyword.ht
 
 **Expression** 
 
-[`read more`](/docs/Lemoncase2/Grammar_Expression.html)
+[`read more`](/docs/lemoncase2/expression.html)
 - <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
 - [exp_A:string] ~~ [exp_B:string|RegExp]
 - [exp_A:string] !~ [exp_B:string|RegExp]
 
 **Inbuilt sub-process** 
 
-Below is the list of type of Inbuilt sub-process.[`read more`](/docs/Lemoncase2/Grammar_Inbuilt sub-process.html)
+Below is the list of type of Inbuilt sub-process.[`read more`](/docs/lemoncase2/subprocess.html)
 - format/now
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
 <br><br/>
 
-## [Scope](/docs/Lemoncase2/Scope.html)
+## [Scope](/docs/lemoncase2/scope.html)
 ---
 Global scope. 
 So there is no return keyword in LC2. A process has no parameter.
 Process main is the program's entry.
 <br><br/>
 
-## [Example](/docs/Lemoncase2/Example.html)
+## [Example](/docs/lemoncase2/example.html)
 ---
 Here are some examples for you to get started with the language.
 
