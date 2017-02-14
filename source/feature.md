@@ -8,7 +8,7 @@ layout: page without sidebar
 - Record every web action with high web UI recognition  
 - Complete most of test casese with less coding required 
 - Generate codes and comments automatically when recording
-- Support to select the exact element in Iframe when recording
+- Select the exact element in Iframe when recording
 - Only a small amount of code needs to be written to improve the test cases
 
 
