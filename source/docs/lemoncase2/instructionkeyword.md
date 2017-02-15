@@ -68,5 +68,6 @@ wait 3000;
 Record the value of an expression.
 
 ```C
-log [exp]
+log '2'+3	//Output  23
+log true	//Output  true
 ```
