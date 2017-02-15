@@ -108,9 +108,10 @@ indexOf('Lemonce','l')  //Output  -1
 
 **substr( )**
 
-The `substr(string,from,length)` method returns the characters in a string beginning at the specified location through the specified number of characters. 
+The `substr(string,from,[length])` method returns the characters in a string beginning at the specified location through the specified number of characters. 
 ```
 substr('Lemoncase',2,3)  //Output 'mon'
+substr('Lemoncase',2)  //Output 'moncase'
 ```
 
 **trim( )**

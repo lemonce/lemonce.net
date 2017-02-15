@@ -63,6 +63,7 @@ Macro is the global setting for your case during runtime. [`more details`](/docs
 
 **Instruction keyword** 
 
+`[action] [selector:string] by/to [params|params1,params2]`
 Simulate an action.[`read more`](/docs/lemoncase2/instructionkeyword.html)
 - process (main/sub)
 - assertion (in)

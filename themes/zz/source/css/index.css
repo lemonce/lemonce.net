@@ -55,6 +55,14 @@ body {
 .border-grey {
 	border: 1px solid #dbdbdb;
 }
+
+.button {
+    background-color: #48ade4 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    font-weight: 700;
+    padding: 2px;
+}
 /* tab code */
 #lang .nav {
 	margin-bottom: 5px;
