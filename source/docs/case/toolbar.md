@@ -6,11 +6,11 @@ title: 'Case Editor tool bar'
 ## Buttons for files
 ---
 
-<img src="/themes/"/> **New Case**  
+<img src="/themes/"> **New Case**  
 
 Create a new case out of work space whose default name is 'Untitle-0.lc2',but you should find a path to save it.You can also use `Ctrl+N` on keyboard to complete this operation.
 
-<img src="/themes/"/> **Oper Case**
+<img src="/"/> **Oper Case**
 
 Open a case in local system.
 

@@ -198,3 +198,7 @@ figure.highlight pre {
 	font-weight: bold;
 	color: #333;
 }
+.big-images{
+	width:720px;
+    height:456px;
+}
