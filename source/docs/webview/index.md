@@ -25,4 +25,4 @@ Developer tools.
 
 ## [WebView main interface]()
 ---
-You can view and operate the web here.
+You can view and operate web here.

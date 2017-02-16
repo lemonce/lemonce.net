@@ -4,7 +4,6 @@ title: 'WebView tool bar'
 ## Webview tool button
 ---
 
-
 <img src="/themes/"/> **back**  
 
 Back to the previous page.

@@ -9,7 +9,7 @@ Before recording begins, you need to click on the middle of the bracket of Proce
 
 ## Create an assertion while recording
 ---
-In recording, press the CTRL and select the very page elements with the mouse, you can automatically add assertion statement.
+In recording, press the `CTRL` and select the very page elements with the mouse, you can automatically add assertion statement.
 <br>
 
 ## Play back the recorded steps
