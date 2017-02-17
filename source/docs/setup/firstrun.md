@@ -3,7 +3,9 @@ title: 'First Run'
 
 ## Configuration workspace
 ---
-When you first start up Lemonce, you will be warned that you should...
+When you first start up Lemonce, you will be asked that you should...
+
+<img class="large-images" src="/images/firstrun-02.png">
 
 - Click `Yes`,then your workspace will be created in a new folder "lemonce" (the default path: Users\Username\Documents).
 - Click `No`,the workspace will still be created automatically when you create a test case in Case Editor.
@@ -18,4 +20,21 @@ If the project development permits, you can also configure the workspace in the 
 
 ## Lemonce interface
 ---
-After the configuration, you will see Lemonce interface as below.
+After the configuration, you will see Lemonce interface consists of four functional area as below.
+
+<img class="large-images" src="/images/firstrun-02.png">
+
+**1 Menu bar on the top**
+
+- File:
+- Edit:
+- View
+- Help
+
+**2 Side bar**
+
+The side bar consists of three buttons:editor, setting and report.
+
+- Editor
+- Setting
+- Report

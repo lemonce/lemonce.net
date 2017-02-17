@@ -35,7 +35,9 @@ Below describes how to download and install Lemonce on Mac (Apply to Version ). 
 
 1.The same as first step of Windows.
 
-2.Click the seconde URL of the **Downloads** list which is applied for Windows. 
+2.Click the seconde URL of the **Downloads** list which is applied for Mac. 
+
+3.
 <br>
 
 ## Linux

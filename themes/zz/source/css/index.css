@@ -198,7 +198,17 @@ figure.highlight pre {
 	font-weight: bold;
 	color: #333;
 }
-.big-images{
+
+/* images */
+.large-images{
 	width:720px;
     height:456px;
+}
+.long-images{
+	width:640px;
+}
+.icon-images{
+	width:20px;
+	height:25px;
+	margin-right: 5px;
 }

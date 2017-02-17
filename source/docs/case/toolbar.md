@@ -1,23 +1,26 @@
 title: 'Case Editor tool bar'
 ---
-<img src="/">
+
+The whole toolbar is as shown below.
+
+<img class="long-images" src="/images/case/toolbar-01.png">
 <br>
 
 ## Buttons for files
 ---
 
-<img src="/themes/"> **New Case**  
+<img class="icon-images" src="/images/case/toolbar-02.png">  **New Case**  
 
 Create a new case out of work space whose default name is 'Untitle-0.lc2',but you should find a path to save it.You can also use `Ctrl+N` on keyboard to complete this operation.
 
-<img src="/"/> **Oper Case**
+<img class="icon-images" src="/images/case/toolbar-03.png"> **Oper Case**
 
-Open a case in local system.
+Open a case in local system. You can also use `Ctrl+O` on keyboard to complete this operation.
 
 <img src="/themes/"/> **Save Case** 
 
 - If the case is created in work space,just click the button to finish saving. 
-- If the case is created by clicking the button "New Case" and it is the first time to save it, you must find a path to save it.
+- If the case is created by clicking the button "New Case" and it is the first time to save it, you have to find a path to save it.
 You can also use `Ctrl+S` to complete this operation.
 <br>
 
