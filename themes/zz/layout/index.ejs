@@ -43,7 +43,7 @@
 					</a>
 					<a href="<%= __('index.intro_manual_link') %>"
 						target="_blank"
-						class="btn btn-teal-outline btn-lg mb-3">
+						class="btn btn-teal-outline btn-lg mb-3 hidden-sm-down">
 						<%= __('index.intro_btn_manual') %>
 					</a>
 				</div>
@@ -54,6 +54,9 @@
 <section class="bg-teal-gradient py-80">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-6 text-md-center">
+				<img src="/images/icon-04.png" alt="" class="img-fluid">
+			</div>
 			<div class="col-md-6">
 				<h2 class="pt-5 ">
 					<%= __('index.get_started') %>
@@ -69,9 +72,6 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-6 text-md-center">
-				<img src="/images/icon-04.png" alt="" class="img-fluid">
-			</div>
 		</div>
 	</div>
 </section>
@@ -85,7 +85,7 @@
 				<img class="img-fluid" src="/images/icon-02.png" alt="">
 			</div>
 			<div class="col-md-6 pl-md-5">
-				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
+				<h3 class="pt-md-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_GUI_title') %>
 				</h3>
 				<p class="text-muted">
@@ -98,7 +98,7 @@
 				<img class="img-fluid" src="/images/icon-03.png" alt="">
 			</div>
 			<div class="col-md-6 pl-md-5">
-				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
+				<h3 class="pt-md-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_integration_title') %>
 				</h3>
 				<p class="text-muted">
@@ -111,7 +111,7 @@
 				<img class="img-fluid" src="/images/icon-01.png" alt="">
 			</div>
 			<div class="col-md-6 pl-md-5">
-				<h3 class="pt-5 pb-4 mb-4 bottom-dash">
+				<h3 class="pt-md-5 pb-4 mb-4 bottom-dash">
 					<%= __('index.feature_report_title') %>
 				</h3>
 				<p class="text-muted">
@@ -218,8 +218,8 @@ public class GoogleTranslate {
 		<h2 class="py-4 mb-5 bottom-dash">
 			<%= __('index.customer_title') %>
 		</h2>
-		<div class="media">
-			<div class="d-flex flex-column px-md-5 mr-3">
+		<div class="media flex-column flex-md-row">
+			<div class="d-flex flex-column px-md-5 mr-3 hidden-sm-down">
 				<img src="/images/relink.jpg" alt="" class="img-fluid">
 				<br>
 				<div class="text-center">
