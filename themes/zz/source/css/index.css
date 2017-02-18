@@ -63,6 +63,14 @@ body {
     font-weight: 400;
     padding: 4px;
 }
+/* gutter */
+figure.highlight .gutter {
+	padding-right: 0.5rem;
+	border-right: 1px solid #909fa8;
+}
+figure.highlight .code {
+	padding-left: 0.5rem;
+}
 /* tab code */
 #lang .nav {
 	margin-bottom: 5px;
