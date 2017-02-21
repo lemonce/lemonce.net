@@ -1,7 +1,7 @@
 title: 'Features'
 layout: page without sidebar
 ---
-## Easier Edition  
+## General Features  
 ---
 
 [**Recorder**]()
@@ -34,7 +34,7 @@ layout: page without sidebar
 - Take a screenshot of every error step when a test fails
 <br>
 
-## More Convenient Execution
+## A Better Alternative to Selenium WebDriver
 ---
 
 [**LemonceDriver**]()
@@ -47,9 +47,12 @@ layout: page without sidebar
 - Set Chromium as the browser core
 <br>
 
-## More Detailed Report
+## Test Automation for Every Web App With Ease
 ---
 
-[**Work Space**]()
-- Associated with the local system
-- Support one-key to generate test suite from test cases
+[**Device & User Friendly**]()
+- Work on Windows, Mac and Linux machines
+- Support for any virtual mobile web app testing
+- Build work space on local system to let users easily have access to all testing data
+- Plug-in free installation
+- Easy to use for every web tester
