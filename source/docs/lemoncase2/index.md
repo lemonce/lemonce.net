@@ -1,6 +1,6 @@
 title: 'Lemoncase2 Guide'
 ---
-This guide will teach you how to use the programming language of Lemoncase2.
+Lemoncase2 is a Javascript-like scripting language,which is used for developing scripts in Lemonce. Read this guide to help you understand the language.
 
 browser automation library: http://lemonce.github.io/lemoncase2
 <br>

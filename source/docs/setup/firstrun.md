@@ -18,23 +18,34 @@ The workspace consists of two parts:
 If the project development permits, you can also configure the workspace in the project directory to be involved in the development process.
 <br>
 
+## License
+---
+<br>
+
 ## Lemonce interface
 ---
-After the configuration, you will see Lemonce interface consists of four functional area as below.
+After the configuration, you will see UI of Lemonce is divided into four areas a as below. Like code editors, Lemonce adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
 <img class="large-images" src="/images/firstrun-02.png">
 
-**1 Menu bar on the top**
+**1 Menu bar**
 
-- File:
-- Edit:
-- View
-- Help
+Located on the top including File,Edit,View and Help.
 
-**2 Side bar**
+**2 View bar**
 
-The side bar consists of three buttons:editor, setting and report.
+Located on the far left-hand side, this lets you switch among editor,setting and report views.
 
-- Editor
-- Setting
-- Report
+- <img class="icon-images" src="/">**Editor** :Include Case Editor,Suite Editor and Webview, and you can click them separately to know more.
+
+- <img class="icon-images" src="/">**Setting** : Language conversion.
+
+- <img class="icon-images" src="/">**Report** : View report list here.
+
+**3 Side bar**
+
+Contains different views like the Explorer to assist you while working on your project.
+
+**4 Editor Groups**
+
+The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
