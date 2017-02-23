@@ -21,7 +21,7 @@ layout: page without sidebar
 
 [**Programming language - Lemoncase2**](/docs/Lemoncase2/Index.html)
 - Inbuilt in Lemonce Editor
-- Describe frequently-used web actions with only 20+ commands in plain English
+- Describe almost all user actions with only 20+ commands in plain English
 - Simplify test case coding with a simple syntax structure
 - High readability: easy to understand, maintain, and modify
 - Simple and intuitive syntax: easy to learn, advanced coding skills not required
@@ -42,7 +42,7 @@ layout: page without sidebar
 - Support "upload file" action testing
 - Support http/https testing
 - Set Chromium as browser core
-- No required to install plug-in for compatibility tests
+- No required to install  browser extenstions or add-ons to execute tests
 - Support device-oriented programming
 <br>
 
@@ -62,7 +62,7 @@ layout: page without sidebar
 - Work on Windows, Mac and Linux machines
 - Support for any virtual mobile web app testing
 - Build work space on local system to let users easily have access to all testing data
-- Plug-in free installation
+- Extenstions or add-on free installation
 - Easy to use for every web tester
 - Free version for individual testers and open source option for developers
 - Affordable licensed version for testing teams; 30-day free trial available with full functionality
