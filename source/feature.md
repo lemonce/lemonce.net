@@ -9,7 +9,7 @@ layout: page without sidebar
 - Generate codes and comments automatically when recording
 - Achieve accurate element identification with multiple selection methods
 - Select exact elements in Iframe when recording
-- Complete most test cases with coding-free recording & playback
+- Create most test cases without coding through accurate recordings
 
 
 [**Code Editor**]()
@@ -32,13 +32,18 @@ layout: page without sidebar
 ---
 
 [**LemonceDriver - A Better Alternative to Selenium WebDriver**]()
-- Enable CORS to have cross-domain access controls to manipulate web contents across domain-boundaries
-- Support popup
-- Support upload
-- Support http/https
-- Support to trigger CSS hover
-- Support element/content drag
-- Set Chromium as the browser core
+- Support direct cross-domain testing for both public web contents and local components (e.g.IFrame)
+- Support IFrame penetration to manipulate components inside multiple iframes without writing extra scripts
+- Accurately simulate user interaction with any web app
+- Achieve exact mouse emulation to trigger CSS hover
+- Play back complete mouse movements and trails with context action
+- Support "drag and drop" operations on element/content
+- Support browser popup testing (e.g. alert popup window)
+- Support "upload file" action testing
+- Support http/https testing
+- Set Chromium as browser core
+- No required to install plug-in for compatibility tests
+- Support device-oriented programming
 <br>
 
 ## Optimize Testing Projects with Detailed Reports & Logs
@@ -59,4 +64,5 @@ layout: page without sidebar
 - Build work space on local system to let users easily have access to all testing data
 - Plug-in free installation
 - Easy to use for every web tester
-- Free version for individual testers and affordable licensed version for testing team
+- Free version for individual testers and open source option for developers
+- Affordable licensed version for testing teams; 30-day free trial available with full functionality
