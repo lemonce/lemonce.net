@@ -7,36 +7,35 @@ title: 'Expression'
 
 Get the number of elements that matches the selector.
 
-```C 
-// <div id="link" class="case">Text</div>
+
+`<div id="link" class="case">Text</div>`
+<pre class='sublemon'>
 log <# 'div'/>; // Output 1
 log <# '#link'/>; // Output 1
-log <# '#no'/>; // Output 0
-```
+log <# '#no'/>; // Output 0</pre>
 
 **<@ [selector:string] />** 
 
 Get the innerHTML of the 1st element that matches the selector.The result is a string or `false` if there's no match.
 
-```C
-// <div id="link" class="case">Text</div>
+
+`<div id="link" class="case">Text</div>`
+<pre class='sublemon'>
 log <@ 'div'/>; // Output Text
 log <@ '#link'/>; // Output Text
-log <@ '#no'/>; // Output false
-```
+log <@ '#no'/>; // Output false</pre>
 
 **<! [selector:string] />** 
 
 Check for element visibility.The result is `true` if such element exist && width > 0 && height > 0.Otherwise it is `false`.
 
-```C
-// <div id="link" class="case">Text</div>
-// <div id="link2" style="display:none">Text</div>
+
+`<div id="link" class="case">Text</div>`
+`<div id="link2" style="display:none">Text</div>`
+<pre class='sublemon'>
 log <@ 'a'/>; // Output false
 log <@ 'div'/>; // Output true
-log <@ '#link2'/>; // Output false
-```
-<br>
+log <@ '#link2'/>; // Output false</pre>
 
 ## Compare operator
 ---
