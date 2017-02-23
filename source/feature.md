@@ -1,7 +1,7 @@
 title: 'Features'
 layout: page without sidebar
 ---
-## General Features  
+## Generate Complex Test Suites with Minimal Coding  
 ---
 
 [**Recorder**]()
@@ -9,7 +9,7 @@ layout: page without sidebar
 - Generate codes and comments automatically when recording
 - Achieve accurate element identification with multiple selection methods
 - Select exact elements in Iframe when recording
-- Complete most test casese with coding-free recording & playback
+- Complete most test cases with coding-free recording & playback
 
 
 [**Code Editor**]()
@@ -26,25 +26,28 @@ layout: page without sidebar
 - High readability: easy to understand, maintain, and modify
 - Simple and intuitive syntax: easy to learn, advanced coding skills not required
 - High level language: achieve more programming goals with less coding workload
-
-
-[**Detailed Reports**]()
-- Log browser debugging information
-- Generate test logs for every step in test case
-- Take a screenshot of every error step when a test fails
 <br>
 
-## A Better Alternative to Selenium WebDriver
+## Perform Reliable Playback and Smooth Test Execution
 ---
 
-[**LemonceDriver**]()
-- CORS support
+[**LemonceDriver - A Better Alternative to Selenium WebDriver**]()
+- Enable CORS to have cross-domain access controls to manipulate web contents across domain-boundaries
 - Support popup
 - Support upload
 - Support http/https
 - Support to trigger CSS hover
 - Support element/content drag
 - Set Chromium as the browser core
+<br>
+
+## Optimize Testing Projects with Detailed Reports & Logs
+---
+
+[**Rich Reports & Bug-Tracking Logs**]()
+- Log browser debugging information
+- Generate test logs for every step in test cases
+- Take a screenshot of every error step when a test fails
 <br>
 
 ## Test Automation for Every Web App With Ease
@@ -56,3 +59,4 @@ layout: page without sidebar
 - Build work space on local system to let users easily have access to all testing data
 - Plug-in free installation
 - Easy to use for every web tester
+- Free version for individual testers and affordable licensed version for testing team
