@@ -6,26 +6,24 @@ title: 'Marco'
 
 The times of running the same test case.The defaut value is 1.
 
-```C
+<pre class='sublemon'>
 // The case will run 10 times.
 #TIMES 10
-```
-<br>
+</pre>
 
 ## #AUTOWAIT
 ---
 The defaut value is 500.
 
-```
+<pre class='sublemon'>
 
 // 
-```
-<br>
+</pre>
 
 ## #LIMIT
 ---
 
-```C
+<pre class='sublemon'>
 // Auto scroll the window when trigger an instruction.
 #AUTOSCROLL
-```
+</pre>

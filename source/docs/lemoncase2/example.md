@@ -4,18 +4,18 @@ title: 'Example'
 ## Hello World
 ---
 How to output the most classic phrase.
-```
+<pre class='sublemon'>
 process main {
     log 'hello world';
 }
-```
-<br>
+</pre>
+
 
 ## A Typical test case
 ---
 A test case that runs only once.
 
-```
+<pre class='sublemon'>
 #TIMES 1
 
 process main {
@@ -25,14 +25,14 @@ process main {
     [statement]
     ...
 }
-```
-<br>
+</pre>
+
 
 ## Typical examples
 ---
 Test a user registration page.
 
-```
+<pre class='sublemon'>
 #AUTOWAIT 500
 #TIMES 1
 
@@ -88,4 +88,4 @@ process main () {
 	// assert element h1.title contains [Build amazing things]
 	assert <@"h1.title"/> ~~ "Build amazing things";
 }
-```
+</pre>

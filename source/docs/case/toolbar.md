@@ -9,15 +9,15 @@ The whole toolbar is as shown below.
 ## Buttons for files
 ---
 
-<img class="icon-images" src="/images/case/toolbar-02.png">  **New Case**  
+<i class="fa fa-file-code-o"></i>  **New Case**  
 
 Create a new case out of work space whose default name is 'Untitle-0.lc2',but you should find a path to save it.You can also use `Ctrl+N` on keyboard to complete this operation.
 
-<img class="icon-images" src="/images/case/toolbar-03.png"> **Oper Case**
+<i class="fa fa-folder-open-o"></i> **Open Case**
 
 Open a case in local system. You can also use `Ctrl+O` on keyboard to complete this operation.
 
-<img src="/themes/"/> **Save Case** 
+<i class="fa fa-floppy-o"></i> **Save Case** 
 
 - If the case is created in work space,just click the button to finish saving. 
 - If the case is created by clicking the button "New Case" and it is the first time to save it, you have to find a path to save it.
@@ -27,11 +27,11 @@ You can also use `Ctrl+S` to complete this operation.
 ## Buttons for web page
 ---
 
-<img src="/"/> **Inspect Element**
+<i class="fa fa-crosshairs"></i> **Inspect Element**
 
 Select the elements in the page and output the HTML to the code area.
 
-<img src="/"/> **Insert Link**
+<i class="fa fa-link"></i> **Insert Link**
 
 Insert the current URL in code area where the mouse pointer is located.
 <br>
@@ -39,24 +39,20 @@ Insert the current URL in code area where the mouse pointer is located.
 ## Buttons for main interface
 ---
 
-<img src="/"/> **Start Case**
+<i class="fa fa-play"></i> <i class="fa fa-stop"></i> **Start / Stop Case**
 
-Start running the current case.
+Start/Stop the current case.
 
-<img src="/"/> **Stop Case**
+<i class="fa fa-circle" style="color:red"></i> <i class="fa fa-stop-circle-o" style="color:red"></i> **Start / Stop Record**
 
-Stop the current case.
-
-<img src="/"/> <img src="/"/> **Start / Stop Record**
-
-Convert all mouse and keyboard actions to codes.When starting recording, this button will change from  <img src="/"/> to <img src="/"/>.Click it again to stop recording.
+Convert all mouse and keyboard actions to codes.When starting recording, this button will change from <i class="fa fa-circle"> to <i class="fa fa-stop-circle-o"></i>. Click it again to stop recording.
 
 
-<img src="/"/> **Undo**
+<i class="fa fa-undo"></i> **Undo**
 
 Back to the previous code change, you can also use `Ctrl+Z` to complete this operation.
 
-<img src="/"/> **Redo**
+<i class="fa fa-repeat"></i> **Redo**
 
 Back to the next code change, you can also use `Ctrl+Y` to complete this operation.
 <br>
@@ -64,6 +60,6 @@ Back to the next code change, you can also use `Ctrl+Y` to complete this operati
 ## Buttons for interface
 ---
 
-<img src="/"/> **Split Editor**
+<i class="fa fa-columns"></i> **Split Editor**
 
 Split the editor and display the same content on the right, any changes on both sides will sync to the other side.Just like the split editor in Visual Studio Code.
