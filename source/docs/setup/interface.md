@@ -14,35 +14,32 @@ Located on the top including File,Edit,View and Help.
 #### File
 
 - **New** Create a new case (`Ctrl+N`) or suite.
-
-- **Open** `Ctrl+O`
-
+- **Open** `Ctrl+O` Open a existed case
 - **Open Workspace/Folder** Open a folder as workspace.
-
 - **Close Workspace**  Close the current workspace.
-
 - **Restart** `Ctrl+R` Restart Lemonce.
-
 - **Exit** `Ctrl+W`
 
 #### Edit
 
 - **Undo / Redo** `Ctrl+Z`/`Ctrl+Y`
-
 - **Cut / Copy / Paste** `Ctrl+X`/`Ctrl+C`/`Ctrl+V`
-
 - **Delete** `Del`
-
 - **Select All** `Ctrl+A`
 
 #### View
 
-- 
+- **Command Palette** `Ctrl+Shift+P` Open a command palette at the top of editor area.
+- **Toggle Dev Tool** `Ctrl+Shift+I` 
+- **Zoom in/out** `Ctrl+=`/`Ctrl+-`
+- **Reset Zoom** `Ctrl+0`
+- **Toggle Fullscreen** `F11`
+- **Toggle Side Bar** `Ctrl+B` Show or hide side bar.
 
 #### Help
 
-
-
+- **Learn More**
+- **License**
 <br>
 
 ## View bar
