@@ -1,18 +1,18 @@
 title: 'Getting Started'
 ---
 
-This guide helps you with step-by-step instructions on how to create a web test project with Lemonce editor. You will learn how to record a test scripts, create an assertion, run the test and view test reports.
+This guide helps you with step-by-step instructions on how to create a web test project with Lemonce editor. You will learn how to record a test script, create an assertion, run a test and view test reports.
 <br>
 
 ## [Create a test case](/docs/guide/case.html)
 ---
 **create test case in tool bar** 
 
-You can create new test cases from the toolbar or use the shortcut key CTRL+N, in which case you need to create a path to save.
+You can create new test cases from the toolbar or use the shortcut key CTRL+N, and you need to create a path to save each test case.
 
 **create test case in work space** 
 
-The work space is associated with local file system,in which any changes about the cases such as create,rename or remove will be synchronized [...]
+The work space is associated with local file system,in which any changes about the cases such as create,rename or remove, will be synchronized [...]
 <br>
 
 
@@ -35,7 +35,7 @@ Click the record button again to end the recording. Click the play button to beg
 ---
 **create test suite in work space** 
 
-Same as creating a test case, test suite can be create in the work space, in order to facilitate the management of the cases.
+Similar to creating a test case, test suite can be created in the work space, in order to facilitate the management of the cases.
 
 **one key to output test suite** 
 
