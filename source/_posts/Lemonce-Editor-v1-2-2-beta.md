@@ -16,7 +16,7 @@ Compared with the previous version 1, version 2 has three major changes below.
 - Changed the internal frame from Augular to Vue.
 
 The new version is closer to beta right now and we will improve it gradually in the subsequent versions.
-The UI of version 2 which has a big change compared with version 1 will be a whole new experience for you, but it will also help you to start your test more easily,especially for those who are used to VScode.
+The UI of version 2 which has a big change compared with version 1 will be a whole new experience for you, but it will also help you to start your test more easily, especially for those who are used to Visual Studio Code.
 <br>
 
 ## Updates for version 2.0.1

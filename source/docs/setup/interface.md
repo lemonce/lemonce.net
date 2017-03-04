@@ -13,7 +13,7 @@ Located on the top including File,Edit,View and Help.
 
 #### File
 
-- **New** Create a new case (`Ctrl+N`) or suite.
+- **New** `Ctrl+N` Create a new case or suite.
 - **Open** `Ctrl+O` Open a existed case
 - **Open Workspace/Folder** Open a folder as workspace.
 - **Close Workspace**  Close the current workspace.
@@ -38,7 +38,7 @@ Located on the top including File,Edit,View and Help.
 
 #### Help
 
-- **Learn More**
+- **Learn More** 
 - **License**
 <br>
 
@@ -49,7 +49,7 @@ Located on the far left-hand side, this lets you toggle among editor,setting and
 
 - <i class="fa fa-code fa-2x"></i> **Editor**  
 
-    Include Case Editor,Suite Editor and Webview, and you can click them separately to know more.
+    Include Case Editor,Suite Editor and Webview, you can find more introdution in [Code Editor]().
 
 - <i class="fa fa-cog fa-2x"></i> **Setting** 
 
@@ -65,19 +65,20 @@ Located on the far left-hand side, this lets you toggle among editor,setting and
 
 #### EXPLORER
 
-The Explorer is used to browse, open, and manage all of the files and folders in your project.
+The Explorer is used to browse, open, and manage all of the files and folders in your project. You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
 
-After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things from here:
+After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things by right-click from here:
 
 - Create, delete, and rename files and folders.
-- Move files and folders with drag and drop.
-- Use the context menu to explore all options.
+- Open the existed cases/folders in file explorer.
+- `Move files and folders with drag and drop.`
+- `Use the context menu to explore all options.`
 <img class="large-images" src="/">
 <br>
 
 #### OPEN EDITORS
 
-At the top of the Explorer is a section labeled OPEN EDITORS. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the OPEN EDITORS section if you:
+At the top of the Explorer is a section labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the **OPEN EDITORS** section if you:
 
 - Make a change to a file.
 - Double-click a file's header.
@@ -86,7 +87,7 @@ At the top of the Explorer is a section labeled OPEN EDITORS. This is a list of 
 
 Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
 
-Once you are done with your task, you can remove files individually from the OPEN EDITORS section, or you can remove all files by using the View: Close All Editors or View: Close All Editors in Group actions.
+Once you are done with your task, you can remove files individually from the OPEN EDITORS section or Webview section.
 <br>
 
 #### BUTTONS OF EDITOR GROUPS
