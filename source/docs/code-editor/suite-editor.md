@@ -1,4 +1,4 @@
-title: 'Suite Editor tool bar'
+title: 'Suite Editor'
 ---
 <img src="/">
 <br>

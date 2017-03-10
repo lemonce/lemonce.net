@@ -18,7 +18,7 @@ Located on the top including File,Edit,View and Help.
 - **Open Workspace/Folder** Open a folder as workspace.
 - **Close Workspace**  Close the current workspace.
 - **Restart** `Ctrl+R` Restart Lemonce.
-- **Exit** `Ctrl+W`
+- **Exit** `Ctrl+W` Exit Lemonce.
 
 #### Edit
 
