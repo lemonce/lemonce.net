@@ -18,13 +18,14 @@ browser automation library: http://lemonce.github.io/lemoncase2
 |assert          |dbclick    |A~~B         |         |
 |log             |move       |A==B         |         |
 |return          |hold       |A!=B         |         |
-|wait            |drop       |RegExp       |         |
-|                |scroll     |       |         |
-|                |jumpto     |       |         |
-|                |refresh    |       |         |
-|                | back      |       |         |
-|                |forward    |       |         |
-|                |upload     |       |        ||
+|if              |drop       |RegExp       |         |
+|else            |scroll     |             |         |
+|while           |jumpto     |             |         |
+|continue        |refresh    |             |         |
+|                | back      |             |         |
+|                |forward    |             |         |
+|                |upload     |             |         |
+|                |wait       |             |         |
 **Idntifier** 
 
 Lemoncase2 is similar to JS.

@@ -12,7 +12,7 @@ process main(){
 }
 
 //This is a sub process which can be named with different keywords(except 'main').
-process sub-1(){ 
+process anyname(){ 
 
 }
 </pre>  
