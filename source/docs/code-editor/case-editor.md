@@ -4,7 +4,7 @@ title: 'Case Editor'
 ---
 The whole toolbar is as shown below.
 
-<img class="long-images" src="/images/case/toolbar-01.png">
+<img class="long-images" src="/images/code-editor/case-toolbar.png">
 <br>
 
 <i class="fa fa-file-code-o"></i>  **New Case**  
@@ -24,31 +24,23 @@ You can also use `Ctrl+S` to complete this operation.
 
 <i class="fa fa-crosshairs"></i> **Inspect Element**
 
-Select the elements in the page and output the HTML to the code area.
+Select the elements in the page and output the HTML to the code area.Right click to exit.
 
 <i class="fa fa-link"></i> **Insert Link**
 
 Insert the current URL in code area where the mouse pointer is located.
-<br>
 
-
-<i class="fa fa-play"></i> <i class="fa fa-stop"></i> **Start / Stop Case**
+<i class="fa fa-play"></i> **Start Case/** <i class="fa fa-stop"></i> **Stop Case**
 
 Start/Stop the current case.
 
-<i class="fa fa-circle" style="color:red"></i> <i class="fa fa-stop-circle-o" style="color:red"></i> **Start / Stop Record**
+<i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
 
-Convert all mouse and keyboard actions to codes.When starting recording, this button will change from <i class="fa fa-circle"> to <i class="fa fa-stop-circle-o"></i>. Click it again to stop recording.
+Convert all mouse and keyboard actions to codes.When starting recording, this button will change from <i class="fa fa-circle" style="color:red"></i> to <i class="fa fa-stop-circle-o" style="color:red"></i>. Click it again to stop recording.
 
+<i class="fa fa-undo"></i> **Undo/** <i class="fa fa-repeat"></i> **Redo**
 
-<i class="fa fa-undo"></i> **Undo**
-
-Back to the previous code change, you can also use `Ctrl+Z` to complete this operation.
-
-<i class="fa fa-repeat"></i> **Redo**
-
-Back to the next code change, you can also use `Ctrl+Y` to complete this operation.
-
+Back/Forward to the previous/next code change, you can also use `Ctrl+Z`/`Ctrl+Y` to complete this operation.
 
 <i class="fa fa-columns"></i> **Split Editor**
 
