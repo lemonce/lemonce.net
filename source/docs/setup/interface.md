@@ -43,26 +43,33 @@ Located on the top including File,Edit,View and Help.
 - **License**
 <br>
 
-## 2 View bar
+## 2 View bar && Side bar
 ---
-Located on the far left-hand side, this lets you switch between views.
+View bar is located on the far left-hand side including three buttons to switch the view of Side bar, which can assist you while working on your project.
 
-- <i class="fa fa-code fa-2x"></i> **Explore**  
+#### 2.1 <i class="fa fa-code fa-2x"></i> **Explore**  
 
-    Include Case Editor,Suite Editor and Webview, you can find more introdution in [Code Editor]().
+Include Case Editor,Suite Editor and Webview, you can find more detailed information in [Code Editor]().
 
-- <i class="fa fa-cog fa-2x"></i> **Config Panel** 
+**BUTTONS OF EDITOR GROUPS**
 
-    Language conversion.
+There are three buttons to toggle different areas of editor groups.[More details about editor groups](/docs/)
 
-- <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
+- <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel**
 
-    View report list here.
+- <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **Toggle Suite Panel**
+
+- <i class="fa fa-globe fa-2x" style="color:green"></i> **Open Webview**
+
+#### 2.2 <i class="fa fa-cog fa-2x"></i> **Config Panel** 
+
+Language conversion.
+
+#### 2.3 <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
+
+View reports are listed in side bar chronologically.
 <br>
 
-## 3 Side bar
----
-Contains different views like the Explorer to assist you while working on your project.
 
 #### 3.1 EXPLORER
 
@@ -94,13 +101,7 @@ Once you are done with your task, you can remove files individually from the OPE
 
 #### 3.3 BUTTONS OF EDITOR GROUPS
 
-There are three buttons to toggle different areas of editor groups.[More details about editor groups](/docs/)
 
-- <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel**
-
-- <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **Toggle Suite Panel**
-
-- <i class="fa fa-globe fa-2x" style="color:green"></i> **Open Webview**
 
 <br>
 
