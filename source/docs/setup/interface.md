@@ -49,17 +49,36 @@ View bar is located on the far left-hand side including three buttons to switch 
 
 #### 2.1 <i class="fa fa-code fa-2x"></i> **Explore**  
 
-Include Case Editor,Suite Editor and Webview, you can find more detailed information in [Code Editor]().
+The Explorer is used to browse, open, and manage all of the files and folders in your project. You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
 
-**BUTTONS OF EDITOR GROUPS**
+After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things by right-click from here:
+- Create, delete, and rename files and folders.
+- Open the existed cases/folders in file explorer.
+- `Move files and folders with drag and drop.`
+- `Use the context menu to explore all options.`
 
-There are three buttons to toggle different areas of editor groups.[More details about editor groups](/docs/)
+**2.1.1 OPEN EDITORS** 
+
+There are three buttons to toggle different areas of editor groups, you can find more detailed information in [Code Editor](docs/code-editor/index.html)
+
+At the top of the Explorer is a section labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the **OPEN EDITORS** section if you:
+
+- Make a change to a file.
+- Double-click a file's header.
+- Double-click a file in the Explorer.
+- Open a file that is not part of the current folder.
+
+Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
+
+Once you are done with your task, you can remove but not delete files seperately from the OPEN EDITORS section by click <i class="fa fa-times"></i>.
 
 - <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel**
 
 - <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **Toggle Suite Panel**
 
 - <i class="fa fa-globe fa-2x" style="color:green"></i> **Open Webview**
+
+**WORKSPACE** 
 
 #### 2.2 <i class="fa fa-cog fa-2x"></i> **Config Panel** 
 
@@ -71,32 +90,12 @@ View reports are listed in side bar chronologically.
 <br>
 
 
-#### 3.1 EXPLORER
 
-The Explorer is used to browse, open, and manage all of the files and folders in your project. You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
-
-After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things by right-click from here:
-
-- Create, delete, and rename files and folders.
-- Open the existed cases/folders in file explorer.
-- `Move files and folders with drag and drop.`
-- `Use the context menu to explore all options.`
 
 <img class="large-images" src="/">
 <br>
 
-#### 3.2 OPEN EDITORS
 
-At the top of the Explorer is a section labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the **OPEN EDITORS** section if you:
-
-- Make a change to a file.
-- Double-click a file's header.
-- Double-click a file in the Explorer.
-- Open a file that is not part of the current folder.
-
-Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
-
-Once you are done with your task, you can remove files individually from the OPEN EDITORS section or Webview section.
 <br>
 
 #### 3.3 BUTTONS OF EDITOR GROUPS
