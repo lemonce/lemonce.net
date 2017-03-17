@@ -66,7 +66,7 @@ Once you are done with your task, you can remove but not delete files seperately
 <br>
 **2.1.2 Buttons of editor groups**
 
-There are three buttons to active different areas of editor groups, you can find more detailed information below. 
+There are three buttons to active different corresponding areas of editor groups, you can find more detailed information below. 
 
 
 - <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel**
@@ -88,7 +88,9 @@ After opening a folder in Lemonce, the contents of the folder are shown in the E
 
 #### 2.2 <i class="fa fa-cog fa-2x"></i> **Config Panel** 
 
-You can change the language and open/close command pallete of Lemonce here,where more functions will be added soon.
+There are just two functions below in side bar now,more functions are coming soon.
+- Change the language to English/Chinese
+- Open/close command pallete
 
 #### 2.3 <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
 
