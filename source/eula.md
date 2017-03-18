@@ -1,6 +1,7 @@
 layout: text
 ---
 ## End User License Agreement
+---
 
 You should carefully read the following terms and conditions before using this software. Your use, distribution, or installation of this copy of Lemonce indicates your acceptance of this License.
   

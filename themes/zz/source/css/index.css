@@ -209,8 +209,8 @@ figure.highlight pre {
 
 /* images */
 .large-images{
-	width:720px;
-    height:456px;
+	width:640px;
+    height:360px;
 }
 .long-images{
 	width:640px;
@@ -278,4 +278,9 @@ aside#doc-sidebar li:before {
 	left: -16px;
 	color: #727375;
 	position: absolute;
+}
+
+.black-container {
+    width: 1170px;
+    margin: 0 auto;
 }

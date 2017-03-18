@@ -1,18 +1,18 @@
 title: 'Handling IFrames in Web Test Automation'
+layout: page without sidebar
 ---
 
 **Lemonce Editor** is a professional web application testing tool that offers a convenient way to handle iframes in any automated web test project. You never need to write additional codes or testing scripts for handling iframes, no matter your test case need identify nested ifrmaes or switch over the elements in iframes. Compared to Selenium that requires much coding work and tedious steps, Lemonce Editor is the best web testing tool to handle iframes in web test automation.
-<br>
 
 #### Why and how to handle iframes in automated web test with Lemonce Editor?
 ---
+
 As **a better alternative to Selenium**, Lemonce Editor has some outstanding advantages in terms of Iframe testing:
 - Record Iframe related user actions automatically without extra coding
 - Directly penetrate elements to exactly locate iframes with its unique iframe penetration selector. And the “Inspect Element” button built in the test case editor can facilitate the process of editing test case. 
 (When handling Iframes using WebDriver, you need switch in and out the iframe frequently.)
 - No OS and browser compatibility issues when executing test case consisting iframe selector
 (When handling iframes using selenium webdriver, you need install browser add-ons and extensions and take care of OS and browse compatibility problems) 
-<br>
 
 Lemonce editor is a great iframe testing tool that is much better than Selenium. Here are more details and examples about how to handle iframe in web testing projects with Lemonce Editor.
 
@@ -47,17 +47,39 @@ Many web testing professionals often encounter problems on working with Iframes.
 The followings will explain why there is no convenient and easy approach to handle iframes in selenium web driver.
 
 First, it is difficult to locate and recognize elements inside an iframe using selenium webdriver. 
+
 To identify iframe and find elements inside, a human can easily inspect the web page by viewing page source codes manually.  But it is impossible to locate the element by clicking iframe directly through xpath since it is a special web component - iframe.  You must have a test script specifically to switch to the frame and then to click it using xpath. That is, if you need to switch to other frames, you have to switch back to the main frame( default frame ), or move back to the parent frame. Even though it is quite complicated to handle iframes using selenium webdriver and it requires huge coding workload, some web app testers and programmers have to spend much time and effort to write scripts for this because many other web application testing tools don’t provide a solution for handling iframes in test automation. 
 
 Lemonce Editor obviously can overcome this hurdle with its iframe penetration selector that can easily locate and recognize iframe and identify the elements in side any frame. Testing professionals will not need figure out how to find element in iframe using selenium webdriver anymore.
 
 Second, Selenium recorder is just a Firefox add-on, Selenium IDE, which only performs limited recording and playback functions for web app tests, and cannot work with other browsers, like Chrome, IE, etc. In addition, when handling iframes, Selenium IDE can record and play back tests properly, but it cannot export testing scripts correctly. That is, Selenium IDE recorder is unable to automatically generate testing codes, and you have to manually edit and modify codes!
+
 Here is a example of test case for pages consisting frames recorded and created by Selenium IDE:
 (The test codes cannot be generated properly.)
 
-<img class="large-images" src="/images/SEO/iframe-3.png">
-
 Lemonce LCDriver can work much better than Selenium Web Driver, and set Chromium as browser core, so Lemonce recorder can work well on Chrome and is friendly with other browsers. In addition to recoding and playing back test cases reliably and accurately , Lemonce recorder can automatically generate codes properly when recoding iframe related web actions.
+
+<pre class='sublemon'>
+public void test331IframeTest() throws Exception { 
+	driver.get(baseUrl + "/tiy/t.asp?f=html_iframe_src"); 
+	// ERROR: Caught exception [ERROR: Unsupported command [selectFrame|i|]]
+	driver.findElement(By.linkText("HTML5")).click(); 
+	driver.findElement(By.linkText("HTML5 Intro")).click(); 
+	driver.findElement(By.linkText("HTML5 Video")).click();
+	driver.findElement(By.cssSelector("li.next > a[title=\"HTML5 Video + DOM\"]")).click();
+	driver.findElement(By.cssSelector("li.next > a[title=\"HTML5 Audio\"]")).click();
+	// ERROR: Caught exception [ERROR: Unsupported command [selectWindow |null|]]
+	driver.findElement(By.id("TestCode")).clear();
+	driver.findElement(By.id("TestCode")).sendKeys("  
+	<html>
+		<body>
+			<iframe src =\"/index.html\">
+			<p>This is an iframe.</p>
+			</iframe>
+		</body>
+	</html>;
+}
+</pre>
 
 Third, it is very difficult to identify and handle nested frames in selenium webdriver. As we know, there are still many obsolete and legacy web application systems running in the IT world, which were developed with iframe techniques in the past period when there is no advanced tech method, like websocket, ajax , to process asynchronization request on web. There will be many frames in a web page, including nested frames(frames embedded inside frames). There is no simple and reliable solution to solve the issues to handle nested iframes using webdriver.
 
@@ -74,7 +96,6 @@ Obviously, the above steps and approaches are complicated enough. If you use sel
 The above steps or ways will cost a test professional much time to write scripts. In fact, it is not easy at all for a beginner to write selenium codes to even identify or get current frame or move back to parent frame (or relative frame). Unlike a easier way on how to switch to form in selenium webdriver, the method to switch over frames is pretty complicated in selenium test execution. 
 
 Lemonce Editor doesn’t have such selenium problems and issues when handling nested iframes. No matter how many multiple frames are embedded one by one, or how complicated a path of  the frame is, Leomonce can easily achieve accurate element identification and selection by penetrating multiple iframes, working in the same way to handle other web elements on a web page without iframes.
-
 <br>
 
 In addition to the above the technical challenges with selenium when handling frames, actually there are other issues like the problem in selenium wait for iframe to load, Lemonce recorder  works better than Selenium IDE recorder. It has a function in test recoding that offers intelligent waiting for iframe loading or any element operations inside the frame.
@@ -83,4 +104,4 @@ Even today, Iframes are still working as key elements on many websites or web ap
 
 Therefore, you don’t need to waste time anymore to search “selenium iframe testing” or “iframe selenium” on github or other internet sources to find a solution on how to handle iframes using selenium webdriver. Even you can find a selenium iframe example (coding template) on github, it usually will cost you much time to learn and modify those testing example codes. As a smart web application testing team member, you just need find a professional automated UI testing tool that can perform tests on iframes easily with minimum coding work. Lemonce Editor is such a great Iframe testing tool, which can help you complete any automation testing projects smoothly and properly, and resolve all the difficulties or challenges you faced in selenium and other testing tools in the market. 
 
-(Please click [here](/docs/compare.html) to view the comparison of Lemonce Editor and Selenium,)
+(Please click [here](/compare.html) to view the comparison of Lemonce Editor and Selenium,)
