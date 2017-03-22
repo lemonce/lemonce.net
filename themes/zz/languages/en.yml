@@ -27,9 +27,13 @@ index:
   customer_quote: 'Lemonce helps us solve the problems more quickly. It supports a large number of browsers, especially the popular ones. It is highly integrated and the LemonCase2 language is so easy to learn that we spend less time to study it. With Lemonce, we have much fun in web UI testing.'
   customer_name: 'Yanwei Li'
   customer_position: 'CTO'
+  blog_title: 'Blog'
+  blog_intro: 'The articles listed below can help you know more about the Lemonce’s advantages over other testing tools.'
+  blog_article_title: '
+  1 Lemonce vs Selenium:Iframe Element Testing'
 
 footer:
-  help: 'help'
+  help: 'help' 
   api_doc: 'api doc'
   blog: 'blog'
   support: 'support'
