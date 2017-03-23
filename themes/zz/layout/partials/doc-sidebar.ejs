@@ -1,19 +1,29 @@
 <aside id="docs-sidebar" class="float-lg-left">
 	<div><a href="<%= url_for_lang('/docs/setup/index.html') %>"><%= __('doc_sidebar.setup') %></a>
  		<ul>
-    		<li><a href="/docs/setup/download-install.html">download and install</a></li>
-    		<li><a href="/docs/setup/firstrun.html">first run</a></li>
-    		<li><a href="/docs/setup/interface.html">Lemonce interface</a></li>
+    		<li><a href="<%= url_for_lang('/docs/setup/download-install.html') %>"><%= __('doc_sidebar.setup_download') %></a></li>
+    		<li><a href="<%= url_for_lang('/docs/setup/firstrun.html') %>"><%= __('doc_sidebar.setup_firstrun') %></a></li>
+    		<li><a href="<%= url_for_lang('/docs/setup/interface.html') %>"><%= __('doc_sidebar.setup_interface') %></a></li>
  		</ul>
 	</div>
-	<div><a href="<%= url_for_lang('/docs/guide/index.html') %>"><%= __('docs-sidebar.getting_started') %></a>
+	
+	<div><a href="<%= url_for_lang('/docs/guide/index.html') %>"><%= __('doc_sidebar.guide') %></a>
 		<ul>
-    		<li><a href="/docs/guide/case.html">create a test case</a></li>
-    		<li><a href="/docs/guide/recorder.html">use of recorder</a></li>
-    		<li><a href="/docs/guide/suite.html">complete a test suite</a></li>
-			<li><a href="/docs/guide/reports.html">view test reports</a></li>
+    		<li><a href="<%= url_for_lang('/docs/guide/case.html') %>"><%= __('doc_sidebar.guide_case') %></a></li>
+    		<li><a href="<%= url_for_lang('/docs/guide/recorder.html') %>"><%= __('doc_sidebar.guide_recorder') %></a></li>
+    		<li><a href="/docs/guide/suite.html"><%= __('doc_sidebar.guide_suite') %></a></li>
+			<li><a href="<%= url_for_lang('/docs/guide/reports.html') %>"><%= __('doc_sidebar.guide_report') %></a></li>
  		</ul>
 	</div>
+
+	<div><a href="<%= url_for_lang('/docs/code-editor/index.html') %>"><%= __('doc_sidebar.code_editor') %></a>
+		<ul>
+    		<li><a href="<%= url_for_lang('/docs/code-editor/case-editor.html') %>"><%= __('doc_sidebar.code_editor_case_editor') %></a></li>
+    		<li><a href="<%= url_for_lang('/docs/code-editor/suite-editor.html') %>"><%= __('doc_sidebar.code_editor_suite_editor') %></a></li>
+    		<li><a href="/docs/code-editor/webview.html"><%= __('doc_sidebar.code_editor_webview') %></a></li>
+ 		</ul>
+	</div>
+
 	<div><a href="<%= url_for_lang('/docs/code-editor/index.html') %>"><%= __('docs_sidebar.code_editor') %></a>
 		<ul>
     		<li><a href="/docs/code-editor/case-editor.html">case-editor</a></li>
@@ -21,9 +31,7 @@
 			<li><a href="/docs/code-editor/webview.html">webview</a></li>
  		</ul>
 	</div>
-	<div><a href="<%= url_for_lang('/docs/syntax.html') %>">
-		<%= __('Report') %>
-	</a></div>
+	
 	<div><a href="<%= url_for_lang('/docs/lemoncase2/index.html') %>"><%= __('Lemoncase2') %></a>
 		<ul>
     		<li><a href="/docs/lemoncase2/instructionkeyword.html">instruction keyword</a></li>
@@ -35,6 +43,15 @@
     		<li><a href="/docs/lemoncase2/example.html">example</a></li>
  		</ul>
 	</div>
+
+	<div><a href="<%= url_for_lang('/docs/lemoncase2/index.html') %>"><%= __('doc_sidebar.Lemoncase2') %></a>
+		<ul>
+    		<li><a href="<%= url_for_lang('/docs/code-editor/case-editor.html') %>"><%= __('doc_sidebar.code_editor_case_editor') %></a></li>
+    		<li><a href="<%= url_for_lang('/docs/code-editor/suite-editor.html') %>"><%= __('doc_sidebar.code_editor_suite_editor') %></a></li>
+    		<li><a href="/docs/code-editor/webview.html"><%= __('doc_sidebar.code_editor_webview') %></a></li>
+ 		</ul>
+	</div>
+
 </aside>
 
 
