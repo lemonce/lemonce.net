@@ -29,10 +29,9 @@ index:
   customer_position: 'CTO'
   blog_title: 'Blog'
   blog_intro: 'The articles listed below can help you know more about the Lemonce’s advantages over other testing tools.'
-  blog_article_title: '
-  1 Lemonce vs Selenium:Iframe Element Testing'
+  blog_article_title: '1 Lemonce vs Selenium:Iframe Element Testing'
 
-footer:
+footer: 
   help: 'help' 
   api_doc: 'api doc'
   blog: 'blog'
@@ -57,3 +56,8 @@ page:
 docs:
   get_started: 'Getting Started Guide'
   syntax: 'Syntax'
+
+doc_sidebar:
+  setup: 'Set Up'
+  getting_started: 'Getting Started'
+  code_editor: 'Code Editor'

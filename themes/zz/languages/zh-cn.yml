@@ -33,7 +33,7 @@ footer:
   api_doc: 'api 文档'
   blog: '微博'
   support: '售后'
-  contract: '联系我们'
+  contract: '联系我们' 
   social: 'QQ群:462067451'
   email: '邮箱'
   about: '关于'
@@ -53,3 +53,8 @@ page:
 docs:
   get_started: '开始使用'
   syntax: '语法'
+
+doc_sidebar:
+  setup: '下载与安装'
+  getting_started: '开始使用'
+  code_editor: '编辑器'
