@@ -1,55 +1,62 @@
-title: 'Getting Started'
+title: '开始使用'
 ---
-
-This guide helps you with step-by-step instructions on how to create a web test project with Lemonce editor. You will learn how to record a test script, create an assertion, run a test and view test reports.
+本文档将帮助您如何采用Lemonce客户端一步步创建一个网页测试项目。您将学习如何记录测试脚本、创建断言、运行测试和查看测试报告。
 <br>
 
-## [Create a test case](/docs/guide/case.html)
+## [创建单独的测试用例](/docs/guide/case.html)
 ---
-**create test case in tool bar** 
 
-You can create new test cases from the toolbar or use the shortcut key CTRL+N, and you need to create a path to save each test case.
+**从工具栏中建立新测试用例**
 
-**create test case in work space** 
+您可以从工具栏中或者采用快捷键Ctrl+N新建测试用例，以这种方式建立的测试用例需要您寻找路径保存。
 
-The work space is associated with local file system,in which any changes about the cases such as create,rename or remove, will be synchronized [...]
+**从工作空间中建立新测试用例**
+工作空间关联本地文件系统，在这里新建、改动或删除文件，会同步到本地相关的文件夹中去。
 <br>
 
-
-## [Use of recorder](/docs/guide/recorder.html)
+## [录制器的使用]()
 ---
-**record scripts** 
 
-Before recording begins, you need to click on the middle of the bracket of Process main to ensure that the code is generated in the correct position[...]
+ **录制脚本**
+ 
+在录制开始之前，需要点击Process main的大括号中部，以保证代码生成在正确的位置。随着录制的进行，编辑区中会自动生成代码和注释。
 
-**create an assertion while recording** 
+**在录制过程中添加断言**
 
-In recording, press the CTRL and select the very page elements with the mouse, you can automatically add assertion statement.
+在录制过程中，按住ctrl并用鼠标选择相应的界面元素，即可自动添加断言语句。
 
-**play back the recorded steps** 
+**回放已录制的步骤**
 
-Click the record button again to end the recording. Click the play button to begin playback of the recording process.
+再次点击录制按钮可结束录制。点击播放按钮，可开始回放刚才录制的过程。
 <br>
 
-## [Complete a test suite](/docs/guide/suite.html)
+## [完善测试套件]()
 ---
-**create test suite in work space** 
 
-Similar to creating a test case, test suite can be created in the work space, in order to facilitate the management of the cases.
+**创建测试套件**
 
-**one key to output test suite** 
+- **从测试空间中建立新测试套件**
+与建立测试用例相同，也可以在测试空间中建立测试套件，以此来对用例进行方便的管理。
 
-You can export the test case in the editing area as a whole test suite according to the current order of the cases.
+- **在编辑区中一键导出测试套件**
+可将当下正在编辑区中的测试用例按照当前的顺序，一键导出为一整个的测试套件。
 
-**activate test suite** 
+**套件编辑器**
 
-In the Suite section, double click the selected test suite, you can activate it to the Opening section for editing.
+- **激活测试套件**
+在Suite版块中选中要进行编辑的套件双击，可将套件激活至上方编辑区进行编辑。
 
-**edit test suite** 
-
-Double click the test suite in Opening section, then you can choose from the Case Lib to add test cases to the current suite which shows in [...]
+- **编辑测试套件**
+在Opening版块中双击要进行编辑的套件，此时可从Case Lib中选择要添加到当前套件中的测试用例到左侧的展示栏。展示栏中支持用例的随机排序、删除、清空等。编辑完成之后，可在Opening版块右上侧点击保存或者关闭按钮。
 <br>
 
-## [View test reports](/docs/guide/reports.html)
+## [查看测试报告]()
 ---
-The test report is divided into three areas. The case-area lists all of the test cases for the entire test task, the contents of the log-area and the code-area [...]
+
+测试报告一共分为三个区域。
+
+- **测试用例区域**  列出了整个测试任务所有的测试用例
+
+- **日志区域** 
+
+- **代码区域**
