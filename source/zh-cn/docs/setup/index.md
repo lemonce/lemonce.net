@@ -3,7 +3,7 @@ title: '设置'
 因为 Lemonce 能够在不同的操作系统上运行，所以针对 Windows 和 MacOS 有不同的安装文件（Linux 即将上线）。
 <br>
 
-## 下载与安装
+## [下载与安装](/zh-cn/docs/setup/download-install.html)
 ---
 
 **Windows**
@@ -25,8 +25,9 @@ title: '设置'
 - Lemonce 的 Linux 版本即将上线
 <br>
 
-## [首次运行](/docs/setup/firstrun.html)
+## [首次运行](/zh-cn/docs/setup/firstrun.html)
 ---
+
 <br>
 
 ## [更新](/docs/setup/upgrade.html)

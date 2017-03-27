@@ -1,7 +1,7 @@
-title: 'First Run'
+title: '首次运行'
 ---
 
-## Configuration workspace
+## 布置工作空间
 ---
 When you first start up Lemonce, you will be asked that you should...
 
@@ -18,6 +18,6 @@ The workspace consists of two parts:
 If the project development permits, you can also configure the workspace in the project directory to be involved in the development process.
 <br>
 
-## License
+## 授权许可
 ---
 <br>
