@@ -10,22 +10,23 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 **Zoom Table**
 
-|[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/magickeyword.html)
+|[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/marco.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|process         |click      |<@"cssPath"> |#TIMES   |
-|in              |input      |<#"cssPath"> |#AUTOWAIT|
-|by              |rclick     |<!"cssPath"> |#LIMIT   |
-|assert          |dbclick    |A~~B         |         |
-|log             |move       |A==B         |         |
-|return          |hold       |A!=B         |         |
-|if              |drop       |RegExp       |         |
-|else            |scroll     |             |         |
-|while           |jumpto     |             |         |
-|continue        |refresh    |             |         |
-|                | back      |             |         |
-|                |forward    |             |         |
-|                |upload     |             |         |
-|                |wait       |             |         |
+|import          |click      |<@"cssPath"> |#TIMES   |$HREF  |
+|in              |dbclick    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
+|process         |input...by |<!"cssPath"> |#LIMIT   |$IT    |
+|return          |move       |A~~B         |         |$LOOP  |
+|for...in        |hold       |A==B         |||         
+|for...of        |drop       |A!=B         |||         
+|if...else       |scroll     |RegExp       |||         
+|continue        |jumpto     ||||          
+|while           |wait       ||||           
+|log             |assert     ||||          
+|                |forward    ||||          
+|                |back       ||||            
+|                |refresh    ||||           
+|                |upload     |||||           
+
 **Idntifier** 
 
 Lemoncase2 is similar to JS.
@@ -40,7 +41,7 @@ But you do not have to use `var` keyword (there's no type check currently, haha)
 
 **Datatype**
 
-Below is a list of data type you can use
+Below is a list of data type you can use.
 
 ```C
         number (e.g., 0.12, 1e-3)
@@ -57,7 +58,7 @@ Use it if you want to do some fuzzy testing.
 
 **Marco** 
 
-Macro is the global setting for your case during runtime. [`more details`](/docs/lemoncase2/marco.html)
+Macro is the global setting for your case during runtime. [`read more`](/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
@@ -65,22 +66,30 @@ Macro is the global setting for your case during runtime. [`more details`](/docs
 **Instruction keyword** 
 
 `[action] [selector:string] by/to [params|params1,params2]`
-Simulate an action.[`read more`](/docs/lemoncase2/instructionkeyword.html)
+[`read more`](/docs/lemoncase2/instructionkeyword.html)
 - process (main/sub)
-- assertion (in)
+- assert (in)
 - return/wait
 - log
 
 **Action keyword** 
 
-[`read more`](/docs/lemoncase2/actionkeyword.html)
+Below are the action keywords in LC2.[`read more`](/docs/lemoncase2/actionkeyword.html)
 - input
-- click/dbclick/rclick
+- click/dbclick
 - move/hold/drop
 - scroll
 - jumpto
 - forward/back
 - upload
+
+**Magic keyword**
+
+Below are the magic keywords which stand for some special functions.[`read more`](/docs/lemoncase2/marco.html)
+- $HREF
+- $BUTTON
+- $IT
+- $LOOP
 
 **Expression** 
 

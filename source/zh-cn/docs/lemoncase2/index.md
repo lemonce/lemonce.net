@@ -1,46 +1,49 @@
-title: 'Lemoncase2 Guide'
+title: 'Lemoncase2 语言指南'
 ---
-Lemoncase2 is a Javascript-like scripting language,which is used for developing scripts in Lemonce. Read this guide to help you understand the language.
 
-browser automation library: http://lemonce.github.io/lemoncase2
+Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用例编写。以下的指南会帮助您更好地理解这门编程语言。
+
+Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 <br>
 
-## [Grammar]()
+## [语法]()
 ---
 
-**Zoom Table**
+**速查表**
 
-|[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/magickeyword.html)
+|[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)|[动作关键字](/zh-cn/docs/lemoncase2/actionkeyword.html)|[表达式](/zh-cn/docs/lemoncase2/expression.html) |[宏](/zh-cn/docs/lemoncase2/marco.html)|[魔术字](/zh-cn/docs/lemoncase2/marco.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|process         |click      |<@"cssPath"> |#TIMES   |
-|in              |input      |<#"cssPath"> |#AUTOWAIT|
-|by              |rclick     |<!"cssPath"> |#LIMIT   |
-|assert          |dbclick    |A~~B         |         |
-|log             |move       |A==B         |         |
-|return          |hold       |A!=B         |         |
-|if              |drop       |RegExp       |         |
-|else            |scroll     |             |         |
-|while           |jumpto     |             |         |
-|continue        |refresh    |             |         |
-|                | back      |             |         |
-|                |forward    |             |         |
-|                |upload     |             |         |
-|                |wait       |             |         |
-**Idntifier** 
+|import          |click      |<@"cssPath"> |#TIMES   |$HREF  |
+|in              |dbclick    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
+|process         |input...by |<!"cssPath"> |#LIMIT   |$IT    |
+|return          |move       |A~~B         |         |$LOOP  |
+|for...in        |hold       |A==B         |||         
+|for...of        |drop       |A!=B         |||         
+|if...else       |scroll     |RegExp       |||         
+|continue        |jumpto     ||||          
+|while           |wait       ||||           
+|log             |assert     ||||          
+|                |forward    ||||          
+|                |back       ||||            
+|                |refresh    ||||           
+|                |upload     |||||      
 
-Lemoncase2 is similar to JS.
+**标识符** 
+
+在标识符的定义上，Lemoncase2 类似于 JavaScript。
 ```C
         Var a = 1;
 ```
-But you do not have to use `var` keyword (there's no type check currently, haha)
+但在 Lemoncase2 中，您不需要使用`Var`字符。
+
 ```C
         a = 1;
         a = true;
 ```
 
-**Datatype**
+**数据类型**
 
-Below is a list of data type you can use
+以下是您可以使用的数据类型。
 
 ```C
         number (e.g., 0.12, 1e-3)
@@ -53,61 +56,74 @@ RegExp will be used as it is, to match against a string, if it is used with ~~ o
 
 Otherwise it will generate a random string based on the regexp pattern (use randexp underneath).
 
-Use it if you want to do some fuzzy testing.
+在需要进行一些模糊测试的时候可以使用。
 
-**Marco** 
+**宏** 
 
-Macro is the global setting for your case during runtime. [`more details`](/docs/lemoncase2/marco.html)
+宏是运行测试用例时的全局设置。 [`了解更多`](zh-cn/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
 
-**Instruction keyword** 
+**指令关键字**  
 
-`[action] [selector:string] by/to [params|params1,params2]`
-Simulate an action.[`read more`](/docs/lemoncase2/instructionkeyword.html)
+以下是 Lemoncase2 的所有指令关键字。[`了解更多`](/zh-cn/docs/lemoncase2/instructionkeyword.html)
+- import
 - process (main/sub)
-- assertion (in)
-- return/wait
+- return
+- for...in/of
+- if...else
+- continue
+- while
 - log
 
-**Action keyword** 
+**动作关键字** 
 
-[`read more`](/docs/lemoncase2/actionkeyword.html)
-- input
-- click/dbclick/rclick
+以下是 Lemoncase2 的所有动作关键字。[`了解更多`](/zh-cn/docs/lemoncase2/actionkeyword.html)
+- click/dbclick
+- input...by
 - move/hold/drop
 - scroll
 - jumpto
+- wait
+- assert
 - forward/back
+- refresh
 - upload
 
-**Expression** 
+**魔术关键字**
 
-[`read more`](/docs/lemoncase2/expression.html)
+魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/marco.html)
+- $HREF
+- $BUTTON
+- $IT
+- $LOOP
+
+**表达式** 
+
+以下是 Lemoncase2 的所有表达式。[`了解更多`](/zh-cn/docs/lemoncase2/expression.html)
 - <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
 - [exp_A:string] ~~ [exp_B:string|RegExp]
 - [exp_A:string] !~ [exp_B:string|RegExp]
 
-**Inbuilt sub-process** 
+**内置子过程** 
 
-Below is the list of type of Inbuilt sub-process.[`read more`](/docs/lemoncase2/subprocess.html)
+以下是所有形式的内置子过程。[`了解更多`](/zh-cn/docs/lemoncase2/subprocess.html)
 - format/now
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
-<br><br/>
+<br>
 
-## [Scope](/docs/lemoncase2/scope.html)
+## [作用域]()
 ---
-Global scope. 
-So there is no return keyword in LC2. A process has no parameter.
-Process main is the program's entry.
-<br><br/>
+全局作用域。在 Lemoncase2 主过程中无需 `return` 关键词，主过程没有参数，`process main { }` 是程序的主入口。
+<br>
 
-## [Example](/docs/lemoncase2/example.html)
+## [操作示例](/zh-cn/docs/lemoncase2/example.html)
 ---
-Here are some examples for you to get started with the language.
+
+以下是几个关于 Lemoncase2 语言的操作示例。[`了解更多`](/zh-cn/docs/lemoncase2/example.html)
 
 **Hello World** 
 
