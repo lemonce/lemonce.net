@@ -1,45 +1,20 @@
 title: 'Action Keyword'
 ---
 
-## input
+## click / dbclick
+---
+Click or double click a HTML element.
+<br>
+
+## input...by
 ---
 Type a string into an element like <input type="text" /> or <textarea>.
 
-```C 
-// <input id="link" class="case" />
+<pre class='sublemon'>
+// eg: id="link" class="case" 
 input 'div#link.case' by "hello world.";
-```
-<br>
+</pre>
 
-## click 
----
-Click a HTML element.
-```C
-        // <a href="...">Text</a>
-        click 'a';
-```
-```
-// <a id="link" href="...">Text</a>
-click 'a#link';
-```
-<br>
-
-## dbclick 
----
-Double click a HTML element.
-```C
-// <div id="link" class="case">Text</div>
-dblclick 'div#link.case';
-```
-<br>
-
-## rclick 
----
-Right click a HTML element.
-```C
-// <div id="link" class="case">Text</div>
-rclick 'div#link.case';
-```
 <br>
 
 ## move 
@@ -64,20 +39,22 @@ Move an element to the center of the screen.
 
 ## jumpto
 ---
-Jump to a complete URL.
+Jump to a URL.
+<pre class='sublemon'>
+jumpto "deepin.org"; 
 
-```C
-jumpto "deepin.org"  ×
-jumpto "www.deepin.org"  ×
-jumpto "http://www.deepin.org"  √
-```
+jumpto "www.deepin.org"; 
+
+jumpto "http://www.deepin.org"; 
+</pre>
+
 <br>
 
-## forward
+## forward / back
 ---
 <br>
 
-## back
+## refresh
 ---
 <br>
 

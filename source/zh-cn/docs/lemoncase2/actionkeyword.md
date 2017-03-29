@@ -1,88 +1,62 @@
 title: '动作关键字'
 ---
 
-## input
+## click / dbclick
 ---
-输入一段字符串使其变为元素
-Type a string into an element like <input type="text" /> or <textarea>.
+单击或双击一个HTML的页面元素。
+<br>
 
-```C 
-// <input id="link" class="case" />
+## input...by
+---
+输入一段字符串到文档框中去。 
+
+<input type="text" /> 或者 <textarea>
+
+<pre class='sublemon'>
+// eg: id="link" class="case" 
 input 'div#link.case' by "hello world.";
-```
-<br>
+</pre>
 
-## click 
----
-点击一个HTML的页面元素
-```C
-        // <a href="...">Text</a>
-        click 'a';
-```
-```
-// <a id="link" href="...">Text</a>
-click 'a#link';
-```
-<br>
-
-## dbclick 
----
-双击一个HTML页面元素
-```C
-// <div id="link" class="case">Text</div>
-dblclick 'div#link.case';
-```
-<br>
-
-## rclick 
----
-右键一个HTML页面元素
-```C
-// <div id="link" class="case">Text</div>
-rclick 'div#link.case';
-```
 <br>
 
 ## move 
 ---
 对HTML页面元素触发鼠标移动/移出的动作，类似于Selenium中的`Highlight`指令
-Trigger move enter/leave events on a HTML element.Like the `Highlight` keyword in Selenium.
 <br>
 
 ## hold
 ---
-Hold an element by mouse.
+鼠标持续点住一个元素。
 <br>
 
 ## drop
 ---
-鼠标释放一个元素
-Release an element by mouse.
+鼠标释放一个元素。
 <br>
 
 ## scroll
 ---
 滚动页面，保持选中元素位于屏幕中部
-Move an element to the center of the screen.
 <br>
 
 ## jumpto
 ---
-跳转到一个URL链接
-Jump to a complete URL.
+跳转到一个URL链接。链接可以采用以下三种方式填写，都能完成跳转。
+<pre class='sublemon'>
+jumpto "deepin.org"; 
 
-```C
-jumpto "deepin.org"  ×
-jumpto "www.deepin.org"  ×
-jumpto "http://www.deepin.org"  √
-```
+jumpto "www.deepin.org"; 
+
+jumpto "http://www.deepin.org"; 
+</pre>
+
 <br>
 
-## forward
+## forward / back
 ---
 <br>
 
-## back
+## refresh
 ---
 <br>
 
