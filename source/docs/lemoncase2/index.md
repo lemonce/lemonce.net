@@ -12,7 +12,7 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/marco.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click      |<@"cssPath"> |#TIMES   |$HREF  |
+|import          |click     |<@"cssPath"> |#TIMES   |$HREF  |
 |in              |dbclick    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
 |process         |input...by |<!"cssPath"> |#LIMIT   |$IT    |
 |return          |move       |A~~B         |         |$LOOP  |
@@ -30,25 +30,21 @@ browser automation library: http://lemonce.github.io/lemoncase2
 **Idntifier** 
 
 Lemoncase2 is similar to JS.
-```C
-        Var a = 1;
-```
-But you do not have to use `var` keyword (there's no type check currently, haha)
-```C
-        a = 1;
-        a = true;
-```
+<pre class='sublemon'>
+Var a = 1; // in JS
+//But you do not have to use 'var' keyword in LC2
+a = 1;
+a = true;
+</pre>
 
 **Datatype**
 
 Below is a list of data type you can use.
-
-```C
-        number (e.g., 0.12, 1e-3)
-        string (e.g., 'you', "me")
-        Boolean (true/false)
-        RegExp
-```
+   
+- number (e.g., 0.12, 1e-3)
+- string (e.g., 'you', "me")
+- Boolean (true/false)
+- RegExp
 
 RegExp will be used as it is, to match against a string, if it is used with ~~ operator.
 
@@ -65,22 +61,28 @@ Macro is the global setting for your case during runtime. [`read more`](/docs/le
 
 **Instruction keyword** 
 
-`[action] [selector:string] by/to [params|params1,params2]`
-[`read more`](/docs/lemoncase2/instructionkeyword.html)
+Below are the instruction keywords in LC2. [`read more`](/docs/lemoncase2/instructionkeyword.html)
+- import
 - process (main/sub)
-- assert (in)
-- return/wait
+- return
+- for...in/of
+- if...else
+- continue
+- while
 - log
 
 **Action keyword** 
 
-Below are the action keywords in LC2.[`read more`](/docs/lemoncase2/actionkeyword.html)
-- input
+Below are the action keywords in LC2. [`read more`](/docs/lemoncase2/actionkeyword.html)
 - click/dbclick
+- input...by
 - move/hold/drop
 - scroll
 - jumpto
+- wait
+- assert
 - forward/back
+- refresh
 - upload
 
 **Magic keyword**
@@ -93,7 +95,7 @@ Below are the magic keywords which stand for some special functions.[`read more`
 
 **Expression** 
 
-[`read more`](/docs/lemoncase2/expression.html)
+Below are the expressions in LC2. [`read more`](/docs/lemoncase2/expression.html)
 - <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
 - [exp_A:string] ~~ [exp_B:string|RegExp]
 - [exp_A:string] !~ [exp_B:string|RegExp]
@@ -105,14 +107,14 @@ Below is the list of type of Inbuilt sub-process.[`read more`](/docs/lemoncase2/
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
-<br><br/>
+<br>
 
-## [Scope](/docs/lemoncase2/scope.html)
+## [Scope]()
 ---
 Global scope. 
-So there is no return keyword in LC2. A process has no parameter.
-Process main is the program's entry.
-<br><br/>
+So there is no `return` keyword in LC2. A process has no parameter.
+`process main { }` is the program's entry.
+<br>
 
 ## [Example](/docs/lemoncase2/example.html)
 ---

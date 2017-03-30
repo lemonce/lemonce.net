@@ -36,36 +36,43 @@ The UI of version 2 which has a big change compared with version 1 will be a who
 ## Updates for version 2.0.3
 ---
 **Bug Fix**
-- Fixed case blank right-click menu defaults to case folder.
-- Fixed the problem that $IT can save the state only once.
-- 
-修正 case空白区右键菜单  默认进入 case文件夹
-修正 suite空白区右键菜单  默认进入 suite文件夹
-修复 WebView未清空上次执行状态而影响测试结果的问题
+- Fixed the webview not back to its original,pristine state when running another task.
+
+**Optimized**
+- Optimized the delault case folder of the right-click menu in the case files editing area.
+- Optimized the delault suite folder of the right-click menu in the suite files editing area.
+- Adjusted the container's style when the container was selected or not.
+- Adjusted the width of the horizontal sroll to be consistent with the vertical one in the case editor.
+- Canceled the output panel in the webview, which merged with the debugger. 
 
 **New Functions**
-- Added `Tab` right-click menu to allow close and separate views.
-- 新增 Tab的右键菜单，允许切换左右视图
-- 新增 浏览器Tab右键菜单弹出webview
-- 新增 import 按钮，快速引用工作空间内的应用
+- Added a right-click memu of the tab window which provided a quick way to close or detach it.
+- Added a unique icon in the webview tab to distinguish other tabs.
+- Added a right-click menu of the webview tab which provided a quick way to close it.
+- Added the debugger's console panel to debug and analyze statements.
+- Added the debugger's output panel to log the status information.
+- Added a paragraph mark in the output panel to assist tracking and locating the errors.
+<br>
 
 ## Updates for version 2.0.4
 ---
 **Bug Fix**
-- 修复 可以稳定的打开调试器，解决了某些场景下无法打开调试器的错误
-- 修复 dblclick 双击动作的触发问题
-- 增强 使用了更加稳定的RPC通讯提高回放的稳定性
-- 修复 LCVM子过程parameter和arguments同名时，变量访问混乱的问题
-- 修复 ‘4=3’表达式可以通过的错误
-- 修正 高亮偏移计算已经正确遍历到根节点
-- 修正 开始执行测试可以在任何时候及时停止
-- 修正 裁剪了moment模块，提高了一些加载速度
+- Fixed issues that sometimes the built-in developer tools in the webview couldn't be opened.
+- Fixed issues that "dblclick" don't execute the double-click action.
+- Fixed issues that when the parameter and argument has the same name,the variables confused.
+- Fixed issues that a kind of expressions allowed before("4=3").
+- Fixed issues that sometimes the running cases can't be stop.
+
+**Optimized**
+- Optimized the calculation of the highlight displacement,all of the parent-node traversals calculated.
+- Optimized the RPC communication model to assure its stability.
+- Increased the recording accuracy.
+- Canceled the moment model for faster loading.
 
 **New Functions**
-- 新增 可以使用 click <option> 的方式操作下拉菜单
-- 新增 录制器可以使用xpath表示选择器
-- 增强 提高了录制器的准确率
-- 新增 编辑器自动换行
+- Added the option menu to choose the xpath selector as default before recording.
+- Added a method "click /option/" to choose the select drop-down menu.
+- Added automatically word wrapped in the editor.
 <br>
 
 ## Updates for version 2.0.5

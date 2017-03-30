@@ -31,32 +31,24 @@ Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 **标识符** 
 
 在标识符的定义上，Lemoncase2 类似于 JavaScript。
-```C
-        Var a = 1;
-```
-但在 Lemoncase2 中，您不需要使用`Var`字符。
-
-```C
-        a = 1;
-        a = true;
-```
+<pre class='sublemon'>
+Var a = 1; // in JS
+//但在 Lemoncase2 中，您不需要使用'var'字符
+a = 1;
+a = true;
+</pre>
 
 **数据类型**
 
-以下是您可以使用的数据类型。
+以下是LC2中可以使用的数据类型。
 
-```C
-        number (e.g., 0.12, 1e-3)
-        string (e.g., 'you', "me")
-        Boolean (true/false)
-        RegExp
-```
+- number (e.g., 0.12, 1e-3)
+- string (e.g., 'you', "me")
+- Boolean (true/false)
+- RegExp
 
-RegExp will be used as it is, to match against a string, if it is used with ~~ operator.
-
-Otherwise it will generate a random string based on the regexp pattern (use randexp underneath).
-
-在需要进行一些模糊测试的时候可以使用。
+当你使用"~~"时，正则表达式就会用于匹配字符串，否则会产生基于正则表达式的随机字符串。
+在需要进行一些模糊测试的时候可以使用正则表达式。
 
 **宏** 
 
@@ -91,7 +83,7 @@ Otherwise it will generate a random string based on the regexp pattern (use rand
 - refresh
 - upload
 
-**魔术关键字**
+**魔术字**
 
 魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/marco.html)
 - $HREF
