@@ -22,15 +22,18 @@ The UI of version 2 which has a big change compared with version 1 will be a who
 ## Updates for version 2.0.1
 ---
 **Bug Fix**
-- Fixed the problem of dislocation output caused by communication delay (similar to the CPU overclocking error).
-- Fixed the problem that $IT can only save the current state once.
+- Fixed the issue that the console output misalignment cause of the communication delay.
+- Fixed the issue that the magic keyword "$IT" only save the selector once.
 
 **New Functions**
-- Added `shift+click` can record `move` action when recording.
-- Added that you can use the previous default selector to execute the action statement.
-- Added the function to stop suite.
-- Added the logic of case && suite running and stoping button.
-- Added command line.
+- Added a new function to record "move" action (shift+click).
+- Added a new function to record "assert" action(Ctrl+click).
+- Added action statements using the latest selector as default which with no selector.
+- Added action statements using the value of magic keyword "$IT" as selector which with no selector.
+- Added a new function to stop suite.
+- Added a role to change the icon of the play/stop button when switch to playing/stoping the case.
+- Added a role to change the icon of the play/stop button when switch to playing/stoping the suite.
+- Added the terminal(the command line window).
 <br>
 
 ## Updates for version 2.0.3
