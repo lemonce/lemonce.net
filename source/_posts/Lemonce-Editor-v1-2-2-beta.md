@@ -36,7 +36,7 @@ The UI of version 2 which has a big change compared with version 1 will be a who
 ## Updates for version 2.0.3
 ---
 **Bug Fix**
-- Fixed the webview not back to its original,pristine state when running another task.
+- Fixed the issue that the webview not back to its original,pristine state when running another task.
 
 **Optimized**
 - Optimized the delault case folder of the right-click menu in the case files editing area.
@@ -57,11 +57,11 @@ The UI of version 2 which has a big change compared with version 1 will be a who
 ## Updates for version 2.0.4
 ---
 **Bug Fix**
-- Fixed issues that sometimes the built-in developer tools in the webview couldn't be opened.
-- Fixed issues that "dblclick" don't execute the double-click action.
-- Fixed issues that when the parameter and argument has the same name,the variables confused.
+- Fixed the issue that sometimes the built-in developer tools in the webview couldn't be opened.
+- Fixed the issue that "dblclick" don't execute the double-click action.
+- Fixed the issue that when the parameter and argument has the same name,the variables confused.
+- Fixed the issue that sometimes the case can't be stop running.
 - Fixed issues that a kind of expressions allowed before("4=3").
-- Fixed issues that sometimes the running cases can't be stop.
 
 **Optimized**
 - Optimized the calculation of the highlight displacement,all of the parent-node traversals calculated.
@@ -78,15 +78,17 @@ The UI of version 2 which has a big change compared with version 1 will be a who
 ## Updates for version 2.0.5
 ---
 **Bug Fix**
-修正 抓取器默认替换原选中的选择器内容
-修正 suite生成报告的新接口，正确连接并显示
+- Fixed the issue that when using the inspect element, the current selection didn't be replaced.
+- Fixed the issue that the suite report displayed incorrectly.
+
+**Optimized**
+- Optimized the style of the output panel.
+- Optimized for displaying the graphical report.
 
 **New Functions**
-新增 数组语法 [....]
-新增 对象语法 {.....}
-新增 for in/of 遍历器语法
-新增 鼠标全按钮动作仿真$BUTTON(=right,middle,left)语法（支持鼠标右键）
-新增 调试器（console）按上箭头可以回溯历史命令
-优化 控制台输出样式
-增强 suite运行后report报告功能及图形显示
+- Added the array syntax.
+- Added the object syntax.
+- Added the "for in/of" syntax.
+- Added the "$BUTTON" syntax to simulate operating the right/middle/left mouse button.
+- Added using the up or down arrow key to browse the list of previous commands in the debugger console.
 <br>
