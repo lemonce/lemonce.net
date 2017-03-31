@@ -6,7 +6,7 @@ After the configuration, you will see the UI of Lemonce is divided into four are
 <img class="large-images" src="/images/firstrun-02.png">
 <br>
 
-## 1 Menu bar
+## Menu bar
 ---
 
 Located on the top including File,Edit,View and Help.
@@ -43,15 +43,15 @@ Located on the top including File,Edit,View and Help.
 - **License**
 <br>
 
-## 2 View bar && Side bar
+## View bar && Side bar
 ---
 View bar is located on the far left-hand side including three buttons to switch the view of Side bar, which can assist you while working on your project.
 
-#### 2.1 <i class="fa fa-code fa-2x"></i> **Explore**  
+####  <i class="fa fa-code fa-2x"></i> **Explore**  
 
 The Explorer is used to browse, open, and manage all of the files and folders in your project. 
 <br>
-**2.1.1 OPEN EDITORS** 
+**OPEN EDITORS** 
 
 At the top of the Explorer is a section labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the **OPEN EDITORS** section if you:
 
@@ -64,7 +64,7 @@ Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce
 
 Once you are done with your task, you can remove but not delete files seperately from the **OPEN EDITORS** section by click <i class="fa fa-times"></i>.
 <br>
-**2.1.2 Buttons of editor groups**
+**Buttons of editor groups**
 
 There are three buttons to active different corresponding areas of editor groups, you can find more detailed information below. 
 
@@ -76,7 +76,7 @@ There are three buttons to active different corresponding areas of editor groups
 - <i class="fa fa-globe fa-2x" style="color:green"></i> **Open Webview**
 <br>
 
-**2.1.3 WORKSPACE** 
+**WORKSPACE** 
 
 You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
 
@@ -86,13 +86,13 @@ After opening a folder in Lemonce, the contents of the folder are shown in the E
 - `Move files and folders with drag and drop.`
 - `Use the context menu to explore all options.`
 
-#### 2.2 <i class="fa fa-cog fa-2x"></i> **Config Panel** 
+#### <i class="fa fa-cog fa-2x"></i> **Config Panel** 
 
 There are just two functions below in side bar now,more functions are coming soon.
 - Change the language to English/Chinese
 - Open/close command pallete
 
-#### 2.3 <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
+#### <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
 
 Reports are listed in side bar chronologically.Click one of them you will see [more details](docs/code-editor/index.html) in popup of reports.
 <br>
@@ -100,17 +100,17 @@ Reports are listed in side bar chronologically.Click one of them you will see [m
 <img class="large-images" src="/">
 <br>
 
-## 4 Editor Groups
+## Editor Groups
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
 More details is offered in [Code Editor](docs/code-editor/index.html).
 
-#### 4.1 Case-Editor && WebView
+#### Case-Editor && WebView
 
-#### 4.2 Suite-Editor && WebView
+#### Suite-Editor && WebView
 
 <br>
 
-## 5 Panel
+## Panel
 ---
 You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal.
