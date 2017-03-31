@@ -14,21 +14,27 @@ The times of running the same test case.The defaut value is 1.
 
 ## #AUTOWAIT
 ---
-The defaut value is 500.
+The interval time between two statements,and the default value is 500ms.
 
 <pre class='sublemon'>
+// Change the autowait time to one second
+#AUTOWAIT 1000
+process main{
 
-// 
+}
 </pre>
 
 <br>
 
 ## #LIMIT
 ---
-
+The upper limit time of every statement waiting for selector element showing up,and the default value is 5000ms.
 <pre class='sublemon'>
-// Auto scroll the window when trigger an instruction.
-#AUTOSCROLL
+// Change the limit time to 10 seconds
+#LIMIT 10000
+process main{
+
+}
 </pre>
 
 <br>
@@ -39,10 +45,9 @@ The defaut value is 500.
 Save the current URL.
 
 <pre class='sublemon'>
-//这是一个用 $BUTTON 模拟右键点击的子过程
-process rightclick(a) {
-    $BUTTON = "right";
-    click a;
+process main {
+    jumpto "https://www.deepin.org/";
+    log #HREF;
 }
 </pre>
 

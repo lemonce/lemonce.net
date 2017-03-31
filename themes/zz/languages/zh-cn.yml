@@ -8,6 +8,7 @@ index:
   intro_title: '轻松开展自动化功能及回归测试'
   intro_sub_title: 'Lemonce Editor是一款自动化网页UI测试工具，它能够帮助您花更少的时间与精力去开展测试。其先进的GUI识别技术使您能够准确而可靠地录制并回放测试。直观的代码编辑器可以帮助您以最小的编码工作量，轻松地修改、更新和自定义多个测试用例。'
   intro_btn_video: '产品介绍'
+  intro_video_link: 'http://www.bilibili.com/mobile/video/av6449358.html?from=message'
   intro_btn_manual: '使用手册'
   intro_manual_link: 'https://pan.baidu.com/s/1eRYBodG'
   get_started: '非平台/无插件/用户友好'
@@ -27,11 +28,14 @@ index:
   customer_quote: 'lemonce帮助我们更快解决问题。它支持很多浏览器，尤其是那些常用的。它是一个高度集成的工具，lemoncase2语言很容易学会，因此我们可以花很少的时间去研究它。使用Lemonce我们开展网页UI测试时也觉得更省心了。'
   customer_name: '李彦伟'
   customer_position: '技术负责人'
+  blog_title: '博客'
+  blog_intro: '以下列出的文章能够帮助您更好地了解灵萌测相对于其它测试工具的优势。'
+  blog_article_title: '1 Lemonce vs Selenium:Iframe Element Testing'
 
 footer:
   help: '帮助'
   api_doc: 'api 文档'
-  blog: '微博'
+  blog: '博客'
   support: '售后'
   contract: '联系我们' 
   social: 'QQ群:462067451'
