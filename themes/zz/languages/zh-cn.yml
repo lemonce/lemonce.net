@@ -53,6 +53,7 @@ nav:
 
 page:
   last_updated: '最后更新：'
+  contents: '页面内容：'
 
 docs:
   get_started: '开始使用'

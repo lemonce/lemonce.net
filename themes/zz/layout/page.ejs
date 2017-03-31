@@ -11,6 +11,14 @@
 		</div>
 		<div class="page-content container py-5">
 			<%- partial('partials/doc-sidebar') %>
+			<aside id="toc" class="float-lg-right" role="navigation">
+				<div id="toc-inner">
+					<strong class="toc-title">
+						<%= __('page.contents') %>
+					</strong>
+					<%- toc(page.content, {list_number: false}) %>
+				</div>
+			</aside>
 			<div class="page-inner">
 				<%- page.content %>
 			</div>

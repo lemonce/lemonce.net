@@ -53,6 +53,7 @@ nav:
 
 page:
   last_updated: 'Last Updated:'
+  contents: 'contents'
 
 docs:
   get_started: 'Getting Started Guide'

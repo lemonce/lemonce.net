@@ -175,6 +175,30 @@ figure.highlight pre {
 	width: 220px;
 }
 
+#toc {
+	width: 200px;
+	margin-left: 20px;
+}
+
+#toc ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+.toc-title {
+	font-size: 1.3em;
+	color: #158dd8;
+}
+
+.toc-link {
+	color: #727375;
+}
+.toc-link:hover,
+.toc-link:focus {
+	color: #158dd8;
+	text-decoration: none;
+}
+
 #text-wrap {
 	max-width: 45rem;
 	margin-left: auto;
@@ -239,7 +263,6 @@ figure.highlight pre {
 
 .page-inner2 > p+ul {
 	padding-bottom: 1rem;
-	border-bottom: 1px dashed #ccc;
 }
 
 .page-inner2 > ul+h2 {
@@ -260,7 +283,6 @@ aside a {
 
 aside > div > a {
 	font-size: 1.2em;
-	border-bottom: 1px dashed rgba(0, 0, 0, .1);
 	padding-bottom: 0.5rem;
 }
 
