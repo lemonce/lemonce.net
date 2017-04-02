@@ -46,23 +46,24 @@ title: '灵萌测界面'
 ## 2 视图边栏 && 功能边栏
 ---
 
-视图边栏位于客户端的最左侧，包含了三个按键用于转换功能边栏。能够帮助用户快速地对项目进行编辑。
+视图边栏位于客户端的最左侧，包含了三个用于转换功能边栏的视图的按键。来帮助用户更有效率地切换工作版块。
 
 #### 2.1 <i class="fa fa-code fa-2x"></i> **资源管理器**  
 
 资源管理器用于浏览，打开和管理用户项目中所有的文件及文件夹。
+
 <br>
 **2.1.1 打开编辑区** 
 
 在资源管理器的顶部为“OPEN EDITORS”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“OPEN EDITORS”中。
 
 - Make a change to a file.对一个文件做出改动。
-- Double-click a file's header.
+- Double-click a file's header.在编辑器顶栏上双击文件名称。
 - Double-click a file in the Explorer.在资源管理器中双击一个文件。
-- Open a file that is not part of the current folder.
+- Open a file that is not part of the current folder.打开一个不属于当前文件夹的文件。
 
 Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
-
+只需在“OPEN EDITORS”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束
 Once you are done with your task, you can remove but not delete files seperately from the **OPEN EDITORS** section by click <i class="fa fa-times"></i>.
 <br>
 **2.1.2 编辑区激活按钮**
