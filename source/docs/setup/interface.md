@@ -3,15 +3,15 @@ title: 'Lemonce Interface'
 
 After the configuration, you will see the UI of Lemonce is divided into four areas a as below. Like code editors, Lemonce adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
-<img class="large-images" src="/images/firstrun-02.png">
+<img class="large-images" src="/images/setup/interface-whole.png">
 <br>
 
-## Menu bar
+## 1 Menu bar
 ---
 
 Located on the top including File,Edit,View and Help.
 
-#### File
+#### 1.1 File
 
 - **New** `Ctrl+N` Create a new case or suite.
 - **Open** `Ctrl+O` Open a existed case.
@@ -103,7 +103,7 @@ Reports are listed in side bar chronologically.Click one of them you will see [m
 ## Editor Groups
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
-More details is offered in [Code Editor](docs/code-editor/index.html).
+More details are offered in [Code Editor](docs/code-editor/index.html).
 
 #### Case-Editor && WebView
 
@@ -111,6 +111,6 @@ More details is offered in [Code Editor](docs/code-editor/index.html).
 
 <br>
 
-## Panel
+## Output && Console panel
 ---
-You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal.
+You can display different panels below the editor region for output or debug information or errors and warnings.

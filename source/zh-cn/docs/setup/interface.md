@@ -13,34 +13,34 @@ title: '灵萌测界面'
 
 #### 1.1 文件
 
-- **New** `Ctrl+N` 新建测试用例（Ctrl+N）或套件。
-- **Open** `Ctrl+O` 打开一个现有的用例。
-- **Open Workspace/Folder** 打开一个文件夹作为工作空间。
-- **Close Workspace**  关闭当前的工作空间。
-- **Restart** `Ctrl+R` 重启灵萌测客户端。
-- **Exit** `Ctrl+W` 退出灵萌测客户端。
+- **新建** `Ctrl+N` 新建测试用例（Ctrl+N）或套件。
+- **打开** `Ctrl+O` 打开一个现有的用例。
+- **打开工作空间** 打开一个文件夹作为工作空间。
+- **关闭工作空间**  关闭当前的工作空间。
+- **重新启动** `Ctrl+R` 重启灵萌测客户端。
+- **退出** `Ctrl+W` 退出灵萌测客户端。
 
 #### 1.2 编辑
 
-- **Undo / Redo** `Ctrl+Z`/`Ctrl+Y`
-- **Cut / Copy / Paste** `Ctrl+X`/`Ctrl+C`/`Ctrl+V`
-- **Delete** `Del`
-- **Select All** `Ctrl+A` 
+- **撤销 / 重复** `Ctrl+Z`/`Ctrl+Y`
+- **剪切 / 复制 / 粘贴** `Ctrl+X`/`Ctrl+C`/`Ctrl+V`
+- **删除** `Del`
+- **全选** `Ctrl+A` 
 
 #### 1.3 视图
 
-- **Command Palette** `Ctrl+Shift+P` 在编辑区顶部打开一个命令行。
-- **Toggle Dev Tool** `Ctrl+Shift+I` 
-- **Zoom in/out** `Ctrl+=`/`Ctrl+-`
-- **Reset Zoom** `Ctrl+0`
-- **Toggle Fullscreen** `F11`
-- **Toggle Side Bar** `Ctrl+B` 显示或隐藏边栏。
-- **Debug Console** `Ctrl+D` 打开或关闭调试器面板。
+- **命令面板** `Ctrl+Shift+P` 在编辑区顶部打开一个命令行。
+- **开发者工具** `Ctrl+Shift+I` 
+- **放大/缩小** `Ctrl+=`/`Ctrl+-`
+- **重置缩放** `Ctrl+0`
+- **全屏** `F11`
+- **切换左边栏** `Ctrl+B` 显示或隐藏边栏。
+- **切换调试窗口** `Ctrl+D` 打开或关闭调试器面板。
 
 #### 1.4 帮助
 
-- **Learn More** 
-- **License**
+- **了解更多** 
+- **许可证**
 <br>
 
 ## 2 视图边栏 && 功能边栏
@@ -48,63 +48,65 @@ title: '灵萌测界面'
 
 视图边栏位于客户端的最左侧，包含了三个用于转换功能边栏的视图的按键。来帮助用户更有效率地切换工作版块。
 
-#### 2.1 <i class="fa fa-code fa-2x"></i> **资源管理器**  
+#### 2.1 **资源管理器** <i class="fa fa-code fa-2x"></i> 
+
+**2.1.1 打开编辑区** 
 
 资源管理器用于浏览，打开和管理用户项目中所有的文件及文件夹。
 
-<br>
-**2.1.1 打开编辑区** 
+在资源管理器的顶部为“**OPEN EDITORS**”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“**OPEN EDITORS**”中。
 
-在资源管理器的顶部为“OPEN EDITORS”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“OPEN EDITORS”中。
+- 对一个文件做出改动。
+- 在编辑器顶栏上双击文件名称。
+- 在资源管理器中双击一个文件。
+- 打开一个不属于当前文件夹的文件。
 
-- Make a change to a file.对一个文件做出改动。
-- Double-click a file's header.在编辑器顶栏上双击文件名称。
-- Double-click a file in the Explorer.在资源管理器中双击一个文件。
-- Open a file that is not part of the current folder.打开一个不属于当前文件夹的文件。
-
-Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
-只需在“OPEN EDITORS”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束
-Once you are done with your task, you can remove but not delete files seperately from the **OPEN EDITORS** section by click <i class="fa fa-times"></i>.
+只需在“**OPEN EDITORS**”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在“**OPEN EDITORS**”中移出该文件。
 <br>
 **2.1.2 编辑区激活按钮**
 
 以下三个按钮，用于激活编辑区的相应区域。
 
-- <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel** 切换用例版块
+- <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **切换case面板** 
 
-- <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **Toggle Suite Panel** 切换套件版块
+- <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **切换suite面板** 
 
-- <i class="fa fa-globe fa-2x" style="color:green"></i> **Open Webview** 打开网页视图
+- <i class="fa fa-globe fa-2x" style="color:green"></i> **打开webview** 
 <br>
 
-**2.1.3 WORKSPACE** 
+**2.1.3 工作空间** 
 
-You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
+用户可以点击 **NO WORKSPCACE** 标签下的 <span class="button"> open folder</span> 按钮来打开一个文件夹作为工作空间。
 
-After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things by right-click from here:
-- Create, delete, and rename files and folders.
-- Open the existed cases/folders in file explorer.
+打开选中的文件夹之后，资源管理器会显示当前文件夹中的文件目录，此时用户可以在这里通过鼠标右键完成以下的操作：
+- 新建、删除、重命名文件或者文件夹。
+- 打开已有的用例或文件夹的本地路径。
 - `Move files and folders with drag and drop.`
 - `Use the context menu to explore all options.`
+<br>
 
-#### 2.2 <i class="fa fa-cog fa-2x"></i> **Config Panel** 
+#### 2.2 **配置面板** <i class="fa fa-cog fa-2x"></i> 
 
-There are just two functions below in side bar now,more functions are coming soon.
-- Change the language to English/Chinese
-- Open/close command pallete
+目前配置面板只有以下两个功能，后续会添加更多功能。
+- 改变客户端的语言（目前支持中/英文）
+- 打开/关闭控制台
+<br>
 
-#### 2.3 <i class="fa fa-bar-chart fa-2x"></i> **View Reports** 
+#### 2.3 **查看报告** <i class="fa fa-bar-chart fa-2x"></i>
 
-Reports are listed in side bar chronologically.Click one of them you will see [more details](docs/code-editor/index.html) in popup of reports.
+
+测试报告按照时间顺序排列。点击这些报告，用户可以从一个报告弹窗中得到具体的测试信息。
+关于测试报告的更多内容在[查看测试报告](/zh-cn/docs/guide/reports.html)中。
 <br>
 
 <img class="large-images" src="/">
 <br>
 
-## 4 Editor Groups
+## 4 编辑区
 ---
-The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
-More details is offered in [Code Editor](docs/code-editor/index.html).
+
+编辑文件的主要区域。用户可以在这里打开足够多的编辑器，也能在编辑的同时在另一侧打开网页视图。
+关于编辑区的更多内容在[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)中。
 
 #### 4.1 Case-Editor && WebView
 
@@ -112,6 +114,6 @@ More details is offered in [Code Editor](docs/code-editor/index.html).
 
 <br>
 
-## 5 Panel
+## 5 输出 && 调试面板
 ---
-You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal.
+用户可以在编辑区下方显示不同的面板，用于输出或调试信息、错误或警告。
