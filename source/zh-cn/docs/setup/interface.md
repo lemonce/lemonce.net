@@ -3,7 +3,9 @@ title: '灵萌测界面'
 
 在配置完成工作空间以后，灵萌测客户端的界面如下图被分为四个区域。类似于一些代码编辑IDE，灵萌测采用了常用的用户界面：资源管理器列在左方，显示了用户能选择到的所有文件及文件夹；编辑器放在右方，显示用户正在编辑的内容。
 
-<img class="large-images" src="/images/firstrun-02.png">
+下图是一个完整的灵萌测界面，其中不同的数字标明了不同的功能区域，下面会进行详细介绍。
+
+<img class="large-images-special" src="/images/setup/interface-whole.png">
 <br>
 
 ## 1 菜单栏
@@ -50,20 +52,20 @@ title: '灵萌测界面'
 
 #### 2.1 **资源管理器** <i class="fa fa-code fa-2x"></i> 
 
-**2.1.1 打开编辑区** 
+**I. 已打开的编辑器** 
 
 资源管理器用于浏览，打开和管理用户项目中所有的文件及文件夹。
 
-在资源管理器的顶部为“**OPEN EDITORS**”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“**OPEN EDITORS**”中。
+在资源管理器的顶部为“**已打开的编辑器**”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“**已打开的编辑器**”中。
 
 - 对一个文件做出改动。
 - 在编辑器顶栏上双击文件名称。
 - 在资源管理器中双击一个文件。
 - 打开一个不属于当前文件夹的文件。
 
-只需在“**OPEN EDITORS**”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在“**OPEN EDITORS**”中移出该文件。
+只需在“**已打开的编辑器**”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在“**已打开的编辑器**”中移出该文件。
 <br>
-**2.1.2 编辑区激活按钮**
+**II. 编辑区激活按钮**
 
 以下三个按钮，用于激活编辑区的相应区域。
 
@@ -74,7 +76,7 @@ title: '灵萌测界面'
 - <i class="fa fa-globe fa-2x" style="color:green"></i> **打开webview** 
 <br>
 
-**2.1.3 工作空间** 
+**III. 工作空间** 
 
 用户可以点击 **NO WORKSPCACE** 标签下的 <span class="button"> open folder</span> 按钮来打开一个文件夹作为工作空间。
 
@@ -102,18 +104,48 @@ title: '灵萌测界面'
 <img class="large-images" src="/">
 <br>
 
-## 4 编辑区
+## 3 编辑区
 ---
 
-编辑文件的主要区域。用户可以在这里打开足够多的编辑器，也能在编辑的同时在另一侧打开网页视图。
-关于编辑区的更多内容在[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)中。
+编辑文件的主要区域。用户可以在这里打开足够多的编辑器，也能在编辑的同时在另一侧打开网页视图。推荐用户采用分离视图，即一边是用例/套件编辑器，一边是网页视图的方式来编辑。
 
-#### 4.1 Case-Editor && WebView
-
-#### 4.2 Suite-Editor && WebView
+关于编辑区的内容在这里就不再赘述，更多详细的介绍请参考[编辑器](/zh-cn/docs/code-editor/index.html)一节。
 
 <br>
 
-## 5 输出 && 调试面板
+## 4 输出 && 调试面板
 ---
 用户可以在编辑区下方显示不同的面板，用于输出或调试信息、错误或警告。
+
+- 顶部的“输出”与“调试”按钮可用于切换这两个不同的面板；
+- 右上角的 <i class="fa fa-times-circle" color="grey"></i> 则用于关闭当前面板。若想再次启动面板，用户可在菜单栏的“编辑”子菜单中再次将其调出；
+- 点击 <i class="fa fa-ban"></i> ，可清空当前面板的内容。
+<br>
+
+#### 4.1 **输出面板**
+
+以视频中的"logout"用例为例，运行完毕之后会在面板中生成以下内容。
+<pre class='sublemon'>
+[3:10:57.926] Testing Start.
+[3:10:57.932] Line:4 Jump to 'https://www.deepin.org/en/'.
+[3:10:58.490] Line:5 Wait 555 ms.
+[3:11:00.157] Line:7 click 'div.hs-toggle-menu'.
+[3:11:01.495] Line:11 Jump to 'https://www.deepin.org/wp-login.php'.
+[3:11:02.052] Line:12 Wait 555 ms.
+[3:11:02.250] Line:14 click '#loginform > div:nth-child(3) > a:nth-child(1)'.
+[3:11:02.746] Line:16 Jump to 'https://login.deepin.org/oauth2/authorize?client_id=0634ab169bf76a5df39812c4350778c83b3450e4'.
+[3:11:03.305] Line:17 Wait 555 ms.
+[3:11:08.306] RuntimeError, line:19,Error: No-response from last fetching.
+[3:11:08.310] End of execution
+</pre>
+
+可见输出信息可分为以下几个部分：
+- 测试开始（Testing Start）与执行结束（End of execution 会以蓝色高亮来区隔连续的用例）
+- 系统时间（中括号内部）
+- 执行代码所在的行数
+- 具体的执行用例的内容
+<br>
+
+#### 4.2 **调试面板**
+
+用户可在调试面板中尝试使用Lemoncase2语言。
