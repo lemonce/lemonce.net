@@ -33,16 +33,16 @@ index:
   blog_article_title: '1 Lemonce vs Selenium:Iframe Element Testing'
 
 footer: 
-  help: 'help' 
-  api_doc: 'api doc'
+  help: 'Help' 
+  api_doc: 'API doc'
+  download: 'Download'
+  about: 'About'
+  agreement: 'Agreement'
+  contact: 'Contact us'
+  feature: 'Features'
+  compare: 'Compare'
+  news: 'News'
   blog: 'blog'
-  support: 'support'
-  contract: 'contract us'
-  social: ' '
-  email: 'email'
-  about: 'about'
-  agreement: 'agreement'
-  security: 'security'
 
 nav:
   home: 'Home'

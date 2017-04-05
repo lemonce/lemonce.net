@@ -34,15 +34,15 @@ index:
 
 footer:
   help: '帮助'
-  api_doc: 'api 文档'
-  blog: '博客'
-  support: '售后'
-  contract: '联系我们' 
-  social: 'QQ群:462067451'
-  email: '邮箱'
+  api_doc: 'API 文档'
+  download: '下载'
   about: '关于'
   agreement: '用户协议'
-  security: '数据安全'
+  contact: '联系我们'
+  feature: '特性'
+  compare: '对比'
+  news: '新闻'
+  blog: '博客'
 
 nav:
   home: '首页'

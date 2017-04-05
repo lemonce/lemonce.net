@@ -103,6 +103,12 @@ pre.sublemon {
 	overflow: visible;
 }
 /* text style helper */
+.blog-item:before {
+	content: '|';
+	display: inline-block;
+	margin-right: 4px;
+}
+
 .text-grey-dark {
 	color: #778087;
 }
