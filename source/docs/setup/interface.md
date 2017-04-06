@@ -105,13 +105,40 @@ Reports are listed in side bar chronologically.Click one of them you will see [m
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
 More details are offered in [Code Editor](docs/code-editor/index.html).
-
-#### Case-Editor && WebView
-
-#### Suite-Editor && WebView
-
 <br>
 
 ## 4 Output && Console panel
 ---
 You can display different panels below the editor region for output or debug information or errors and warnings.
+
+- Two buttons on the top are used for switching between "Output" and "Console" panels
+- Click <i class="fa fa-times-circle" color="grey"></i> on the right to close current panel.You can reopen the panel from "Edit" submenu in menu bar.
+- Click <i class="fa fa-ban"></i> to clear the current panel.
+
+#### 4.1 **Output panel**
+
+Take "logout" case as an example in the video, the following contents will be generated in the output panel.
+<pre class='sublemon'>
+[3:10:57.926] Testing Start.
+[3:10:57.932] Line:4 Jump to 'https://www.deepin.org/en/'.
+[3:10:58.490] Line:5 Wait 555 ms.
+[3:11:00.157] Line:7 click 'div.hs-toggle-menu'.
+[3:11:01.495] Line:11 Jump to 'https://www.deepin.org/wp-login.php'.
+[3:11:02.052] Line:12 Wait 555 ms.
+[3:11:02.250] Line:14 click '#loginform > div:nth-child(3) > a:nth-child(1)'.
+[3:11:02.746] Line:16 Jump to 'https://login.deepin.org/oauth2/authorize?client_id=0634ab169bf76a5df39812c4350778c83b3450e4'.
+[3:11:03.305] Line:17 Wait 555 ms.
+[3:11:08.306] RuntimeError, line:19,Error: No-response from last fetching.
+[3:11:08.310] End of execution
+</pre>
+
+Output information can be divided into the following sections:
+- Testing Start && End of execution (hightlighted blue to interval test cases)
+- System time (show in the brackets)
+- The line number of the executing codes
+- Details of the running test cases
+<br>
+
+#### 4.2 **Console panel**
+
+You can input any keywords of Lemoncase2 here.

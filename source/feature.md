@@ -42,7 +42,7 @@ layout: page without sidebar
 - Support "upload file" action testing
 - Support http/https testing
 - Set Chromium as browser core
-- No required to install  browser extenstions or add-ons to execute tests
+- No required to install  browser extensions or add-ons to execute tests
 - Support device-oriented programming
 <br>
 
