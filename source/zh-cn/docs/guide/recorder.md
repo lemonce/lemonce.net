@@ -1,10 +1,10 @@
-title: 'Use of recorder'
+title: '录制器的使用'
 ---
 
-## Record scripts
+## 录制脚本
 ---
 
-Before recording begins, you need to click on the middle of the bracket of Process main to ensure that the code is generated in the correct position. With the recording, the editor will generate code and comments automatically.
+在创建新用例结束，录制开始之前，用户需要点击 `process main` 的大括号中部来保证录制的代码生成在正确的地方。随着录制的进行，用例编辑器会自动生成代码以及注释。
 <br>
 
 ## Create an assertion while recording

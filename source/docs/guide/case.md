@@ -1,6 +1,6 @@
 title: ' Create a test case'
 ---
-## Create in tool bar
+## Create in menu bar
 ---
 You can create new test cases from the toolbar or use the shortcut key `CTRL+N`, in which case you need to create a path to save.
 
@@ -9,7 +9,7 @@ You can create new test cases from the toolbar or use the shortcut key `CTRL+N`,
 
 ## Create in case editor tool bar
 ---
-You can also create new test cases by click the `New Case` button of case editor, in which case you need to create a path to save.
+You can also create new test cases by click the <i class="fa fa-file-code-o"></i> button of case editor, in which case you need to create a path to save.
 
 <img class="large-images" src="/images/guide/case-02.pn">
 <br>
