@@ -72,7 +72,7 @@ doc_sidebar:
   code_editor: '编辑器'
   code_editor_case_editor: '用例编辑器'
   code_editor_suite_editor: '套件编辑器'
-  code_editor_webview: '网络视图'
+  code_editor_webview: '网页视图'
   lemoncase2: '编程语言'
   lemoncase2_instructionkeyword: '指令关键字'
   lemoncase2_actionkeyword: '动作关键字'

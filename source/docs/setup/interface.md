@@ -141,4 +141,4 @@ Output information can be divided into the following sections:
 
 #### 4.2 **Console panel**
 
-You can input any keywords of Lemoncase2 here.
+You can try to use Lemoncase2 to finish some commands here.
