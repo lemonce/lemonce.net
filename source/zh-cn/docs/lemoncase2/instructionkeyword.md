@@ -1,6 +1,18 @@
 title: '指令关键字'
 ---
 
+## import
+---
+
+引用一个子过程。
+<pre class='sublemon'>//这是一个实现右键的过程
+process main(){
+
+}
+
+</pre>  
+
+<br>
 ## process
 ---
 
@@ -15,18 +27,8 @@ process anyname(){
 
 }
 </pre>  
-  
-## assert
----
 
-断言一个表达式为真（在一定的时间内）
-<pre class='sublemon'>//断言存在一个id为'test'的输入框
-assert <#"textarea#test"/>;
-
-//断言id名为‘test’的输入框会在两秒钟内出现
-assert <#"textarea#test"/> in 2000;
-</pre>
-
+<br>
 ## return
 ---
 
@@ -46,16 +48,113 @@ process counter() {
     log count + 'C';        // 子过程已结束，本语句不会执行      
 }
 </pre>
-  
-## wait
+
+<br>
+## for...in
 ---
 
-等待一定的时间（以毫秒为单位）。
+`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
 <pre class='sublemon'>
-//编辑器会等待3000毫秒再执行下一个动作
-wait 3000;
+process main () {
+	counter();   
+	}  
+process counter() {
+	count = 1;
+	while(count < 5){	    // count=1,2,3,4
+		log count + 'A';
+		count +=1;
+		log count + 'B';    // count=2,3,4,5
+      }
+	return;
+    log count + 'C';        // 子过程已结束，本语句不会执行      
+}
 </pre>
 
+<br>
+## for...of
+---
+
+`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+<pre class='sublemon'>
+process main () {
+	counter();   
+	}  
+process counter() {
+	count = 1;
+	while(count < 5){	    // count=1,2,3,4
+		log count + 'A';
+		count +=1;
+		log count + 'B';    // count=2,3,4,5
+      }
+	return;
+    log count + 'C';        // 子过程已结束，本语句不会执行      
+}
+</pre>
+
+<br>
+## if...else
+---
+
+`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+<pre class='sublemon'>
+process main () {
+	counter();   
+	}  
+process counter() {
+	count = 1;
+	while(count < 5){	    // count=1,2,3,4
+		log count + 'A';
+		count +=1;
+		log count + 'B';    // count=2,3,4,5
+      }
+	return;
+    log count + 'C';        // 子过程已结束，本语句不会执行      
+}
+</pre>
+
+<br>
+## continue
+---
+
+`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+<pre class='sublemon'>
+process main () {
+	counter();   
+	}  
+process counter() {
+	count = 1;
+	while(count < 5){	    // count=1,2,3,4
+		log count + 'A';
+		count +=1;
+		log count + 'B';    // count=2,3,4,5
+      }
+	return;
+    log count + 'C';        // 子过程已结束，本语句不会执行      
+}
+</pre>
+
+<br>
+## while
+---
+
+`while`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+<pre class='sublemon'>
+process main () {
+	counter();   
+	}  
+process counter() {
+	count = 1;
+	while(count < 5){	    // count=1,2,3,4
+		log count + 'A';
+		count +=1;
+		log count + 'B';    // count=2,3,4,5
+      }
+	return;
+    log count + 'C';        // 子过程已结束，本语句不会执行      
+}
+</pre>
+
+<br>
 ## log
 ---
 

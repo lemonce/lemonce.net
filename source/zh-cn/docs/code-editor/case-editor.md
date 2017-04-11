@@ -17,11 +17,10 @@ title: '用例编辑器'
 
 <i class="fa fa-floppy-o"></i> **Save Case** 
 
-- If the case is created in work space,just click the button to finish saving. 
 - 如果用例是在工作空间中创建的，只需要点击本按钮来完成保存。
-- If the case is created by clicking the button "New Case" and it is the first time to save it, you have to find a path to save it.
-- 如果用例是通过菜单栏或者
-用户也可以使用`Ctrl+S`进行保存。
+- 如果用例是通过菜单栏或者当前工具栏创建的，并且是第一次保存的时候，用户需要自己寻找一个路径去保存。
+
+也可以使用`Ctrl+S`快捷键进行操作。
 
 <i class="fa fa-crosshairs"></i> **Inspect Element**
 
@@ -29,11 +28,11 @@ Select the elements in the page and output the HTML to the code area.Right click
 
 <i class="fa fa-link"></i> **Insert Link**
 
-Insert the current URL in code area where the mouse pointer is located.
+在代码生成的区域鼠标指针所在的位置插入当前网页的链接地址。
 
 <i class="fa fa-play"></i> **Start Case/** <i class="fa fa-stop"></i> **Stop Case**
 
-Start/Stop the current case.
+开始或停止当前用例。
 
 <i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
 
@@ -45,5 +44,4 @@ Start/Stop the current case.
 
 <i class="fa fa-columns"></i> **Split Editor**
 
-Split the editor and display the same content on the right, any changes on both sides will sync to the other side.Just like the split editor in Visual Studio Code.
-分割编辑器，可以在另一边显示相同的内容，并且任何对内容的改动都会同步到另一边。工作原理和 Visual Studio Code 中的”分割编辑器“相同。
+点击该按钮以分割编辑器，可以在编辑器另一侧显示相同的内容，并且任何对内容的改动都会同步到另一侧。工作原理和 Visual Studio Code 中的”分割编辑器“相同。

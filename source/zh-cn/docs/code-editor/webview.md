@@ -1,31 +1,32 @@
 title: 'WebView'
 ---
-WebView is just like a simplified browser with two main functional areas.
+网页视图就像一个简化的浏览器，包括了两个主要的功能区域。
 <br>
 
-## Tool Bar
+## 工具栏
 ---
-The whole toolbar is as shown below.The address input box is in the middle,which you can enter URL in and press `Enter` on keyboard to jump.
+
+整个工具栏显示如下。地址输入栏位于工具栏中部，输入地址后输入 `Enter` 去完成跳转。
 
 <img class="long-images" src="/images/code-editor/webview-toolbar.png">
 
 <i class="fa fa-arrow-left"></i> **back** / <i class="fa fa-arrow-right"></i> **next**  
 
-Back/Forward to the previous/next page.
+后退到上一个网页或前进到下一个网页。
 
 <i class="fa fa-home"></i> **homepage** 
 
-Back to homepage (The default is `about:blank`).
+跳转到主页，默认为空白页。
 
 <i class="fa fa-refresh"></i> **refresh** 
 
-Refresh the current page. 
+刷新当前的页面。
 
 <i class="fa fa-pencil-square-o"></i> **devtool**
 
-Developer tool is for testers with a certain coding ability or developers.
+开发者工具为有一定编程能力的测试者和开发者提供。
 <br>
 
-## Main Interface
+## 主界面
 ---
 

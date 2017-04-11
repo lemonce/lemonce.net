@@ -13,20 +13,18 @@ Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 
 |[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)|[动作关键字](/zh-cn/docs/lemoncase2/actionkeyword.html)|[表达式](/zh-cn/docs/lemoncase2/expression.html) |[宏](/zh-cn/docs/lemoncase2/marco.html)|[魔术字](/zh-cn/docs/lemoncase2/marco.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click      |<@"cssPath"> |#TIMES   |$HREF  |
-|in              |dbclick    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
-|process         |input...by |<!"cssPath"> |#LIMIT   |$IT    |
-|return          |move       |A~~B         |         |$LOOP  |
-|for...in        |hold       |A==B         |||         
-|for...of        |drop       |A!=B         |||         
-|if...else       |scroll     |RegExp       |||         
-|continue        |jumpto     ||||          
-|while           |wait       ||||           
-|log             |assert     ||||          
-|                |forward    ||||          
-|                |back       ||||            
-|                |refresh    ||||           
-|                |upload     |||||      
+|import          |click / dbclick      |<@"cssPath"> |#TIMES   |$HREF  |
+|process              |input...by    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
+|return         |move |<!"cssPath"> |#LIMIT   |$IT    |
+|for...in          |hold       |A~~B         |         |$LOOP  |
+|for...of        |drop       |A==B         |||         
+|if...else        |scroll       |A!=B         |||         
+|continue       |jumpto     |RegExp       |||         
+|while        |wait     ||||          
+|log           |assert       ||||           
+|             |forward / back     ||||          
+|                |refresh    ||||          
+|                |upload      ||||   |        
 
 **标识符** 
 
@@ -107,7 +105,7 @@ a = true;
 - length/charAt/indexOf/substr/trim
 <br>
 
-## [作用域]()
+## [作用域](/)
 ---
 全局作用域。在 Lemoncase2 主过程中无需 `return` 关键词，主过程没有参数，`process main { }` 是程序的主入口。
 <br>

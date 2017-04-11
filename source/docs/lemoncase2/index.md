@@ -12,20 +12,18 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/marco.html)|[Magic keyword](/docs/lemoncase2/marco.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click     |<@"cssPath"> |#TIMES   |$HREF  |
-|in              |dbclick    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
-|process         |input...by |<!"cssPath"> |#LIMIT   |$IT    |
-|return          |move       |A~~B         |         |$LOOP  |
-|for...in        |hold       |A==B         |||         
-|for...of        |drop       |A!=B         |||         
-|if...else       |scroll     |RegExp       |||         
-|continue        |jumpto     ||||          
-|while           |wait       ||||           
-|log             |assert     ||||          
-|                |forward    ||||          
-|                |back       ||||            
-|                |refresh    ||||           
-|                |upload     |||||           
+|import          |click / dbclick      |<@"cssPath"> |#TIMES   |$HREF  |
+|process              |input...by    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
+|return         |move |<!"cssPath"> |#LIMIT   |$IT    |
+|for...in          |hold       |A~~B         |         |$LOOP  |
+|for...of        |drop       |A==B         |||         
+|if...else        |scroll       |A!=B         |||         
+|continue       |jumpto     |RegExp       |||         
+|while        |wait     ||||          
+|log           |assert       ||||           
+|             |forward / back     ||||          
+|                |refresh    ||||          
+|                |upload      ||||   |       
 
 **Idntifier** 
 

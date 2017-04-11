@@ -51,7 +51,28 @@ jumpto "http://www.deepin.org";
 </pre>
 
 <br>
+## wait
+---
 
+等待一定的时间（以毫秒为单位）。
+<pre class='sublemon'>
+//编辑器会等待3000毫秒再执行下一个动作
+wait 3000;
+</pre>
+
+<br>
+## assert
+---
+
+断言一个表达式为真（在一定的时间内）
+<pre class='sublemon'>//断言存在一个id为'test'的输入框
+assert <#"textarea#test"/>;
+
+//断言id名为‘test’的输入框会在两秒钟内出现
+assert <#"textarea#test"/> in 2000;
+</pre>
+
+<br>
 ## forward / back
 ---
 <br>
