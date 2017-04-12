@@ -23,9 +23,6 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 - Linux for Lemonce is coming soon.
 <br>
 
-## [First Run](/docs/setup/firstrun.html)
+## [Lemonce Interface](/docs/setup/interface.html)
 ---
 <br>
-
-## [Upgrade](/docs/setup/upgrade.html)
----

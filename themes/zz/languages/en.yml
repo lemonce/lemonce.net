@@ -62,7 +62,6 @@ docs:
 doc_sidebar:
   setup: 'Set Up'
   setup_download: 'download-install'
-  setup_firstrun: 'firstrun'
   setup_interface: 'Lemonce interface'
   guide: 'Getting Started'
   guide_case: 'create a test case'

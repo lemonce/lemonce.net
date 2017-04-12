@@ -10,41 +10,38 @@ title: '下载与安装'
 
 页面会自动跳转到 GitHub 上的 [lemonce-publisher](https://github.com/lemonce/lemonce-publisher/releases) ，该页面为您提供了最新版本的 Lemonce。
 
-<img class="large-images" src="/">// github page
+<img class="large-images" src="/images/setup/interface-download-01.png">
 
-2.点击第一个提供给 Windows 版本的链接 **Downloads list** which is applied for Windows.
-- If you use Microsoft Internet Explorer or Microsoft Edge, a notification bar will appear at the bottom of the page. Click `Save` or `Save as` to save the file to your computer. 
-- 
+2.点击下载表单中第一个链接，该链接是提供给 Windows 版本的。
 
-<img class="long-images" src="/"> //Download from IE or Edge
+- 如果用户使用的是 IE 或者是 Edge 浏览器，下载提示会出现在页面最下方，点击 `保存` 或者 `另存为` 来保存安装文件。
 
 - In other browsers, you may need to first save the Lemonce installer to your computer, then open the file you downloaded. 
-- 在其它的浏览器中，
+- 在其它的浏览器中，用户可能会需要先保存灵萌测安装包，再打开
 
-<img class="long-images" src="/">//Download from other browsers
+3.按照安装向导进行操作，用户可以选择安装路径进行安装。
 
-3.Then, just click `install` and enter the physical path you want to install Lemonce to.
+<img src="/images/setup/interface-download-02.png">
+<img src="/images/setup/interface-download-03.png">
 
-<img class="long-images" src="/">//install
-
-4.Finally, Double-click on the Lemonce icon and start you test ^_^
+4.安装结束之后，双击灵萌测图标即可开始测试 ^_^ 。
 <br>
 
 ## Mac
 ---
 
-Below describes how to download and install Lemonce on Mac (Apply to Version ). There exist serveral steps.
+以下描述了如何在 Mac 上下载并安装灵萌测，包括了以下步骤。
 
-1.The same as first step of Windows.
+1.和 Windows 的第一步相同。
 
-2.Click the seconde URL of the **Downloads** list which is applied for Mac. 
+2.点击下载表单中第一个链接，该链接是提供给 Mac 版本的。
 
-3.
+3.和 Windows 的最后两步相同。
 <br>
 
 ## Linux
 ---
 
-Linux版本的Lemonce即将发布。
+Linux 版本的灵萌测即将发布。
 
 
