@@ -11,7 +11,7 @@ The whole toolbar is as shown below.
 
 Create a new suite out of work space whose default name is 'Untitle-0.lct',but you should find a path to save it. Here you can't use `Ctrl+N` which only can be applied for create a new case.
 
-<i class="fa fa-folder-open-o"></i> **Oper Suite**
+<i class="fa fa-folder-open-o"></i> **Open Suite**
 
 Open a suite in local system.
 

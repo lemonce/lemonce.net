@@ -1,19 +1,21 @@
-title: 'Complete a test suite'
+title: '完善测试套件'
 ---
 
-## Create a test suite
+## 创建一个测试套件
 ---
 
-**create test suite in work space**
+**菜单顶栏**
 
-Same as creating a test case, test suite can be create in the work space, in order to facilitate the management of the cases.
+用户可以在菜单顶栏点击“文件——新建”来创建一个新的套件，以这种方式创建的测试套件在保存时需要用户自己建立一个路径。
 
-**one key to output test suite**
+<img class="large-images" src="/images/guide/suite-01-zh.png">
 
-You can export the test case in the editing area as a whole test suite according to the current order of the cases.
+**编辑器工具栏**
+
+用户也可以通过点击用例编辑器的  <i class="fa fa-file-code-o"></i>  按钮来新建测试用例，这种方式创建的测试用例也需要用户自己建立一个保存路径。
 <br>
 
-## Suite editor
+## 套件编辑器
 ---
 
 **activate test suite**

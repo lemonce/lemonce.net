@@ -1,7 +1,7 @@
 title: 'Use of recorder'
 ---
 
-## 1 Record scripts
+## Record scripts
 ---
 
 Before recording begins, you need to click on the middle of the bracket of Process main to ensure that the code is generated in the correct position. 
@@ -9,12 +9,12 @@ Before recording begins, you need to click on the middle of the bracket of Proce
 Click <i class="fa fa-circle" style="color:red"></i> to start recording. With the recording, the editor will generate code and comments automatically.
 <br>
 
-## 2 Create an assertion while recording
+## Create an assertion while recording
 ---
 In recording, press the `CTRL` and select the very page elements with the mouse, you can automatically add assertion statement.
 <br>
 
-## 3 Play back the recorded steps
+## Play back the recorded steps
 ---
 Click <i class="fa fa-stop-circle-o" style="color:red"></i> to end the recording. 
 

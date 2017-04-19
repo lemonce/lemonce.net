@@ -10,19 +10,19 @@ title: 'WebView'
 
 <img class="long-images" src="/images/code-editor/webview-toolbar.png">
 
-<i class="fa fa-arrow-left"></i> **back** / <i class="fa fa-arrow-right"></i> **next**  
+<i class="fa fa-arrow-left"></i> **后退** / <i class="fa fa-arrow-right"></i> **前进**  
 
 后退到上一个网页或前进到下一个网页。
 
-<i class="fa fa-home"></i> **homepage** 
+<i class="fa fa-home"></i> **主页** 
 
 跳转到主页，默认为空白页。
 
-<i class="fa fa-refresh"></i> **refresh** 
+<i class="fa fa-refresh"></i> **刷新** 
 
 刷新当前的页面。
 
-<i class="fa fa-pencil-square-o"></i> **devtool**
+<i class="fa fa-pencil-square-o"></i> **开发者工具**
 
 开发者工具为有一定编程能力的测试者和开发者提供。
 <br>
