@@ -18,5 +18,4 @@ You can also create new test cases by click the <i class="fa fa-file-code-o"></i
 ---
 The work space is associated with local file system,in which any changes about the cases such as create,rename or remove will be synchronized to the local folder.
 
-
 <img class="large-images" src="/images/guide/case-03.png">

@@ -10,7 +10,7 @@ title: ' 创建测试用例'
 <img class="large-images" src="/images/guide/case-01-zh.png">
 <br>
 
-## 编辑器的工具栏
+## 编辑器工具栏
 ---
 用户也可以通过点击用例编辑器的  <i class="fa fa-file-code-o"></i>  按钮来新建测试用例，这种方式创建的测试用例也需要用户自己建立一个保存路径。
 

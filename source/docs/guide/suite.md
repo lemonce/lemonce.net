@@ -4,13 +4,23 @@ title: 'Complete a test suite'
 ## Create a test suite
 ---
 
-**create test suite in work space**
+**create in menu bar**
 
-Same as creating a test case, test suite can be create in the work space, in order to facilitate the management of the cases.
+You can create a new test suite from the toolbar, in which case you need to create a path to save.
 
-**one key to output test suite**
+<img class="large-images" src="/images/guide/suite-01.png">
 
-You can export the test case in the editing area as a whole test suite according to the current order of the cases.
+**create in suite editor tool bar**
+
+You can also create a new test suite by click the <i class="fa fa-file-text-o"></i> button of case editor, in which case you need to create a path to save.
+
+<img class="large-images" src="/images/guide/suite-02.png">
+
+**create in work space**
+
+The work space is associated with local file system,in which any changes about the cases such as create,rename or remove will be synchronized to the local folder.
+
+<img class="large-images" src="/images/guide/suite-03.png">
 <br>
 
 ## Suite editor

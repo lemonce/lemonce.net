@@ -2,6 +2,25 @@
 title: Lemonce Editor v2.0.0
 keywords: 'Editor'
 ---
+## Updates for version 2.0.6
+---
+
+**Bug Fix**
+
+- Fixed the issue that sometimes the recorder created additional statements.
+- Fixed the issue that the comments didn't match the language setted.
+
+**Optimized**
+
+- When recording the ‘jumpto’ action, the time of created “wait” statements was adjusted to 2 second.
+- Optimized the "format" function.
+
+**New Functions**
+
+- Added the upload function.
+- Added the upload syntax.
+- Added a tool for bluk importing the '.csv' file to '.lc2' file.
+<br>
 
 ## Updates for version 2.0.5
 ---
