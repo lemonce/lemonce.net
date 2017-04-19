@@ -4,51 +4,46 @@ layout: page without sidebar
 
 ## Element Location
 ---
-Compared to Selenium selectors, Lemonce selectors have many outstanding advantages that can make a test automation project to easily achieve accurate web element identification and precise location. Lemonce uses enhanced CSS selector, Xpath selector, as well as Sizzle selector, which can locate element by content. It supports iframe penetration location and intelligent identification for different selectors. In addition, Lemonce has a great programming language，LemonCase2, which has simple and concise language grammars to make coding work easier, so unlike Selenium that requires complicated coding and heavy workload to handle element location, Lemonce allows testers to achieve better testing performance with minimal coding work. 
+Compared to Selenium selectors, Lemonce selectors have many outstanding advantages that can make a test automation project to easily achieve accurate web element identification and precise location. 
+
+Lemonce uses enhanced CSS selector, Xpath selector, as well as Sizzle selector, which can locate element by content. It supports iframe penetration location and intelligent identification for different selectors. In addition, Lemonce has a great programming language,LemonCase2, which has simple and concise language grammars to make coding work easier, so unlike Selenium that requires complicated coding and heavy workload to handle element location, Lemonce allows testers to achieve better testing performance with minimal coding work. 
 
 Object location (web element location) is the core process of web test automation. For handling a web element, firstly you need identify the web element properly. It is like the way you identify a person who has some varied unique characteristics or identifications. For example, you may find the person with his or her ID number, name, address, etc. 
 
 The following comparisons will let you understand a smart web app testing team should choose Lemonce instead of Selenium to perform web test automation, especially for handling web element identification and location.
 
-
-Selenium
+#### Selenium
 Selenium provides a number of webelement location methods and Webdriver offers rich APIs. There are multiple element location strategies: id, name, CSS selectors, xpath, and so on. CSS selector has higher efficiency than xpath when locating web elements,( Read more in Selenium WebDriver Selector section). 
 
-WebElement Object Location Strategies:
-ID：driver.findElement(By.id(<elementID>))
-Name：driver.findElement(By.name(<elementName>))
-className：driver.findElement(By.className(<elementClassName>))
-tagName：driver.findElement(By.tagName(<htmlTagName>))
-linkText：driver.findElement(By.linkText(<linkText>))
-partialLinkText：driver.findElement(By.partialLinkText(<partialLinkText>))
-css：driver.findElement(By.cssSelector(<cssSelector>))
-xpath：driver.findElement(By.xpath(<xpathQuery>))
-
-LemonCase2
+#### LemonCase2 (Compared with Webdriver webElement)
 LemonCase2, a key part of Lemonce testing tool, is a proprietary programming language for web testing. Like Selenium Webdriver, it supports multiple selectors. In addition, LemonCase2 can support Sizzle Selector and has intelligent identification for different selectors, no matter it is CSS selector , xpath selector, or sizzle selector. 
 
-LemonCase2 (Compared with Webdriver webElement)
-ID：" #<elementID>"
-Name：" [name=<elementName>]"
-className：".<elementClassName>"
-tagName："<htmlTagName>"
-linkText："[href=<linkText>]"
-partialLinkText："[href*=<partialLinkText>]"
-css："<cssSelector>"
-xpath："<xpathQuery>"
- 
+|                |Lemonce             |Selenium                                          |
+|----------------|:------------------:|:------------------------------------------------:|
+|ID              |`#<elementID>`        |`driver.findElement(By.id(<elementID>))`        |
+|Name            |`[name=<elementName>]`|`driver.findElement(By.name(<elementName>))`    |
+|className |`.<elementClassName>` |`driver.findElement(By.className(<elementClassName>))`|
+|tagName         |`<htmlTagName>`       |`driver.findElement(By.tagName(<htmlTagName>))` |
+|linkText        |`[href=<linkText>]`  |`driver.findElement(By.linkText(<linkText>))`    |
+|partialLinkText |`[href*=<partialLinkText>]`|`driver.findElement(By.partialLinkText(<partialLinkText>))`|
+|css             |`<cssSelector>`	|`driver.findElement(By.cssSelector(<cssSelector>))`|
+|xpath           |`<xpathQuery>`	|`driver.findElement(By.xpath(<xpathQuery>))`	    |
+<br>
+
 ## Selenium Webdriver Selector
 ---
-Selenium Webdriver：CSS selector，xpath selector，Dom selector, and others like selector，name selector. Dom selector requires complicated programming, testers must have in-depth learning on JavaScript. Even though it has highest execution efficiency, this selector seldom is used as final web element selection solution. So Dom selector will not be introduced below.
-Most selenium selectors are the subset of CSS selector. That is, other selector solutions, including ID selector, name selector, and even xpath selector can use CSS selector as equivalent alternative. CSS selector has powerful functions with concise grammar. But there is some learning cost required to grasp it. (And sometimes you need take care of Selenium CSS selector multiple classes.)  Here are some examples to show how CSS selector substitute other selectors：
-Selenium ID selector：By.id(<elementID>)
-Selenium CSS selector（equivalent to ID selector）：By.cssSelector(#<elementID>)
-Selenium name selector：By.name(<elementName>)
-Selenium CSSselector（equivalent to nameselector）：By.cssSelector([name=<elementName>])
-Selenium className selector：By.className(<elementClassName >)
-Selenium CSS selector（equivalent to nameselector）：By.cssSelector(.<elementClassName >)
+Selenium Webdriver:CSS selector,xpath selector,Dom selector, and others like selector,name selector. Dom selector requires complicated programming, testers must have in-depth learning on JavaScript. Even though it has highest execution efficiency, this selector seldom is used as final web element selection solution. So Dom selector will not be introduced below.
+Most selenium selectors are the subset of CSS selector. That is, other selector solutions, including ID selector, name selector, and even xpath selector can use CSS selector as equivalent alternative. CSS selector has powerful functions with concise grammar. But there is some learning cost required to grasp it. (And sometimes you need take care of Selenium CSS selector multiple classes.)  Here are some examples to show how CSS selector substitute other selectors:
+
+Selenium ID selector:By.id(<elementID>)
+Selenium CSS selector（equivalent to ID selector）:By.cssSelector(#<elementID>)
+Selenium name selector:By.name(<elementName>)
+Selenium CSSselector（equivalent to nameselector）:By.cssSelector([name=<elementName>])
+Selenium className selector:By.className(<elementClassName >)
+Selenium CSS selector（equivalent to nameselector）:By.cssSelector(.<elementClassName >)
+
 Because Selenium IDE can only support xpath recording, and xpath is relatively easy to learn, that is why Selenium beginners and most users use xpath selector solution.
-Xpath selector has lower learning cost than css selector，but with efficiency problem and the issue that it cannot locate web elements with changed paths. 
+Xpath selector has lower learning cost than css selector,but with efficiency problem and the issue that it cannot locate web elements with changed paths. 
 Xpath’s execution efficiency is quite low in IE, and this shortcoming is usually suffered criticism by web app testers. Else, xpath selector has lower efficiency than CSS selector because of its design issue, and there are some relative discussions on Stack Overflow (http://stackoverflow.com/questions/1909584/xpath-to-css-selector):
 “Unfortunately CSS won't parse the entire tree when move up and down till it finds what it is after. This is the main reason why XPath is so slow. CSS finds an item and then can move laterally through the DOM. The CSS below will find the input box that is after the TD that has class=TCN which holds your span with text in the table.”
 
@@ -60,14 +55,14 @@ https://saucelabs.com/resources/articles/selenium-tips-css-selectors
 ---
 LemonCase2 originally supports those improved CSS selector, xpath selector, and sizzle selector. (Sizzle selector is a selector based on special CSS selector that is expanded by JQuerys and increases many features CSS selector doesn’t own. The most well-known feature is location selection by element content. 
 1.	Reduce:
-Compared to Selenium, LemonCase2 doesn’t have ID selector，name selector, and Dom selector, because CSS selector overlaps the selector features of ID selector, name selector, and Dom selector has some defects such as high learning threshold and difficult encapsulation.
+Compared to Selenium, LemonCase2 doesn’t have ID selector,name selector, and Dom selector, because CSS selector overlaps the selector features of ID selector, name selector, and Dom selector has some defects such as high learning threshold and difficult encapsulation.
 2.	Enhance:
 A)	Iframe Penetration selector
-LemonCase2 expands original CSS selector, xpath selectorand sizzle selector, includes Iframe penetration selection symbol l”<”，which enables the expanded selector to support direct element location inside iframes.
+LemonCase2 expands original CSS selector, xpath selectorand sizzle selector, includes Iframe penetration selection symbol l”<”,which enables the expanded selector to support direct element location inside iframes.
 (see more in Lemonce vs Selenium:Iframe Element Testing)
 B)	Sizzle selector
 In addition, CSS selector section adds the support for sizzle selector, expands the original features of CSS selector so that it can support the selector feature that can locate element by content.
-Sizzle selector is much friendly with testers. The webpage element location depends on its contents.  So the selector itself has more clear meanings (semantic expression) . Here is an example：
+Sizzle selector is much friendly with testers. The webpage element location depends on its contents.  So the selector itself has more clear meanings (semantic expression) . Here is an example:
  
 <img>
 
@@ -80,15 +75,15 @@ Furthermore, iterative development usually will lead to failures in locating obj
 
 C)	Intelligent Identification for Different Selectors:
 When Selenium uses different selectors, it need make some statements specifically. For example: 
-css：driver.findElement(By.cssSelector(<cssSelector>))
-xpath：driver.findElement(By.xpath(<xpathQuery>))
+css:driver.findElement(By.cssSelector(<cssSelector>))
+xpath:driver.findElement(By.xpath(<xpathQuery>))
 
 Lemonce Compiler can intelligently identify selectors according to their different characteristics, so the coding workload will be reduced.
-css："<cssSelector>"
-xpath："<xpathQuery>"
-sizzle："<sizzleSelector>"
+css:"<cssSelector>"
+xpath:"<xpathQuery>"
+sizzle:"<sizzleSelector>"
 
-3.	Solve Selenium selector problems：
+3.	Solve Selenium selector problems:
 A)	Support CSS selector recording:
 CSS selector has some learning threshold. But direct CSS selector recording method, or the feature of element capturer, can directly capture the element’s optimized css path. This approach can reduce the learning cost of CSS selector to a certain extent. Else, Lemonce also supports xpath selector recording, which may bring better testing experience.
 B)	Increase xpath selector’s execution efficiency:
@@ -96,7 +91,7 @@ Because xpath selector itself can be switched to CSS selector with Lemonce gramm
 C)	With sizzle selector’s further enhancement on CSS selector, the object location based on element content can properly solve the object element location problems in Selenium.
 The improved CSS selector and xpath selector can achieve direct element location inside iframes. (see more in Lemonce vs Selenium:Iframe Element Testing)
 D)	Selector Intelligent Identification:
-When multiple selectors are used in testing codes to describe different elements, lemonCase2 compiler will compare characteristics of different selectors with regular expression matching, and then achieve intelligent identifications for different selectors. This method will make language grammar more simple and concise with no necessary to work in the way like Selenium grammar to add some identification symbols ( such as By.cssSelector()，By.xpath() etc.) to differentiate different selectors. Here are some examples
+When multiple selectors are used in testing codes to describe different elements, lemonCase2 compiler will compare characteristics of different selectors with regular expression matching, and then achieve intelligent identifications for different selectors. This method will make language grammar more simple and concise with no necessary to work in the way like Selenium grammar to add some identification symbols ( such as By.cssSelector(),By.xpath() etc.) to differentiate different selectors. Here are some examples
  
 click "#gbw";  //click an element selected by CSS selector
 click"[@id='gbw']";  // click an element selected by xpath selector
