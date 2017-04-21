@@ -76,3 +76,6 @@ deploy:
   repo: https://github.com/lemonce/lemonce.github.io
   name: lemonce-bot
   email: business@or-change.cn
+
+marked:
+  breaks: false

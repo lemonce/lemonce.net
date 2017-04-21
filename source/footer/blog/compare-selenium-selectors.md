@@ -53,7 +53,6 @@ _“Unfortunately CSS won't parse the entire tree when move up and down till it 
 Among those users who don’t master CSS selector, they usually manually modify the recorded xpath selector codes and change them into codes using ID selector, Name selector , etc., so as to increase test efficiency. However, elements in many web projects don’t have ID or name properties, so there is no way to simply achieve element selection through this kind of electors.
 
 CSS selector is more powerful with abundant and accurate object location solution and the efficiency is much better than xpath selector. Sauce lab sofficial site provides specific instructions web pages to teach users how to completely switch xpath selectors into css selectors:https://saucelabs.com/resources/articles/selenium-tips-css-selectors
-<br>
 
 ## LemonCase2 Selector
 ---
@@ -112,7 +111,7 @@ Because xpath selector itself can be switched to CSS selector with Lemonce gramm
 
 C)	
 
-With sizzle selector’s further enhancement on CSS selector, the object location based on element content can properly solve the object element location problems in Selenium.The improved CSS selector and xpath selector can achieve direct element location inside iframes. (see more in Lemonce vs Selenium:Iframe Element Testing)
+With sizzle selector’s further enhancement on CSS selector, the object location based on element content can properly solve some of the object element location problems.The improved CSS selector and xpath selector can achieve direct element location inside iframes. (see more in Lemonce vs Selenium:Iframe Element Testing)
 
 D)	**Selector Intelligent Identification**
 When multiple selectors are used in testing codes to describe different elements, lemonCase2 compiler will compare characteristics of different selectors with regular expression matching, and then achieve intelligent identifications for different selectors. This method will make language grammar more simple and concise with no necessary to work in the way like Selenium grammar to add some identification symbols ( such as By.cssSelector(),By.xpath() etc.) to differentiate different selectors. 
@@ -120,24 +119,78 @@ When multiple selectors are used in testing codes to describe different elements
 Here are some examples:
 
 `click "#gbw";`  //click an element selected by CSS selector
+
 `click"[@id='gbw']";` // click an element selected by xpath selector
+
 <br>
 
 ## Complexity Comparisons of Frequently-used Operation Grammar
 ---
 
 【Notes】These simple grammar comparisons are to present advantages of LemonCase2 selector and its grammar. To see more detailed grammar comparisons, please view the specific documentation of grammar comparisons.
-	
-|                |LemonCase2          |Selenium Webdriver                     |
-|----------------|:------------------:|:-------------------------------------:|
-|Left Click with Mouse |`$BUTTON = left;` |`driver.findElement(By.id(<elementID>))`        |
-|            |`click "<xpathQuery>";`|`driver.findElement(By.name(<elementName>))`    |
-|className |`.<elementClassName>` |`driver.findElement(By.className(<elementClassName>))`|
-|tagName         |`<htmlTagName>`       |`driver.findElement(By.tagName(<htmlTagName>))` |
-|linkText        |`[href=<linkText>]`  |`driver.findElement(By.linkText(<linkText>))`    |
-|partialLinkText |`[href*=<partialLinkText>]`|`driver.findElement(By.partialLinkText(<partialLinkText>))`|
-|css             |`<cssSelector>`	|`driver.findElement(By.cssSelector(<cssSelector>))`|
-|xpath           |`<xpathQuery>`	|`driver.findElement(By.xpath(<xpathQuery>))`	    |
+
+<table border="1">
+  <tr>
+    <th></th>
+    <th>Lemoncase2</th>
+    <th>Selenium Webdriver</th>
+  </tr>
+  <tr>
+    <td width="200" rowspan="2" valign="center">Left Click with Mouse</td>
+    <td width="400">`$BUTTON = left;`<br>`click"<xpathQuery>";`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.click(driver.findElement(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td>`$BUTTON = left;`<br>`click"<xpathQuery>";`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.click(driver.findElement(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td>Double Left Click with Mouse</td>
+    <td>`dblclick "<xpathQuery>";`</td>
+    <td>`Driver driver=new Driver();`
+    `driver.findElement(By.xpath(<xpathQuery>)).click();`</td>
+  </tr>
+  <tr>
+    <td >Press Left Mouse Button</td>
+    <td>`//$BUTTON Default Value left;`
+    `hold "(<xpathQuery>";`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.clickAndHold(driver.findElemen(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td >Drag Element with Mouse</td>
+    <td>`move "(<xpathQuery>";`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.moveToElement(driver.findElement(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td >Right Click with Mouse</td>
+    <td>`$BUTTON = right;`
+    `click"<xpathQuery>";`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.contextClick(driver.findElement(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td >Drag object element onto a specific element </td>
+    <td>`hold "(<xpathQuery>";`
+    `move "(<xpathQuery>";`
+    `drop;`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.dragAndDrop(driver.findElement(By.xpath(xpath)),
+    driver.findElement(By.xpath(<xpathQuery>)));`</td>
+  </tr>
+  <tr>
+    <td>Drag object element onto a specific element</td>
+    <td>`hold "#1";`
+    `move "#3";`
+    `drop`</td>
+    <td>`Actions action = new Actions(driver);`
+    `action.clickAndHold(driver.findElement(By.id("1")))
+    .moveToElement(driver.findElement(By.id("3"))).perform();`</td>
+  </tr>
+</table>
 
 From the selector comparisons above, you may understand Lemonce can be a great Selenium alternative, especially because the powerful features of its selectors can implement precise element identification and selection. And moreover, you don’t need spend much time to solve those problems and issues in Selenium, including those require much coding work on Selenuim selector by class, by text or innertext, or more complicated issues like selenium css selector nth child. Lemonce has its unique simple programming language with concise and intuitive grammar to allow you to create complex test cases easily and efficiently with very low learning cost.  If you use Selenium testing tools, you have to master one or two programming or script languages such as python, c#, Java, etc. which require more learning costs, especially for a testing team which members use different kinds of programming languages.
 

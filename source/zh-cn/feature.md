@@ -31,9 +31,9 @@ layout: page without sidebar
 ## 完整的录制回放和平稳测试的执行
 ---
 
-[**LemonceDriver - 比 WebDriver 更好的选择**](/feature/selenium-iframe-element-testing.html)
+[**LemonceDriver - 比 WebDriver 更好的选择**]
 - 支持直接跨域测试公网及本地项目（例如IFrame）
-- 支持IFrame多层穿透，直接选取IFrame中的元素，不需要编写额外的脚本
+- 支持IFrame多层穿透，直接选取IFrame中的元素，不需要编写额外的脚本 [了解更多](/footer/blog/selenium-iframe-element-testing.html)
 - 准确地模拟用户与任何web应用的交互
 - 支持触发 CSS hover
 - 通过上下文判定完整回放鼠标动作与轨迹

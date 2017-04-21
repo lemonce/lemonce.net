@@ -4,7 +4,9 @@ layout: page without sidebar
 
 **Lemonce Editor** is a professional web application testing tool that offers a convenient way to handle iframes in any automated web test project. You never need to write additional codes or testing scripts for handling iframes, no matter your test case need identify nested ifrmaes or switch over the elements in iframes. Compared to Selenium that requires much coding work and tedious steps, Lemonce Editor is the best web testing tool to handle iframes in web test automation.
 
-#### Why and how to handle iframes in automated web test with Lemonce Editor?
+<br>
+
+## Why and how to handle iframes in automated web test with Lemonce Editor?
 ---
 
 As **a better alternative to Selenium**, Lemonce Editor has some outstanding advantages in terms of Iframe testing:
@@ -12,7 +14,7 @@ As **a better alternative to Selenium**, Lemonce Editor has some outstanding adv
 - Directly penetrate elements to exactly locate iframes with its unique iframe penetration selector. And the “Inspect Element” button built in the test case editor can facilitate the process of editing test case. 
 (When handling Iframes using WebDriver, you need switch in and out the iframe frequently.)
 - No OS and browser compatibility issues when executing test case consisting iframe selector
-(When handling iframes using selenium webdriver, you need install browser add-ons and extensions and take care of OS and browse compatibility problems) 
+(When handling iframes using selenium webdriver, you need install browser add-ons and extensions and take care of OS and browse compatibility problems)
 
 Lemonce editor is a great iframe testing tool that is much better than Selenium. Here are more details and examples about how to handle iframe in web testing projects with Lemonce Editor.
 
@@ -39,9 +41,10 @@ The iframe penetration selector can bring many benefits. The obviously one is, u
 Lemonce execution engine, LCVM (Lemonce Virtual Machine), can work seamlessly with LCDriver, (Lemonce Driver), and support smooth test execution of iframe elements on any browser without adjusting testing codes. This selenium alternative tool will greatly increase the convenience of iframe testing.  Because it is not sensitive to OS and browser, you don’t need to consider compatibility solutions. This is a great advantage over Selenium Web Driver. To handle iframe testing, LCDriver can support direct cross-domain testing for both third-party web contents and local components. It is somewhat similar to CORS (Cross-Origin Resource Sharing), which has cross-domain access controls to manipulate web contents across domain-boundaries. 
 
 Many web testing professionals often encounter problems on working with Iframes. They usually search on github or Google to get some clues on how to handle iframes in selenium webdriver.  Unfortunately, they will finally feel difficult to find great solutions or easy approaches to implement web tests consisting multiple iframes and user actions on the iframes. Actually, many selenium issues related to handling iframes in selenium webdriver on github are still unclosed, or those open source selenium solutions cannot work properly.
+
 <br>
 
-#### What are the difficulties or challenges you faced in selenium ?
+## What are the difficulties or challenges you faced in selenium ?
 ---
 
 The followings will explain why there is no convenient and easy approach to handle iframes in selenium web driver.
