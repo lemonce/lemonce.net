@@ -78,9 +78,9 @@ Here is an example: for the button of “Sign in” in Google.
  
  <img src="/images/blog/selector-1.png">
 
-- CSS selector path: '#gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)'
-- Xpath selector path: "/*[@id='gbw']/div/div/div[2]/div[3]/div/a[1]"
-- Sizzle selector path: "a:contains(Sign in)" 
+- CSS selector path: `#gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > a:nth-child(1)`
+- Xpath selector path: `/*[@id='gbw']/div/div/div[2]/div[3]/div/a[1]`
+- Sizzle selector path: `a:contains(Sign in)` 
 
 Element selection based on contents can simplify selector to a certain extent, and enhance the readability of selector, so users can understand more information about the target elements. Therefore, it accomplishes the semantization of selectors.
 
@@ -142,7 +142,7 @@ Here are some examples:
     `action.click(driver.findElement(By.xpath(<xpathQuery>)));`</td>
   </tr>
   <tr>
-    <td>`$BUTTON = left;`<br>`click"<xpathQuery>";`</td>
+    <td>`//$BUTTON Default Value left`<br>`click"<xpathQuery>";`</td>
     <td>`Actions action = new Actions(driver);`
     `action.click(driver.findElement(By.xpath(<xpathQuery>)));`</td>
   </tr>
@@ -154,10 +154,9 @@ Here are some examples:
   </tr>
   <tr>
     <td >Press Left Mouse Button</td>
-    <td>`//$BUTTON Default Value left;`
-    `hold "(<xpathQuery>";`</td>
+    <td>`//$BUTTON Default Value left`<br>`hold "(<xpathQuery>";`</td>
     <td>`Actions action = new Actions(driver);`
-    `action.clickAndHold(driver.findElemen(By.xpath(<xpathQuery>)));`</td>
+    `action.clickAndHold(driver.findElement(By.xpath(<xpathQuery>)));`</td>
   </tr>
   <tr>
     <td >Drag Element with Mouse</td>
@@ -167,25 +166,20 @@ Here are some examples:
   </tr>
   <tr>
     <td >Right Click with Mouse</td>
-    <td>`$BUTTON = right;`
-    `click"<xpathQuery>";`</td>
+    <td>`$BUTTON = right;`<br>`click"<xpathQuery>";`</td>
     <td>`Actions action = new Actions(driver);`
     `action.contextClick(driver.findElement(By.xpath(<xpathQuery>)));`</td>
   </tr>
   <tr>
     <td >Drag object element onto a specific element </td>
-    <td>`hold "(<xpathQuery>";`
-    `move "(<xpathQuery>";`
-    `drop;`</td>
+    <td>`hold "(<xpathQuery>";`<br>`move "(<xpathQuery>";`<br>`drop;`</td>
     <td>`Actions action = new Actions(driver);`
     `action.dragAndDrop(driver.findElement(By.xpath(xpath)),
     driver.findElement(By.xpath(<xpathQuery>)));`</td>
   </tr>
   <tr>
     <td>Drag object element onto a specific element</td>
-    <td>`hold "#1";`
-    `move "#3";`
-    `drop`</td>
+    <td>`hold "#1";`<br>`move "#3";`<br>`drop`</td>
     <td>`Actions action = new Actions(driver);`
     `action.clickAndHold(driver.findElement(By.id("1")))
     .moveToElement(driver.findElement(By.id("3"))).perform();`</td>

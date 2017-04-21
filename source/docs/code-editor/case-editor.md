@@ -24,7 +24,7 @@ You can also use `Ctrl+S` to complete this operation.
 
 <i class="fa fa-crosshairs"></i> **Inspect Element**
 
-Select the elements in the page and output the HTML to the code area.Right click to exit.
+Select the elements in the page and output the its CSSPath to the code area.Right click to exit.
 
 <i class="fa fa-link"></i> **Insert Link**
 
@@ -37,6 +37,10 @@ Start/Stop the current case.
 <i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
 
 Convert all mouse and keyboard actions to codes.When starting recording, this button will change from <i class="fa fa-circle" style="color:red"></i> to <i class="fa fa-stop-circle-o" style="color:red"></i>. Click it again to stop recording.
+
+**selector && xpath**
+
+ Switch the selector in recording process, `selector` stands for CSSPath and `xpath` for XPath.
 
 <i class="fa fa-undo"></i> **Undo/** <i class="fa fa-repeat"></i> **Redo**
 

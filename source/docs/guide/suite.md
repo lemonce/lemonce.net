@@ -23,17 +23,21 @@ The work space is associated with local file system,in which any changes about t
 <img class="large-images" src="/images/guide/suite-03.png">
 <br>
 
-## Suite editor
+## Edit the test suite
 ---
 
 **activate test suite**
 
-In the Suite section, double click the selected test suite, you can activate it to the Opening section for editing.
+Click the selected test suite to grey in explore, you can activate it to the Display Colum on the right.
 
-**edit test suite**
+**choose test cases**
 
-Double click the test suite in Opening section, then you can choose from the Case Lib to add test cases to the current suite which shows in left of the Display Colum.  
+Choose from the Case Lib to add test cases to the current suite with double-click.
 
-You can sort,delete and empty the test cases in Display Colum.  
+You can remove,reorder the test cases in Display Colum through the tool bar on the top,more details in [suite tool bar](/docs/code-editor/suite-editor.html).
 
-After the completion of editing,then you can click the Save or Close Button on the right side.
+<img class="large-images" src="/images/guide/suite-04.png">
+
+**run test suite**
+
+After the editing and saving of the test suite ,then you can click <i class="fa fa-play"></i> / <i class="fa fa-stop"></i> to start/stop it.

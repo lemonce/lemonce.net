@@ -1,4 +1,4 @@
-title: 'Suite Editor'
+title: '套件编辑器'
 ---
 ## 工具栏
 ---

@@ -24,7 +24,7 @@ title: '用例编辑器'
 
 <i class="fa fa-crosshairs"></i> **查看元素**
 
-Select the elements in the page and output the HTML to the code area.Right click to exit.
+选中页面内一个元素并在代码区域输出该元素的CSSPath。点击鼠标右键以退出。
 
 <i class="fa fa-link"></i> **插入链接**
 
@@ -37,6 +37,10 @@ Select the elements in the page and output the HTML to the code area.Right click
 <i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
 
 将鼠标和键盘的操作转换为代码。一旦开始录制，这个按钮会从 <i class="fa fa-circle" style="color:red"></i> 变为 <i class="fa fa-stop-circle-o" style="color:red"></i>。 再次点击以停止录制。
+
+**selector / xpath**
+
+在录制过程中，获取页面内元素的两种选择器。`selector`为默认的CSSPath,`xpath`为XPath。
 
 <i class="fa fa-undo"></i> **撤销/** <i class="fa fa-repeat"></i> **重复**
 

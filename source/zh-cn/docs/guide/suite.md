@@ -1,7 +1,7 @@
 title: '完善测试套件'
 ---
 
-## 创建一个测试套件
+## 创建测试套件
 ---
 
 **菜单顶栏**
@@ -26,17 +26,22 @@ title: '完善测试套件'
 
 <br>
 
-## 套件编辑器
+## 编辑测试套件
 ---
 
-**activate test suite**
+**激活测试套件**
 
-In the Suite section, double click the selected test suite, you can activate it to the Opening section for editing.
+进入测试套件面板，在资源管理器中单击要编辑的套件，变为灰色即为激活。
 
-**edit test suite**
+**调取测试用例**
 
-Double click the test suite in Opening section, then you can choose from the Case Lib to add test cases to the current suite which shows in left of the Display Colum.  
+从面板右方显示的用例库中选择合适的测试用例来组成测试套件，双击即可添加到套件之中。
 
-You can sort,delete and empty the test cases in Display Colum.  
+添加多个用例之后，可以通过上方的套件工具栏对用例进行上下顺序的调换和移除等调整，详情请查看[套件工具栏](/zh-cn/docs/code-editor/suite-editor.html)。
 
-After the completion of editing,then you can click the Save or Close Button on the right side.
+<img class="large-images" src="/images/guide/suite-04-zh.png">
+
+**运行测试套件**
+
+编辑完成并保存套件之后，点击工具栏中的 <i class="fa fa-play"></i> / <i class="fa fa-stop"></i>  来开始/停止运行测试套件。
+
