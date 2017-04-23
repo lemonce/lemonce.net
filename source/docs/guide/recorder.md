@@ -6,12 +6,20 @@ title: 'Use of recorder'
 
 Before recording begins, you need to click on the middle of the bracket of Process main to ensure that the code is generated in the correct position. 
 
+<img class="large-images" src="/images/guide/recorder-01.png">
+
 Click <i class="fa fa-circle" style="color:red"></i> to start recording. With the recording, the editor will generate code and comments automatically.
+
 <br>
 
 ## Create an assertion while recording
 ---
-In recording, press the `CTRL` and select the very page elements with the mouse, you can automatically add assertion statement.
+In recording, hold the `CTRL` key and select the very page elements with the mouse, you can automatically add assertion statement.
+
+As the figure shows below, after logging in hold the `CTRL` key to select the "lemonceide" element in the page to determine the success of page jump.
+
+<img class="large-images" src="/images/guide/recorder-02.png">
+
 <br>
 
 ## Play back the recorded steps
