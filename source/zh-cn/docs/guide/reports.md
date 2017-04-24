@@ -1,3 +1,31 @@
-title: 'View test reports'
+title: '查看测试报告'
 ---
-The test report is divided into three areas. The case-area lists all of the test cases for the entire test task, the contents of the log-area and the code-area correspond to each other as a sub area of each test case.
+测试套件执行完成之后，灵萌测会自动生成相应的测试报告。测试报告分为三个主要的部分，测试用例列表区域，相应测试用例语句日志区域以及完整的测试代码区域。
+<img class="large-images" src="/images/guide/report-01.png">
+
+报告的最下方会显示本次套件通过和失败的用例个数，以及整个套件执行的时间。在本次示例中，如下图所示。可见测试套件中共有两个用例，通过1个，失败1个，执行时间总计为32.742秒（包括了单独用例执行时间及用例间切换时间）。
+
+<img class="long-images" src="/images/guide/report-02.png">
+<br>
+
+
+## 1 用例列表区
+---
+用例列表区域在最左部的黑色区域。本次示例如下图所示。
+
+<img src="/images/guide/report-03.png">
+
+可见用例列表区包括了以下功能及信息，选中的用例会以灰色高亮显示。
+
+- **搜索用例功能。**位于顶部的“search”方框内，当一个suite中用例较多时，可使用该功能针对case的名称进行精确查找。
+
+- **用例执行信息。**包括了用例名称，名称下方为执行时间，名称右方为执行的通过情况，其中为通过，为失败。
+
+<br>
+
+## 2 语句日志区
+---
+本区域将日志
+## 3 测试代码区
+---
+
