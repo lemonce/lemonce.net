@@ -1,7 +1,7 @@
 title: '动作关键字'
 ---
 
-## click / dbclick
+## click / dblclick
 ---
 单击或双击一个HTML的页面元素。
 <br>

@@ -25,6 +25,9 @@ title: '下载与安装'
 <img src="/images/setup/interface-download-03.png">
 
 4.安装结束之后，双击灵萌测图标即可开始测试 ^_^ 。
+
+<img src="/images/setup/interface-download-04.png">
+
 <br>
 
 ## Mac

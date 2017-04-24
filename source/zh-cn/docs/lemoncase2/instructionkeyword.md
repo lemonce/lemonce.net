@@ -63,21 +63,8 @@ process counter() {
 ## for...of
 ---
 
-`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
 <pre class='sublemon'>
-process main () {
-	counter();   
-	}  
-process counter() {
-	count = 1;
-	while(count < 5){	    // count=1,2,3,4
-		log count + 'A';
-		count +=1;
-		log count + 'B';    // count=2,3,4,5
-      }
-	return;
-    log count + 'C';        // 子过程已结束，本语句不会执行      
-}
+
 </pre>
 
 <br>

@@ -28,6 +28,8 @@ The `number()` is a wrapper object allowing you to work with numerical values. A
 number('3.14') // Output  3.14
 number('3'+'2') // Output  32</pre>
 
+
+<br>
 ## Math
 ---
 

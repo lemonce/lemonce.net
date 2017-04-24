@@ -23,6 +23,9 @@ The page will automatically jump to the page of [lemonce-publisher](https://gith
 <img src="/images/setup/interface-download-03.png">
 
 4.Finally, Double-click on the Lemonce icon and start you test ^_^
+
+<img src="/images/setup/interface-download-04.png">
+
 <br>
 
 ## Mac
