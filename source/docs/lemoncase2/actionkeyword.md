@@ -1,7 +1,7 @@
 title: 'Action Keyword'
 ---
 
-## click / dbclick
+## click / dblclick
 ---
 Click or double click a HTML element.
 <br>
