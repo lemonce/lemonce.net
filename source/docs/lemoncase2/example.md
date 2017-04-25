@@ -13,7 +13,7 @@ process main {
 
 ## A Typical test case
 ---
-A test case that runs only once.
+A test case that runs five times.
 
 <pre class='sublemon'>
 #TIMES 1
@@ -38,54 +38,36 @@ Test a user registration page.
 
 process main () {
 
-	// npm
-	jumpto "https://www.npmjs.com/";
-	wait 3000;
-	// click log in
-	click "ul.user-info-salutation > li:nth-child(1) > a:nth-child(2)";
-	// Navigate to new page
-	wait 1398;
-	// click Username
-	click "#name";
-	// input brandroytnm
-	input "#name" by "brandroytnm";
-	// input 123456
-	input "#password" by "123456";
+	// Deepin Technology Community
+	jumpto "https://www.deepin.org/en/";
+	wait 2333;
+	// click div|
+	click "#hs-site-navigation > div:nth-child(1)";
 	// click Login
-	click "button.btn";
-	// Navigate to new page
-	wait 1707;
-	// assert element div.error contains [Invalid username or password]
-	assert <@"div.error"/> ~~ "Invalid username or password";
-	// click log in
-	click "ul.user-info-salutation > li:nth-child(1) > a:nth-child(2)";
-	// Navigate to new page
-	wait 1448;
-	// assert element div.col-xs-18 > a:nth-child(1) contains [Recover your Password]
-	assert <@"div.col-xs-18 > a:nth-child(1)"/> ~~ "Recover your Password";
-	// click Username
-	click "#name";
-	// input brandroytnm
-	input "#name" by "brandroytnm";
-	// input P@ssw0rd
-	input "#password" by "P@ssw0rd";
-	// click Login
-	click "button.btn";
-	// Navigate to new page
-	wait 2260;
-	// assert element #salutation-username contains [androytnm]
-	assert <@"#salutation-username"/> ~~ "androytnm";
-	
-	// @brandroytnm
-	jumpto "https://www.npmjs.com/~brandroytnm";
-	wait 555;
-	// click a svg|
-	click "svg.header-drop-down-icon";
-	// click Logout
-	click "button.btn-link";
-	// Navigate to new page
-	wait 4581;
-	// assert element h1.title contains [Build amazing things]
-	assert <@"h1.title"/> ~~ "Build amazing things";
+	click "#menu-main > li:nth-child(11) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
+	// Navigate to New Page
+	wait 2000;
+	// click deepinID
+	click "#loginform > div:nth-child(3) > a:nth-child(1)";
+	// Navigate to New Page
+	wait 2000;
+	// click a text field
+	click "#content > form:nth-child(2) > input:nth-child(4)";
+	// type in lemonceide
+	input "#content > form:nth-child(2) > input:nth-child(4)" by "lemonceide";
+	// type in P@ssw0rd
+	input "#content > form:nth-child(2) > input:nth-child(6)" by "P@ssw0rd";
+	// click SIGN IN
+	click "#content > form:nth-child(2) > input:nth-child(9)";
+	// Navigate to New Page
+	wait 2000;
+	// click div|
+	click "#hs-site-navigation > div:nth-child(1)";
+	// click Deepin ID
+	click "#menu-main > li:nth-child(11) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
+	// Navigate to New Page
+	wait 2000;
+	// assert element <body > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)> contains [lemonceide]
+	assert <@"body > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)"/> ~~ "lemonceide";
 }
 </pre>

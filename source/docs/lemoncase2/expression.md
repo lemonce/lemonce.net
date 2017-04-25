@@ -37,6 +37,7 @@ log <@ 'a'/>; // Output false
 log <@ 'div'/>; // Output true
 log <@ '#link2'/>; // Output false</pre>
 
+<br>
 ## Compare operator
 ---
 

@@ -4,15 +4,6 @@ title: '指令关键字'
 ## import
 ---
 
-引用一个子过程。
-<pre class='sublemon'>//这是一个实现右键的过程
-process rightclick(a) {
-    $BUTTON = "right";
-    click a;
-}
-
-</pre>  
-
 <br>
 ## process
 ---
@@ -55,43 +46,109 @@ process counter() {
 ---
 
 `for...in`语句以任意顺序遍历一个对象的可枚举属性。对于每个不同的属性，语句都会被执行。
-<pre class='sublemon'>
 
+语法：
+```
+for(variable in object){
+
+}
+```
+
+<pre class="sublemon">
+process main () {
+	A = {a:1,b:2};
+	for (x in A){
+    	log "A["+x+"]="+A[x];
+  }
+}
+//Output:
+//A[a]=1
+//A[b]=2
 </pre>
 
 <br>
 ## for...of
 ---
+`for...of`语句在可迭代对象上创建一个迭代循环，对每个不同属性的属性值,调用一个自定义的有执行语句的迭代挂钩.
+
+语法：
+```
+for (variable of object){
+	statement
+	}
+```
 
 <pre class='sublemon'>
+//遍历一个数组
+process main () {
+ A = [10,20,30];
+  for (x of A){
+      log x;
+  }
+}
+//Output
+//10
+//20
+//30
 
+//遍历一个字符串
+process main () {
+  for (x of "Lemonce"){
+      log x;
+  }
+}
+//Output:
+//L
+//e
+//m
+//o
+//n
+//c
+//e
 </pre>
 
 <br>
 ## if...else
 ---
+当指定条件为 true 时，if 语句 会执行一条语句。如果该条件为 false，则执行另一条语句。
 
-
+<pre class='sublemon'>
+process main () {
+a=4;
+x=a*a;
+if (x< 9){
+    log "1";
+ }
+else if (x==9){
+    log x;
+    log "2";
+ }
+else {
+    log "3";
+ }
+}
+//Output "3"
 </pre>
 
 <br>
 ## continue
 ---
 
-`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+`continue` 语句结束当前（或标签）的循环语句的本次迭代，并继续执行循环的下一次迭代。
+
 <pre class='sublemon'>
 process main () {
-	counter();   
-	}  
-process counter() {
-	count = 1;
-	while(count < 5){	    // count=1,2,3,4
-		log count + 'A';
-		count +=1;
-		log count + 'B';    // count=2,3,4,5
-      }
-	return;
-    log count + 'C';        // 子过程已结束，本语句不会执行      
+i = 0;
+n = 0;
+while (i < 5) {
+   i=i+1;
+   log i;
+   if (i === 3) {
+      continue;
+   }
+   n += i;
+   log n;  //Output 1,3,7,12
+   }
 }
 </pre>
 
@@ -100,6 +157,7 @@ process counter() {
 ---
 
 `while`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+
 <pre class='sublemon'>
 process main () {
 	counter();   
@@ -117,7 +175,6 @@ process counter() {
 </pre>
 
 <br>
-
 ## log
 ---
 

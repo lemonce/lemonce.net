@@ -39,6 +39,7 @@ process main{
 
 }
 </pre>
+
 <br>
 
 ## $HREF
@@ -49,7 +50,7 @@ process main{
 <pre class='sublemon'>
 process main {
     jumpto "https://www.deepin.org/";
-    log #HREF;
+    log $HREF;
 }
 </pre>
 

@@ -1,7 +1,7 @@
-title: 'Expression'
+title: '表达式'
 ---
 
-## Selector operator
+## 选择器操作
 ---
 **<# [selector:string] />** 
 
@@ -37,6 +37,7 @@ log <@ 'a'/>; // Output false
 log <@ 'div'/>; // Output true
 log <@ '#link2'/>; // Output false</pre>
 
+<br>
 ## Compare operator
 ---
 
