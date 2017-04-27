@@ -7,7 +7,6 @@ title: '表达式'
 
 Get the number of elements that matches the selector.
 
-
 `<div id="link" class="case">Text</div>`
 <pre class='sublemon'>
 log <# 'div'/>; // Output 1
@@ -31,11 +30,14 @@ Check for element visibility.The result is `true` if such element exist && width
 
 
 `<div id="link" class="case">Text</div>`
+<br>
 `<div id="link2" style="display:none">Text</div>`
+
 <pre class='sublemon'>
-log <@ 'a'/>; // Output false
-log <@ 'div'/>; // Output true
-log <@ '#link2'/>; // Output false</pre>
+log <! 'a'/>; // Output false
+log <! 'div'/>; // Output true
+log <! '#link2'/>; // Output false
+</pre>
 
 <br>
 ## Compare operator
