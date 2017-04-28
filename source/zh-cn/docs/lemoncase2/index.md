@@ -4,9 +4,9 @@ title: 'Lemoncase2 语言指南'
 Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用例编写。以下的指南会帮助您更好地理解这门编程语言。
 
 Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
-<br>
 
-## [语法]()
+<br>
+## [语法](/)
 ---
 
 **速查表**
@@ -103,13 +103,13 @@ a = true;
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
-<br>
 
+<br>
 ## [作用域](/)
 ---
 全局作用域。在 Lemoncase2 主过程中无需 `return` 关键词，主过程没有参数，`process main { }` 是程序的主入口。
-<br>
 
+<br>
 ## [操作示例](/zh-cn/docs/lemoncase2/example.html)
 ---
 

@@ -34,7 +34,7 @@ Click the selected test suite to grey in explore, you can activate it to the Dis
 
 Choose from the Case Lib to add test cases to the current suite with double-click.
 
-You can remove,reorder the test cases in Display Colum through the tool bar on the top,more details in [suite tool bar](/docs/code-editor/suite-editor.html).
+You can remove,reorder the test cases in Display Column through the tool bar on the top,more details in [suite tool bar](/docs/code-editor/suite-editor.html).
 
 <img class="large-images" src="/images/guide/suite-04.png">
 

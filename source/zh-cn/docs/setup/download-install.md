@@ -8,10 +8,6 @@ title: '下载与安装'
 
 1.访问 [Lemonce 下载页面](https://www.lemonce.com)，点击 <span class="button">下载最新版 </span> 按键，下载 Lemonce 安装包。
 
-页面会自动跳转到 GitHub 上的 [lemonce-publisher](https://github.com/lemonce/lemonce-publisher/releases) ，该页面为您提供了最新版本的 Lemonce。
-
-<img class="large-images" src="/images/setup/interface-download-01.png">
-
 2.点击下载表单中第一个链接，该链接是提供给 Windows 版本的。
 
 - 如果用户使用的是 IE 或者是 Edge 浏览器，下载提示会出现在页面最下方，点击 `保存` 或者 `另存为` 来保存安装文件。

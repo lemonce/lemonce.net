@@ -1,41 +1,48 @@
-title: 'Expression'
+title: "Expression"
 ---
 
 ## Selector operator
 ---
+
+Take HTML below as an example.
+
+```
+<div id="link" class="case">
+    <p>Text1</p>
+    <div>
+        <p>Text2</p>
+    </div>
+</div>
+```
+
 **<# [selector:string] />** 
 
 Get the number of elements that matches the selector.
 
+`log <# "div"/>; // Output:2`<br>
+`log <# "#link"/>; // Output:1`<br>
+`log <# ".case"/>; // Output:1`
 
-`<div id="link" class="case">Text</div>`
-<pre class='sublemon'>
-log <# 'div'/>; // Output 1
-log <# '#link'/>; // Output 1
-log <# '#no'/>; // Output 0</pre>
+Calculation expressions and variables can be applied.
+
+`log <# "div"/>+1~~3; // 输出：true`<br>
+`x="div"; log <# x/>; // 输出：2`
 
 **<@ [selector:string] />** 
 
-Get the innerHTML of the 1st element that matches the selector.The result is a string or `false` if there's no match.
+Get the innerHTML of the 1st element that matches the selector.The result is a string or `false` if there"s no match.
 
-
-`<div id="link" class="case">Text</div>`
-<pre class='sublemon'>
-log <@ 'div'/>; // Output Text
-log <@ '#link'/>; // Output Text
-log <@ '#no'/>; // Output false</pre>
+`log <@ "div"/>; // Output:Text1\n\nText2`<br>
+`log <@ "div > div"/>; // Output:Text2`<br>
+`log <@ "p"/>; // Output:Text1`
 
 **<! [selector:string] />** 
 
 Check for element visibility.The result is `true` if such element exist && width > 0 && height > 0.Otherwise it is `false`.
 
-
-`<div id="link" class="case">Text</div>`
-`<div id="link2" style="display:none">Text</div>`
-<pre class='sublemon'>
-log <@ 'a'/>; // Output false
-log <@ 'div'/>; // Output true
-log <@ '#link2'/>; // Output false</pre>
+`log <! "a"/>; // Output:false`<br>
+`log <! "div"/>; // Output:true`<br>
+`log <! "#link"/>; // Output:true`
 
 <br>
 ## Compare operator
