@@ -48,17 +48,37 @@ title: "表达式"
 ## 比较符
 ---
 
-**[exp_A:string] ~~ [exp_B:string|RegExp]**
+**~~ : 约等于**
 
-- exp_B 若不是一个字符串或正则表达式，输出：false. 
+- [string] ~~ [string] 字符串A中有一段字符串和字符串B相同<br>
+- [string] ~~ [/RegExp/] 字符串A中有一段字符串和正则表达式B相同<br>
 
-- exp_A 若不是一个字符串，输出：false.
+`"Lemonce"~~/[A-Z][a-t]/  //输出：true`<br>
+`"Lemonce"~~"mon" //输出：true`
 
-- exp_A 若和 exp_B(RegExp) 不匹配，输出：false.
+**== : 等于**
 
-- exp_A has a sub string like exp_B， true.
+- [string] == [string] 字符串A与字符串B完全相同<br>
+- [var] == [var] 变量A与变量B完全相同<br>
 
-- exp_A is matched to exp_B(RegExp)， true.
+`"Lemonce" == "Lemonce" //输出：true`<br>
+`"x" == "x" //输出：true`
 
-**[exp_A:string] !~ [exp_B:string|RegExp]**
+**!~ : 不约等于**
+
+- [string] !~ [string] 字符串A中没有任何一段字符串和字符串B相同<br>
+- [string] !~ [/RegExp/] 字符串A中没有任何一段字符串和正则表达式B相同<br>
+
+`"Lemonce"!~/L[A-Z][a-t]/  //输出：true`<br>
+`"Lemonce"!~"mon" //输出：false`
+
+**!= : 不等于**
+
+- [string] != [string] 字符串A与字符串B不相同<br>
+- [var] != [var] 变量A与变量B不相同<br>
+
+`"Lemonce" != "Lemonce" //输出：false`<br>
+`"x" != "y" //输出：true`
+
+
 

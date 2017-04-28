@@ -55,8 +55,8 @@ process main () {
 	click "#content > form:nth-child(2) > input:nth-child(4)";
 	// type in lemonceide
 	input "#content > form:nth-child(2) > input:nth-child(4)" by "lemonceide";
-	// type in P@ssw0rd
-	input "#content > form:nth-child(2) > input:nth-child(6)" by "P@ssw0rd";
+	// type in password
+	input "#content > form:nth-child(2) > input:nth-child(6)" by "password";
 	// click SIGN IN
 	click "#content > form:nth-child(2) > input:nth-child(9)";
 	// Navigate to New Page
