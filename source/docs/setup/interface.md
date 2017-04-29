@@ -42,14 +42,13 @@ Located on the top including File,Edit,View and Help.
 - **Learn More** 
 - **License** About the license.
 
-You can ...
 <br>
-
 ## 2 View bar && Side bar
 ---
 View bar is located on the far left-hand side including three buttons to switch the view of Side bar, which can assist you while working on your project.
 
 #### 2.1 **Explore**  <i class="fa fa-code fa-2x"></i>
+<hr width=35% align="left">
 
 The Explorer is used to browse, open, and manage all of the files and folders in your project. 
 
@@ -70,7 +69,6 @@ Once you are done with your task, you can remove but not delete files seperately
 
 There are three buttons to active different corresponding areas of editor groups, you can find more detailed information below. 
 
-
 - <i class="fa fa-file-code-o fa-2x" style="color:green"></i> **Toggle Case Panel**
 
 - <i class="fa fa-file-text-o fa-2x" style="color:green"></i> **Toggle Suite Panel**
@@ -87,26 +85,30 @@ After opening a folder in Lemonce, the contents of the folder are shown in the E
 - `Move files and folders with drag and drop.`
 - `Use the context menu to explore all options.`
 
+<br>
 #### 2.2 **Config Panel** <i class="fa fa-cog fa-2x"></i> 
+<hr width=35% align="left">
 
 There are just two functions below in side bar now,more functions are coming soon.
 - Change the language to English/Chinese
 - Open/close command pallete
 
+<br>
 #### 2.3 **View Reports** <i class="fa fa-bar-chart fa-2x"></i>
+<hr width=35% align="left">
 
-Reports are listed in side bar chronologically.Click one of them you will see [more details](docs/code-editor/index.html) in popup of reports.
+Reports are listed in side bar chronologically.Click one of them you will see [more details](/docs/guide/reports.html) in popup of reports.
 <br>
 
-<img class="large-images" src="/">
-<br>
+<img class="large-images" src="/images/setup/interface-report.png">
 
+<br>
 ## 3 Editor Groups
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
 More details are offered in [Code Editor](docs/code-editor/index.html).
-<br>
 
+<br>
 ## 4 Output && Console panel
 ---
 You can display different panels below the editor region for output or debug information or errors and warnings.
@@ -115,7 +117,9 @@ You can display different panels below the editor region for output or debug inf
 - Click <i class="fa fa-times-circle" color="grey"></i> on the right to close current panel.You can reopen the panel from "Edit" submenu in menu bar.
 - Click <i class="fa fa-ban"></i> to clear the current panel.
 
+<br>
 #### 4.1 **Output panel**
+<hr width=35% align="left">
 
 Take "logout" case as an example in the video, the following contents will be generated in the output panel.
 <pre class='sublemon'>
@@ -137,8 +141,9 @@ Output information can be divided into the following sections:
 - System time (show in the brackets)
 - The line number of the executing codes
 - Details of the running test cases
-<br>
 
+<br>
 #### 4.2 **Console panel**
+<hr width=35% align="left">
 
 You can try to use Lemoncase2 to finish some commands here.

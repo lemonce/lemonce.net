@@ -108,7 +108,7 @@ title: '灵萌测界面'
 关于测试报告的更多内容在[查看测试报告](/zh-cn/docs/guide/reports.html)中。
 
 <br>
-<img class="large-images-special" src="/images/setup/interface-report.png">
+<img class="large-images" src="/images/setup/interface-report.png">
 
 <br>
 ## 3 编辑区
