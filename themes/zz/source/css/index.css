@@ -7,6 +7,12 @@ body {
 	transition: .2s background ease-out;
 }
 
+.btn-green {
+	 background-color: #6199bb !important;
+	  color: #fff !important;
+	  padding: 4px;
+}
+
 .bg-teal-gradient {
 	background-color: #71c3c3;
 	background: linear-gradient(135deg, #6199bb, #71c3c3);
@@ -56,13 +62,6 @@ body {
 	border: 1px solid #dbdbdb;
 }
 
-.button {
-    background-color: #6199bb !important;
-    font-size: 14px !important;
-    color: #fff !important;
-    font-weight: 400;
-    padding: 4px;
-}
 /* gutter */
 figure.highlight .gutter {
 	padding-right: 0.5rem;

@@ -130,11 +130,12 @@ Here are some examples:
 
 【Notes】These simple grammar comparisons are to present advantages of LemonCase2 selector and its grammar. To see more detailed grammar comparisons, please view the specific documentation of grammar comparisons.
 
+<div class="container-fluid text-center">
 <table border="1">
   <tr>
     <th></th>
-    <th>Lemoncase2</th>
-    <th>Selenium Webdriver</th>
+    <th style="text-align:center">Lemoncase2</th>
+    <th style="text-align:center">Selenium Webdriver</th>
   </tr>
   <tr>
     <td width="200" rowspan="2" valign="center">Left Click with Mouse</td>
@@ -186,7 +187,9 @@ Here are some examples:
     .moveToElement(driver.findElement(By.id("3"))).perform();`</td>
   </tr>
 </table>
+</div>
 
+<br>
 From the selector comparisons above, you may understand Lemonce can be a great Selenium alternative, especially because the powerful features of its selectors can implement precise element identification and selection. Even when you are looking for GUI element locators for some special element testing, which is required to recognize web elements inside iframes, Lemonce can beat all other web app testing tools, and will become the best alternative to Selenium. And moreover, you don’t need spend much time to solve those problems and issues in Selenium, including those require much coding work on Selenuim selector by class, by text or innertext, or more complicated issues like selenium css selector nth child. Lemonce has its unique simple programming language with concise and intuitive grammar to allow you to create complex test cases easily and efficiently with very low learning cost.  If you use Selenium testing tools, you have to master one or two programming or script languages such as python, c#, Java, etc. which require more learning costs, especially for a testing team which members use different kinds of programming languages.
 
 So, choose Lemonce Editor for web test automation, and get rid of tedious problems and defects caused by Selenium.
