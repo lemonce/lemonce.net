@@ -75,9 +75,30 @@ assert <#"textarea#test"/> in 2000;
 ## forward / back
 ---
 
+`forward` 去到下一个网页；`back` 回到上一个网页。
+<pre class='sublemon'>
+	jumpto "https://www.baidu.com/";  
+    //跳转到百度
+	wait 2333;
+	click "#kw";  
+    //点击搜索框
+	input "#kw" by "deepin";  
+    //搜索栏中输入“deepin”
+	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
+    //进入“深度”主页
+	wait 2000;
+	back;  
+    //回到搜索页
+	wait 2000;
+	forward;  
+    //前进到“深度”主页
+</pre>
+
 <br>
 ## refresh
 ---
+
+刷新当前页面。
 
 <br>
 ## upload
