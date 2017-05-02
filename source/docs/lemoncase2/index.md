@@ -5,7 +5,7 @@ Lemoncase2 is a Javascript-like scripting language,which is used for developing 
 browser automation library: http://lemonce.github.io/lemoncase2
 <br>
 
-## [Grammar]()
+## [Grammar](/docs/lemoncase2/index.html)
 ---
 
 **Zoom Table**
@@ -107,7 +107,7 @@ Below is the list of type of Inbuilt sub-process.[`read more`](/docs/lemoncase2/
 - length/charAt/indexOf/substr/trim
 <br>
 
-## [Scope]()
+## [Scope](/docs/lemoncase2/index.html)
 ---
 Global scope. 
 So there is no `return` keyword in LC2. A process has no parameter.

@@ -6,7 +6,7 @@ Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用
 Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 
 <br>
-## [语法](/)
+## [语法](/zh-cn/docs/lemoncase2/index.html)
 ---
 
 **速查表**
@@ -105,7 +105,7 @@ a = true;
 - length/charAt/indexOf/substr/trim
 
 <br>
-## [作用域](/)
+## [作用域](/zh-cn/docs/lemoncase2/index.html)
 ---
 全局作用域。在 Lemoncase2 主过程中无需 `return` 关键词，主过程没有参数，`process main { }` 是程序的主入口。
 

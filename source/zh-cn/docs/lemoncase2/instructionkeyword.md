@@ -178,7 +178,8 @@ process counter() {
 ## log
 ---
 
-记录一个表达式的值。
+向控制台输出一条消息。可以输出测试用例中已定义的变量，表达式，字符串等等。
+
 <pre class='sublemon'>
 log '2'+3	//输出  23
 log true	//输出  true

@@ -25,8 +25,8 @@ Get the number of elements that matches the selector.
 
 Calculation expressions and variables can be applied.
 
-`log <# "div"/>+1~~3; // 输出：true`<br>
-`x="div"; log <# x/>; // 输出：2`
+`log <# "div"/>+1~~3; // Output：true`<br>
+`x="div"; log <# x/>; // Output：2`
 
 **<@ [selector:string] />** 
 
