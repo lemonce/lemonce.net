@@ -6,11 +6,26 @@ title: '内置子过程'
 ## Data
 ---
 
-**format**
-
 **now**
 
 `now()` 方法返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。
+<pre class='sublemon'>
+//假设以2017年1月1日，0时0分为当前时间
+log now(); //输出 1483200000
+</pre>
+
+**format**
+`format` 与上方的 `now` 共同使用，以某种确定的格式输出当前的时间。关于`format`更详细的使用方式请[点击这里](https://www.npmjs.com/package/dateformat)。
+<pre class='sublemon'>
+//假设以2017年1月1日，0时0分为当前时间
+log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");
+//输出：Sunday，January 1st,2017,0:00:00 AM
+log format(now,"isoDateTime");
+//输出：2017-01-01T00:00+0800
+
+//也可以用于输出某一天的完整信息
+format("Jan 1 2017"，"fullDate"); //输出：Sunday,January 1st,2017
+</pre>
 
 <br>
 ## Type
@@ -21,14 +36,16 @@ title: '内置子过程'
 `bool()` 对象是一个布尔值的对象包装器。可以将变量、数字或正则转换为布尔值。
 <pre class='sublemon'>
 bool(3.14) // 输出 true
-bool(3>4) // 输出 false</pre>
+bool(3>4) // 输出 false
+</pre>
 
 **number( )**
 
 `number()` 对象是经过封装的能让你处理数字值的对象。number 对象由 number() 构造器创建。
 <pre class='sublemon'>
 number('3.14') // 输出  3.14
-number('3'+'2') // 输出  32</pre>
+number('3'+'2') // 输出  32
+</pre>
 
 <br>
 ## Math
