@@ -15,6 +15,7 @@ log now(); //输出 1483200000
 </pre>
 
 **format**
+
 `format` 与上方的 `now` 共同使用，以某种确定的格式输出当前的时间。关于`format`更详细的使用方式请[点击这里](https://www.npmjs.com/package/dateformat)。
 <pre class='sublemon'>
 //假设以2017年1月1日，0时0分为当前时间
