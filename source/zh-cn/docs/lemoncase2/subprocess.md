@@ -1,6 +1,8 @@
 title: '内置子过程'
 ---
-所有的内置子过程都需要有如下的形式：`sub-process()`。
+所有的内置子过程都需要有如下的形式：`子过程名称()`。
+
+<br>
 ## Data
 ---
 
@@ -9,102 +11,142 @@ title: '内置子过程'
 **now**
 
 `now()` 方法返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。
-<br>
 
+<br>
 ## Type
 ---
 
 **bool( )**
 
-Convert a variable/number/RegExp to a Boolean format.  
+`bool()` 对象是一个布尔值的对象包装器。可以将变量、数字或正则转换为布尔值。
 <pre class='sublemon'>
-bool(3.14) // Output true
-bool(3>4) // Output false</pre>
+bool(3.14) // 输出 true
+bool(3>4) // 输出 false</pre>
 
 **number( )**
 
-The `number()` is a wrapper object allowing you to work with numerical values. A Number object is created using the `number()` constructor.
+`number()` 对象是经过封装的能让你处理数字值的对象。number 对象由 number() 构造器创建。
 <pre class='sublemon'>
-number('3.14') // Output  3.14
-number('3'+'2') // Output  32</pre>
-
+number('3.14') // 输出  3.14
+number('3'+'2') // 输出  32</pre>
 
 <br>
 ## Math
 ---
 
-**abs( )**
+**abs()**
 
-The `abs()` returns the absolute value of a number, that is abs(x)=|x|.
+`abs(number)` 返回当前数字的绝对值, abs(x)=|x|。
 <pre class='sublemon'>
-abs(-3.14) // Output  3.14
-abs('') // Output  0
-abs() // Output  NaN
-abs('string') // Output  NaN</pre>
+abs(-3.14) // 输出  3.14
+abs('') // 输出  0
+abs() // 输出  NaN
+abs('string') // 输出  NaN</pre>
 
 **ceil( )**
 
-The `ceil(number)` returns the smallest integer greater than or equal to a given number.
+`ceil(number)` 返回大于当前数字的最小的整数。
 <pre class='sublemon'>
-ceil(3.14) // Output  4
-ceil(-3.14) // Output  -3</pre>
+ceil(3.14) // 输出  4
+ceil(-3.14) // 输出  -3</pre>
 
 **floor( )**
 
-The `floor(number)` returns the largest integer less than or equal to a given number.
+`floor(number)` 返回小于当前数字的最大整数。
 <pre class='sublemon'>
-floor(3.14) // Output  3
-floor(-3.14) // Output  -4</pre>
+floor(3.14) // 输出  3
+floor(-3.14) // 输出  -4</pre>
 
 **max( )**
 
-The `max(number1,number2,...)` returns the largest of zero or more numbers.
+`max(number1,number2,...)` 返回一组数中的最大值。
 <pre class='sublemon'>
-max(3+2,number('3'+'2'))  // Output  32</pre>
+max(3+2,number('3'+'2'))  // 输出  32</pre>
 
 **min( )**
 
-The `min(number1,number2,...)` returns the smallest of zero or more numbers.
+`min(number1,number2,...)` 返回一组数中的最小值。
 
 **random( )**
 
-The `random()` function returns a floating-point, pseudo-random number in the range [0, 1) that is, from 0 (inclusive) up to but not including 1 (exclusive), which you can then scale to your desired range. The implementation selects the initial seed to the random number generation algorithm; it cannot be chosen or reset by the user.
+`random()` 返回一个浮点，伪随机数在范围[0，1)，然后用户可以缩放到所需的范围。实现选择初始种子进行随机数生成算法；它不能被用户选择或重置。
 <pre class='sublemon'>
-//Output a random number between the specified values
+//在一个特定的范围输出一个随机数
 random() * (max - min) + min </pre>
 
+<br>
 ## String
 ---
 
 **length( )** 
 
-The `length(string)` property represents the length of a string.
+`length(string)`表示一个字符串的长度。
 <pre class='sublemon'>
-length("Lemonce") //Output  7</pre>
+length("Lemonce") //输出  7</pre>
 
 **charAt( )**
 
-The `charAt(string,pos)` method returns the specified character from a string.
+`charAt(string,pos)` 从一个字符串中返回指定的字符。
 <pre class='sublemon'>
-charAt('Lemonce',5)  //Output 'c'</pre>
+charAt('Lemonce',5)  //输出 'c'</pre>
 
 **indexOf( )**
 
-The `indexOf(dstSting,testString)` method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
+`indexOf(dstSting,testString)` 方法返回调用 String 对象中第一次出现的指定值的索引，开始在 fromIndex 进行搜索。如果未找到该值，则返回-1。
 <pre class='sublemon'>
-indexOf('Lemonce','L')  //Output  0
-indexOf('Lemonce','e')  //Output  1
-indexOf('Lemonce','l')  //Output  -1</pre>
+indexOf('Lemonce','L')  //输出  0
+indexOf('Lemonce','e')  //输出  1
+indexOf('Lemonce','l')  //输出  -1</pre>
 
 **substr( )**
 
-The `substr(string,from,[length])` method returns the characters in a string beginning at the specified location through the specified number of characters. 
+`substr(string,from,[length])` 返回一个字符串在开始索引到结束索引之间的一个子集, 或从开始索引直到字符串的末尾的一个子集。
 <pre class='sublemon'>
-substr('Lemoncase',2,3)  //Output 'mon'
-substr('Lemoncase',2)  //Output 'moncase'</pre>
+substr('Lemoncase',2,3)  //输出 'mon'
+substr('Lemoncase',2)  //输出 'moncase'</pre>
 
 **trim( )**
 
-The `trim(string)` method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
+`trim(string)` 删除一个字符串两端的空白字符。在这个字符串里的空格包括所有的空格字符 (space, tab, no-break space 等)以及所有的行结束符（如 LF，CR）。
 <pre class='sublemon'>
-trim('  Lemon case  ')  //Output 'Lemon case'</pre>
+trim('  Lemon case  ')  //输出 'Lemon case'</pre>
+
+<br>
+## Array
+---
+数组对象是一个用于构造数组的全局对象; 它们是高级的，列表式的对象。数组的格式为 `arrayname = [element1,element2,...]`，其中 array[0] = element1。以下方的数组为例：
+
+```
+process main () {
+smartphones = ["Smartisan","iPhone","Mi"];
+}
+```
+
+**length( )** 
+
+`length(array)`表示一个字符串的长度。也可以使用 `array.length`。
+<pre class='sublemon'>
+log length("smartphones"); //输出  3
+log smartphones.length;//输出 3
+</pre>
+
+**for...in/of**
+
+`for (var in/of array)` 遍历数组，可与[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)中的 `for...in/of`对照查看。
+<pre class='sublemon'>
+for (x in smartphones){
+    log x;  //输出 0,1,2
+}
+for (x of smartphones){
+    log x;  //输出 Smartisan,iPhone,Mi
+}
+</pre>
+
+**indexOf**
+
+`indexOf(array,element)`指出当前元素在数组中的位置。
+<pre class='sublemon'>
+log indexOf(smartphones,"Smartisan"); //输出 0
+log smartphones.indexOf("iPhone"); //不支持这种写法，输出 -1
+</pre>
+

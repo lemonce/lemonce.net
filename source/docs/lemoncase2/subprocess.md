@@ -1,6 +1,8 @@
 title: 'Inbuilt sub-process'
 ---
 All the Inbuilt sub-process should have a form as `sub-process()`.
+
+<br>
 ## Data
 ---
 
@@ -8,9 +10,9 @@ All the Inbuilt sub-process should have a form as `sub-process()`.
 
 **now**
 
-Time stamp.Output current Greenwich time(in ms),
-<br>
+Time stamp.The `now()` method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.
 
+<br>
 ## Type
 ---
 
@@ -28,6 +30,7 @@ The `number()` is a wrapper object allowing you to work with numerical values. A
 number('3.14') // Output  3.14
 number('3'+'2') // Output  32</pre>
 
+<br>
 ## Math
 ---
 
@@ -71,6 +74,7 @@ The `random()` function returns a floating-point, pseudo-random number in the ra
 //Output a random number between the specified values
 random() * (max - min) + min </pre>
 
+<br>
 ## String
 ---
 
@@ -106,3 +110,7 @@ substr('Lemoncase',2)  //Output 'moncase'</pre>
 The `trim(string)` method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
 <pre class='sublemon'>
 trim('  Lemon case  ')  //Output 'Lemon case'</pre>
+
+<br>
+## Array
+---
