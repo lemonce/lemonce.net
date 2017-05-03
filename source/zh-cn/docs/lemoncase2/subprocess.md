@@ -1,6 +1,6 @@
-title: 'Inbuilt sub-process'
+title: '内置子过程'
 ---
-All the Inbuilt sub-process should have a form as `sub-process()`.
+所有的内置子过程都需要有如下的形式：`sub-process()`。
 ## Data
 ---
 
@@ -8,7 +8,7 @@ All the Inbuilt sub-process should have a form as `sub-process()`.
 
 **now**
 
-Time stamp.Output current Greenwich time(in ms),
+`now()` 方法返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。
 <br>
 
 ## Type
