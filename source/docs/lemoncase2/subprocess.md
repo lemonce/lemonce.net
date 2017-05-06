@@ -5,6 +5,7 @@ All the native sub-process should have a form as `sub-process()`.
 <br>
 ## Date
 ---
+
 **now**
 
 Time stamp.The `now()` method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.

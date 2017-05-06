@@ -2,7 +2,7 @@ title: '内置子过程'
 ---
 所有的内置子过程都需要有如下的形式：`子过程名称()`。
 
-<br>
+<br/>
 ## Date
 ---
 
@@ -34,7 +34,7 @@ log format(now,"isoDateTime");
 format("Jan 1 2017"，"fullDate"); //输出：Sunday,January 1st,2017
 </pre>
 
-<br>
+<br/>
 ## Type
 ---
 
@@ -54,7 +54,7 @@ number('3.14') // 输出  3.14
 number('3'+'2') // 输出  32
 </pre>
 
-<br>
+<br/>
 ## Math
 ---
 
@@ -98,7 +98,7 @@ max(3+2,number('3'+'2'))  // 输出  32</pre>
 //在一个特定的范围输出一个随机数
 random() * (max - min) + min </pre>
 
-<br>
+<br/>
 ## String
 ---
 
@@ -135,7 +135,7 @@ substr('Lemoncase',2)  //输出 'moncase'</pre>
 <pre class='sublemon'>
 trim('  Lemon case  ')  //输出 'Lemon case'</pre>
 
-<br>
+<br/>
 ## Array
 ---
 数组对象是一个用于构造数组的全局对象; 它们是高级的，列表式的对象。数组的格式为 `arrayname = [element1,element2,...]`，其中 array[0] = element1。以下方的数组为例：

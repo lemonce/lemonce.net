@@ -50,6 +50,8 @@ nav:
   compare: 'Compare'
   news: 'News'
   docs: 'Docs'
+  purchase: 'Purchase'
+  download: 'Download'
 
 page:
   last_updated: 'Last Updated:'
