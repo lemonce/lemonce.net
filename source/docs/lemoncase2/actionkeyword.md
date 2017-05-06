@@ -36,15 +36,27 @@ Release an element by mouse.
 Move an element to the center of the screen.
 
 <br>
-## jumpto
+## jumpto / back / forward / refresh
 ---
-Jump to a URL.
+`jumpto` jump to a URL;`forward` `back` back to previous webpage.
 <pre class='sublemon'>
-jumpto "deepin.org"; 
-
-jumpto "www.deepin.org"; 
-
-jumpto "http://www.deepin.org"; 
+    jumpto "https://www.google.com/";  
+    //jump to google
+	wait 2333;
+	click "";  
+    //点击搜索框
+	input "#kw" by "deepin";  
+    //input “deepin”
+	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
+    //进入“深度”主页
+	wait 2000;
+	back;  
+    //回到搜索页
+	wait 2000;
+	forward;  
+    //前进到“深度”主页
+	refresh;
+	//刷新当前“深度”主页 
 </pre>
 
 <br>

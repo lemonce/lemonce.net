@@ -1,16 +1,21 @@
-title: 'Inbuilt sub-process'
+title: 'Native sub-process'
 ---
-All the Inbuilt sub-process should have a form as `sub-process()`.
+All the native sub-process should have a form as `sub-process()`.
 
 <br>
-## Data
+## Date
 ---
-
-**format**
-
 **now**
 
 Time stamp.The `now()` method returns the number of milliseconds elapsed since 1 January 1970 00:00:00 UTC.
+<pre class='sublemon'>
+//set 2017-1-1,00:00 as current time
+log now(); //Output 1483200000
+</pre>
+
+**format**
+
+
 
 <br>
 ## Type

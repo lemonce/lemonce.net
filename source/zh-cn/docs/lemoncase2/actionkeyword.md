@@ -38,15 +38,27 @@ input 'div#link.case' by "hello world.";
 滚动页面，保持选中元素位于屏幕中部
 
 <br>
-## jumpto
+## jumpto / back / forward / refresh
 ---
-跳转到一个URL链接。链接可以采用以下三种方式填写，都能完成跳转。
+`jumpto` 跳转到一个URL链接；`forward` 去到下一个网页；`back` 回到上一个网页。
 <pre class='sublemon'>
-jumpto "deepin.org"; 
-
-jumpto "www.deepin.org"; 
-
-jumpto "http://www.deepin.org"; 
+	jumpto "https://www.baidu.com/";  
+    //跳转到百度
+	wait 2333;
+	click "#kw";  
+    //点击搜索框
+	input "#kw" by "deepin";  
+    //搜索栏中输入“deepin”
+	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
+    //进入“深度”主页
+	wait 2000;
+	back;  
+    //回到搜索页
+	wait 2000;
+	forward;  
+    //前进到“深度”主页
+	refresh;
+	//刷新当前“深度”主页
 </pre>
 
 <br>
@@ -70,35 +82,6 @@ assert <#"textarea#test"/>;
 //断言id名为‘test’的输入框会在两秒钟内出现
 assert <#"textarea#test"/> in 2000;
 </pre>
-
-<br>
-## forward / back
----
-
-`forward` 去到下一个网页；`back` 回到上一个网页。
-<pre class='sublemon'>
-	jumpto "https://www.baidu.com/";  
-    //跳转到百度
-	wait 2333;
-	click "#kw";  
-    //点击搜索框
-	input "#kw" by "deepin";  
-    //搜索栏中输入“deepin”
-	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
-    //进入“深度”主页
-	wait 2000;
-	back;  
-    //回到搜索页
-	wait 2000;
-	forward;  
-    //前进到“深度”主页
-</pre>
-
-<br>
-## refresh
----
-
-刷新当前页面。
 
 <br>
 ## upload
