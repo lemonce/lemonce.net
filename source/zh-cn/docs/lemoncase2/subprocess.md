@@ -16,9 +16,13 @@ log now(); //输出 1483200000
 
 **format**
 
-`format` 与上方的 `now` 共同使用，以某种确定的格式输出当前的时间。关于`format`更详细的使用方式请[点击这里](https://www.npmjs.com/package/dateformat)。
+`format` 以某种确定的格式输出指定的时间，可与上方的 `now` 共同使用，。关于`format`更详细的使用方式请[点击这里](https://www.npmjs.com/package/dateformat)。
 <pre class='sublemon'>
-//假设以2017年1月1日，0时0分为当前时间
+//用于输出某一天的相关信息
+format("May 11 2012"，"fullDate"); //输出：Friday,May 11,2017
+format("May 11 2012"，"isoDate"); //输出：2012-05-11
+
+/用于输出当前的信息，假设以2017年1月1日，0时0分为当前时间
 log format(now,"yyyy-mm-dd");
 //输出：2017-01-01
 log format(now,"yyyy-m-d");
@@ -29,9 +33,6 @@ log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");
 //输出：Sunday，January 1st,2017,0:00:00 AM
 log format(now,"isoDateTime");
 //输出：2017-01-01T00:00+0800
-
-//也可以用于输出某一天的完整信息
-format("Jan 1 2017"，"fullDate"); //输出：Sunday,January 1st,2017
 </pre>
 
 <br/>

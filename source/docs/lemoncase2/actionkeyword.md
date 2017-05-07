@@ -38,25 +38,25 @@ Move an element to the center of the screen.
 <br>
 ## jumpto / back / forward / refresh
 ---
-`jumpto` jump to a URL;`forward` `back` back to previous webpage.
+`jumpto` jump to a URL;`forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
 <pre class='sublemon'>
-    jumpto "https://www.google.com/";  
-    //jump to google
+    process main () {
+
+	// Deepin Technology Community
+	jumpto "https://www.deepin.org/en/";
 	wait 2333;
-	click "";  
-    //点击搜索框
-	input "#kw" by "deepin";  
-    //input “deepin”
-	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
-    //进入“深度”主页
+	// click span|
+	click "#hs-site-navigation > div:nth-child(1) > span:nth-child(1)";
+	// click Projects
+	click "#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)";
+	// Navigate to New Page
 	wait 2000;
-	back;  
-    //回到搜索页
+	back;
 	wait 2000;
-	forward;  
-    //前进到“深度”主页
+	forward;
+	wait 2000;
 	refresh;
-	//刷新当前“深度”主页 
+}
 </pre>
 
 <br>
@@ -84,13 +84,22 @@ assert <#"textarea#test"/> in 2000;
 </pre>
 
 <br>
-## forward / back
----
-
-<br>
-## refresh
----
-
-<br>
 ## upload
 ---
+<pre class='sublemon'>
+#AUTOWAIT 1000
+process main () {
+
+	// Angular file upload - flow.js
+	jumpto "http://flowjs.github.io/ng-flow/";
+	wait 3333;
+	// click Basic upload
+	click "div.ng-scope > .drop > span.btn-default";
+	upload ["path of file1","path of file2"];
+	wait 4000;
+	// click Single image upload
+	click "body > div:nth-child(1) > section:nth-child(2) > div:nth-child(10) > div:nth-child(4) > span:nth-child(1)";
+    upload ["path of file3","path of file4"];
+	// 
+    wait 4000;
+}

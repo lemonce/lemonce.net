@@ -40,25 +40,25 @@ input 'div#link.case' by "hello world.";
 <br>
 ## jumpto / back / forward / refresh
 ---
-`jumpto` 跳转到一个URL链接；`forward` 去到下一个网页；`back` 回到上一个网页。
+`jumpto` 跳转到一个URL链接；`forward` 向前移动一页；`back` 后退一页；`refresh` 刷新当前网页。
 <pre class='sublemon'>
-	jumpto "https://www.baidu.com/";  
-    //跳转到百度
+process main () {
+
+	// Deepin Technology Community
+	jumpto "https://www.deepin.org/en/";
 	wait 2333;
-	click "#kw";  
-    //点击搜索框
-	input "#kw" by "deepin";  
-    //搜索栏中输入“deepin”
-	click "#1 > h3:nth-child(1) > a:nth-child(1)";  
-    //进入“深度”主页
+	// click span|
+	click "#hs-site-navigation > div:nth-child(1) > span:nth-child(1)";
+	// click Projects
+	click "#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)";
+	// Navigate to New Page
 	wait 2000;
-	back;  
-    //回到搜索页
+	back;
 	wait 2000;
-	forward;  
-    //前进到“深度”主页
+	forward;
+	wait 2000;
 	refresh;
-	//刷新当前“深度”主页
+}
 </pre>
 
 <br>
@@ -86,3 +86,25 @@ assert <#"textarea#test"/> in 2000;
 <br>
 ## upload
 ---
+
+如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。语法格式为：`upload [the path of a file]`。以下是例子。
+
+**注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转译 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
+<pre class='sublemon'>
+#AUTOWAIT 1000
+process main () {
+
+	// Angular file upload - flow.js
+	jumpto "http://flowjs.github.io/ng-flow/";
+	wait 3333;
+	// 点击 Basic upload
+	click "div.ng-scope > .drop > span.btn-default";
+	upload ["path of file1","path of file2"];
+	wait 4000;
+	// 点击 Single image upload
+	click "body > div:nth-child(1) > section:nth-child(2) > div:nth-child(10) > div:nth-child(4) > span:nth-child(1)";
+    upload ["path of file3","path of file4"];
+	// 当只支持上传一个文件时，lemonce会默认上传第一个文件
+    wait 4000;
+}
+</pre>
