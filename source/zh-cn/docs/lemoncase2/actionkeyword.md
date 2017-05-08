@@ -77,7 +77,18 @@ process main () {
 <br>
 ## scroll
 ---
-滚动页面，保持选中元素位于屏幕中部
+滚动页面，保持选中元素位于屏幕中部。
+<pre class="sublemon">
+process main () {
+  
+	// Deepin Technology Community
+	jumpto "https://www.deepin.org/en/";
+	wait 2333;
+	
+	//
+	scroll '#hs-top-footer';
+}
+</pre>
 
 <br>
 ## jumpto / back / forward / refresh
