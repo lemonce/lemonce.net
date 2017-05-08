@@ -5,6 +5,20 @@ title: '动作关键字'
 ---
 单击或双击一个HTML的页面元素。
 
+<pre class='sublemon'>
+process main () {
+    
+	jumpto "https://support.mozilla.org/en-US/";
+	wait 2333;
+	
+	//双击"#tabzilla"
+	dblclick "#tabzilla";
+	
+	//单击"#tabzilla"
+	click "#tabzilla";
+}
+</pre>
+
 <br>
 ## input...by
 ---
@@ -20,17 +34,45 @@ input 'div#link.case' by "hello world.";
 <br>
 ## move 
 ---
-对HTML页面元素触发鼠标移动/移出的动作。
+对HTML页面元素触发鼠标移入移出的动作。该动作可触发CSShover。
+
+<pre class='sublemon'>
+process main () {
+    
+	jumpto "https://www.deepin.org/en/";
+	wait 2333;
+	click '#hs-site-navigation > div:nth-child(1)';
+	
+	// 在以下三个页面元素上移动
+	move '#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)';
+	move '#menu-main > li:nth-child(3) > a:nth-child(1) > span:nth-child(1)';
+	move '#menu-main > li:nth-child(4) > a:nth-child(1) > span:nth-child(1)';
+}
+</pre>
 
 <br>
 ## hold
 ---
-鼠标持续点住一个元素。
+鼠标持续点住一个元素。具体的示例在下方的`drop`中。
 
 <br>
 ## drop
 ---
 鼠标释放一个元素。
+<pre class="sublemon">
+process main () {
+
+	jumpto "https://jqueryui.com/draggable/";
+	wait 2333;
+	
+	//持续点住页面上的一个元素，用move来完成拖拽和指针移动
+    hold '#content > iframe:nth-child(5) < #draggable';
+    move '#content > iframe:nth-child(5) < html';
+    
+    //释放该元素
+    drop;
+}
+</pre>
 
 <br>
 ## scroll
@@ -44,19 +86,22 @@ input 'div#link.case' by "hello world.";
 <pre class='sublemon'>
 process main () {
 
-	// Deepin Technology Community
+	// jumpto
 	jumpto "https://www.deepin.org/en/";
 	wait 2333;
-	// click span|
 	click "#hs-site-navigation > div:nth-child(1) > span:nth-child(1)";
-	// click Projects
 	click "#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)";
-	// Navigate to New Page
 	wait 2000;
+	
+	//back 回到首页
 	back;
 	wait 2000;
+	
+	//forward 前进到doc页
 	forward;
 	wait 2000;
+
+    //refresh 刷新当前doc页
 	refresh;
 }
 </pre>
@@ -79,7 +124,7 @@ wait 3000;
 <pre class='sublemon'>//断言存在一个id为'test'的输入框
 assert <#"textarea#test"/>;
 
-//断言id名为‘test’的输入框会在两秒钟内出现
+//断言id名为'test'的输入框会在两秒钟内出现
 assert <#"textarea#test"/> in 2000;
 </pre>
 
