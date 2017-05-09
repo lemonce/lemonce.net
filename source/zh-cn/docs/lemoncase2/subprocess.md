@@ -55,6 +55,12 @@ number('3.14') // 输出  3.14
 number('3'+'2') // 输出  32
 </pre>
 
+**string( )**
+`string()` 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
+<pre class='sublemon'>
+log length(string(3.14)); //输出  4
+</pre>
+
 <br/>
 ## Math
 ---
