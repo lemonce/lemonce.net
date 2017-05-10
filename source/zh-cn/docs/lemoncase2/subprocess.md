@@ -22,7 +22,7 @@ log now(); //输出 1483200000
 format("May 11 2012"，"fullDate"); //输出：Friday,May 11,2017
 format("May 11 2012"，"isoDate"); //输出：2012-05-11
 
-/用于输出当前的信息，假设以2017年1月1日，0时0分为当前时间
+//用于输出当前的信息，假设以2017年1月1日，0时0分为当前时间
 log format(now,"yyyy-mm-dd");
 //输出：2017-01-01
 log format(now,"yyyy-m-d");

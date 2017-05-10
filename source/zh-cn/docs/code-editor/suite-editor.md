@@ -55,7 +55,7 @@ title: '套件编辑器'
 
 **Suite 列表**
 
-Suite 列表展示的是工作空间中的所有的 Suite，单击以激活需要编辑的 Suite，会在右方的 Case 列表中显示出该 Suite 所包含的 Case。
+Suite 列表展示的是工作空间中的所有的 Suite，双击以激活需要编辑的 Suite，会在右方的 Case 列表中显示出该 Suite 所包含的 Case。
 
 **Case列表**
 

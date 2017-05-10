@@ -53,3 +53,21 @@ title: '用例编辑器'
 <i class="fa fa-columns"></i> **分离视图**
 
 点击该按钮以分割编辑器，可以在编辑器另一侧显示相同的内容，并且任何对内容的改动都会同步到另一侧。工作原理和 Visual Studio Code 中的“分割编辑器”相同。
+
+<br/>
+## 主界面
+---
+整个主界面展示如下。分为两个部分：
+- Case 列表
+- 代码编辑区
+
+<img class="large-images" src="/images/code-editor/case-interface.png">
+<br/>
+
+**Case 列表**
+
+Case 列表展示的是工作空间中的所有的 Case，双击以激活需要编辑的 Case，会在 Lemonce 右方弹出该 Case 中所包含的代码。
+
+**Case 代码**
+
+用户通过录制或者键盘输入都会在此区域生成相应的lc2代码，可以直接在编辑区内对代码进行增删改查。
