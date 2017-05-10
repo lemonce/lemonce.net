@@ -41,3 +41,28 @@ title: '套件编辑器'
 <i class="fa fa-list-alt"></i> **档案管理**
 
 打开用例库。用户可以选择相应的用例添加到当前的套件中去。
+
+<br/>
+## 主界面
+---
+整个主界面展示如下。分为三个部分：
+- Suite 列表
+- Case 列表
+- 用例库
+
+<img class="large-images" src="/images/code-editor/suite-interface.png">
+<br/>
+
+**Suite 列表**
+
+Suite 列表展示的是工作空间中的所有的 Suite，单击以激活需要编辑的 Suite，会在右方的 Case 列表中显示出该 Suite 所包含的 Case。
+
+**Case列表**
+
+Case 列表显示的是当前 Suite 内包含的 Case。Case 列表分为三列：Case 的编号，Case 的名称以及 Case 当前的状态。Case 状态分为：待运行状态 Ready；通过状态 Pass；失败状态 Failed。
+
+**用例库**
+
+用例库展示的是当前工作空间下的所有 Case，以 Case 的名称排序。双击所需的 Case 可以将其导入到 Case 列表之中来形成用户所需的 Suite。
+
+**注意:** 如果用户重命名了一个 Case，并且该 Case 之前已经在一个 Suite 中被引用，Case列表中该 Case 的名称不会发生改变，但用例库中名称会产生重命名同步。用户需要重新从用例库中导入该 Case，否则可能会出现 Suite 无法执行或执行出错的情况。

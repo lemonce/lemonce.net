@@ -4,7 +4,7 @@ title: '用例编辑器'
 ---
 整个工具栏显示如下。
 
-<img class="long-images" src="/images/code-editor/case-toolbar.png">
+<img  src="/images/code-editor/case-toolbar.png">
 <br>
 
 <i class="fa fa-file-code-o"></i>  **新建 Case**  
@@ -30,19 +30,23 @@ title: '用例编辑器'
 
 在代码生成的区域鼠标指针所在的位置插入当前网页的链接地址。
 
-<i class="fa fa-play"></i> **运行 Case/** <i class="fa fa-stop"></i> **停止运行 Case**
+<i class="fa fa-play"></i> **运行 Case /** <i class="fa fa-pause"></i> **暂停 Case /** <i class="fa fa-play-circle-o"></i> **继续运行 Case**
 
-开始或停止当前用例。
+开始、暂停或继续当前用例。
 
-<i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
+<i class="fa fa-stop"></i> **停止 Case**
+
+停止正在运行的当前用例。
+
+<i class="fa fa-circle" style="color:red"></i> **开始录制/** <i class="fa fa-stop-circle-o" style="color:red"></i> **结束录制**
 
 将鼠标和键盘的操作转换为代码。一旦开始录制，这个按钮会从 <i class="fa fa-circle" style="color:red"></i> 变为 <i class="fa fa-stop-circle-o" style="color:red"></i>。 再次点击以停止录制。
 
 **selector / xpath**
 
-在录制过程中，获取页面内元素的两种选择器。`selector`为默认的CSSPath,`xpath`为XPath。
+在录制过程中，获取页面内元素选择器的两种选择方式。`selector`为默认的CSSPath,`xpath`为XPath。
 
-<i class="fa fa-undo"></i> **撤销/** <i class="fa fa-repeat"></i> **重复**
+<i class="fa fa-undo"></i> **撤销 /** <i class="fa fa-repeat"></i> **重复**
 
 返回到上一步操作或前进到下一步操作，用户也可以使用 `Ctrl+Z`/`Ctrl+Y` 完成该操作。
 

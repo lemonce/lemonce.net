@@ -72,27 +72,31 @@ log length(string(3.14)); //输出  4
 abs(-3.14) // 输出  3.14
 abs('') // 输出  0
 abs() // 输出  NaN
-abs('string') // 输出  NaN</pre>
+abs('string') // 输出  NaN
+</pre>
 
 **ceil( )**
 
 `ceil(number)` 返回大于当前数字的最小的整数。
 <pre class='sublemon'>
 ceil(3.14) // 输出  4
-ceil(-3.14) // 输出  -3</pre>
+ceil(-3.14) // 输出  -3
+</pre>
 
 **floor( )**
 
 `floor(number)` 返回小于当前数字的最大整数。
 <pre class='sublemon'>
 floor(3.14) // 输出  3
-floor(-3.14) // 输出  -4</pre>
+floor(-3.14) // 输出  -4
+</pre>
 
 **max( )**
 
 `max(number1,number2,...)` 返回一组数中的最大值。
 <pre class='sublemon'>
-max(3+2,number('3'+'2'))  // 输出  32</pre>
+max(3+2,number('3'+'2'))  // 输出  32
+</pre>
 
 **min( )**
 
@@ -103,7 +107,8 @@ max(3+2,number('3'+'2'))  // 输出  32</pre>
 `random()` 返回一个浮点，伪随机数在范围[0，1)，然后用户可以缩放到所需的范围。实现选择初始种子进行随机数生成算法；它不能被用户选择或重置。
 <pre class='sublemon'>
 //在一个特定的范围输出一个随机数
-random() * (max - min) + min </pre>
+random() * (max - min) + min 
+</pre>
 
 <br/>
 ## String
@@ -113,13 +118,15 @@ random() * (max - min) + min </pre>
 
 `length(string)`表示一个字符串的长度。
 <pre class='sublemon'>
-length("Lemonce") //输出  7</pre>
+length("Lemonce") //输出  7
+</pre>
 
 **charAt( )**
 
 `charAt(string,pos)` 从一个字符串中返回指定的字符。
 <pre class='sublemon'>
-charAt('Lemonce',5)  //输出 'c'</pre>
+charAt('Lemonce',5)  //输出 'c'
+</pre>
 
 **indexOf( )**
 
@@ -127,20 +134,23 @@ charAt('Lemonce',5)  //输出 'c'</pre>
 <pre class='sublemon'>
 indexOf('Lemonce','L')  //输出  0
 indexOf('Lemonce','e')  //输出  1
-indexOf('Lemonce','l')  //输出  -1</pre>
+indexOf('Lemonce','l')  //输出  -1
+</pre>
 
 **substr( )**
 
 `substr(string,from,[length])` 返回一个字符串在开始索引到结束索引之间的一个子集, 或从开始索引直到字符串的末尾的一个子集。
 <pre class='sublemon'>
 substr('Lemoncase',2,3)  //输出 'mon'
-substr('Lemoncase',2)  //输出 'moncase'</pre>
+substr('Lemoncase',2)  //输出 'moncase'
+</pre>
 
 **trim( )**
 
 `trim(string)` 删除一个字符串两端的空白字符。在这个字符串里的空格包括所有的空格字符 (space, tab, no-break space 等)以及所有的行结束符（如 LF，CR）。
 <pre class='sublemon'>
-trim('  Lemon case  ')  //输出 'Lemon case'</pre>
+trim('  Lemon case  ')  //输出 'Lemon case'
+</pre>
 
 <br/>
 ## Array
