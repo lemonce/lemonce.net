@@ -11,7 +11,7 @@ process main(){
 
 }
 
-//This is a sub process which can be named with different keywords(except 'main').
+//This is a sub process which can be named with different keywords without special characters (except 'main').
 process anyname(){ 
 
 }
@@ -20,21 +20,21 @@ process anyname(){
 <br>
 ## return
 ---
-The `return` statement ends sub-process execution and specifies a value to be returned to the sub-process caller.A sub-process immediately stops at the point where return is called.
 
+The `return` statement ends sub-process execution and specifies a value to be returned to the sub-process caller. A sub-process immediately stops at the point where return is called.
 <pre class='sublemon'>
 process main () {
 	counter();   
 	}  
 process counter() {
 	count = 1;
-	while(count < 5){	    // until 4
+	while(count < 5){	    // count=1,2,3,4
 		log count + 'A';
 		count +=1;
-		log count + 'B';    // until 5
+		log count + 'B';    // count=2,3,4,5
       }
 	return;
-    log count + 'C';        // never appears      
+    log count + 'C';        // Never appears. 
 }
 </pre>
   
@@ -76,7 +76,7 @@ for (variable of object){
 ```
 
 <pre class='sublemon'>
-//iterating over an Array
+//Iterating over an Array.
 process main () {
  A = [10,20,30];
   for (x of A){
@@ -88,7 +88,7 @@ process main () {
 //20
 //30
 
-//iterating over a String
+//Iterating over a String.
 process main () {
   for (x of "Lemonce"){
       log x;
@@ -167,7 +167,7 @@ process counter() {
 		log count + 'B';    // count=2,3,4,5
       }
 	return;
-    log count + 'C';        // process counter is over      
+    log count + 'C';        // This statement never appears. 
 }
 </pre>
 
@@ -175,7 +175,7 @@ process counter() {
 ## log
 ---
 
-Record the value of an expression.
+Output a message to the console. You can output variables, expressions, strings etc. that have been defined in the test case.
 
 <pre class='sublemon'>
 log '2'+3	//Output  23

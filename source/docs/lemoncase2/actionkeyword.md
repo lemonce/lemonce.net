@@ -93,7 +93,7 @@ process main () {
 <br>
 ## jumpto / back / forward / refresh
 ---
-`jumpto` jump to a URL;`forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
+`jumpto` jump to a URL; `forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
 
 <pre class='sublemon'>
 process main () {
