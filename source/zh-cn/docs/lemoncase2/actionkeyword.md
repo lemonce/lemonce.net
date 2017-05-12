@@ -59,6 +59,7 @@ process main () {
 ## drop
 ---
 鼠标释放一个元素。
+
 <pre class="sublemon">
 process main () {
 
@@ -78,6 +79,7 @@ process main () {
 ## scroll
 ---
 滚动页面，保持选中元素位于屏幕中部。
+
 <pre class="sublemon">
 process main () {
   
@@ -94,6 +96,7 @@ process main () {
 ## jumpto / back / forward / refresh
 ---
 `jumpto` 跳转到一个URL链接；`forward` 向前移动一页；`back` 后退一页；`refresh` 刷新当前网页。
+
 <pre class='sublemon'>
 process main () {
 
@@ -120,8 +123,8 @@ process main () {
 <br>
 ## wait
 ---
-
 等待一定的时间（以毫秒为单位）。
+
 <pre class='sublemon'>
 //编辑器会等待3000毫秒再执行下一个动作
 wait 3000;
@@ -130,9 +133,10 @@ wait 3000;
 <br>
 ## assert
 ---
-
 断言一个表达式为真（在一定的时间内）
-<pre class='sublemon'>//断言存在一个id为'test'的输入框
+
+<pre class='sublemon'>
+//断言存在一个id为'test'的输入框
 assert <#"textarea#test"/>;
 
 //断言id名为'test'的输入框会在两秒钟内出现
@@ -142,11 +146,11 @@ assert <#"textarea#test"/> in 2000;
 <br>
 ## upload
 ---
-
 如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。语法格式为：`upload [the path of a file]`。以下是例子。
 
-**注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转译 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
+**注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转义 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
 <pre class='sublemon'>
+
 #AUTOWAIT 1000
 process main () {
 
