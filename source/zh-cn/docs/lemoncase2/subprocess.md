@@ -56,6 +56,7 @@ number('3'+'2') // 输出  32
 </pre>
 
 **string( )**
+
 `string()` 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
 <pre class='sublemon'>
 log length(string(3.14)); //输出  4
@@ -65,7 +66,7 @@ log length(string(3.14)); //输出  4
 ## Math
 ---
 
-**abs()**
+**abs( )**
 
 `abs(number)` 返回当前数字的绝对值, abs(x)=|x|。
 <pre class='sublemon'>
@@ -155,7 +156,7 @@ trim('  Lemon case  ')  //输出 'Lemon case'
 <br/>
 ## Array
 ---
-数组对象是一个用于构造数组的全局对象; 它们是高级的，列表式的对象。数组的格式为 `arrayname = [element1,element2,...]`，其中 array[0] = element1。以下方的数组为例：
+数组对象是一个用于构造数组的全局对象；它们是高级的，列表式的对象。数组的格式为 `arrayname = [element1,element2,...]`，其中 array[0] = element1。以下方的数组为例：
 
 ```
 process main () {
