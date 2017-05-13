@@ -156,8 +156,7 @@ while (i < 5) {
 ## while
 ---
 
-`while`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
-
+`while`产生一个当满足条件为true时便执行指定语句的循环。每次执行语句前，条件都会被评估。
 <pre class='sublemon'>
 process main () {
 	counter();   
