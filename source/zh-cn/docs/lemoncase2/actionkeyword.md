@@ -16,8 +16,7 @@ process main () {
 	
 	//单击"#tabzilla"
 	click "#tabzilla";
-}
-</pre>
+}</pre>
 
 <br>
 ## input...by
@@ -28,8 +27,7 @@ process main () {
 
 <pre class='sublemon'>
 // eg: id="link" class="case" 
-input 'div#link.case' by "hello world.";
-</pre>
+input 'div#link.case' by "hello world.";</pre>
 
 <br>
 ## move 
@@ -47,8 +45,7 @@ process main () {
 	move '#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)';
 	move '#menu-main > li:nth-child(3) > a:nth-child(1) > span:nth-child(1)';
 	move '#menu-main > li:nth-child(4) > a:nth-child(1) > span:nth-child(1)';
-}
-</pre>
+}</pre>
 
 <br>
 ## hold
@@ -72,8 +69,7 @@ process main () {
     
     //释放该元素
     drop;
-}
-</pre>
+}</pre>
 
 <br>
 ## scroll
@@ -89,8 +85,7 @@ process main () {
 	
 	//
 	scroll '#hs-top-footer';
-}
-</pre>
+}</pre>
 
 <br>
 ## jumpto / back / forward / refresh
@@ -117,8 +112,7 @@ process main () {
 
     //refresh 刷新当前doc页
 	refresh;
-}
-</pre>
+}</pre>
 
 <br>
 ## wait
@@ -127,8 +121,7 @@ process main () {
 
 <pre class='sublemon'>
 //编辑器会等待3000毫秒再执行下一个动作
-wait 3000;
-</pre>
+wait 3000;</pre>
 
 <br>
 ## assert
@@ -140,8 +133,7 @@ wait 3000;
 assert <#"textarea#test"/>;
 
 //断言id名为'test'的输入框会在两秒钟内出现
-assert <#"textarea#test"/> in 2000;
-</pre>
+assert <#"textarea#test"/> in 2000;</pre>
 
 <br>
 ## upload
@@ -166,5 +158,4 @@ process main () {
     upload ["path of file3","path of file4"];
 	// 当只支持上传一个文件时，lemonce会默认上传第一个文件
     wait 4000;
-}
-</pre>
+}</pre>

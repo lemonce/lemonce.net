@@ -2,7 +2,7 @@ title: 'Native sub-process'
 ---
 All the native sub-process should have a form as `sub-process()`.
 
-<br>
+<br/>
 ## Date
 ---
 
@@ -33,8 +33,7 @@ log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");
 log format(now,"isoDateTime");
 //Output：2017-01-01T00:00+0800</pre>
 
-
-<br>
+<br/>
 ## Type
 ---
 
@@ -58,8 +57,7 @@ The global object `string()` is a constructor for a string or a sequence of char
 <pre class='sublemon'>
 log length(string(3.14)); //Output  4</pre>
 
-
-<br>
+<br/>
 ## Math
 ---
 
@@ -102,7 +100,7 @@ max(3+2,number('3'+'2'))  // Output  32</pre>
 //Output a random number in a specified range.
 random() * (max - min) + min </pre>
 
-<br>
+<br/>
 ## String
 ---
 

@@ -42,33 +42,33 @@ process main () {
 
 **~~ : Approximately equal to**
 
-- [string] ~~ [string] A part of string A is the same as string B.<br>
-- [string] ~~ [/RegExp/] A part of string A can matches the regular expression B.<br>
+- [string] ~~ [string] A part of string A is the same as string B.<br/>
+- [string] ~~ [/RegExp/] A part of string A can matches the regular expression B.<br/>
 
-`"Lemonce"~~/[A-Z][a-t]/  //Output：true`<br>
+`"Lemonce"~~/[A-Z][a-t]/  //Output：true`<br/>
 `"Lemonce"~~"mon" //Output：true`
 
 **== : Equal to**
 
-- [string] == [string] String A is exactly the same as string B.<br>
-- [var] == [var] Variable A is exactly the same as variable B.<br>
+- [string] == [string] String A is exactly the same as string B.<br/>
+- [var] == [var] Variable A is exactly the same as variable B.<br/>
 
-`"Lemonce" == "Lemonce" //Output：true`<br>
+`"Lemonce" == "Lemonce" //Output：true`<br/>
 `"x" == "x" //Output：true`
 
 **!~ : Not appromimately equal to**
 
-- [string] !~ [string] No part of string A is the same as string B.<br>
-- [string] !~ [/RegExp/] No part of string A could match the regular expression B.<br>
+- [string] !~ [string] No part of string A is the same as string B.<br/>
+- [string] !~ [/RegExp/] No part of string A could match the regular expression B.<br/>
 
-`"Lemonce"!~/L[A-Z][a-t]/  //Output：true`<br>
+`"Lemonce"!~/L[A-Z][a-t]/  //Output：true`<br/>
 `"Lemonce"!~"mon" //Output：false`
 
 **!= : Not equal to**
 
-- [string] != [string] String A is different from string B.<br>
-- [var] != [var] Variable A is different from string B.<br>
+- [string] != [string] String A is different from string B.<br/>
+- [var] != [var] Variable A is different from string B.<br/>
 
-`"Lemonce" != "Lemonce" //Output：false`<br>
+`"Lemonce" != "Lemonce" //Output：false`<br/>
 `"x" != "y" //Output：true`
 

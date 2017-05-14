@@ -17,8 +17,7 @@ process main(){
 //这是一个子过程，除了使用‘main'作为关键词以外，您可以使用任意不带特殊符号的字符串来对子过程进行命名。
 process anyname(){ 
 
-}
-</pre>  
+}</pre>  
 
 <br>
 ## return
@@ -38,8 +37,7 @@ process counter() {
       }
 	return;
     log count + 'C';        // 子过程已结束，本语句不会执行      
-}
-</pre>
+}</pre>
 
 <br>
 ## for...in
@@ -63,8 +61,7 @@ process main () {
 }
 //Output:
 //A[a]=1
-//A[b]=2
-</pre>
+//A[b]=2</pre>
 
 <br>
 ## for...of
@@ -104,8 +101,7 @@ process main () {
 //o
 //n
 //c
-//e
-</pre>
+//e</pre>
 
 <br>
 ## if...else
@@ -127,8 +123,7 @@ else {
     log "3";
  }
 }
-//Output "3"
-</pre>
+//Output "3"</pre>
 
 <br>
 ## continue
@@ -149,8 +144,7 @@ while (i < 5) {
    n += i;
    log n;  //Output 1,3,7,12
    }
-}
-</pre>
+}</pre>
 
 <br>
 ## while
@@ -170,8 +164,7 @@ process counter() {
       }
 	return;
     log count + 'C';        // 子过程已结束，本语句不会执行      
-}
-</pre>
+}</pre>
 
 <br>
 ## log
@@ -181,5 +174,4 @@ process counter() {
 
 <pre class='sublemon'>
 log '2'+3	//输出  23
-log true	//输出  true
-</pre>
+log true	//输出  true</pre>
