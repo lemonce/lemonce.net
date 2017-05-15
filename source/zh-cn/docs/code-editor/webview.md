@@ -30,4 +30,6 @@ title: '网页视图'
 ## 调试器
 ---
 
-点击<i class="fa fa-pencil-square-o"></i>弹出调试器，与Chrome的调试器形式相同。
+点击 <i class="fa fa-pencil-square-o"></i> 弹出调试器，与Chrome的调试器形式相同。
+
+<img class="large-images" src="/images/code-editor/webview-debugger.png">
