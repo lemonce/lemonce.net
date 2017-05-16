@@ -77,6 +77,6 @@ doc_sidebar:
   lemoncase2_actionkeyword: 'action keyword'
   lemoncase2_expression: 'expression'
   lemoncase2_native_subprocess: 'native sub-process'
-  lemoncase2_marco: 'marco'
+  lemoncase2_macro: 'macro'
   lemoncase2_magickeyword: 'magic keyword'
   lemoncase2_example: 'example'

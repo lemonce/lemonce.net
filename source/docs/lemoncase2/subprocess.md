@@ -1,6 +1,6 @@
-title: 'Native sub-process'
+title: 'Inbuild sub-process'
 ---
-All the native sub-process should have a form as `sub-process()`.
+All the inbuild sub-process should have a form as `sub-process()`.
 
 <br/>
 ## Date
