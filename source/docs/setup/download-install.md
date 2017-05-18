@@ -8,7 +8,8 @@ Below describes how to download and install Lemonce on Windows (Apply to Version
 
 1.Visit this [Lemonce download page](https://www.lemonce.com) in any browser,click on the <span class="button">Download Free Trial</span> button to download the Lemonce installer. 
 
-The page will automatically jump to the page of [lemonce-publisher](https://github.com/lemonce/lemonce-publisher/releases) on Github which recommend the latest version of Lemonce for you. 
+The page will automatically jump to the page of [lemonce-publisher](http://download.lemonce.com
+/LemonceSetup_2.0.7_950166.exe) on Github which recommend the latest version of Lemonce for you. 
 
 <img class="large-images" src="/images/setup/interface-download-01.png">
 

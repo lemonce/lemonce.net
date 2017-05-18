@@ -1,6 +1,6 @@
 index:
   download: 'Download Free Trial'
-  download_link: 'https://github.com/lemonce/lemonce-publisher/releases'
+  download_link: 'http://download.lemonce.com/LemonceSetup_2.0.7_950166.exe'
   main_title: 'A Better Web Test Automation Tool'
   sub_title: 'Lemonce Editor'
   abstract_title: 'The Best Selenium Alternative'
