@@ -3,8 +3,8 @@ title: 'Lemoncase2 Guide'
 Lemoncase2 is a Javascript-like scripting language,which is used for developing scripts in Lemonce. Read this guide to help you understand the language.
 
 browser automation library: http://lemonce.github.io/lemoncase2
-<br>
 
+<br/>
 ## [Grammar](/docs/lemoncase2/index.html)
 ---
 
@@ -12,9 +12,9 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/macro.html)|[Magic keyword](/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click / dbclick      |<@"cssPath"> |#TIMES   |$HREF  |
-|process              |input...by    |<#"cssPath"> |#AUTOWAIT|$BUTTON|
-|return         |move |<!"cssPath"> |#LIMIT   |$IT    |
+|import          |click / dbclick      |<@"selector"> |#TIMES   |$HREF  |
+|process              |input...by    |<#"selector"> |#AUTOWAIT|$BUTTON|
+|return         |move |<!"selector"> |#LIMIT   |$IT    |
 |for...in          |hold       |A~~B         |         |$LOOP  |
 |for...of        |drop       |A==B         |||         
 |if...else        |scroll       |A!=B         |||         
@@ -107,14 +107,14 @@ Below are the magic keywords which stand for some special functions. [`Read more
 - $BUTTON
 - $IT
 - $LOOP
-<br>
 
+<br/>
 ## [Scope](/docs/lemoncase2/index.html)
 ---
 Global scope. 
 There is no `return` keyword in LC2.The main process has no parameter.`process main { }` is the program's entry.
-<br>
 
+<br/>
 ## [Example](/docs/lemoncase2/example.html)
 ---
 Here are some examples for you to get started with the LC2 language. [`Read more.`](/zh-cn/docs/lemoncase2/example.html)

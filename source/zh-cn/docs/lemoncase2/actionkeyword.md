@@ -3,6 +3,9 @@ title: '动作关键字'
 
 ## click / dblclick
 ---
+<p class="alert alert-info">Syntax:click/dblclick [selector:string]
+</p>
+
 单击或双击一个HTML的页面元素。
 
 <pre class='sublemon'>
