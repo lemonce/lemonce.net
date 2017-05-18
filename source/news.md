@@ -2,6 +2,30 @@ title: 'Lemonce Update News'
 layout: page without sidebar
 ---
 
+## Updates for version 2.0.7
+---
+
+**Bug Fix**
+
+- Fixed the issue thatsometimes the web URL show the "about:blank" address  when page jumping.
+- Fixed the issue that the action was executed once more.
+
+**Optimized**
+
+- Optimized that the webview will be rebooted when running cases crash.
+- Optimized that the output pannel will show the debugging messages when the upload file does not exist.
+- Optimized that the output pannel will show the debugging messages when the upload control not supported.
+
+**New Functions**
+
+- Added the function that pause the running case.
+- LC_Driver support the keyboard event.
+- LCVM support the focusin/out event.
+- Added the `forward` syntax.
+- Added the `back` syntax.
+- Added the `scroll` syntax.
+- Added the `drop` syntax.
+
 ## Updates for version 2.0.6
 ---
 
@@ -18,7 +42,7 @@ layout: page without sidebar
 **New Functions**
 
 - Added the upload function.
-- Added the upload syntax.
+- Added the `upload` syntax.
 - Added a tool for bluk importing the '.csv' file to '.lc2' file.
 
 ## Updates for version 2.0.5
@@ -32,10 +56,10 @@ layout: page without sidebar
 - Optimized for displaying the graphical report.
 
 **New Functions**
-- Added the array syntax.
+- Added the `array` syntax.
 - Added the object syntax.
-- Added the "for in/of" syntax.
-- Added the "$BUTTON" syntax to simulate operating the right/middle/left mouse button.
+- Added the `for in/of` syntax.
+- Added the `$BUTTON` syntax to simulate operating the right/middle/left mouse button.
 - Added using the up or down arrow key to browse the list of previous commands in the debugger console.
 
 ## Updates for version 2.0.4
