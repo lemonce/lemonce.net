@@ -3,8 +3,7 @@ title: '动作关键字'
 
 ## click / dblclick
 ---
-<p class="alert alert-info">Syntax:click/dblclick [selector:string]
-</p>
+Syntax:<p class="alert alert-info">click/dblclick [selector:string];</p>
 
 单击或双击一个HTML的页面元素。
 
@@ -24,6 +23,7 @@ process main () {
 <br>
 ## input...by
 ---
+Syntax:<p class="alert alert-info">input [selector:string] by [string];</p>
 输入一段字符串到文档框中去。 
 
 <input type="text" /> 或者 <textarea>
@@ -35,6 +35,7 @@ input 'div#link.case' by "hello world.";</pre>
 <br>
 ## move 
 ---
+<p class="alert alert-info">move [selector:string]</p>
 对HTML页面元素触发鼠标移入移出的动作。该动作可触发CSShover。
 
 <pre class='sublemon'>
@@ -53,6 +54,7 @@ process main () {
 <br>
 ## hold
 ---
+<p class="alert alert-info">hold [selector:string]</p>
 鼠标持续点住一个元素。具体的示例在下方的`drop`中。
 
 <br>
@@ -120,6 +122,7 @@ process main () {
 <br>
 ## wait
 ---
+Syntax:<p class="alert alert-info">wait [time:number]</p>
 等待一定的时间（以毫秒为单位）。
 
 <pre class='sublemon'>
@@ -129,11 +132,13 @@ wait 3000;</pre>
 <br>
 ## assert
 ---
-断言一个表达式为真（在一定的时间内）
+
+断言一个表达式为真或假（在一定的时间内）
 
 <pre class='sublemon'>
-//断言存在一个id为'test'的输入框
-assert <#"textarea#test"/>;
+
+//断言id为'test'的输入框个数为1个
+assert <#"textarea#test"/> == 1;
 
 //断言id名为'test'的输入框会在两秒钟内出现
 assert <#"textarea#test"/> in 2000;</pre>
@@ -141,7 +146,8 @@ assert <#"textarea#test"/> in 2000;</pre>
 <br>
 ## upload
 ---
-如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。语法格式为：`upload [the path of a file]`。以下是例子。
+Syntax:<p class="alert alert-info">upload [file1 path:string,file2 path:string]</p>
+如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。以下是例子。
 
 **注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转义 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
 <pre class='sublemon'>
