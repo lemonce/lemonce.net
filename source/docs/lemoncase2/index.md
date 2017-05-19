@@ -12,7 +12,7 @@ browser automation library: http://lemonce.github.io/lemoncase2
 
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/macro.html)|[Magic keyword](/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click / dbclick      |<@"selector"> |#TIMES   |$HREF  |
+|import          |click / dbclick      |<@"[selector](/docs/lemoncase2/selector.html)"> |#TIMES   |$HREF  |
 |process              |input...by    |<#"selector"> |#AUTOWAIT|$BUTTON|
 |return         |move |<!"selector"> |#LIMIT   |$IT    |
 |for...in          |hold       |A~~B         |         |$LOOP  |

@@ -8,7 +8,7 @@ Save the current URL.
 
 <pre class='sublemon'>
 process main {
-    jumpto "https://www.deepin.org/";
+    jumpto "https://www.google.com/";
     log #HREF;
 }</pre>
 
@@ -34,10 +34,10 @@ process rightclick(a) {
 Save the selector of an element in the page.
 <pre class='sublemon'>
 process main () {
-	jumpto "https://www.baidu.com/"; // Jump to Baidu.com.
-	$IT = "#kw"; // Assign CSSselector of search bar of Baidu.com to $IT.
+	jumpto "https://www.google.com/"; // Jump to Google
+	$IT = "#gs_htif0"; // Assign CSSselector of search bar of Google.com to $IT.
 	click ; // The object of click action is $IT in default, so the search bar will be clicked.
-	click '#su'; // Change the value of $IT from '#kw' to '#su', that is, change the value when the CSSselector shows up next time. 
+	click 'input[value=Google Search]'; // Change the value of $IT from '#gs_htif0' to 'input[value=Google Search]', that is, change the value when the CSS selector shows up next time. 
 }</pre>
 
 <br>
@@ -50,7 +50,7 @@ Save the current times of loop, often used with #TIMES.
 #TIMES 3
 // the case will run three times.
 process main () {
-	jumpto "https://www.deepin.org/";
+	jumpto "https://www.google.com/";
 	wait 500;
 	log $LOOP; // Runs 3 times and output 0,1,2 respectively.
 }</pre>

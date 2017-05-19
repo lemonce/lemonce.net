@@ -10,13 +10,13 @@ process main {
 }
 </pre>
 
-
+<br/>
 ## A Typical test case
 ---
 A test case that runs five times.
 
 <pre class='sublemon'>
-#TIMES 1
+#TIMES 
 
 process main {
     jumpto '[URL]';
@@ -24,18 +24,14 @@ process main {
     ...
     [statement]
     ...
-}
-</pre>
+}</pre>
 
-
+<br/>
 ## Typical examples
 ---
 Test a user registration page.
 
 <pre class='sublemon'>
-#AUTOWAIT 500
-#TIMES 1
-
 process main () {
 
 	// Deepin Technology Community
@@ -55,19 +51,21 @@ process main () {
 	click "#content > form:nth-child(2) > input:nth-child(4)";
 	// type in lemonceide
 	input "#content > form:nth-child(2) > input:nth-child(4)" by "lemonceide";
-	// type in password
-	input "#content > form:nth-child(2) > input:nth-child(6)" by "password";
+	// type in caonima438
+	input "#content > form:nth-child(2) > input:nth-child(6)" by "caonima438";
 	// click SIGN IN
 	click "#content > form:nth-child(2) > input:nth-child(9)";
 	// Navigate to New Page
 	wait 2000;
-	// click div|
-	click "#hs-site-navigation > div:nth-child(1)";
 	// click Deepin ID
 	click "#menu-main > li:nth-child(11) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
 	// Navigate to New Page
 	wait 2000;
 	// assert element <body > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)> contains [lemonceide]
 	assert <@"body > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)"/> ~~ "lemonceide";
+	// click Home
+	click "#newHeader > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
+	// Navigate to New Page
+	wait 2000;
 }
 </pre>

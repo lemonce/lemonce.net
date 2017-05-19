@@ -13,9 +13,9 @@ Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 
 |[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)|[动作关键字](/zh-cn/docs/lemoncase2/actionkeyword.html)|[表达式](/zh-cn/docs/lemoncase2/expression.html) |[宏](/zh-cn/docs/lemoncase2/macro.html)|[魔术字](/zh-cn/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
-|import          |click / dbclick      |<@"selector"> |#TIMES   |$HREF  |
-|process              |input...by    |<#"selector"> |#AUTOWAIT|$BUTTON|
-|return         |move |<!"selector"> |#LIMIT   |$IT    |
+|import          |click / dbclick      |<@"[selector](/zh-cn/docs/lemoncase2/selector.html)"> |#TIMES   |$HREF  |
+|process              |input...by    |<#"[selector](/zh-cn/docs/lemoncase2/selector.html)"> |#AUTOWAIT|$BUTTON|
+|return         |move |<!"[selector](/zh-cn/docs/lemoncase2/selector.html)"> |#LIMIT   |$IT    |
 |for...in          |hold       |A~~B         |         |$LOOP  |
 |for...of        |drop       |A==B         |||         
 |if...else        |scroll       |A!=B         |||         

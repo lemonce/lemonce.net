@@ -8,12 +8,11 @@ title: '魔术字'
 
 <pre class='sublemon'>
 process main {
-    jumpto "https://www.deepin.org/";
+    jumpto "https://www.baidu.com/";
     log $HREF;
 }</pre>
 
-<br>
-
+<br/>
 ## $BUTTON
 ---
 
@@ -25,8 +24,7 @@ process rightclick(a) {
     click a;
 }</pre>
 
-<br>
-
+<br/>
 ## $IT
 ---
 
@@ -39,8 +37,7 @@ process main () {
 	click '#su'; // $IT此时的值变为'#su',即下一次选择器出现的时候重新赋值给$IT
 }</pre>
 
-<br>
-
+<br/>
 ## $LOOP
 ---
 

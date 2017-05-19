@@ -78,6 +78,7 @@ doc_sidebar:
   lemoncase2_instructionkeyword: '指令关键字'
   lemoncase2_actionkeyword: '动作关键字'
   lemoncase2_expression: '表达式'
+  lemoncase2_selector: '选择器'
   lemoncase2_native_subprocess: '内置子过程'
   lemoncase2_macro: '宏'
   lemoncase2_magickeyword: '魔术字'
