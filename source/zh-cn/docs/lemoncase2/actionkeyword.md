@@ -35,7 +35,8 @@ input 'div#link.case' by "hello world.";</pre>
 <br>
 ## move 
 ---
-<p class="alert alert-info">move [selector:string]</p>
+Syntax:
+<p class="alert alert-info">move [selector:string];</p>
 对HTML页面元素触发鼠标移入移出的动作。该动作可触发CSShover。
 
 <pre class='sublemon'>
@@ -54,12 +55,15 @@ process main () {
 <br>
 ## hold
 ---
-<p class="alert alert-info">hold [selector:string]</p>
+Syntax:
+<p class="alert alert-info">hold [selector:string];</p>
 鼠标持续点住一个元素。具体的示例在下方的`drop`中。
 
 <br>
 ## drop
 ---
+Syntax:
+<p class="alert alert-info">drop;</p>
 鼠标释放一个元素。
 
 <pre class="sublemon">
@@ -79,6 +83,8 @@ process main () {
 <br>
 ## scroll
 ---
+Syntax:
+<p class="alert alert-info">scroll [selector:string];</p>
 滚动页面，保持选中元素位于屏幕中部。
 
 <pre class="sublemon">
@@ -93,10 +99,19 @@ process main () {
 }</pre>
 
 <br>
-## jumpto / back / forward / refresh
+## jumpto
 ---
-`jumpto` 跳转到一个URL链接；`forward` 向前移动一页；`back` 后退一页；`refresh` 刷新当前网页。
+Syntax:
+<p class="alert alert-info">jumpto [URL:string];</p>
+`jumpto` 跳转到一个URL链接。
 
+
+<br>
+## back / forward / refresh
+---
+Syntax:
+<p class="alert alert-info">back;<br>forward;<br>refresh;</p>
+`back` 后退一页；`forward` 向前移动一页；`refresh` 刷新当前网页。
 <pre class='sublemon'>
 process main () {
 
@@ -132,16 +147,19 @@ wait 3000;</pre>
 <br>
 ## assert
 ---
-
-断言一个表达式为真或假（在一定的时间内）
+Syntax:<p class="alert alert-info">assert [expression] in [time:number]</p>
+断言一个表达式为真或假（在一定的时间内），具体参照以下示例。关于表达式的更多介绍，[点击这里](/zh-cn/docs/lemoncase2/expression.html)。
 
 <pre class='sublemon'>
 
 //断言id为'test'的输入框个数为1个
-assert <#"textarea#test"/> == 1;
+assert <# "textarea#test"/> == 1;
+
+//断言id为'test'的输入框包含'Lemonce'
+assert <@ "testarea#test"/> ~~ "Lemonce"
 
 //断言id名为'test'的输入框会在两秒钟内出现
-assert <#"textarea#test"/> in 2000;</pre>
+assert <# "textarea#test"/> in 2000;</pre>
 
 <br>
 ## upload
