@@ -166,9 +166,11 @@ figure.highlight pre {
 	border-bottom: 1px solid #dbdbdb;
 }
 /* docs */
-.page-inner {
-	margin-left: 220px;
-	margin-right: 220px;
+@media (min-width: 960px) {
+	.page-inner {
+		margin-left: 220px;
+		margin-right: 220px;
+	}
 }
 
 .page-inner2{
