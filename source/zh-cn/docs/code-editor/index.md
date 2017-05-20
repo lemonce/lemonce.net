@@ -9,6 +9,7 @@ title: '编辑器'
 - 新建/打开/保存 Case
 - 查看元素/插入链接
 - 运行/暂停/继续 Case
+- 停止 Case
 - 开始/停止录制
 - selector/xpath
 - 撤销/重复

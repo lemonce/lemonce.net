@@ -9,6 +9,7 @@ title: 'Code Editor'
 - New Case/ Open Case/ Save Case
 - Check Element/ Insert Link
 - Start Case/ Pause Case/ Continue Case
+- Stop Case
 - Start/ Stop Record
 - selector/ xpath
 - Undo/ Redo
