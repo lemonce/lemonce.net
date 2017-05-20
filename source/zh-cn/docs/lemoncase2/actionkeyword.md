@@ -3,7 +3,7 @@ title: '动作关键字'
 
 ## click / dblclick
 ---
-Syntax:<p class="alert alert-info">click/dblclick [selector:string];</p>
+Syntax:<p class="alert alert-warning">click/dblclick "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
 
 单击或双击一个HTML的页面元素。
 
@@ -23,7 +23,7 @@ process main () {
 <br>
 ## input...by
 ---
-Syntax:<p class="alert alert-info">input [selector:string] by [string];</p>
+Syntax:<p class="alert alert-info">input "selector" by "string";</p>
 输入一段字符串到文档框中去。 
 
 <input type="text" /> 或者 <textarea>
@@ -36,7 +36,7 @@ input 'div#link.case' by "hello world.";</pre>
 ## move 
 ---
 Syntax:
-<p class="alert alert-info">move [selector:string];</p>
+<p class="alert alert-info">move "selector";</p>
 对HTML页面元素触发鼠标移入移出的动作。该动作可触发CSShover。
 
 <pre class='sublemon'>
@@ -56,7 +56,7 @@ process main () {
 ## hold
 ---
 Syntax:
-<p class="alert alert-info">hold [selector:string];</p>
+<p class="alert alert-info">hold "selector";</p>
 鼠标持续点住一个元素。具体的示例在下方的`drop`中。
 
 <br>
@@ -84,7 +84,7 @@ process main () {
 ## scroll
 ---
 Syntax:
-<p class="alert alert-info">scroll [selector:string];</p>
+<p class="alert alert-info">scroll "selector";</p>
 滚动页面，保持选中元素位于屏幕中部。
 
 <pre class="sublemon">
@@ -102,7 +102,7 @@ process main () {
 ## jumpto
 ---
 Syntax:
-<p class="alert alert-info">jumpto [URL:string];</p>
+<p class="alert alert-info">jumpto "URL";</p>
 `jumpto` 跳转到一个URL链接。
 
 
@@ -164,7 +164,7 @@ assert <# "textarea#test"/> in 2000;</pre>
 <br>
 ## upload
 ---
-Syntax:<p class="alert alert-info">upload [file1 path:string,file2 path:string]</p>
+Syntax:<p class="alert alert-info">upload ["filePath1","filePath2"]</p>
 如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。以下是例子。
 
 **注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转义 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
@@ -178,11 +178,11 @@ process main () {
 	wait 3333;
 	// 点击 Basic upload
 	click "div.ng-scope > .drop > span.btn-default";
-	upload ["path of file1","path of file2"];
+	upload ["C:/1.lc2"];
 	wait 4000;
 	// 点击 Single image upload
 	click "body > div:nth-child(1) > section:nth-child(2) > div:nth-child(10) > div:nth-child(4) > span:nth-child(1)";
-    upload ["path of file3","path of file4"];
+    upload ["C:/1.jpg","D:/2.png"];
 	// 当只支持上传一个文件时，lemonce会默认上传第一个文件
     wait 4000;
 }</pre>
