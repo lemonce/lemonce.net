@@ -2,18 +2,18 @@ title: 'Case Editor'
 ---
 ## Tool Bar
 ---
-The whole toolbar is as shown below.
+The whole toolbar is shown below.
 
-<img class="long-images" src="/images/code-editor/case-toolbar.png">
+<img  src="/images/code-editor/case-toolbar.png">
 <br>
 
 <i class="fa fa-file-code-o"></i>  **New Case**  
 
-Create a new case out of work space whose default name is 'Untitle-0.lc2',but you should find a path to save it.You can also use `Ctrl+N` on keyboard to complete this operation.
+Create a new case out of work space with a default name 'Untitle-0.lc2', you should still find a path to save it later.You can also use `Ctrl+N` on keyboard to complete this operation.
 
 <i class="fa fa-folder-open-o"></i> **Open Case**
 
-Open a case in local system. You can also use `Ctrl+O` on keyboard to complete this operation.
+Open a case in your local system. You can also use `Ctrl+O` on keyboard to complete this operation.
 
 <i class="fa fa-floppy-o"></i> **Save Case** 
 
@@ -30,9 +30,13 @@ Select the elements in the page and output the its CSSPath to the code area.Righ
 
 Insert the current URL in code area where the mouse pointer is located.
 
-<i class="fa fa-play"></i> **Start Case/** <i class="fa fa-stop"></i> **Stop Case**
+<i class="fa fa-play"></i> **Start Case /** <i class="fa fa-pause"></i> **Pause Case /** <i class="fa fa-play-circle-o"></i> **Continue Case**
 
-Start/Stop the current case.
+Start, pause, or continue the current case.
+
+<i class="fa fa-stop"></i> **Stop Case**
+
+Stop the current case.
 
 <i class="fa fa-circle" style="color:red"></i> **Start Record/**<i class="fa fa-stop-circle-o" style="color:red"></i> **Stop Record**
 
@@ -49,3 +53,21 @@ Back/Forward to the previous/next code change, you can also use `Ctrl+Z`/`Ctrl+Y
 <i class="fa fa-columns"></i> **Split Editor**
 
 Split the editor and display the same content on the right, any changes on both sides will sync to the other side.Just like the split editor in Visual Studio Code.
+
+<br/>
+## Main Interface
+---
+The whole main interface is shown below, and is separated into 2 parts：
+- Case List
+- Coding area
+
+<img class="large-images" src="/images/code-editor/case-interface.png">
+<br/>
+
+**Case List**
+
+The Case List shows all the cases in the workspace. You can activate the case to be edited by double clicking it. THe code contained in the case will pop up on the coding area.
+
+**Case Code**
+
+By recording or keyboard inputing, you can generated the corresponding code in this area. Direct editing in the coding area is also allowed.
