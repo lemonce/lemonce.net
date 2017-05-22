@@ -66,8 +66,8 @@ The whole main interface is shown below, and is separated into 2 parts：
 
 **Case List**
 
-The Case List shows all the cases in the workspace. You can activate the case to be edited by double clicking it. THe code contained in the case will pop up on the coding area.
+The Case List shows all the cases in the workspace. You can activate the case to be edited by double clicking it, and then the code contained in the selected case will pop up in the coding area.
 
 **Case Code**
 
-By recording or keyboard inputing, you can generated the corresponding code in this area. Direct editing in the coding area is also allowed.
+By recording or keyboard inputing, you can generate corresponding code in this area. Direct editing in the coding area is also allowed.

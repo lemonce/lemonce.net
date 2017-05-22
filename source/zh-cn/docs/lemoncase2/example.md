@@ -7,8 +7,7 @@ title: '操作示例'
 <pre class='sublemon'>
 process main {
     log 'hello world';
-}
-</pre>
+}</pre>
 
 <br/>
 ## 简短示例
@@ -67,5 +66,4 @@ process main () {
 	click "#newHeader > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(1)";
 	// Navigate to New Page
 	wait 2000;
-}
-</pre>
+}</pre>

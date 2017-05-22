@@ -50,7 +50,7 @@ title: '套件编辑器'
 - Case 列表
 - 用例库
 
-<img class="large-images" src="/images/code-editor/suite-interface.png">
+<img class="large-images" src="/images/code-editor/suite-interface-zh.png">
 <br/>
 
 **Suite 列表**

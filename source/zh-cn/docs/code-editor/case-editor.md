@@ -61,7 +61,7 @@ title: '用例编辑器'
 - Case 列表
 - 代码编辑区
 
-<img class="large-images" src="/images/code-editor/case-interface.png">
+<img class="large-images" src="/images/code-editor/case-interface-zh.png">
 <br/>
 
 **Case 列表**

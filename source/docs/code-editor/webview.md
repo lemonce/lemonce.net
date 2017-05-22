@@ -29,6 +29,6 @@ Developer tool is a debugger for testers or developers with certain coding abili
 ## Debugger
 ---
 
-Click <i class="fa fa-pencil-square-o"></i> to pop up the debugger with a similar form of chrome debugger.
+Click <i class="fa fa-pencil-square-o"></i> to pop up the debugger with a similar form of chrome.
 
 <img class="large-images" src="/images/code-editor/webview-debugger.png">
