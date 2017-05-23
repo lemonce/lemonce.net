@@ -3,7 +3,7 @@ title: '动作关键字'
 
 ## click / dblclick
 ---
-Syntax:<p class="alert alert-warning">click/dblclick "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
+<p class="alert alert-warning">click/dblclick "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
 
 单击或双击一个HTML的页面元素。
 
@@ -20,10 +20,10 @@ process main () {
 	click "#tabzilla";
 }</pre>
 
-<br>
+<br/>
 ## input...by
 ---
-Syntax:<p class="alert alert-info">input "selector" by "string";</p>
+<p class="alert alert-warning">input "[selector](/zh-cn/docs/lemoncase2/selector.html)" by "string";</p>
 输入一段字符串到文档框中去。 
 
 <input type="text" /> 或者 <textarea>
@@ -32,11 +32,10 @@ Syntax:<p class="alert alert-info">input "selector" by "string";</p>
 // eg: id="link" class="case" 
 input 'div#link.case' by "hello world.";</pre>
 
-<br>
+<br/>
 ## move 
 ---
-Syntax:
-<p class="alert alert-info">move "selector";</p>
+<p class="alert alert-warning">move "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
 对HTML页面元素触发鼠标移入移出的动作。该动作可触发CSShover。
 
 <pre class='sublemon'>
@@ -52,18 +51,16 @@ process main () {
 	move '#menu-main > li:nth-child(4) > a:nth-child(1) > span:nth-child(1)';
 }</pre>
 
-<br>
+<br/>
 ## hold
 ---
-Syntax:
-<p class="alert alert-info">hold "selector";</p>
+<p class="alert alert-warning">hold "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
 鼠标持续点住一个元素。具体的示例在下方的`drop`中。
 
-<br>
+<br/>
 ## drop
 ---
-Syntax:
-<p class="alert alert-info">drop;</p>
+<p class="alert alert-warning">drop;</p>
 鼠标释放一个元素。
 
 <pre class="sublemon">
@@ -80,11 +77,10 @@ process main () {
     drop;
 }</pre>
 
-<br>
+<br/>
 ## scroll
 ---
-Syntax:
-<p class="alert alert-info">scroll "selector";</p>
+<p class="alert alert-warning">scroll "[selector](/zh-cn/docs/lemoncase2/selector.html)";</p>
 滚动页面，保持选中元素位于屏幕中部。
 
 <pre class="sublemon">
@@ -98,19 +94,18 @@ process main () {
 	scroll '#hs-top-footer';
 }</pre>
 
-<br>
+<br/>
 ## jumpto
 ---
-Syntax:
-<p class="alert alert-info">jumpto "URL";</p>
-`jumpto` 跳转到一个URL链接。
+<p class="alert alert-warning">jumpto "URL";</p>
+跳转到一个URL链接。
 
 
-<br>
+<br/>
 ## back / forward / refresh
 ---
-Syntax:
-<p class="alert alert-info">back;<br>forward;<br>refresh;</p>
+
+<p class="alert alert-warning">back;<br/>forward;<br/>refresh;</p>
 `back` 后退一页；`forward` 向前移动一页；`refresh` 刷新当前网页。
 <pre class='sublemon'>
 process main () {
@@ -134,20 +129,20 @@ process main () {
 	refresh;
 }</pre>
 
-<br>
+<br/>
 ## wait
 ---
-Syntax:<p class="alert alert-info">wait [time:number]</p>
+<p class="alert alert-warning">wait [time:number]</p>
 等待一定的时间（以毫秒为单位）。
 
 <pre class='sublemon'>
 //编辑器会等待3000毫秒再执行下一个动作
 wait 3000;</pre>
 
-<br>
+<br/>
 ## assert
 ---
-Syntax:<p class="alert alert-info">assert [expression] in [time:number]</p>
+<p class="alert alert-warning">assert [expression] in [time:number]</p>
 断言一个表达式为真或假（在一定的时间内），具体参照以下示例。关于表达式的更多介绍，[点击这里](/zh-cn/docs/lemoncase2/expression.html)。
 
 <pre class='sublemon'>
@@ -161,15 +156,14 @@ assert <@ "testarea#test"/> ~~ "Lemonce"
 //断言id名为'test'的输入框会在两秒钟内出现
 assert <# "textarea#test"/> in 2000;</pre>
 
-<br>
+<br/>
 ## upload
 ---
-Syntax:<p class="alert alert-info">upload ["filePath1","filePath2"]</p>
+<p class="alert alert-warning">upload ["filePath1","filePath2"]</p>
 如果一个测试需要上传一个文件到一个 web 应用程序，可以采用 `upload` 命令来上传。以下是例子。
 
 **注意**：在 Windows 系统中路径采用的是"\"，需要用户改为 "/" 或进行转义 "\\\" 才能在灵萌测中运行。如"C:\Users\1.img"需要在灵萌测中改为"C:/Users/1.img"。
 <pre class='sublemon'>
-
 #AUTOWAIT 1000
 process main () {
 

@@ -3,6 +3,7 @@ title: 'Action Keyword'
 
 ## click / dblclick
 ---
+<p class="alert alert-warning">click/dblclick "[selector](/docs/lemoncase2/selector.html)";</p>
 Click or double click a HTML element.
 
 <pre class='sublemon'>
@@ -19,19 +20,20 @@ process main () {
 }
 </pre>
 
-<br>
+<br/>
 ## input...by
 ---
-Type a string into an element like <input type="text" /> or <textarea>.
+<p class="alert alert-warning">input "[selector](/docs/lemoncase2/selector.html)" by "string";</p>
+input a string to a text area.
 
 <pre class='sublemon'>
 // eg: id="link" class="case" 
-input 'div#link.case' by "hello world.";
-</pre>
+input 'div#link.case' by "hello world.";</pre>
 
-<br>
+<br/>
 ## move 
 ---
+<p class="alert alert-warning">move "[selector](/docs/lemoncase2/selector.html)";</p>
 Trigger onmouseenter or onmouseleave events on a HTML element. This action can trigger CSShover.
 
 <pre class='sublemon'>
@@ -45,17 +47,18 @@ process main () {
 	move '#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)';
 	move '#menu-main > li:nth-child(3) > a:nth-child(1) > span:nth-child(1)';
 	move '#menu-main > li:nth-child(4) > a:nth-child(1) > span:nth-child(1)';
-}
-</pre>
+}</pre>
 
-<br>
+<br/>
 ## hold
 ---
+<p class="alert alert-warning">hold "[selector](/docs/lemoncase2/selector.html)";</p>
 Hold an element by mouse continuely. The specific example is shown in the `drop` below.
 
-<br>
+<br/>
 ## drop
 ---
+<p class="alert alert-warning">drop;</p>
 Release an element by mouse.
 
 <pre class="sublemon">
@@ -70,12 +73,12 @@ process main () {
     
     //Release the element.
     drop;
-}
-</pre>
+}</pre>
 
-<br>
+<br/>
 ## scroll
 ---
+<p class="alert alert-warning">scroll "[selector](/docs/lemoncase2/selector.html)";</p>
 Scroll the page and keep the selected element in the center of the screen.
 
 <pre class="sublemon">
@@ -87,13 +90,18 @@ process main () {
 	
 	//
 	scroll '#hs-top-footer';
-}
-</pre>
+}</pre>
 
-<br>
-## jumpto / back / forward / refresh
+<br/>
+## jumpto
 ---
-`jumpto` jump to a URL; `forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
+<p class="alert alert-warning">jumpto "URL";</p>
+jump to a URL.
+
+<br/>
+## back / forward / refresh
+---
+`forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
 
 <pre class='sublemon'>
 process main () {
@@ -115,22 +123,22 @@ process main () {
 
     //refresh : Refresh the doc page.
 	refresh;
-}
-</pre>
+}</pre>
 
-<br>
+<br/>
 ## wait
 ---
+<p class="alert alert-warning">wait [time:number]</p>
 Wait a few time like a person［in milliseconds］.
 
 <pre class='sublemon'>
 //Editor will wait 3000ms to start the next action.
-wait 3000;
-</pre>
+wait 3000;</pre>
 
-<br>
+<br/>
 ## assert
 ---
+<p class="alert alert-warning">assert [expression] in [time:number]</p>
 Assert that the expression is true [within certain time].
 
 <pre class='sublemon'>
@@ -138,16 +146,15 @@ Assert that the expression is true [within certain time].
 assert <#"textarea#test"/>;
 
 //Asserts that a input box with the id of "test" will appear in 2 seconds.
-assert <#"textarea#test"/> in 2000;
-</pre>
+assert <#"textarea#test"/> in 2000;</pre>
 
-<br>
+<br/>
 ## upload
 ---
-If a test needs to upload a file to a web application, you can use the `upload` command to upload. The syntax is: `upload [the path of a file]`. There's one example in the following.
+<p class="alert alert-warning">upload ["filePath1","filePath2"]</p>
+If a test needs to upload a file to a web application, you can use the `upload` command to upload. There's one example in the following.
 
 **Attention**：For Windows users, scine ‘\’ is used in the system path, you need to change '\' to '/' or use escape character like '\\\' to ensure lemonce runs successfully. For example, 'C:\Users\1.img' needs to be transformed into 'C:/Users/1.img' in lemonce.
-
 <pre class='sublemon'>
 #AUTOWAIT 1000
 process main () {
@@ -157,12 +164,11 @@ process main () {
 	wait 3333;
 	// Click 'Basic upload'.
 	click "div.ng-scope > .drop > span.btn-default";
-	upload ["path of file1","path of file2"];
+	upload ["C:/1.lc2"];
 	wait 4000;
 	// Click 'Single image upload'.
 	click "body > div:nth-child(1) > section:nth-child(2) > div:nth-child(10) > div:nth-child(4) > span:nth-child(1)";
-    upload ["path of file3","path of file4"];
+    upload ["C:/1.jpg","D:/2.png"];
 	// Lemonce will upload the first file by default when only one file is supported.
     wait 4000;
-}
-</pre>
+}</pre>
