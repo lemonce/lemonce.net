@@ -13,8 +13,8 @@ browser automation library: http://lemonce.github.io/lemoncase2
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/macro.html)|[Magic keyword](/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
 |import          |click / dbclick      |<@"[selector](/docs/lemoncase2/selector.html)"> |#TIMES   |$HREF  |
-|process              |input...by    |<#"selector"> |#AUTOWAIT|$BUTTON|
-|return         |move |<!"selector"> |#LIMIT   |$IT    |
+|process              |input...by    |<#"[selector](/docs/lemoncase2/selector.html)"> |#AUTOWAIT|$BUTTON|
+|return         |move |<!"[selector](/docs/lemoncase2/selector.html)"> |#LIMIT   |$IT    |
 |for...in          |hold       |A~~B         |         |$LOOP  |
 |for...of        |drop       |A==B         |||         
 |if...else        |scroll       |A!=B         |||         
@@ -32,9 +32,9 @@ var a = 1; // You have to identify 'var' in JS.
 //On the contrary, you do not have to use 'var' keyword in LC2.
 //So this is a wrong statement in Lemoncase.
 a = 1;
-a = true;
-</pre>
+a = true;</pre>
 
+<br/>
 #### **Datatype**
 The following shows a list of data types which can be used in LC2.
 - number (e.g., 0.12, 1e-3)
@@ -45,9 +45,8 @@ The following shows a list of data types which can be used in LC2.
 When you use ~~ operator, the RegExp will be used to match the string, otherwise it will generate a random string based on the RegExp.
 
 RegExp can be used it if you want to do some fuzzy testing.
-<br>
-<br>
 
+<br/>
 #### **Instruction keyword** 
 Below are the instruction keywords in LC2. [`Read more.`](/docs/lemoncase2/instructionkeyword.html)
 - import
@@ -58,9 +57,8 @@ Below are the instruction keywords in LC2. [`Read more.`](/docs/lemoncase2/instr
 - continue
 - while
 - log
-<br>
-<br>
 
+<br/>
 #### **Action keyword** 
 Below are the action keywords in LC2. [`Read more.`](/docs/lemoncase2/actionkeyword.html)
 - click/dbclick
@@ -73,34 +71,30 @@ Below are the action keywords in LC2. [`Read more.`](/docs/lemoncase2/actionkeyw
 - forward/back
 - refresh
 - upload
-<br>
-<br>
 
+<br/>
 #### **Expression** 
 Below are the expressions in LC2. [`Read more.`](/docs/lemoncase2/expression.html)
 - <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
 - [exp_A:string] ~~ [exp_B:string|RegExp]
 - [exp_A:string] !~ [exp_B:string|RegExp]
-<br>
-<br>
 
+<br/>
 #### **Inbuilt sub-process** 
 Below are the types of the inbuilt sub-process in LC2. [`Read more.`](/docs/lemoncase2/subprocess.html)
 - format/now
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
-<br>
-<br>
 
+<br/>
 #### **Marco** 
 Macro is the global setting for your case during runtime. [`Read more.`](/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
-<br>
-<br>
 
+<br/>
 #### **Magic keyword**
 Below are the magic keywords which stand for some special functions. [`Read more.`](/docs/lemoncase2/marco.html)
 - $HREF

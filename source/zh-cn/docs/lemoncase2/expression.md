@@ -5,13 +5,19 @@ title: "表达式"
 ---
 以下是 Lemoncase2 的三种选择器操作表达式，帮助用户更好地选择页面元素相应的属性。
 
-- **<# [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<# ["selector"](/zh-cn/docs/lemoncase2/selector.html) />** </span>
+
 输出：该选择器的个数。支持计算表达式与变量。
 
-- **<@ [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<@ ["selector"](/zh-cn/docs/lemoncase2/selector.html) />** </span>
+
 选取 HTML 内部第一个与该选择器匹配的元素中的内容。如果不存在相应内容，则输出：`null`。
 
-- **<! [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<! ["selector"](/zh-cn/docs/lemoncase2/selector.html) />** </span>
+
 检查该元素是否存在。如果存在输出：`true`，不存在输出：`null`.
 
 示例如下：
@@ -30,7 +36,7 @@ process main () {
 	log <@ ".msg"/>;  //输出类"msg"内部的文字
 	
 	// <! "selector"/>
-	log <! "[name=username]"/>; //验证"[name=username]"是否存在
+	log <! "[name=username]"/>`; //验证"[name=username]"是否存在
 	log <! ".a"/>;
 }
 ```

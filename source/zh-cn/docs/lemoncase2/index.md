@@ -5,7 +5,7 @@ Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用
 
 Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 
-<br>
+<br/>
 ## [语法](/zh-cn/docs/lemoncase2/index.html)
 ---
 
@@ -44,9 +44,8 @@ a = true;
 
 当你使用"~~"时，正则表达式就会用于匹配字符串，否则会产生基于正则表达式的随机字符串。
 在需要进行一些模糊测试的时候可以使用正则表达式。
-<br>
-<br>
 
+<br/>
 #### **指令关键字**
 以下是 Lemoncase2 的所有指令关键字。[`了解更多`](/zh-cn/docs/lemoncase2/instructionkeyword.html)
 - import
@@ -57,9 +56,8 @@ a = true;
 - continue
 - while
 - log
-<br>
-<br>
 
+<br/>
 #### **动作关键字**
 以下是 Lemoncase2 的所有动作关键字。[`了解更多`](/zh-cn/docs/lemoncase2/actionkeyword.html)
 - click/dbclick
@@ -72,47 +70,43 @@ a = true;
 - forward/back
 - refresh
 - upload
-<br>
-<br>
 
+<br/>
 #### **表达式** 
 以下是 Lemoncase2 的所有表达式。[`了解更多`](/zh-cn/docs/lemoncase2/expression.html)
 - <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
 - [exp_A:string] ~~ [exp_B:string|RegExp]
 - [exp_A:string] !~ [exp_B:string|RegExp]
-<br>
-<br>
 
+<br/>
 #### **内置子过程**
 以下是所有形式的内置子过程。[`了解更多`](/zh-cn/docs/lemoncase2/subprocess.html)
 - format/now
 - bool/number
 - ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
-<br>
-<br>
 
+<br/>
 #### **宏**
 宏是运行测试用例时的全局设置。 [`了解更多`](zh-cn/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
-<br>
-<br>
 
+<br/>
 #### **魔术字**
 魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/marco.html)
 - $HREF
 - $BUTTON
 - $IT
 - $LOOP
-<br>
 
+<br/>
 ## [作用域](/zh-cn/docs/lemoncase2/index.html)
 ---
 全局作用域。在 Lemoncase2 主过程中无需 `return` 关键词，主过程没有参数，`process main { }` 是程序的主入口。
-<br>
 
+<br/>
 ## [操作示例](/zh-cn/docs/lemoncase2/example.html)
 ---
 以下是几个关于 Lemoncase2 语言的操作示例。[`了解更多`](/zh-cn/docs/lemoncase2/example.html)

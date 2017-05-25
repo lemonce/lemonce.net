@@ -3,7 +3,7 @@ title: 'Instruction keyword'
 
 ## process
 ---
-
+<p class="alert alert-warning">process main{ }<br/>process sub{ }</p>
 Define a process,including `process main` and `process sub`.
 
 <pre class='sublemon'>//This is a main process.
@@ -14,13 +14,12 @@ process main(){
 //This is a sub process which can be named with different keywords without special characters (except 'main').
 process anyname(){ 
 
-}
-</pre>  
+}</pre>  
 
-<br>
+<br/>
 ## return
 ---
-
+<p class="alert alert-warning">return;</p>
 The `return` statement ends sub-process execution and specifies a value to be returned to the sub-process caller. A sub-process immediately stops at the point where return is called.
 <pre class='sublemon'>
 process main () {
@@ -35,13 +34,12 @@ process counter() {
       }
 	return;
     log count + 'C';        // Never appears. 
-}
-</pre>
+}</pre>
   
-<br>
+<br/>
 ## for...in
 ---
-
+<p class="alert alert-warning">for (variable in object){ }</p>
 The `for...in` statement iterates over the enumerable properties of an object, in original insertion order. For each distinct property, statements can be executed.
 
 Syntax：
@@ -60,12 +58,12 @@ process main () {
 }
 //Output:
 //A[a]=1
-//A[b]=2
-</pre>
+//A[b]=2</pre>
 
-<br>
+<br/>
 ## for...of
 ---
+<p class="alert alert-warning">for (variable of object){ statement }</p>
 The `for...of` statement creates a loop iterating over iterable objects, invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
 Syntax：
@@ -101,12 +99,12 @@ process main () {
 //o
 //n
 //c
-//e
-</pre>
+//e</pre>
 
-<br>
+<br/>
 ## if...else
 ---
+<p class="alert alert-warning">if (condition)<br/>statement1<br/>[else<br/>statement2]</p>
 The `if` statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
 
 <pre class='sublemon'>
@@ -124,13 +122,12 @@ else {
     log "3";
  }
 }
-//Output "3"
-</pre>
+//Output "3"</pre>
 
-<br>
+<br/>
 ## continue
 ---
-
+<p class="alert alert-warning">continue;</p>
 The `continue` statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
 
 <pre class='sublemon'>
@@ -146,13 +143,12 @@ while (i < 5) {
    n += i;
    log n;  //Output 1,3,7,12
    }
-}
-</pre>
+}</pre>
 
-<br>
+<br/>
 ## while
 ---
-
+<p class="alert alert-warning">while (condition)<br/> statement</p>
 The `while` statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
 
 <pre class='sublemon'>
@@ -168,16 +164,14 @@ process counter() {
       }
 	return;
     log count + 'C';        // This statement never appears. 
-}
-</pre>
+}</pre>
 
-<br>
+<br/>
 ## log
 ---
-
+<p class="alert alert-warning">log [expression,variable,string];</p>
 Output a message to the console. You can output variables, expressions, strings etc. that have been defined in the test case.
 
 <pre class='sublemon'>
 log '2'+3	//Output  23
-log true	//Output  true
-</pre>
+log true	//Output  true</pre>

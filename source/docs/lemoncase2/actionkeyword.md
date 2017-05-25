@@ -1,4 +1,4 @@
-title: 'Action Keyword'
+title: 'Action keyword'
 ---
 
 ## click / dblclick
@@ -17,8 +17,7 @@ process main () {
 	
 	//click "#tabzilla"
 	click "#tabzilla";
-}
-</pre>
+}</pre>
 
 <br/>
 ## input...by
@@ -101,6 +100,7 @@ jump to a URL.
 <br/>
 ## back / forward / refresh
 ---
+<p class="alert alert-warning">back;<br/>forward;<br/>refresh;</p>
 `forward` move forward to the next page; `back` move back to the previous page；`refresh` refresh the current page.
 
 <pre class='sublemon'>

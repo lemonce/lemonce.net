@@ -6,13 +6,19 @@ title: "Expression"
 
 The following show 3 different kinds of selector operation statements in Lemoncase2, which can help users select the corresponding attributes of  page elements more conveniently.
 
-- **<# [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<# ["selector"](/docs/lemoncase2/selector.html) />** </span>
+
 Get the number of elements that matches the selector. Calculation expressions and variables can be applied.
 
-- **<@ [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<@ ["selector"](/docs/lemoncase2/selector.html) />** </span>
+
 Get the innerHTML of the 1st element that matches the selector. If related content does not exist, output `null`.
 
-- **<! [selector:string] />** 
+<br/>
+<span class="alert alert-warning">**<! ["selector"](/docs/lemoncase2/selector.html) />** </span>
+
 Check whether the element exists or not. Output `true` if such element exists, otherwise output `null`.
 
 The example shows bellow:
