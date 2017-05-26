@@ -18,20 +18,15 @@ log now(); //Output 1483200000</pre>
 `format()` returns specified time in a certain format, and could be used with the `now()` above together. More details about `format()` usage please [click here](https://www.npmjs.com/package/dateformat).
 <pre class='sublemon'>
 //Output formated time.
-format("May 11 2012"，"fullDate"); //Output：Friday,May 11,2017
-format("May 11 2012"，"isoDate"); //Output：2012-05-11
+log format("May 11 2012","fullDate"); //Output：Friday,May 11,2017
+log format("May 11 2012","isoDate"); //Output：2012-05-11
 
 //Assuming January 1, 2017, 0:00 to be the current time. Output formated current time.
-log format(now,"yyyy-mm-dd");
-//Output：2017-01-01
-log format(now,"yyyy-m-d");
-//Output：2017-1-1
-log format(now,"mm-d");
-//Output：01-1
-log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");
-//Output：Sunday，January 1st,2017,0:00:00 AM
-log format(now,"isoDateTime");
-//Output：2017-01-01T00:00+0800</pre>
+log format(now,"yyyy-mm-dd");//Output：2017-01-01
+log format(now,"yyyy-m-d");//Output：2017-1-1
+log format(now,"mm-d");//Output：01-1
+log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");//Output：Sunday，January 1st,2017,0:00:00 AM
+log format(now,"isoDateTime");//Output：2017-01-01T00:00+0800</pre>
 
 <br/>
 ## Type
