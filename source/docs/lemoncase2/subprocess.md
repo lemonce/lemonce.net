@@ -6,16 +6,18 @@ All the inbuild sub-process should have a form as `sub-process()`.
 ## Date
 ---
 
-**now( )**
+**now**
+<p class="alert alert-warning">now();</p>
 
-`now()` method returns the number of milliseconds elapsed from January 1st 1970, 00:00:00 UTC to the current time.
+returns the number of milliseconds elapsed from January 1st 1970, 00:00:00 UTC to the current time.
 <pre class='sublemon'>
 //Set 2017-1-1,00:00 as current time
 log now(); //Output 1483200000</pre>
 
-**format( )**
+**format**
+<p class="alert alert-warning">format("time","display-format")<br/>format("now","display-format")</p>
 
-`format()` returns specified time in a certain format, and could be used with the `now()` above together. More details about `format()` usage please [click here](https://www.npmjs.com/package/dateformat).
+returns specified time in a certain format, and could be used with the **now** above together. More details about **format** usage please [click here](https://www.npmjs.com/package/dateformat).
 <pre class='sublemon'>
 //Output formated time.
 log format("May 11 2012","fullDate"); //Output：Friday,May 11,2017
@@ -25,29 +27,32 @@ log format("May 11 2012","isoDate"); //Output：2012-05-11
 log format(now,"yyyy-mm-dd");//Output：2017-01-01
 log format(now,"yyyy-m-d");//Output：2017-1-1
 log format(now,"mm-d");//Output：01-1
-log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");//Output：Sunday，January 1st,2017,0:00:00 AM
+log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");//Output：Sunday,January 1st,2017,0:00:00 AM
 log format(now,"isoDateTime");//Output：2017-01-01T00:00+0800</pre>
 
 <br/>
 ## Type
 ---
 
-**bool( )**
+**bool**
 
+<p class="alert alert-warning">bool([variable,number,RegExp])</p>
 `bool()` is a boolean object wrapper which could convert a variable/number/RegExp to a Boolean format.  
 <pre class='sublemon'>
 bool(3.14) // Output  true
 bool(3>4) // Output  false</pre>
 
-**number( )**
+**number**
 
+<p class="alert alert-warning">number("string")</p>
 `number()` is a wrapper object allowing you to work with numerical values. A Number object is created using the `number()` constructor.
 <pre class='sublemon'>
 number('3.14') // Output  3.14
 number('3'+'2') // Output  32</pre>
 
-**string( )**
+**string**
 
+<p class="alert alert-warning">string([variable,number])</p>
 The global object `string()` is a constructor for a string or a sequence of characters. Values could also be converted or generated into strings with `string()`.
 <pre class='sublemon'>
 log length(string(3.14)); //Output  4</pre>
@@ -56,8 +61,9 @@ log length(string(3.14)); //Output  4</pre>
 ## Math
 ---
 
-**abs( )**
+**abs**
 
+<p class="alert alert-warning">abs([number])</p>
 `abs()` returns the absolute value of a number, that is abs(x)=|x|.
 <pre class='sublemon'>
 abs(-3.14) // Output  3.14

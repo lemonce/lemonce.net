@@ -7,7 +7,6 @@ title: '内置子过程'
 ---
 
 **now**
-
 <p class="alert alert-warning">now( )</p>
 返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。
 <pre class='sublemon'>
@@ -15,7 +14,6 @@ title: '内置子过程'
 log now(); //输出 1483200000</pre>
 
 **format**
-
 <p class="alert alert-warning">format("time","display-format")<br/>format("now","display-format")</p>
 以某种确定的格式输出指定的时间，可与上方的 **now** 共同使用。关于 **format** 更详细的使用方式请[点击这里](https://www.npmjs.com/package/dateformat)。
 <pre class='sublemon'>
@@ -53,7 +51,7 @@ number('') // 输出  0</pre>
 
 **string**
 
-<p class="alert alert-warning">string([variable,number]),</p>
+<p class="alert alert-warning">string([variable,number])</p>
 string 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
 <pre class='sublemon'>
 log length(string(3+0.14)); //输出  4</pre>
