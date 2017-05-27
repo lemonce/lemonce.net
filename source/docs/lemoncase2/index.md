@@ -8,7 +8,7 @@ browser automation library: http://lemonce.github.io/lemoncase2
 ## [Grammar](/docs/lemoncase2/index.html)
 ---
 
-#### **Zoom Table**
+**Zoom Table**
 
 |[Instruction keyword](/docs/lemoncase2/instructionkeyword.html)|[Action keyword](/docs/lemoncase2/actionkeyword.html)|[Expression](/docs/lemoncase2/expression.html) |[Macro](/docs/lemoncase2/macro.html)|[Magic keyword](/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
@@ -25,7 +25,8 @@ browser automation library: http://lemonce.github.io/lemoncase2
 |                |refresh    ||||          
 |                |upload      ||||   |       
 
-#### **Identifier** 
+**Identifier** 
+
 Lemoncase2 is similar to JS in identifiers.
 <pre class='sublemon'>
 var a = 1; // You have to identify 'var' in JS.
@@ -35,7 +36,8 @@ a = 1;
 a = true;</pre>
 
 <br/>
-#### **Datatype**
+**Datatype**
+
 The following shows a list of data types which can be used in LC2.
 - number (e.g., 0.12, 1e-3)
 - string (e.g., 'you', "me")
@@ -47,7 +49,8 @@ When you use ~~ operator, the RegExp will be used to match the string, otherwise
 RegExp can be used it if you want to do some fuzzy testing.
 
 <br/>
-#### **Instruction keyword** 
+**Instruction keyword** 
+
 Below are the instruction keywords in LC2. [`Read more.`](/docs/lemoncase2/instructionkeyword.html)
 - import
 - process (main/sub)
@@ -59,43 +62,60 @@ Below are the instruction keywords in LC2. [`Read more.`](/docs/lemoncase2/instr
 - log
 
 <br/>
-#### **Action keyword** 
+**Action keyword** 
+
 Below are the action keywords in LC2. [`Read more.`](/docs/lemoncase2/actionkeyword.html)
-- click/dbclick
+- click/dblclick
 - input...by
 - move/hold/drop
 - scroll
 - jumpto
+- back/forward/refresh
 - wait
 - assert
-- forward/back
-- refresh
 - upload
 
 <br/>
-#### **Expression** 
+**Expression** 
+
 Below are the expressions in LC2. [`Read more.`](/docs/lemoncase2/expression.html)
-- <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
-- [exp_A:string] ~~ [exp_B:string|RegExp]
-- [exp_A:string] !~ [exp_B:string|RegExp]
+- <# “selector” />
+- <@ “selector” />
+- <! “selector” />
+- "stringA" ~~ "stringB"
+- "stringA" ~~ /RegExp/
+- "stringA" == "stringB"
+- [var] == [var]????
 
 <br/>
-#### **Inbuilt sub-process** 
+**Selector** 
+
+Below are the type of selectors applied in Lemoncase2.[`Read more.`](docs/lemoncase2/selector.html)
+- css selector
+- xpath
+- sizzle
+
+<br/>
+**Native sub-process** 
+
 Below are the types of the inbuilt sub-process in LC2. [`Read more.`](/docs/lemoncase2/subprocess.html)
-- format/now
-- bool/number
-- ceil/floor/max/min/random
+- now/format
+- bool/number/string
+- abs/ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
+- length/for...in/for...of/indexOf
 
 <br/>
-#### **Marco** 
+**Marco** 
+
 Macro is the global setting for your case during runtime. [`Read more.`](/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
 
 <br/>
-#### **Magic keyword**
+**Magic keyword**
+
 Below are the magic keywords which stand for some special functions. [`Read more.`](/docs/lemoncase2/marco.html)
 - $HREF
 - $BUTTON

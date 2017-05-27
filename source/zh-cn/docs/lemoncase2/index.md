@@ -9,7 +9,7 @@ Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 ## [语法](/zh-cn/docs/lemoncase2/index.html)
 ---
 
-#### **速查表**
+**速查表**
 
 |[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)|[动作关键字](/zh-cn/docs/lemoncase2/actionkeyword.html)|[表达式](/zh-cn/docs/lemoncase2/expression.html) |[宏](/zh-cn/docs/lemoncase2/macro.html)|[魔术字](/zh-cn/docs/lemoncase2/magic.html)
 |:--------------:|:---------:|:-----------:|:-------:|:-------:|
@@ -26,16 +26,18 @@ Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
 |                |refresh    ||||          
 |                |upload      ||||   |        
 
-#### **标识符**
+**标识符**
+
 在标识符的定义上，Lemoncase2 类似于 JavaScript。
 <pre class='sublemon'>
 var a = 1; // 在JS中，您需要使用'var'字符
 //但在 Lemoncase2 中，您不需要使用'var'字符，该语句为错误写法。
 a = 1;
-a = true;
-</pre>
+a = true;</pre>
 
- #### **数据类型**
+<br/>
+ **数据类型**
+
 以下是LC2中可以使用的数据类型。
 - number (e.g., 0.12, 1e-3)
 - string (e.g., 'you', "me")
@@ -46,7 +48,8 @@ a = true;
 在需要进行一些模糊测试的时候可以使用正则表达式。
 
 <br/>
-#### **指令关键字**
+**指令关键字**
+
 以下是 Lemoncase2 的所有指令关键字。[`了解更多`](/zh-cn/docs/lemoncase2/instructionkeyword.html)
 - import
 - process (main/sub)
@@ -58,43 +61,60 @@ a = true;
 - log
 
 <br/>
-#### **动作关键字**
+**动作关键字**
+
 以下是 Lemoncase2 的所有动作关键字。[`了解更多`](/zh-cn/docs/lemoncase2/actionkeyword.html)
-- click/dbclick
+- click/dblclick
 - input...by
 - move/hold/drop
 - scroll
 - jumpto
+- back/forward/refresh
 - wait
 - assert
-- forward/back
-- refresh
 - upload
 
 <br/>
-#### **表达式** 
-以下是 Lemoncase2 的所有表达式。[`了解更多`](/zh-cn/docs/lemoncase2/expression.html)
-- <@ [selector:string] />/<# [selector:string] />/<! [selector:string] />
-- [exp_A:string] ~~ [exp_B:string|RegExp]
-- [exp_A:string] !~ [exp_B:string|RegExp]
+**表达式** 
+
+以下是 Lemoncase2 的部分表达式。[`了解更多`](/zh-cn/docs/lemoncase2/expression.html)
+- <# “selector” />
+- <@ “selector” />
+- <! “selector” />
+- "stringA" ~~ "stringB"
+- "stringA" ~~ /RegExp/
+- "stringA" == "stringB"
+- [var] == [var]????
 
 <br/>
-#### **内置子过程**
+**选择器** 
+
+以下是 Lemoncase2 可使用的选择器。[`了解更多`](/zh-cn/docs/lemoncase2/selector.html)
+- css selector
+- xpath
+- sizzle
+
+<br/>
+**内置子过程**
+
 以下是所有形式的内置子过程。[`了解更多`](/zh-cn/docs/lemoncase2/subprocess.html)
-- format/now
-- bool/number
-- ceil/floor/max/min/random
+- now/format
+- bool/number/string
+- abs/ceil/floor/max/min/random
 - length/charAt/indexOf/substr/trim
+- length/for...in/for...of/indexOf
 
 <br/>
-#### **宏**
+**宏**
+
 宏是运行测试用例时的全局设置。 [`了解更多`](zh-cn/docs/lemoncase2/marco.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
 
 <br/>
-#### **魔术字**
+**魔术字**
+
 魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/marco.html)
 - $HREF
 - $BUTTON
