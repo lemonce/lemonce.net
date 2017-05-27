@@ -12,8 +12,7 @@ process main{
 
 }</pre>
 
-<br>
-
+<br/>
 ## #AUTOWAIT
 ---
 每条语句执行间隔时间，默认等待500毫秒。
@@ -24,8 +23,7 @@ process main{
 
 }</pre>
 
-<br>
-
+<br/>
 ## #LIMIT
 ---
 每条语句等待选择器元素出现时长的上限，默认值为5秒
@@ -36,4 +34,3 @@ process main{
 
 }</pre>
 
-<br>

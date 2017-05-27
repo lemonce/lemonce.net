@@ -10,8 +10,8 @@ The number of times to run the test case.The defaut value is 1 if `TIMES` has no
 process main{
 
 }</pre>
-<br>
 
+<br/>
 ## #AUTOWAIT
 ---
 The interval time between two statements,and the default value is 500ms.
@@ -21,8 +21,8 @@ The interval time between two statements,and the default value is 500ms.
 process main{
 
 }</pre>
-<br>
 
+<br/>
 ## #LIMIT
 ---
 The upper limit time of every statement waiting for selector element showing up,and the default value is 5000ms.
@@ -32,4 +32,3 @@ The upper limit time of every statement waiting for selector element showing up,
 process main{
 
 }</pre>
-<br>

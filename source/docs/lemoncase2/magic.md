@@ -12,12 +12,11 @@ process main {
     log #HREF;
 }</pre>
 
-<br>
-
+<br/>
 ## $BUTTON
 ---
-
-Simulate the three kinds of mouse click. By setting $BUTTON = left/middle/right, you can simulate left click, middle click, or right click.
+<p class="alert alert-warning">$BUTTON = left/middle/right</p>
+Simulate the three kinds of mouse click. By setting `$BUTTON` with left/middle/right, you can simulate left click, middle click, or right click.
 
 <pre class='sublemon'>
 //This is a sub process simulating right-click with $BUTTON.
@@ -26,8 +25,7 @@ process rightclick(a) {
     click a;
 }</pre>
 
-<br>
-
+<br/>
 ## $IT
 ---
 
@@ -40,8 +38,7 @@ process main () {
 	click 'input[value=Google Search]'; // Change the value of $IT from '#gs_htif0' to 'input[value=Google Search]', that is, change the value when the CSS selector shows up next time. 
 }</pre>
 
-<br>
-
+<br/>
 ## $LOOP
 ---
 

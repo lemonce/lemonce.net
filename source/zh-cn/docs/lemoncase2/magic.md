@@ -15,8 +15,8 @@ process main {
 <br/>
 ## $BUTTON
 ---
-
-模拟鼠标按键的位置，可设定为左中右( $BUTTON = left/middle/right )。
+<p class="alert alert-warning">$BUTTON = left/middle/right</p>
+模拟鼠标按键的位置，像上面的语法结构显示的那样，可设定为左中右。
 <pre class='sublemon'>
 //这是一个用 $BUTTON 模拟右键点击的子过程
 process rightclick(a) {
