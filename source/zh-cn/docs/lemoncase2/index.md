@@ -95,14 +95,17 @@ a = true;</pre>
 - sizzle
 
 <br/>
-**内置子过程**
+**内置对象**
 
-以下是所有形式的内置子过程。[`了解更多`](/zh-cn/docs/lemoncase2/subprocess.html)
-- now/format
-- bool/number/string
-- abs/ceil/floor/max/min/random
-- length/charAt/indexOf/substr/trim
-- length/for...in/for...of/indexOf
+以下是所有形式的内置对象。[`了解更多`](/zh-cn/docs/lemoncase2/subprocess.html)
+- Array (length,indexOf,for...in/of)
+- Bool
+- Date (now,format)
+- Math (abs,ceil,floor,max,min,random)
+- Number 
+- Object
+- RegExp 
+- String (length,charAt,indexOf,substr,trim)
 
 <br/>
 **宏**

@@ -1,6 +1,6 @@
-title: 'Native sub-process'
+title: 'Standard built-in objects'
 ---
-All the Native sub-process should have a form as `sub-process()`.
+All the standard built-in objects in LC2 are shown below.
 
 <br/>
 ## Date
