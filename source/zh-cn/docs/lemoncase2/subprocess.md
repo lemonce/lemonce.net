@@ -3,12 +3,64 @@ title: '内置对象'
 LC2 所有的内置对象展示如下。
 
 <br/>
+## Array
+---
+<p class="alert alert-warning">array0[element1,element2,...]; array0[n]=element(n+1)<br/>array1[array0,element1,...]</p>
+数组对象是一个用于构造数组的全局对象；它们是高级的，列表式的对象。调取数组元素的语法如上方所示，并且支持数组嵌套。下方是例子：
+
+<pre class='sublemon'>
+process main () {
+Smartisan = ["T1","T2","M1"];//定义名为"Smartisan"的数组
+smartphones = [Smartisan,"iPhone","Mi"];//定义名为"smartphones"的数组
+log Smartisan[0];//输出 T1
+log smartphones[0][2];//输出 M1
+}</pre>
+
+<br/>
+**length** 
+<p class="alert alert-warning">length("array")<br/>array.length</p>
+表示一个数组的长度。
+<pre class='sublemon'>
+log length("smartphones"); //输出  3
+log smartphones.length;//输出 3</pre>
+
+**for...in/of**
+<p class="alert alert-warning">for(var in array)<br/>for(var of array)</p>
+遍历数组，可与[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)中的 `for...in/of`对照查看。
+<pre class='sublemon'>
+for (x in smartphones){
+    log x;  //输出 0,1,2
+}
+for (x of smartphones){
+    log x;  //输出 Smartisan,iPhone,Mi
+}</pre>
+
+**indexOf**
+<p class="alert alert-warning">indexOf(array,element)</p>
+指出当前元素在数组中的位置。
+<pre class='sublemon'>
+log indexOf(smartphones,"Smartisan"); //输出 0
+log smartphones.indexOf("iPhone"); //语法错误，输出 -1。</pre>
+
+<br/>
+## Bool
+---
+<p class="alert alert-warning">bool([variable,number,RegExp])</p>
+布尔值的对象包装器。可以将变量、数字或正则转换为布尔值。
+<pre class='sublemon'>
+bool(3.14) // 输出 true
+bool(3>4) // 输出 false
+bool(3-3) // 输出 false</pre>
+
+<br/>
 ## Date
 ---
+创建 Date 实例用来处理日期和时间。 Date 对象基于1970年1月1日（世界标准时间）起的毫秒数。
 
+<br/>
 **now**
 <p class="alert alert-warning">now( )</p>
-返回自1970年1月1日 00:00:00 UTC到当前时间的毫秒数。
+返回自世界标准时间到当前时间的毫秒数。
 <pre class='sublemon'>
 //假设以2017年1月1日，0时0分为当前时间
 log now(); //输出 1483200000</pre>
@@ -29,34 +81,8 @@ log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");//输出：Sunday，January 1st,2
 log format(now,"isoDateTime");//输出：2017-01-01T00:00+0800</pre>
 
 <br/>
-## Type
----
-
-**bool**
-<p class="alert alert-warning">bool([variable,number,RegExp])</p>
-bool 对象是一个布尔值的对象包装器。可以将变量、数字或正则转换为布尔值。
-<pre class='sublemon'>
-bool(3.14) // 输出 true
-bool(3>4) // 输出 false</pre>
-
-**number**
-<p class="alert alert-warning">number("string")</p>
-number 对象是经过封装的能让你处理数字值的对象。number 对象由 number() 构造器创建。
-<pre class='sublemon'>
-number('3.14') // 输出  3.14
-number('3'+'2') // 输出  32
-number('') // 输出  0</pre>
-
-**string**
-<p class="alert alert-warning">string([variable,number])</p>
-string 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
-<pre class='sublemon'>
-log length(string(3+0.14)); //输出  4</pre>
-
-<br/>
 ## Math
 ---
-
 **abs**
 <p class="alert alert-warning">abs([number])</p>
 返回当前数字的绝对值, abs(x)=|x|。
@@ -98,8 +124,22 @@ max(3+2,number('3'+'2'))  // 输出  32</pre>
 random() * (max - min) + min </pre>
 
 <br/>
+## Number
+---
+<p class="alert alert-warning">number("string")</p>
+number 对象是经过封装的能让你处理数字值的对象。number 对象由 number() 构造器创建。
+<pre class='sublemon'>
+number('3.14') // 输出  3.14
+number('3'+'2') // 输出  32
+number('') // 输出  0</pre>
+
+<br/>
 ## String
 ---
+<p class="alert alert-warning">string([variable,number])</p>
+string 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
+<pre class='sublemon'>
+log length(string(3+0.14)); //输出  4</pre>
 
 **length** 
 <p class="alert alert-warning">length("string")</p>
@@ -128,44 +168,8 @@ indexOf('Lemonce','l')  //输出  -1</pre>
 substr('Lemoncase',2,3)  //输出 'mon'
 substr('Lemoncase',2)  //输出 'moncase'</pre>
 
-**trim( )**
+**trim**
 <p class="alert alert-warning">trim("string")</p>
 删除一个字符串两端的空白字符。在这个字符串里的空格包括所有的空格字符 (space, tab, no-break space 等)以及所有的行结束符（如 LF，CR）。
 <pre class='sublemon'>
 trim('  Lemon case  ')  //输出 'Lemon case'</pre>
-
-<br/>
-## Array
----
-数组对象是一个用于构造数组的全局对象；它们是高级的，列表式的对象。数组的格式为 `arrayName = [element1,element2,...]`，其中 arrayName[0] = element1。以下方的数组为例：
-
-<pre class='sublemon'>
-process main () {
-smartphones = ["Smartisan","iPhone","Mi"];//定义一个数组
-}</pre>
-
-**length( )** 
-<p class="alert alert-warning">length("array")<br/>array.length</p>
-`length(array)`表示一个数组的长度。也可以使用 `array.length`。
-<pre class='sublemon'>
-log length("smartphones"); //输出  3
-log smartphones.length;//输出 3</pre>
-
-**for...in/of**
-<p class="alert alert-warning">for(var in array)<br/>for(var of array)</p>
-遍历数组，可与[指令关键字](/zh-cn/docs/lemoncase2/instructionkeyword.html)中的 `for...in/of`对照查看。
-<pre class='sublemon'>
-for (x in smartphones){
-    log x;  //输出 0,1,2
-}
-for (x of smartphones){
-    log x;  //输出 Smartisan,iPhone,Mi
-}</pre>
-
-**indexOf()**
-<p class="alert alert-warning">indexOf(array,element)</p>
-指出当前元素在数组中的位置。
-<pre class='sublemon'>
-log indexOf(smartphones,"Smartisan"); //输出 0
-log smartphones.indexOf("iPhone"); //不支持这种写法，输出 -1。</pre>
-

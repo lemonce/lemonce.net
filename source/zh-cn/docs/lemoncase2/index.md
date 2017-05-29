@@ -84,7 +84,7 @@ a = true;</pre>
 - "stringA" ~~ "stringB"
 - "stringA" ~~ /RegExp/
 - "stringA" == "stringB"
-- [var] == [var]????
+- [var] == [var]
 
 <br/>
 **选择器** 

@@ -3,8 +3,54 @@ title: 'Standard built-in objects'
 All the standard built-in objects in LC2 are shown below.
 
 <br/>
+## Array
+---
+The array object is a global object used to construct arrays: they are advanced, list-type objects. The format is `arrayName = [element1,element2,...]`, in which arrayName[0] = element1. Take the array in the following for example：
+
+<pre class='sublemon'>
+process main () {
+smartphones = ["Smartisan","iPhone","Mi"];//Define an array.
+}</pre>
+
+**length** 
+<p class="alert alert-warning">length("array")<br/>array.length</p>
+returns the length of a array. 
+<pre class='sublemon'>
+log length("smartphones"); //Output  3
+log smartphones.length;//Output 3</pre>
+
+**for...in/of**
+<p class="alert alert-warning">for(var in array)<br/>for(var of array)</p>
+traverse an array. You can also view the usage of `for...in/of` in [instruction keyword](/docs/lemoncase2/instructionkeyword.html).
+
+<pre class='sublemon'>
+for (x in smartphones){
+    log x;  //Output 0,1,2
+}
+for (x of smartphones){
+    log x;  //Output Smartisan,iPhone,Mi
+}</pre>
+
+**indexOf**
+<p class="alert alert-warning">indexOf(array,element)</p>
+indicates the position of a specified element.
+<pre class='sublemon'>
+log indexOf(smartphones,"Smartisan"); //Output 0
+log smartphones.indexOf("iPhone"); //Does not support this syntax，output -1.</pre>
+
+<br/>
+## Bool
+---
+<p class="alert alert-warning">bool([variable,number,RegExp])</p>
+a boolean object wrapper which could convert a variable/number/RegExp to a Boolean format.  
+<pre class='sublemon'>
+bool(3.14) // Output  true
+bool(3>4) // Output  false</pre>
+
+<br/>
 ## Date
 ---
+Creates a JavaScript Date instance that represents a single moment in time. Date objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.
 
 **now**
 <p class="alert alert-warning">now();</p>
@@ -132,40 +178,3 @@ substr('Lemoncase',2)  //Output 'moncase'</pre>
 removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
 <pre class='sublemon'>
 trim('  Lemon case  ')  //Output 'Lemon case'</pre>
-
-<br/>
-## Array
----
-The array object is a global object used to construct arrays: they are advanced, list-type objects. The format is `arrayName = [element1,element2,...]`, in which arrayName[0] = element1. Take the array in the following for example：
-
-<pre class='sublemon'>
-process main () {
-smartphones = ["Smartisan","iPhone","Mi"];//Define an array.
-}</pre>
-
-**length** 
-<p class="alert alert-warning">length("array")<br/>array.length</p>
-returns the length of a array. 
-<pre class='sublemon'>
-log length("smartphones"); //Output  3
-log smartphones.length;//Output 3</pre>
-
-**for...in/of**
-<p class="alert alert-warning">for(var in array)<br/>for(var of array)</p>
-traverse an array. You can also view the usage of `for...in/of` in [instruction keyword](/docs/lemoncase2/instructionkeyword.html).
-
-<pre class='sublemon'>
-for (x in smartphones){
-    log x;  //Output 0,1,2
-}
-for (x of smartphones){
-    log x;  //Output Smartisan,iPhone,Mi
-}</pre>
-
-**indexOf**
-<p class="alert alert-warning">indexOf(array,element)</p>
-indicates the position of a specified element.
-<pre class='sublemon'>
-log indexOf(smartphones,"Smartisan"); //Output 0
-log smartphones.indexOf("iPhone"); //Does not support this syntax，output -1.</pre>
-
