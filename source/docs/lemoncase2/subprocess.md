@@ -5,13 +5,18 @@ All the standard built-in objects in LC2 are shown below.
 <br/>
 ## Array
 ---
-The array object is a global object used to construct arrays: they are advanced, list-type objects. The format is `arrayName = [element1,element2,...]`, in which arrayName[0] = element1. Take the array in the following for example：
+<p class="alert alert-warning">array0[element1,element2,...]; array0[n]=element(n+1)<br/>array1[array0,element1,...]</p>
+The array object is a global object used to construct arrays: they are advanced, list-type objects. Take the array in the following for example：
 
 <pre class='sublemon'>
 process main () {
-smartphones = ["Smartisan","iPhone","Mi"];//Define an array.
+Smartisan = ["T1","T2","M1"];// define an array named "Smartisan"
+smartphones = [Smartisan,"iPhone","Mi"];//define an array named "smartphones"
+log Smartisan[0];//output T1
+log smartphones[0][2];//output M1
 }</pre>
 
+<br/>
 **length** 
 <p class="alert alert-warning">length("array")<br/>array.length</p>
 returns the length of a array. 
@@ -52,6 +57,7 @@ bool(3>4) // Output  false</pre>
 ---
 Creates a JavaScript Date instance that represents a single moment in time. Date objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.
 
+<br/>
 **now**
 <p class="alert alert-warning">now();</p>
 returns the number of milliseconds elapsed from January 1st 1970, 00:00:00 UTC to the current time.
@@ -60,7 +66,7 @@ returns the number of milliseconds elapsed from January 1st 1970, 00:00:00 UTC t
 log now(); //Output 1483200000</pre>
 
 **format**
-<p class="alert alert-warning">format("time","display-format")<br/>format("now","display-format")</p>
+<p class="alert alert-warning">format("time","display-format")<br/>format(now(),"display-format")</p>
 returns specified time in a certain format, and could be used with the **now** above together. More details about **format** usage please [click here](https://www.npmjs.com/package/dateformat).
 <pre class='sublemon'>
 //Output formated time.
@@ -68,35 +74,11 @@ log format("May 11 2012","fullDate"); //Output：Friday,May 11,2017
 log format("May 11 2012","isoDate"); //Output：2012-05-11
 
 //Assuming January 1, 2017, 0:00 to be the current time. Output formated current time.
-log format(now,"yyyy-mm-dd");//Output：2017-01-01
-log format(now,"yyyy-m-d");//Output：2017-1-1
-log format(now,"mm-d");//Output：01-1
-log format(now,"dddd,mmmm dS,yyyy,h:MM:ss TT");//Output：Sunday,January 1st,2017,0:00:00 AM
-log format(now,"isoDateTime");//Output：2017-01-01T00:00+0800</pre>
-
-<br/>
-## Type
----
-
-**bool**
-<p class="alert alert-warning">bool([variable,number,RegExp])</p>
-a boolean object wrapper which could convert a variable/number/RegExp to a Boolean format.  
-<pre class='sublemon'>
-bool(3.14) // Output  true
-bool(3>4) // Output  false</pre>
-
-**number**
-<p class="alert alert-warning">number("string")</p>
-`number()` is a wrapper object allowing you to work with numerical values. A Number object is created using the `number()` constructor.
-<pre class='sublemon'>
-number('3.14') // Output  3.14
-number('3'+'2') // Output  32</pre>
-
-**string**
-<p class="alert alert-warning">string([variable,number])</p>
-The global object `string()` is a constructor for a string or a sequence of characters. Values could also be converted or generated into strings with `string()`.
-<pre class='sublemon'>
-log length(string(3.14)); //Output  4</pre>
+log format(now(),"yyyy-mm-dd");//Output：2017-01-01
+log format(now(),"yyyy-m-d");//Output：2017-1-1
+log format(now(),"mm-d");//Output：01-1
+log format(now(),"dddd,mmmm dS,yyyy,h:MM:ss TT");//Output：Sunday,January 1st,2017,0:00:00 AM
+log format(now(),"isoDateTime");//Output：2017-01-01T00:00+0800</pre>
 
 <br/>
 ## Math
@@ -143,9 +125,24 @@ returns a float pseudo-random number in the range [0, 1), that is, from 0 (inclu
 random() * (max - min) + min </pre>
 
 <br/>
+## Number
+---
+<p class="alert alert-warning">number("string")</p>
+number is a wrapper object allowing you to work with numerical values. A Number object is created using the **number()** constructor.
+<pre class='sublemon'>
+number('3.14') // 输出  3.14
+number('3'+'2') // 输出  32
+number('') // 输出  0</pre>
+
+<br/>
 ## String
 ---
+<p class="alert alert-warning">string([variable,number])</p>
+The global object `string()` is a constructor for a string or a sequence of characters. Values could also be converted or generated into strings with `string()`.
+<pre class='sublemon'>
+log length(string(3.14)); //Output  4</pre>
 
+<br/>
 **length** 
 <p class="alert alert-warning">length("string")</p>
 represents the length of a string.

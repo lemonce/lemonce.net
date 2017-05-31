@@ -77,7 +77,7 @@ doc_sidebar:
   lemoncase2_actionkeyword: 'action keyword'
   lemoncase2_expression: 'expression'
   lemoncase2_selector: 'selector'
-  lemoncase2_native_subprocess: 'standard built-in objects'
+  lemoncase2_native_subprocess: 'built-in objects'
   lemoncase2_macro: 'macro'
   lemoncase2_magickeyword: 'magic keyword'
   lemoncase2_example: 'example'
