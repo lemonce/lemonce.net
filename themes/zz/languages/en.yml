@@ -40,7 +40,7 @@ footer:
   feature: 'Features'
   compare: 'Compare'
   news: 'News'
-  blog: 'blog'
+  blog: 'Blog'
 
 nav:
   home: 'Home'
@@ -50,6 +50,7 @@ nav:
   docs: 'Docs'
   license: 'License'
   download: 'Download'
+  contact: 'Contact'
 
 page:
   last_updated: 'Last Updated:'

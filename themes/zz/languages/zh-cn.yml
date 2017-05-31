@@ -50,8 +50,9 @@ nav:
   compare: '对比'
   news: '新闻'
   docs: '文档'
-  purchase: '购买'
+  license: '购买'
   download: '下载'
+  contact: '联系'
 
 page:
   last_updated: '最后更新：'
