@@ -110,7 +110,7 @@ a = true;</pre>
 <br/>
 **宏**
 
-宏是运行测试用例时的全局设置。 [`了解更多`](zh-cn/docs/lemoncase2/marco.html)
+宏是运行测试用例时的全局设置。 [`了解更多`](/zh-cn/docs/lemoncase2/macro.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
@@ -118,7 +118,7 @@ a = true;</pre>
 <br/>
 **魔术字**
 
-魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/marco.html)
+魔术关键字代表了一些特殊的功能。[`了解更多`](/zh-cn/docs/lemoncase2/magic.html)
 - $HREF
 - $BUTTON
 - $IT

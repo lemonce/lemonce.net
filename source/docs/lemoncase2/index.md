@@ -106,9 +106,9 @@ Below are the types of the inbuilt sub-process in LC2. [`Read more.`](/docs/lemo
 - length/for...in/for...of/indexOf
 
 <br/>
-**Marco** 
+**Macro** 
 
-Macro is the global setting for your case during runtime. [`Read more.`](/docs/lemoncase2/marco.html)
+Macro is the global setting for your case during runtime. [`Read more.`](/docs/lemoncase2/macro.html)
 - #TIMES
 - #AUTOWAIT
 - #LIMIT
@@ -116,7 +116,7 @@ Macro is the global setting for your case during runtime. [`Read more.`](/docs/l
 <br/>
 **Magic keyword**
 
-Below are the magic keywords which stand for some special functions. [`Read more.`](/docs/lemoncase2/marco.html)
+Below are the magic keywords which stand for some special functions. [`Read more.`](/docs/lemoncase2/magic.html)
 - $HREF
 - $BUTTON
 - $IT
@@ -131,7 +131,7 @@ There is no `return` keyword in LC2.The main process has no parameter.`process m
 <br/>
 ## [Example](/docs/lemoncase2/example.html)
 ---
-Here are some examples for you to get started with the LC2 language. [`Read more.`](/zh-cn/docs/lemoncase2/example.html)
+Here are some examples for you to get started with the LC2 language. [`Read more.`](/docs/lemoncase2/example.html)
 
 **Hello World** 
 
