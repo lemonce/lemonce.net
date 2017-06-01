@@ -3,7 +3,7 @@ title: '选择器'
 灵萌测支持 css，xpath 及 sizzle 三种形式的选择器，其中 css 和 xpath 选择器可以在录制的时候自动实现。
 
 <br/>
-## [css selector](https://www.w3.org/TR/CSS2/selector.html)
+## [css selector](http://www.w3school.com.cn/cssref/css_selectors.asp)
 ---
 以下是关于 css selector 的几个示例，具体的使用文档请[点击此处查看](http://www.w3school.com.cn/cssref/css_selectors.asp)。
 
@@ -35,7 +35,7 @@ process main () {
 - #gb_70
 
 <br/>
-## [xpath](https://en.wikipedia.org/wiki/XPath)
+## [xpath](http://www.w3school.com.cn/xpath/xpath_intro.asp)
 ---
 关于 xpath 选择器具体的使用文档，请[点击此处查看](http://www.w3school.com.cn/xpath/xpath_intro.asp)。
 
@@ -60,7 +60,7 @@ process main () {
 <br/>
 ## [sizzle](https://github.com/jquery/sizzle/wiki)
 ---
-关于 sizzle 选择器具体的使用文档，请点击上方的标题查看。
+关于 sizzle 选择器具体的使用文档，请[点击此处查看](https://github.com/jquery/sizzle/wiki)。
 
 在网站开发的过程中，某些网页中的元素的 xpath 或者 css 选择器可能会发生变化。此时可以尝试采用 sizzle 选择器。
 

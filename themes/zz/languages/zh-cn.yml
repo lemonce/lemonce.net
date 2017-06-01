@@ -42,6 +42,7 @@ footer:
   feature: '特性'
   compare: '对比'
   news: '新闻'
+  blog: '博客'
 
 nav:
   home: '首页'

@@ -3,8 +3,6 @@ title: 'Lemoncase2 语言指南'
 
 Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用例编写。以下的指南会帮助您更好地理解这门编程语言。
 
-Lemoncase2 语言库: http://lemonce.github.io/lemoncase2
-
 <br/>
 ## [语法](/zh-cn/docs/lemoncase2/index.html)
 ---

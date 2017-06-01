@@ -3,7 +3,7 @@ title: 'Selector'
 Lemonce2 supports 3 different kinds of selectors: css, xpath, sizzle, among which css and xpath selector can be generated automatically while recording.
 
 <br/>
-## [css selector](https://www.w3.org/TR/CSS2/selector.html)
+## [css selector](https://www.w3schools.com/cssref/css_selectors.asp)
 ---
 The following are a few examples of css selector, to read detail documents about css selector please [click here](https://www.w3schools.com/cssref/css_selectors.asp).
 
@@ -17,7 +17,6 @@ The following are a few examples of css selector, to read detail documents about
 In the recording, the drop-down menu defaults to choose css selector to record. You can also write your own code in the code editor in order to make your code more brief.
 
 Assume the user attempts to complete two operations on the Google home page: **click on the search bar**, then **move the mouse to the login button in the upper right corner**. Using css selector, the statements will be as the following. 
-
 <pre class="sublemon">
 process main () {
 
@@ -36,7 +35,7 @@ The action keywords `click` and `move` are followed by the id selectors of css s
 - #gb_70
 
 <br/>
-## [xpath](https://en.wikipedia.org/wiki/XPath)
+## [xpath](https://www.w3schools.com/xml/xpath_intro.asp)
 ---
 To read detail documents about xpath please [click here](https://www.w3schools.com/xml/xpath_intro.asp).
 
@@ -62,7 +61,7 @@ The action keywords `click` and` move` are followed by the xpath selectors as fo
 <br/>
 ## [sizzle](https://github.com/jquery/sizzle/wiki)
 ---
-To learn more detail usages of sizzle selector, please click on the title above and read.
+To learn more detail usages of sizzle selector, please [click here](https://github.com/jquery/sizzle/wiki).
 
 During website development, the xpath or css selector of elements may change in some pages. In this case, you can try to use the sizzle selector.
 

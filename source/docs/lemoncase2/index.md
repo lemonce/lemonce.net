@@ -2,8 +2,6 @@ title: 'Lemoncase2 Guide'
 ---
 Lemoncase2 is a Javascript-like scripting language,which is used for developing scripts in Lemonce. Read this guide to help you understand the language.
 
-browser automation library: http://lemonce.github.io/lemoncase2
-
 <br/>
 ## [Grammar](/docs/lemoncase2/index.html)
 ---
