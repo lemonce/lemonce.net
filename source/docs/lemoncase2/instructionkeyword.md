@@ -20,7 +20,7 @@ process anyname(){
 ## return
 ---
 <p class="alert alert-warning">return;</p>
-The `return` statement ends sub-process execution and specifies a value to be returned to the sub-process caller. A sub-process immediately stops at the point where return is called.
+Ends sub-process execution and specifies a value to be returned to the sub-process caller. A sub-process immediately stops at the point where return is called.
 <pre class='sublemon'>
 process main () {
 	counter();   
@@ -40,14 +40,7 @@ process counter() {
 ## for...in
 ---
 <p class="alert alert-warning">for (variable in object){ }</p>
-The `for...in` statement iterates over the enumerable properties of an object, in original insertion order. For each distinct property, statements can be executed.
-
-Syntax：
-```
-for(variable in object){
-
-}
-```
+Iterates over the enumerable properties of an object, in original insertion order. For each distinct property, statements can be executed.
 
 <pre class='sublemon'>
 process main () {
@@ -64,14 +57,7 @@ process main () {
 ## for...of
 ---
 <p class="alert alert-warning">for (variable of object){ statement }</p>
-The `for...of` statement creates a loop iterating over iterable objects, invoking a custom iteration hook with statements to be executed for the value of each distinct property.
-
-Syntax：
-```
-for (variable of object){
-	statement
-	}
-```
+Creates a loop iterating over iterable objects, invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
 <pre class='sublemon'>
 //Iterating over an Array.
@@ -105,7 +91,7 @@ process main () {
 ## if...else
 ---
 <p class="alert alert-warning">if (condition)<br/>statement1<br/>[else<br/>statement2]</p>
-The `if` statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
+Executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
 
 <pre class='sublemon'>
 process main () {
@@ -128,7 +114,7 @@ else {
 ## continue
 ---
 <p class="alert alert-warning">continue;</p>
-The `continue` statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
+Terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
 
 <pre class='sublemon'>
 process main () {
@@ -149,8 +135,7 @@ while (i < 5) {
 ## while
 ---
 <p class="alert alert-warning">while (condition)<br/> statement</p>
-The `while` statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
-
+Creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
 <pre class='sublemon'>
 process main () {
 	counter();   

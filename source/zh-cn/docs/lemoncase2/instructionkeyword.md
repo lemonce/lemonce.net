@@ -23,7 +23,7 @@ process anyname(){
 ## return
 ---
 <p class="alert alert-warning">return;</p>
-`return`语句用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
 <pre class='sublemon'>
 process main () {
 	counter();   
@@ -43,7 +43,7 @@ process counter() {
 ## for...in
 ---
 <p class="alert alert-warning">for (variable in object){ }</p>
-`for...in`语句以任意顺序遍历一个对象的可枚举属性。对于每个不同的属性，语句都会被执行。
+以任意顺序遍历一个对象的可枚举属性。对于每个不同的属性，语句都会被执行。
 
 <pre class="sublemon">
 process main () {
@@ -60,7 +60,7 @@ process main () {
 ## for...of
 ---
 <p class="alert alert-warning">for (variable of object){ statement }</p>
-`for...of`语句在可迭代对象上创建一个迭代循环，对每个不同属性的属性值,调用一个自定义的有执行语句的迭代挂钩.
+在可迭代对象上创建一个迭代循环，对每个不同属性的属性值,调用一个自定义的有执行语句的迭代挂钩.
 
 <pre class='sublemon'>
 //遍历一个数组
@@ -117,7 +117,7 @@ else {
 ## continue
 ---
 <p class="alert alert-warning">continue;</p>
-`continue` 语句结束当前（或标签）的循环语句的本次迭代，并继续执行循环的下一次迭代。
+结束当前（或标签）的循环语句的本次迭代，并继续执行循环的下一次迭代。
 
 <pre class='sublemon'>
 process main () {
@@ -138,7 +138,7 @@ while (i < 5) {
 ## while
 ---
 <p class="alert alert-warning">while (condition)<br/> statement</p>
-`while`产生一个当满足条件为true时便执行指定语句的循环。每次执行语句前，条件都会被评估。
+产生一个当满足条件为true时便执行指定语句的循环。每次执行语句前，条件都会被评估。
 <pre class='sublemon'>
 process main () {
 	counter();   

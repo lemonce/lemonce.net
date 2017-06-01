@@ -18,10 +18,10 @@ log smartphones[0][2];//输出 M1
 
 <br/>
 **length** 
-<p class="alert alert-warning">length("array")<br/>array.length</p>
+<p class="alert alert-warning">length(array)<br/>array.length</p>
 表示一个数组的长度。
 <pre class='sublemon'>
-log length("smartphones"); //输出  3
+log length(smartphones); //输出  3
 log smartphones.length;//输出 3</pre>
 
 **for...in/of**
@@ -59,7 +59,7 @@ bool(3-3) // 输出 false</pre>
 
 <br/>
 **now**
-<p class="alert alert-warning">now( )</p>
+<p class="alert alert-warning">now()</p>
 返回自世界标准时间到当前时间的毫秒数。
 <pre class='sublemon'>
 //假设以2017年1月1日，0时0分为当前时间
@@ -137,7 +137,7 @@ number('') // 输出  0</pre>
 ## String
 ---
 <p class="alert alert-warning">string([variable,number])</p>
-string 全局对象是一个用于字符串或一个字符序列的构造函数。也能使用 `string` 将其他值生成或转换成字符串。
+全局对象 string 是一个用于字符串或一个字符序列的构造函数。也能使用它将其他值生成或转换成字符串。
 <pre class='sublemon'>
 log length(string(3+0.14)); //输出  4</pre>
 
@@ -150,12 +150,12 @@ length("Lemonce") //输出  7</pre>
 
 **charAt**
 <p class="alert alert-warning">charAt("string",[letterPosition:number])</p>
-从一个字符串中返回指定的字符。
+从一个字符串中返回指定的字符。从0开始计数。
 <pre class='sublemon'>
-charAt('Lemonce',5)  //输出 'c'</pre>
+charAt('Lemonce',5)  //输出 c</pre>
 
 **indexOf**
-<p class="alert alert-warning">indexOf("wholeString","testString")</p>
+<p class="alert alert-warning">indexOf("wholeString","chosenLetter")</p>
 返回调用 String 对象中第一次出现的指定值的索引，开始在 fromIndex 进行搜索。如果未找到该值，则返回-1。
 <pre class='sublemon'>
 indexOf('Lemonce','L')  //输出  0

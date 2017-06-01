@@ -6,7 +6,7 @@ All the standard built-in objects in LC2 are shown below.
 ## Array
 ---
 <p class="alert alert-warning">array0[element1,element2,...]; array0[n]=element(n+1)<br/>array1[array0,element1,...]</p>
-The array object is a global object used to construct arrays: they are advanced, list-type objects. Take the array in the following for example：
+The **array** object is a global object used to construct arrays: they are advanced, list-type objects. Take the array in the following for example：
 
 <pre class='sublemon'>
 process main () {
@@ -18,10 +18,10 @@ log smartphones[0][2];//output M1
 
 <br/>
 **length** 
-<p class="alert alert-warning">length("array")<br/>array.length</p>
+<p class="alert alert-warning">length(array)<br/>array.length</p>
 returns the length of a array. 
 <pre class='sublemon'>
-log length("smartphones"); //Output  3
+log length(smartphones); //Output  3
 log smartphones.length;//Output 3</pre>
 
 **for...in/of**
@@ -50,7 +50,8 @@ log smartphones.indexOf("iPhone"); //Does not support this syntax，output -1.</
 a boolean object wrapper which could convert a variable/number/RegExp to a Boolean format.  
 <pre class='sublemon'>
 bool(3.14) // Output  true
-bool(3>4) // Output  false</pre>
+bool(3>4) // Output  false
+bool(3-3) // Output false</pre>
 
 <br/>
 ## Date
@@ -86,7 +87,7 @@ log format(now(),"isoDateTime");//Output：2017-01-01T00:00+0800</pre>
 
 **abs**
 <p class="alert alert-warning">abs([number])</p>
-`abs()` returns the absolute value of a number, that is abs(x)=|x|.
+returns the absolute value of a number, that is abs(x)=|x|.
 <pre class='sublemon'>
 abs(-3.14) // Output  3.14
 abs('') // Output  0
@@ -130,15 +131,15 @@ random() * (max - min) + min </pre>
 <p class="alert alert-warning">number("string")</p>
 number is a wrapper object allowing you to work with numerical values. A Number object is created using the **number()** constructor.
 <pre class='sublemon'>
-number('3.14') // 输出  3.14
-number('3'+'2') // 输出  32
-number('') // 输出  0</pre>
+number('3.14') // Output  3.14
+number('3'+'2') // Output  32
+number('') // Output  0</pre>
 
 <br/>
 ## String
 ---
 <p class="alert alert-warning">string([variable,number])</p>
-The global object `string()` is a constructor for a string or a sequence of characters. Values could also be converted or generated into strings with `string()`.
+The global object **string** is a constructor for a string or a sequence of characters. Values could also be converted or generated into strings with it.
 <pre class='sublemon'>
 log length(string(3.14)); //Output  4</pre>
 
@@ -151,12 +152,12 @@ length("Lemonce") //Output  7</pre>
 
 **charAt**
 <p class="alert alert-warning">charAt("string",[letterPosition:number])</p>
-returns the specified character from a string.
+returns the specified character from a string.Number counts from zero.
 <pre class='sublemon'>
-charAt('Lemonce',5)  //Output 'c'</pre>
+charAt('Lemonce',5)  //Output c</pre>
 
 **indexOf**
-<p class="alert alert-warning">indexOf("wholeString","testString")</p>
+<p class="alert alert-warning">indexOf("wholeString","chosenLetter")</p>
 returns the index within the calling string object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
 <pre class='sublemon'>
 indexOf('Lemonce','L')  //Output  0
