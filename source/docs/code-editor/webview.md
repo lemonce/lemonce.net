@@ -1,8 +1,8 @@
 title: 'WebView'
 ---
-Webview is just like a simplified browser with two main functional areas.
-<br>
+Webview is Chromium browser with two main functional areas in Lemonce.
 
+<br/>
 ## Tool Bar
 ---
 The whole toolbar is shown below. The address input box is in the middle, which you can enter URL in and press `Enter` on your keyboard to jump.
@@ -25,10 +25,10 @@ Refresh the current page.
 
 Developer tool is a debugger for testers or developers with certain coding ability. <br>
 
-<br>
+<br/>
 ## Debugger
 ---
 
-Click <i class="fa fa-pencil-square-o"></i> to pop up the debugger with a similar form of chrome.
+Click <i class="fa fa-pencil-square-o"></i> to pop up the Chromium debugger.
 
 <img class="large-images" src="/images/code-editor/webview-debugger.png">

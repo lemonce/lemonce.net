@@ -1,8 +1,8 @@
 title: '网页视图'
 ---
-网页视图就像一个简化的浏览器，包括了两个主要的功能区域。
+网页视图，即灵萌测内置的 Chromium 浏览器，包括了两个主要的功能区域。
 
-<br>
+<br/>
 ## 工具栏
 ---
 
@@ -26,10 +26,10 @@ title: '网页视图'
 
 开发者工具，即调试器。为有一定编程能力的测试者和开发者提供。
 
-<br>
+<br/>
 ## 调试器
 ---
 
-点击 <i class="fa fa-pencil-square-o"></i> 弹出调试器，与Chrome的调试器形式相同。
+点击 <i class="fa fa-pencil-square-o"></i> 弹出调试器，即 Chromium 调试器。
 
 <img class="large-images" src="/images/code-editor/webview-debugger.png">
