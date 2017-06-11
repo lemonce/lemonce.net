@@ -26,19 +26,23 @@ The example shows bellow:
 ```
 process main () {
 
-	jumpto "https://login.deepin.org/oauth2/authorize?client_id=fcb9f8cac81074100b9482d534767a1fecc148b3&redirect_uri=https%3A%2F%2Faccount.deepin.org%2Flogin&response_type=code&scope=base%2Cuser%3Aread%2Cuser%3Aedit%2Cprofile%3Aread%2Cprofile%3Aedit";
+	// The world's leading software development platform · GitHub
+	jumpto "https://github.com/";
 	wait 2333;
 	
 	// <# "selector"/>
-	log <# "div"/>; // Out put the number of "div" elements.
-	log <# ".links"/>+1; // Support expressions and variables.
+	log <# "div"/>; // Output the number of tag "div"
+	log <# ".form"/>+1; // Output the number of class "form"
 	
 	// <@ "selector"/>
-	log <@ ".msg"/>;  // Output the inside text of the class "msg".
+	log <@ "h1"/>;  // Output the inner text of  tag "h1"
+	log <@ "label[for*=user]"/>;
+	log <@ "#user\\[login\\]"/>; // Need translation symbol
+	log <@ ".form-control[name=timestamp_secret] + button"/>; // Adjacent sibling selector is available
 	
 	// <! "selector"/>
-	log <! "[name=username]"/>; // To check whether "[name=username]" exists or not.
-	log <! ".a"/>;
+	log <! "#js"/>; // id="js" doesn't exist in html
+	log <! "a"/>;// tag a exists in html
 }
 ```
 

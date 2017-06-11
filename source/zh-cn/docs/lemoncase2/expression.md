@@ -25,19 +25,23 @@ title: "表达式"
 ```
 process main () {
 
-	jumpto "https://login.deepin.org/oauth2/authorize?client_id=fcb9f8cac81074100b9482d534767a1fecc148b3&redirect_uri=https%3A%2F%2Faccount.deepin.org%2Flogin&response_type=code&scope=base%2Cuser%3Aread%2Cuser%3Aedit%2Cprofile%3Aread%2Cprofile%3Aedit";
+	// The world's leading software development platform · GitHub
+	jumpto "https://github.com/";
 	wait 2333;
 	
 	// <# "selector"/>
-	log <# "div"/>; //输出"div"的个数
-	log <# ".links"/>+1; //支持表达式和变量
+	log <# "div"/>; // 输出页面中"div"标签的个数
+	log <# ".form"/>+1; // 输出页面中"form"类型的个数
 	
 	// <@ "selector"/>
-	log <@ ".msg"/>;  //输出类"msg"内部的文字
+	log <@ "h1"/>;  // 输出"h1"中的内容
+	log <@ "label[for*=user]"/>; //
+	log <@ "#user\\[login\\]"/>; // 需要转译符
+	log <@ ".form-control[name=timestamp_secret] + button"/>; // 支持相邻兄弟选择器
 	
 	// <! "selector"/>
-	log <! "[name=username]"/>`; //验证"[name=username]"是否存在
-	log <! ".a"/>;
+	log <! "#js"/>; // "js"ID在html中不存在
+	log <! "a"/>;// "a"标签在html中存在
 }
 ```
 
