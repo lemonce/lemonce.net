@@ -32,7 +32,7 @@ process counter() {
 		count +=1;
 		log count + 'B';    // count=2,3,4,5
       }
-	return;
+	return 0;
     log count + 'C';        // Never appears. 
 }</pre>
   

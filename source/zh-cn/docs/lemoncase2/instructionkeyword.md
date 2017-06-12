@@ -35,7 +35,7 @@ process counter() {
 		count +=1;
 		log count + 'B';    // count=2,3,4,5
       }
-	return;
+	return 0;
     log count + 'C';        // 子过程已结束，本语句不会执行      
 }</pre>
 
