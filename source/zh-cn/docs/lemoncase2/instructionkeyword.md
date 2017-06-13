@@ -3,7 +3,7 @@ title: '指令关键字'
 
 ## import
 ---
-<p class="alert alert-warning">import "./case.lc2</p>
+<p class="alert alert-warning">import "./../case.lc2"</p>
 调用一个或多个其它的子过程 case 文件，写在当前 case 的 process main之前。也可以使用[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)工具栏中的 <i class="fa fa-download"></i> 来进行调用。
 
 下面的示例为调用[魔术字](/zh-cn/docs/lemoncase2/magic.html)中 `$BUTTON` 的示例子过程。

@@ -9,14 +9,16 @@ Click or double click a HTML element.
 <pre class='sublemon'>
 process main () {
     
-	jumpto "https://support.mozilla.org/en-US/";
+    // Deepin Technology Community
+	jumpto "https://www.deepin.org/en/";
 	wait 2333;
+
+	// dblclick
+	dblclick '#hs-site-navigation > .hs-toggle-menu';
+	wait 2323;
 	
-	//double click "#tabzilla"
-	dblclick "#tabzilla";
-	
-	//click "#tabzilla"
-	click "#tabzilla";
+	// click
+	click '#hs-site-navigation > .hs-toggle-menu';
 }</pre>
 
 <br/>
@@ -40,12 +42,12 @@ process main () {
     
 	jumpto "https://www.deepin.org/en/";
 	wait 2333;
-	click '#hs-site-navigation > div:nth-child(1)';
+	click '#hs-site-navigation > .hs-toggle-menu';
 	
 	// Move on the 3 elements in the following.
-	move '#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)';
-	move '#menu-main > li:nth-child(3) > a:nth-child(1) > span:nth-child(1)';
-	move '#menu-main > li:nth-child(4) > a:nth-child(1) > span:nth-child(1)';
+	move '#menu-main span:contains(Projects)';
+	move '#menu-main span:contains(Download)';
+	move '#menu-main span:contains(Documents)';
 }</pre>
 
 <br/>
@@ -83,12 +85,11 @@ Scroll the page and keep the selected element in the center of the screen.
 <pre class="sublemon">
 process main () {
   
-	// Deepin Technology Community
-	jumpto "https://www.deepin.org/en/";
+	jumpto "http://www.lemonce.com";
 	wait 2333;
 	
-	//
-	scroll '#hs-top-footer';
+	//scroll
+	scroll 'footer';
 }</pre>
 
 <br/>
@@ -106,22 +107,23 @@ jump to a URL.
 <pre class='sublemon'>
 process main () {
 
-	// jumpto
-	jumpto "https://www.deepin.org/en/";
+	
+	// The world's leading software development platform · GitHub
+	jumpto "https://github.com/";
 	wait 2333;
-	click "#hs-site-navigation > div:nth-child(1) > span:nth-child(1)";
-	click "#menu-main > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)";
+	// Sign up
+	click "a:contains(Sign up)";
 	wait 2000;
 	
-	//back : Get back to the homepage.
+	//back
 	back;
 	wait 2000;
 	
-	//forward : Get forward to the doc page.
+	//forward
 	forward;
 	wait 2000;
 
-    //refresh : Refresh the doc page.
+    //refresh
 	refresh;
 }</pre>
 
