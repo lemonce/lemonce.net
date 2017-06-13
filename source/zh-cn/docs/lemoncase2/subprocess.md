@@ -32,7 +32,7 @@ for (x in smartphones){
     log x;  //输出 0,1,2
 }
 for (x of smartphones){
-    log x;  //输出 Smartisan,iPhone,Mi
+    log x;  //输出 ["T1","T2","M1"],iPhone,Mi
 }</pre>
 
 **indexOf**
@@ -50,7 +50,8 @@ log smartphones.indexOf("iPhone"); //语法错误，输出 -1。</pre>
 <pre class='sublemon'>
 bool(3.14) // 输出 true
 bool(3>4) // 输出 false
-bool(3-3) // 输出 false</pre>
+bool(3-3) // 输出 false
+bool(/[a-z]/) // 输出 true</pre>
 
 <br/>
 ## Date
@@ -115,6 +116,8 @@ max(3+2,number('3'+'2'))  // 输出  32</pre>
 **min**
 <p class="alert alert-warning">min([number1],[number2],...)</p>
 返回一组数中的最小值。
+<pre class='sublemon'>
+min(3+2,number('3'+'2'))  // 输出  5</pre>
 
 **random**
 <p class="alert alert-warning">random()</p>
@@ -164,7 +167,7 @@ indexOf('Lemonce','l')  //输出  -1</pre>
 
 **substr**
 <p class="alert alert-warning">substr("string",[startLetter:number],[length:number])</p>
-`substr(string,from,[length])` 返回一个字符串在开始索引到结束索引之间的一个子集, 或从开始索引直到字符串的末尾的一个子集。
+返回一个字符串在开始索引到结束索引之间的一个子集, 或从开始索引直到字符串的末尾的一个子集。
 <pre class='sublemon'>
 substr('Lemoncase',2,3)  //输出 'mon'
 substr('Lemoncase',2)  //输出 'moncase'</pre>

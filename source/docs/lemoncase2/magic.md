@@ -51,5 +51,3 @@ process main () {
 	wait 500;
 	log $LOOP; // Runs 3 times and output 0,1,2 respectively.
 }</pre>
-
-<br>

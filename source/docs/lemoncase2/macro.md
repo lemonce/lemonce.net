@@ -3,7 +3,7 @@ title: 'Macro'
 
 ## #TIMES
 ---
-The number of times to run the test case.The defaut value is 1 if `TIMES` has not been set before main process.
+The number of times to run the test case.The defaut value is 1 if **#TIMES** has not been set before main process.
 <pre class='sublemon'>
 // The test case will run 10 times.
 #TIMES 10

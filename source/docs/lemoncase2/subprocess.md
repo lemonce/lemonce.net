@@ -33,7 +33,7 @@ for (x in smartphones){
     log x;  //Output 0,1,2
 }
 for (x of smartphones){
-    log x;  //Output Smartisan,iPhone,Mi
+    log x;  //Output ["T1","T2","M1"],iPhone,Mi
 }</pre>
 
 **indexOf**
@@ -51,7 +51,8 @@ a boolean object wrapper which could convert a variable/number/RegExp to a Boole
 <pre class='sublemon'>
 bool(3.14) // Output  true
 bool(3>4) // Output  false
-bool(3-3) // Output false</pre>
+bool(3-3) // Output false
+bool(/[a-z]/) // Output true</pre>
 
 <br/>
 ## Date
@@ -117,6 +118,8 @@ max(3+2,number('3'+'2'))  // Output  32</pre>
 **min**
 <p class="alert alert-warning">min([number1],[number2],...)</p>
 returns the minimum of a set of numbers.
+<pre class='sublemon'>
+min(3+2,number('3'+'2'))  // 输出  5</pre>
 
 **random**
 <p class="alert alert-warning">random()</p>
