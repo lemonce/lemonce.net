@@ -22,6 +22,10 @@ title: '用例编辑器'
 
 也可以使用`Ctrl+S`快捷键进行操作。
 
+<i class="fa fa-download"></i> **调用 Case**
+
+选中本地的一个 case 进行子过程调用，打开用例之后，会自动在当前 case 的 process main之前生成 import 语句。
+
 <i class="fa fa-crosshairs"></i> **查看元素**
 
 选中页面内一个元素并在代码区域输出该元素的CSSPath。点击鼠标右键以退出。

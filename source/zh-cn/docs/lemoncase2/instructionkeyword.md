@@ -3,6 +3,20 @@ title: '指令关键字'
 
 ## import
 ---
+<p class="alert alert-warning">import "./case.lc2</p>
+调用一个或多个其它的子过程 case 文件，写在当前 case 的 process main之前。也可以使用[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)工具栏中的 <i class="fa fa-download"></i> 来进行调用。
+
+下面的示例为调用[魔术字](/zh-cn/docs/lemoncase2/magic.html)中 `$BUTTON` 的示例子过程。
+<pre class='sublemon'>//引用文件名为"rightclick.lc2"的case文件
+import "./rightclick.lc2";
+
+process main () {
+	// New Page
+	jumpto "https://www.github.com/";
+	wait 2333;
+	// click a text field
+	click "#user\\[login\\]"; //此处点击方式为右键点击
+}</pre>
 
 <br/>
 ## process
@@ -22,22 +36,22 @@ process anyname(){
 <br/>
 ## return
 ---
-<p class="alert alert-warning">return;</p>
+<p class="alert alert-warning">return [expression];</p>
 用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
 <pre class='sublemon'>
 process main () {
-	counter();   
-	}  
-process counter() {
-	count = 1;
-	while(count < 5){	    // count=1,2,3,4
-		log count + 'A';
-		count +=1;
-		log count + 'B';    // count=2,3,4,5
-      }
-	return 0;
-    log count + 'C';        // 子过程已结束，本语句不会执行      
-}</pre>
+  log square(10);
+}
+
+process square(x){
+    log 1+1;
+    return x*x;
+    log "Smartisan";
+}
+//输出:
+//2（先输出子过程中1+1的值）
+//100（再输出主过程的10*10）
+//"Smartisan"在子过程的 return 之后，不会输出</pre>
 
 <br/>
 ## for...in
@@ -52,7 +66,7 @@ process main () {
     	log "A["+x+"]="+A[x];
   }
 }
-//Output:
+//输出:
 //A[a]=1
 //A[b]=2</pre>
 
@@ -70,7 +84,7 @@ process main () {
       log x;
   }
 }
-//Output
+//输出
 //10
 //20
 //30
@@ -81,7 +95,7 @@ process main () {
       log x;
   }
 }
-//Output:
+//输出:
 //L
 //e
 //m
@@ -111,7 +125,7 @@ else {
     log "3";
  }
 }
-//Output "3"</pre>
+//输出 "3"</pre>
 
 <br/>
 ## continue
@@ -130,7 +144,7 @@ while (i < 5) {
       continue;
    }
    n += i;
-   log n;  //Output 1,3,7,12
+   log n;  //输出 1,3,7,12
    }
 }</pre>
 
