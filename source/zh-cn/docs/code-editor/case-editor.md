@@ -5,8 +5,8 @@ title: '用例编辑器'
 整个工具栏显示如下。
 
 <img  src="/images/code-editor/case-toolbar.png">
-<br>
 
+<br/>
 <i class="fa fa-file-code-o"></i>  **新建 Case**  
 
 在工作空间之外建立一个新的测试用例，默认命名为“Untitle-0.lc2",但用户需要寻找一个路径去保存。用户也可以使用`Ctrl+N`来完成这一步操作。

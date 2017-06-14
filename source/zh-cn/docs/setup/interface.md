@@ -7,13 +7,13 @@ title: '灵萌测界面'
 
 <img class="large-images-special" src="/images/setup/interface-whole.png">
 
-<br>
+<br/>
 ## 1 菜单栏
 ---
 
 位于客户端顶部，包括了文件、编辑、视图和帮助四个一级菜单。
 
-<br>
+<br/>
 #### 1.1 文件
 <hr width=15% align="left">
 
@@ -24,7 +24,7 @@ title: '灵萌测界面'
 - **重新启动** `Ctrl+R` 重启灵萌测客户端。
 - **退出** `Ctrl+W` 退出灵萌测客户端。
 
-<br>
+<br/>
 #### 1.2 编辑
 <hr width=15% align="left">
 
@@ -33,7 +33,7 @@ title: '灵萌测界面'
 - **删除** `Del`
 - **全选** `Ctrl+A` 
 
-<br>
+<br/>
 #### 1.3 视图
 <hr width=15% align="left">
 
@@ -45,14 +45,14 @@ title: '灵萌测界面'
 - **切换左边栏** `Ctrl+B` 显示或隐藏边栏。
 - **切换调试窗口** `Ctrl+D` 打开或关闭调试器面板。
 
-<br>
+<br/>
 #### 1.4 帮助
 <hr width=15% align="left">
 
 - **了解更多** 
 - **许可证**
 
-<br>
+<br/>
 ## 2 视图边栏 && 功能边栏
 ---
 
@@ -73,7 +73,7 @@ title: '灵萌测界面'
 
 只需在“**已打开的编辑器**”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在“**已打开的编辑器**”中移出该文件。
 
-<br>
+<br/>
 **II. 编辑区激活按钮**
 
 以下三个按钮，用于激活编辑区的相应区域。
@@ -84,7 +84,7 @@ title: '灵萌测界面'
 
 - <i class="fa fa-globe fa-2x" style="color:green"></i> **打开webview** 
 
-<br>
+<br/>
 **III. 工作空间** 
 
 用户可以点击 **NO WORKSPCACE** 标签下的 <span class="button"> open folder</span> 按钮来打开一个文件夹作为工作空间。
@@ -93,24 +93,24 @@ title: '灵萌测界面'
 - 新建、删除、重命名文件或者文件夹。
 - 打开已有的用例或文件夹的本地路径。
 
-<br>
+<br/>
 #### 2.2 配置面板 <i class="fa fa-cog fa-2x"></i> 
 <hr width=35% align="left">
 目前配置面板只有以下两个功能，后续会添加更多功能。
 - 改变客户端的语言（目前支持中/英文）
 - 打开/关闭控制台
 
-<br>
+<br/>
 #### 2.3 查看报告 <i class="fa fa-bar-chart fa-2x"></i>
 <hr width=35% align="left">
 
 测试报告按照时间顺序排列。点击这些报告，用户可以从一个报告弹窗中得到具体的测试信息。
 关于测试报告的更多内容在[查看测试报告](/zh-cn/docs/guide/reports.html)中。
 
-<br>
+<br/>
 <img class="large-images" src="/images/setup/interface-report.png">
 
-<br>
+<br/>
 ## 3 编辑区
 ---
 
@@ -118,7 +118,7 @@ title: '灵萌测界面'
 
 关于编辑区的内容在这里就不再赘述，更多详细的介绍请参考[编辑器](/zh-cn/docs/code-editor/index.html)一节。
 
-<br>
+<br/>
 ## 4 输出 && 调试面板
 ---
 用户可以在编辑区下方显示不同的面板，用于输出或调试信息、错误或警告。
@@ -127,7 +127,7 @@ title: '灵萌测界面'
 - 右上角的 <i class="fa fa-times-circle" color="grey"></i> 则用于关闭当前面板。若想再次启动面板，用户可在菜单栏的“编辑”子菜单中再次将其调出；
 - 点击 <i class="fa fa-ban"></i> ，可清空当前面板的内容。
 
-<br>
+<br/>
 #### 4.1 **输出面板**
 <hr width=35% align="left">
 
@@ -152,7 +152,7 @@ title: '灵萌测界面'
 - 执行代码所在的行数
 - 具体的执行用例的内容
 
-<br>
+<br/>
 #### 4.2 **调试面板**
 <hr width=35% align="left">
 

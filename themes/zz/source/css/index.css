@@ -256,6 +256,10 @@ figure.highlight pre {
 	height:25px;
 	margin-right: 5px;
 }
+.license-images{
+	width:640px;
+    height:256px;
+}
 
 /* style for better md */
 .page-inner2 > h2 {

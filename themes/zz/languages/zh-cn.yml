@@ -1,6 +1,6 @@
 index:
   download: 下载最新版
-  download_link: 'http://download.lemonce.com/LemonceSetup_2.0.7_950166.exe'
+  download_link: 'http://download.lemonce.com/latest/setup.exe'
   main_title: '更好的自动化测试工具'
   sub_title: '灵萌测'
   abstract_title: '立刻开始'
@@ -65,6 +65,7 @@ docs:
 doc_sidebar:
   setup: '设置'
   setup_download: '下载与安装'
+  setup_trial: '试用与购买'
   setup_interface: '灵萌测界面'
   guide: '开始测试'
   guide_case: '创建测试用例'
