@@ -2,8 +2,8 @@ title: 'Getting Started'
 ---
 
 This guide helps you with step-by-step instructions on how to create a web test project with Lemonce editor. You will learn how to record a test script, create an assertion, run a test and view test reports.
-<br/>
 
+<br/>
 ## [Create a test case](/docs/guide/case.html)
 ---
 **create in menu bar**
