@@ -9,7 +9,7 @@ The whole toolbar is shown below.
 
 <i class="fa fa-file-text-o"></i> **New Suite**  
 
-Create a new suite out of work space with a default name 'Untitle-0.lct', and you should still find a path to save it later. Here you **can't use** `Ctrl+N` because this shortcut can only be used to create a new case.
+Create a new suite out of work space with a default name 'Untitle-0.lct', and you should still find a path to save it later. Here you **can't use** <button>Ctrl+N</button> because this shortcut can only be used to create a new case.
 
 <i class="fa fa-folder-open-o"></i> **Open Suite**
 
@@ -18,7 +18,7 @@ Open a suite in local system.
 <i class="fa fa-floppy-o"></i> **Save Suite** 
 
 - If the suite is created in work space,just click the button to finish saving. 
-- If the suite is created by clicking the button "New Suite" and it is the first time to save it, you must find a path to save it. You can also use `Ctrl+S` to complete this operation.
+- If the suite is created by clicking the <i class="fa fa-file-text-o"></i> and it is the first time to save it, you must find a path to save it. You can also use <button>Ctrl+S</button> to complete this operation.
 
 <i class="fa fa-times"></i> **Remove Suite**
 
@@ -49,7 +49,7 @@ The whole main interface is shown below, and is separated into 3 parts:
 - Case list
 - Case libirary
 
-<img class="large-images" src="/images/code-editor/suite-interface.png">
+<img class="guide-images" src="/images/code-editor/suite-interface.png">
 <br/>
 
 **Suite list**

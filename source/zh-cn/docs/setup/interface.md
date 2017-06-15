@@ -5,7 +5,7 @@ title: '灵萌测界面'
 
 下图是一个完整的灵萌测界面，其中不同的数字标明了不同的功能区域，下面会进行详细介绍。
 
-<img class="large-images-special" src="/images/setup/interface-whole.png">
+<img class="setup-images" src="/images/setup/interface-whole.png">
 
 <br/>
 ## 1 菜单栏
@@ -17,33 +17,33 @@ title: '灵萌测界面'
 #### 1.1 文件
 <hr width=15% align="left">
 
-- **新建** `Ctrl+N` 新建测试用例（Ctrl+N）或套件。
-- **打开** `Ctrl+O` 打开一个现有的用例。
+- **新建** <button>Ctrl+N</button> 新建测试用例（Ctrl+N）或套件。
+- **打开** <button>Ctrl+O</button> 打开一个现有的用例。
 - **打开工作空间** 打开一个文件夹作为工作空间。
 - **关闭工作空间**  关闭当前的工作空间。
-- **重新启动** `Ctrl+R` 重启灵萌测客户端。
-- **退出** `Ctrl+W` 退出灵萌测客户端。
+- **重新启动** <button>Ctrl+R</button> 重启灵萌测客户端。
+- **退出** <button>Ctrl+W</button> 退出灵萌测客户端。
 
 <br/>
 #### 1.2 编辑
 <hr width=15% align="left">
 
-- **撤销 / 重复** `Ctrl+Z`/`Ctrl+Y`
-- **剪切 / 复制 / 粘贴** `Ctrl+X`/`Ctrl+C`/`Ctrl+V`
-- **删除** `Del`
-- **全选** `Ctrl+A` 
+- **撤销 / 重复** <button>Ctrl+Z</button>/<button>Ctrl+Y</button>
+- **剪切 / 复制 / 粘贴** <button>Ctrl+X</button>/<button>Ctrl+C</button>/<button>Ctrl+V</button>
+- **删除** <button>Del</button>
+- **全选** <button>Ctrl+A</button> 
 
 <br/>
 #### 1.3 视图
 <hr width=15% align="left">
 
-- **命令面板** `Ctrl+Shift+P` 在编辑区顶部打开一个命令行。
-- **开发者工具** `Ctrl+Shift+I` 
-- **放大/缩小** `Ctrl+=`/`Ctrl+-`
-- **重置缩放** `Ctrl+0`
-- **全屏** `F11`
-- **切换左边栏** `Ctrl+B` 显示或隐藏边栏。
-- **切换调试窗口** `Ctrl+D` 打开或关闭调试器面板。
+- **命令面板** <button>Ctrl+Shift+P</button> 在编辑区顶部打开一个命令行。
+- **开发者工具** <button>Ctrl+Shift+I</button> 
+- **放大/缩小** <button>Ctrl+=</button>/<button>Ctrl+-</button>
+- **重置缩放** <button>Ctrl+0</button>
+- **全屏** <button>F11</button>
+- **切换左边栏** <button>Ctrl+B</button> 显示或隐藏边栏。
+- **切换调试窗口** <button>Ctrl+D</button> 打开或关闭调试器面板。
 
 <br/>
 #### 1.4 帮助

@@ -6,7 +6,7 @@ title: '网页视图'
 ## 工具栏
 ---
 
-整个工具栏显示如下。地址输入栏位于工具栏中部，输入地址后输入 `Enter` 去完成跳转。
+整个工具栏显示如下。地址输入栏位于工具栏中部，输入地址后输入 <button>Enter</button> 去完成跳转。
 
 <img class="long-images" src="/images/code-editor/webview-toolbar.png">
 
@@ -32,4 +32,4 @@ title: '网页视图'
 
 点击 <i class="fa fa-pencil-square-o"></i> 弹出调试器，即 Chromium 调试器。
 
-<img class="large-images" src="/images/code-editor/webview-debugger.png">
+<img class="guide-images" src="/images/code-editor/webview-debugger.png">

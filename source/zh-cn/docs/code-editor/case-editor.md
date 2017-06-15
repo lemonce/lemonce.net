@@ -4,23 +4,23 @@ title: '用例编辑器'
 ---
 整个工具栏显示如下。
 
-<img  src="/images/code-editor/case-toolbar.png">
+<img src="/images/code-editor/case-toolbar.png">
 
 <br/>
 <i class="fa fa-file-code-o"></i>  **新建 Case**  
 
-在工作空间之外建立一个新的测试用例，默认命名为“Untitle-0.lc2",但用户需要寻找一个路径去保存。用户也可以使用`Ctrl+N`来完成这一步操作。
+在工作空间之外建立一个新的测试用例，默认命名为“Untitle-0.lc2",但用户需要寻找一个路径去保存。用户也可以使用 <button>Ctrl+N</button> 来完成这一步操作。
 
 <i class="fa fa-folder-open-o"></i> **打开 Case**
 
-打开一个本地的用例。用户也可以使用`Ctrl+O`来完成这一步操作。
+打开一个本地的用例。用户也可以使用 <button>Ctrl+O</button> 来完成这一步操作。
 
 <i class="fa fa-floppy-o"></i> **保存 Case** 
 
 - 如果用例是在工作空间中创建的，只需要点击本按钮来完成保存。
 - 如果用例是通过菜单栏或者当前工具栏创建的，并且是第一次保存的时候，用户需要自己寻找一个路径去保存。
 
-也可以使用`Ctrl+S`快捷键进行操作。
+也可以使用 <button>Ctrl+S</button> 快捷键进行操作。
 
 <i class="fa fa-download"></i> **调用 Case**
 
@@ -48,11 +48,11 @@ title: '用例编辑器'
 
 **selector / xpath**
 
-在录制过程中，获取页面内元素选择器的两种选择方式。`selector`为默认的CSSPath,`xpath`为XPath。
+在录制过程中，获取页面内元素选择器的两种选择方式。<button>selector</button> 为默认的CSSPath,<button>xpath</button> 为XPath。
 
 <i class="fa fa-undo"></i> **撤销 /** <i class="fa fa-repeat"></i> **重复**
 
-返回到上一步操作或前进到下一步操作，用户也可以使用 `Ctrl+Z`/`Ctrl+Y` 完成该操作。
+返回到上一步操作或前进到下一步操作，用户也可以使用 <button>Ctrl+Z</button>/<button>Ctrl+Y</button> 完成该操作。
 
 <i class="fa fa-columns"></i> **分离视图**
 
@@ -65,7 +65,7 @@ title: '用例编辑器'
 - Case 列表
 - 代码编辑区
 
-<img class="large-images" src="/images/code-editor/case-interface-zh.png">
+<img class="guide-images" src="/images/code-editor/case-interface-zh.png">
 <br/>
 
 **Case 列表**

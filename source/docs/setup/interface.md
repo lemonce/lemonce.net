@@ -3,9 +3,9 @@ title: 'Lemonce Interface'
 
 After the configuration, you will see the UI of Lemonce is divided into four areas a as below. Like code editors, Lemonce adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
-<img class="large-images-special" src="/images/setup/interface-whole.png">
-<br>
+<img class="setup-images" src="/images/setup/interface-whole.png">
 
+<br/>
 ## 1 Menu bar
 ---
 
@@ -13,36 +13,36 @@ Located on the top including File,Edit,View and Help.
 
 #### 1.1 File
 
-- **New** `Ctrl+N` Create a new case or suite.
-- **Open** `Ctrl+O` Open a existed case.
+- **New** <button>Ctrl+N</button> Create a new case or suite.
+- **Open** <button>Ctrl+O</button> Open a existed case.
 - **Open Workspace/Folder** Open a folder as workspace.
 - **Close Workspace**  Close the current workspace.
-- **Restart** `Ctrl+R` Restart Lemonce.
-- **Exit** `Ctrl+W` Exit Lemonce.
+- **Restart** <button>Ctrl+R</button> Restart Lemonce.
+- **Exit** <button>Ctrl+W</button> Exit Lemonce.
 
 #### 1.2 Edit
 
-- **Undo / Redo** `Ctrl+Z`/`Ctrl+Y`
-- **Cut / Copy / Paste** `Ctrl+X`/`Ctrl+C`/`Ctrl+V`
-- **Delete** `Del`
-- **Select All** `Ctrl+A`
+- **Undo / Redo** <button>Ctrl+Z</button>/<button>Ctrl+Y</button>
+- **Cut / Copy / Paste** <button>Ctrl+X</button>/<button>Ctrl+C</button>/<button>Ctrl+V</button>
+- **Delete** <button>Del</button>
+- **Select All** <button>Ctrl+A</button>
 
 #### 1.3 View
 
-- **Command Palette** `Ctrl+Shift+P` Open a command palette at the top of editor area.
-- **Toggle Dev Tool** `Ctrl+Shift+I` 
-- **Zoom in/out** `Ctrl+=`/`Ctrl+-`
-- **Reset Zoom** `Ctrl+0`
-- **Toggle Fullscreen** `F11`
-- **Toggle Side Bar** `Ctrl+B` Show or hide side bar.
-- **Debug Console** `Ctrl+D` Open/Close the Panel.
+- **Command Palette** <button>Ctrl+Shift+P</button> Open a command palette at the top of editor area.
+- **Toggle Dev Tool** <button>Ctrl+Shift+I</button> 
+- **Zoom in/out** <button>Ctrl+=</button>/<button>Ctrl+-</button>
+- **Reset Zoom** <button>Ctrl+0</button>
+- **Toggle Fullscreen** <button>F11</button>
+- **Toggle Side Bar** <button>Ctrl+B</button> Show or hide side bar.
+- **Debug Console** <button>Ctrl+D</button> Open/Close the Panel.
 
 #### 1.4 Help
 
 - **Learn More** 
 - **License** About the license.
 
-<br>
+<br/>
 ## 2 View bar && Side bar
 ---
 View bar is located on the far left-hand side including three buttons to switch the view of Side bar, which can assist you while working on your project.
@@ -85,7 +85,7 @@ After opening a folder in Lemonce, the contents of the folder are shown in the E
 - `Move files and folders with drag and drop.`
 - `Use the context menu to explore all options.`
 
-<br>
+<br/>
 #### 2.2 **Config Panel** <i class="fa fa-cog fa-2x"></i> 
 <hr width=35% align="left">
 
@@ -93,22 +93,22 @@ There are just two functions below in side bar now,more functions are coming soo
 - Change the language to English/Chinese
 - Open/close command pallete
 
-<br>
+<br/>
 #### 2.3 **View Reports** <i class="fa fa-bar-chart fa-2x"></i>
 <hr width=35% align="left">
 
 Reports are listed in side bar chronologically.Click one of them you will see [more details](/docs/guide/reports.html) in popup of reports.
-<br>
+<br/>
 
 <img class="large-images" src="/images/setup/interface-report.png">
 
-<br>
+<br/>
 ## 3 Editor Groups
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
 More details are offered in [Code Editor](docs/code-editor/index.html).
 
-<br>
+<br/>
 ## 4 Output && Console panel
 ---
 You can display different panels below the editor region for output or debug information or errors and warnings.
@@ -117,7 +117,7 @@ You can display different panels below the editor region for output or debug inf
 - Click <i class="fa fa-times-circle" color="grey"></i> on the right to close current panel.You can reopen the panel from "Edit" submenu in menu bar.
 - Click <i class="fa fa-ban"></i> to clear the current panel.
 
-<br>
+<br/>
 #### 4.1 **Output panel**
 <hr width=35% align="left">
 
@@ -142,7 +142,7 @@ Output information can be divided into the following sections:
 - The line number of the executing codes
 - Details of the running test cases
 
-<br>
+<br/>
 #### 4.2 **Console panel**
 <hr width=35% align="left">
 

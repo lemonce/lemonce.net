@@ -1,7 +1,7 @@
 title: '查看测试报告'
 ---
 测试套件执行完成之后，灵萌测会自动生成相应的测试报告。测试报告分为三个主要的部分，测试用例列表区域，相应测试用例语句日志区域以及完整的测试代码区域。
-<img class="large-images" src="/images/guide/report-01.png">
+<img class="guide-images" src="/images/guide/report-01.png">
 
 报告的最下方会显示本次套件通过和失败的用例个数，以及整个套件执行的时间。
 

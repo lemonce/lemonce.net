@@ -8,7 +8,7 @@ This guide helps you with step-by-step instructions on how to create a web test 
 ---
 **create in menu bar**
 
-You can create new test cases from the toolbar or use the shortcut key `CTRL+N`, and you need to create a path to save each test case.
+You can create new test cases from the toolbar or use the shortcut key <button>CTRL+N</button>, and you need to create a path to save each test case.
 
 
 **create in case editor tool bar**  

@@ -5,22 +5,25 @@ title: 'Case Editor'
 The whole toolbar is shown below.
 
 <img  src="/images/code-editor/case-toolbar.png">
-<br>
 
+<br/>
 <i class="fa fa-file-code-o"></i>  **New Case**  
 
-Create a new case out of work space with a default name 'Untitle-0.lc2', you should still find a path to save it later.You can also use `Ctrl+N` on keyboard to complete this operation.
+Create a new case out of work space with a default name 'Untitle-0.lc2', you should still find a path to save it later.You can also use <button>Ctrl+N</button> on keyboard to complete this operation.
 
 <i class="fa fa-folder-open-o"></i> **Open Case**
 
-Open a case in your local system. You can also use `Ctrl+O` on keyboard to complete this operation.
+Open a case in your local system. You can also use <button>Ctrl+O</button> on keyboard to complete this operation.
 
 <i class="fa fa-floppy-o"></i> **Save Case** 
 
 - If the case is created in work space,just click the button to finish saving. 
-- If the case is created by clicking the button "New Case" and it is the first time to save it, you have to find a path to save it.
-You can also use `Ctrl+S` to complete this operation.
+- If the case is created by clicking the <i class="fa fa-file-code-o"></i> and it is the first time to save it, you have to find a path to save it.
+You can also use <button>Ctrl+S</button> to complete this operation.
 
+<i class="fa fa-download"></i> **Import Case**
+
+Import a local case as a sub-process to current main process.
 
 <i class="fa fa-crosshairs"></i> **Inspect Element**
 
@@ -44,11 +47,11 @@ Convert all mouse and keyboard actions to codes.When starting recording, this bu
 
 **selector && xpath**
 
- Switch the selector in recording process, `selector` stands for CSSPath and `xpath` for XPath.
+ Switch the selector in recording process, <button>selector</button> stands for CSSPath and <button>xpath</button> for XPath.
 
 <i class="fa fa-undo"></i> **Undo/** <i class="fa fa-repeat"></i> **Redo**
 
-Back/Forward to the previous/next code change, you can also use `Ctrl+Z`/`Ctrl+Y` to complete this operation.
+Back/Forward to the previous/next code change, you can also use <button>Ctrl+Z</button>/<button>Ctrl+Y</button> to complete this operation.
 
 <i class="fa fa-columns"></i> **Split Editor**
 
@@ -61,7 +64,7 @@ The whole main interface is shown below, and is separated into 2 parts：
 - Case List
 - Coding area
 
-<img class="large-images" src="/images/code-editor/case-interface.png">
+<img class="guide-images" src="/images/code-editor/case-interface.png">
 <br/>
 
 **Case List**

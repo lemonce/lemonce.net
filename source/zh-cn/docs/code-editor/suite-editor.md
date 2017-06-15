@@ -9,7 +9,7 @@ title: '套件编辑器'
 
 <i class="fa fa-file-text-o"></i> **新建 Suite**  
 
-在工作空间之外创建一个新的套件，默认名称为“Untitle-0.lct”，用户需要自己寻找一个保存路径来进行保存。用户**无法使用** `Ctrl+N` 来新建套件，这个快捷键仅仅适用于建立新的用例。
+在工作空间之外创建一个新的套件，默认名称为“Untitle-0.lct”，用户需要自己寻找一个保存路径来进行保存。用户**无法使用** <button>Ctrl+N</button> 来新建套件，这个快捷键仅仅适用于建立新的用例。
 
 <i class="fa fa-folder-open-o"></i> **打开 Suite**
 
@@ -18,7 +18,7 @@ title: '套件编辑器'
 <i class="fa fa-floppy-o"></i> **保存 Suite** 
 
 - 如果测试套件是在工作空间中建立的，只需要点击按钮保存即可。
-- 如果套件是通过菜单栏或者当前工具栏创建的，并且是第一次进行保存，用户需要自己寻找一个路径来进行保存。也可以使用`Ctrl+S`快捷键进行操作。
+- 如果套件是通过菜单栏或者当前工具栏创建的，并且是第一次进行保存，用户需要自己寻找一个路径来进行保存。也可以使用 <button>Ctrl+S</button> 快捷键进行操作。
 
 
 <i class="fa fa-times"></i> **移除 Suite**
@@ -50,7 +50,7 @@ title: '套件编辑器'
 - Case 列表
 - 用例库
 
-<img class="large-images" src="/images/code-editor/suite-interface-zh.png">
+<img class="guide-images" src="/images/code-editor/suite-interface-zh.png">
 <br/>
 
 **Suite 列表**

@@ -8,13 +8,13 @@ title: '完善测试套件'
 
 用户可以在菜单顶栏点击“文件——新建”来创建一个新的套件，以这种方式创建的测试套件在保存时需要用户自己建立一个路径。
 
-<img class="large-images" src="/images/guide/suite-01-zh.png">
+<img class="guide-images" src="/images/guide/suite-01-zh.png">
 
 **编辑器工具栏**
 
 用户也可以通过点击套件编辑器的  <i class="fa fa-file-text-o"></i>  按钮来新建测试套件，这种方式创建的测试套件也需要用户自己建立一个保存路径。
 
-<img class="large-images" src="/images/guide/suite-02-zh.png">
+<img class="guide-images" src="/images/guide/suite-02-zh.png">
 
 **工作空间右键点击**
 
@@ -22,7 +22,7 @@ title: '完善测试套件'
 
 为了方便用户对测试用例的管理，**推荐用户使用这种方式**。
 
-<img class="large-images" src="/images/guide/suite-03-zh.png">
+<img class="guide-images" src="/images/guide/suite-03-zh.png">
 
 <br>
 
@@ -39,7 +39,7 @@ title: '完善测试套件'
 
 添加多个用例之后，可以通过上方的套件工具栏对用例进行上下顺序的调换和移除等调整，详情请查看[套件工具栏](/zh-cn/docs/code-editor/suite-editor.html)。
 
-<img class="large-images" src="/images/guide/suite-04-zh.png">
+<img class="guide-images" src="/images/guide/suite-04-zh.png">
 
 **运行测试套件**
 
