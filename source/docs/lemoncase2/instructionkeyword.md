@@ -20,9 +20,12 @@ process anyname(){
 ## return
 ---
 <p class="alert alert-warning">return [expression];</p>
-Ends sub-process execution and specifies a value to be returned to the sub-process caller. A sub-process immediately stops at the point where return is called.
+Ends process execution(and specifies a value to be returned). A process immediately stops at the point where `return` is called.
+<pre class='sublemon'>
 process main () {
   log square(10);
+  return;
+  log "Mi";
 }
 
 process square(x){
@@ -33,7 +36,8 @@ process square(x){
 //Output:
 //2 first,output 1+1 in process square
 //100 next,output 100 in process main
-//"Smartisan" will not appear cause the process square has already stopped</pre>
+//"Smartisan" will not appear cause the process square has already stopped
+//"Mi" will not appear cause the process main has already stopped</pre>
   
 <br/>
 ## for...in

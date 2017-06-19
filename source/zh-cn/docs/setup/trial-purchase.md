@@ -6,7 +6,7 @@ title: '试用与购买'
 
 <img class="license-images" src="/images/setup/interface-license-01.png">
 
-- **Machine Code** 用户正在运行灵萌测的机器的机器码。
+- **Machine Code** 用户用于运行灵萌测的设备的机器码。
 - **Copy** 复制机器码，用于购买License。
 - **Activation Code** 在输入框中输入激活码。
 - **Activate**  点击以激活软件。
@@ -61,5 +61,3 @@ title: '试用与购买'
 - **3 Product**
 
     包含了产品的版本，总共的许可，已绑定的许可以及未绑定的许可。（图中产品大版本为2，总许可数为10个，已绑定1个，未绑定9个）。
-
-

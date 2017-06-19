@@ -1,6 +1,28 @@
 title: '版本更新消息'
 layout: page without sidebar
 ---
+## 版本更新 2.0.8
+---
+
+**修复**
+
+- 控制台中的日志可以被选中复制
+- 修正了多个窗体的 bug
+- 修正了录制器生成语法的转译
+- 修正了部分语法高亮
+
+**优化**
+
+- 在用例编辑器中点击 <i class="fa fa-play"></i> 可自动打开一个 webview 窗口
+- 优化了通讯模型，提高了测试执行的健壮性
+- 退出软件时会询问是否保存
+
+**新增**
+ 
+- 仿真键盘操作
+- XPath分析器
+- case 工具栏中快速 import 的按钮 <i class="fa fa-download"></i>
+- 可以使用 <button>Ctrl+S</button> 保存 case
 
 ## 版本更新 2.0.7
 ---
@@ -43,7 +65,6 @@ layout: page without sidebar
 
 - 上传功能及语法
 - csv批量导入的命令行操作
-<br>
 
 ## 版本更新 2.0.5
 ---
@@ -61,7 +82,6 @@ layout: page without sidebar
 - `for in/of` 遍历器语法
 - 鼠标全按钮动作仿真 `$BUTTON(=right,middle,left)`语法（支持鼠标右键）
 - 调试器（console）按上箭头可以回溯历史命令
-<br>
 
 ## 版本更新 2.0.4
 ---
@@ -82,7 +102,6 @@ layout: page without sidebar
 - 新增 录制器可以使用xpath表示选择器
 - 新增 可以使用 `click <option>` 的方式操作下拉菜单
 - 新增 编辑器自动换行
-<br>
 
 ## 版本更新 2.0.3
 ---
@@ -103,7 +122,6 @@ layout: page without sidebar
 - debugger控制台窗口，调试语句
 - debugger输出窗口，输出case及suite运行状态
 - debugger调试状态段落标记，辅助查找错误提示行
-<br>
 
 ## 版本更新 2.0.1
 ---
@@ -112,14 +130,13 @@ layout: page without sidebar
 - 修复`$IT`仅保存一次状态的问题
 
 **新增**
-- 新增录制时 shift+click 可以录制 move 功能
-- 新增录制时 Ctrl+click 可以录制 assert 功能
+- 新增录制时 <button>Shift+click</button> 可以录制 `move` 功能
+- 新增录制时 <button>Ctrl+click</button> 可以录制 `assert` 功能
 - 新增缺省选择器时，可默认使用上次选择器执行动作语句
 - 新增suite停止功能
 - 新增case运行及停止点击按钮的逻辑
 - 新增suite运行及停止点击按钮的逻辑
 - 新增命令行功能
-<br>
 
 ## 版本更新 2.0.0
 ---
@@ -130,12 +147,4 @@ layout: page without sidebar
 - 采用了自主开发的 LemonceDriver ，能够避开 WebDriver 所带来的一些问题 
 - 将内部的框架从 Augular 改为 Vue
 
-目前新的大版本更趋近于一个试用版本，我们会在后续的小版本更新中进行持续的改进。2.0版本的界面相对于之前的版本有一个大的改动，但是会帮助用户更直观简捷地开展测试，特别是曾经使用过VS Code用户。
-<br>
-
-
-
-
-
-
-
+目前新的大版本更趋近于一个试用版本，我们会在后续的小版本更新中进行持续的改进。2.0版本的界面相对于之前的版本有一个大的改动，但是会帮助用户更直观简捷地开展测试，特别是曾经使用过Visual Studio Code的用户。

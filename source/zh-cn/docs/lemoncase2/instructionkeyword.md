@@ -37,10 +37,12 @@ process anyname(){
 ## return
 ---
 <p class="alert alert-warning">return [expression];</p>
-用于结束一个子过程并且返回相应的值到子过程变量。执行到`return`语句时，子过程会立刻停止。
+用于结束一个过程（并且返回相应的值）。执行到`return`语句时，该过程会立刻停止。
 <pre class='sublemon'>
 process main () {
   log square(10);
+  return;
+  log "Mi";
 }
 
 process square(x){
@@ -51,7 +53,8 @@ process square(x){
 //输出:
 //2（先输出子过程中1+1的值）
 //100（再输出主过程的10*10）
-//"Smartisan"在子过程的 return 之后，不会输出</pre>
+//"Smartisan"在子过程的 return 之后，不会输出
+//"Mi"在主过程的 return 之后，不会输出</pre>
 
 <br/>
 ## for...in

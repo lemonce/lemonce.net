@@ -1,6 +1,28 @@
 title: 'Lemonce Update News'
 layout: page without sidebar
 ---
+## Updates for version 2.0.8
+---
+
+**Bug Fix**
+
+- the logs in the console can be selected and copied.
+- Fixed the bugs when open one more forms.
+- Fixed the translation of recorder generating syntax
+- Fixed some syntax highlighting.
+
+**Optimized**
+
+- Click <i class="fa fa-play"></i> in case editor will open webview automatically.
+- Optimized the communiacation model and improved the stability of the test execution.
+- Lemonce will ask you whether to save current case or suite before quit.
+
+**New Functions**
+
+- Added keyboard simulation operation.
+- Added XPath analyzer.
+- Added <i class="fa fa-download"></i> button in tool bar of case editor to import other cases.
+- Added <button>Ctrl+S</button> to save cases.
 
 ## Updates for version 2.0.7
 ---
@@ -36,12 +58,12 @@ layout: page without sidebar
 
 **Optimized**
 
-- When recording the ‘jumpto’ action, the time of created “wait” statements was adjusted to 2 second.
-- Optimized the "format" function.
+- When recording the `jumpto` action, the time of created `wait` statements was adjusted to 2 second.
+- Optimized the `format` function.
 
 **New Functions**
 
-- Added the upload function.
+- Added the `upload` function.
 - Added the `upload` syntax.
 - Added a tool for bluk importing the '.csv' file to '.lc2' file.
 
@@ -66,7 +88,7 @@ layout: page without sidebar
 ---
 **Bug Fix**
 - Fixed the issue that sometimes the built-in developer tools in the webview couldn't be opened.
-- Fixed the issue that "dblclick" don't execute the double-click action.
+- Fixed the issue that `dblclick` don't execute the double-click action.
 - Fixed the issue that when the parameter and argument has the same name,the variables confused.
 - Fixed the issue that sometimes the case can't be stop running.
 - Fixed issues that a kind of expressions allowed before("4=3").
@@ -79,7 +101,7 @@ layout: page without sidebar
 
 **New Functions**
 - Added the option menu to choose the xpath selector as default before recording.
-- Added a method "click /option/" to choose the select drop-down menu.
+- Added a method `click <option>` to choose the select drop-down menu.
 - Added automatically word wrapped in the editor.
 
 ## Updates for version 2.0.3
@@ -109,8 +131,8 @@ layout: page without sidebar
 - Fixed the issue that the magic keyword "$IT" only save the selector once.
 
 **New Functions**
-- Added a new function to record "move" action (shift+click).
-- Added a new function to record "assert" action(Ctrl+click).
+- Added a new function to record `move` action <button>Shift+click</button>.
+- Added a new function to record `assert` action <button>Ctrl+click</button>.
 - Added action statements using the latest selector as default which with no selector.
 - Added action statements using the value of magic keyword "$IT" as selector which with no selector.
 - Added a new function to stop suite.
