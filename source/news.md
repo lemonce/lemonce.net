@@ -6,41 +6,39 @@ layout: page without sidebar
 
 **Bug Fix**
 
-- the logs in the console can be selected and copied.
-- Fixed the bugs when open one more forms.
-- Fixed the translation of recorder generating syntax
-- Fixed some syntax highlighting.
+- Fixed the issue that the recorder couldn't create the correct selector which required an escape character to change semantics.
 
 **Optimized**
 
-- Click <i class="fa fa-play"></i> in case editor will open webview automatically.
-- Optimized the communiacation model and improved the stability of the test execution.
-- Lemonce will ask you whether to save current case or suite before quit.
+- Adjusted the syntax highlighting.
+- Optimized the XPath analyzer.
+- Optimized that the text in the output/console pannel can be selected and copied.
+- Optimized that when click the <i class="fa fa-play"></i> button in the case editor,the webview will be opened automatically.
+- Optimized the communiacation program to ensure the cases/suites running well.
+- Optimized that when quit lemonce, there will be a popup to prompt you.
 
 **New Functions**
 
-- Added keyboard simulation operation.
-- Added XPath analyzer.
-- Added <i class="fa fa-download"></i> button in tool bar of case editor to import other cases.
-- Added <button>Ctrl+S</button> to save cases.
+- Added the `keyboard` syntax to simulate the whole keyboard operations.
+- Added <i class="fa fa-download"></i> button in the case editor for importing cases quickly.
+- Added <button>Ctrl+S</button> to save the current active case.
 
 ## Updates for version 2.0.7
 ---
 
 **Bug Fix**
 
-- Fixed the issue thatsometimes the web URL show the "about:blank" address  when page jumping.
-- Fixed the issue that the action was executed once more.
+- Fixed the issue that sometimes the address bar in the webvew showing the wrong "about:blank" address when jumping into a new page.
+- Fixed the issue that sometimes the driver executed the action statement twice.
 
 **Optimized**
 
 - Optimized that the webview will be rebooted when running cases crash.
-- Optimized that the output pannel will show the debugging messages when the upload file does not exist.
-- Optimized that the output pannel will show the debugging messages when the upload control not supported.
+- Optimized that the output pannel will show more information for debugging when the upload fail.
 
 **New Functions**
 
-- Added the function that pause the running case.
+- Added <i class="fa fa-pause"></i> button to pause the running case.
 - LC_Driver support the keyboard event.
 - LCVM support the focusin/out event.
 - Added the `forward` syntax.

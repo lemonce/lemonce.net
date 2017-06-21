@@ -6,23 +6,22 @@ layout: page without sidebar
 
 **修复**
 
-- 控制台中的日志可以被选中复制
-- 修正了多个窗体的 bug
-- 修正了录制器生成语法的转译
-- 修正了部分语法高亮
+- 修复了录制器生成语法的转译错误
 
 **优化**
 
-- 在用例编辑器中点击 <i class="fa fa-play"></i> 可自动打开一个 webview 窗口
+- 修正了部分语法高亮
+- XPath分析器
+- 控制台中的日志可以被选中复制
+- 在用例编辑器中点击<i class="fa fa-play"></i>可自动打开 webview 窗口
 - 优化了通讯模型，提高了测试执行的健壮性
 - 退出软件时会询问是否保存
 
 **新增**
  
-- 仿真键盘操作
-- XPath分析器
-- case 工具栏中快速 import 的按钮 <i class="fa fa-download"></i>
-- 可以使用 <button>Ctrl+S</button> 保存 case
+- 新增仿真完整的键盘操作语法 `keyboard`
+- case 工具栏中增加快速 import 的按钮 <i class="fa fa-download"></i>
+- 可以使用 <button>Ctrl+S</button> 保存当前激活的 case
 
 ## 版本更新 2.0.7
 ---

@@ -3,7 +3,6 @@ layout: page without sidebar
 ---
 ## 少量的代码编写实现复杂测试套件  
 ---
-
 [**录制器**](/zh-cn/docs/guide/recorder.html)
 - 通过网页界面的精准识别，录制所有Web操作  
 - 录制时自动生成代码和注释
@@ -11,13 +10,11 @@ layout: page without sidebar
 - 能够在Iframe中准确地选择元素
 - 可以通过精确地录制，在不用编码的情况下完成大部分的测试用例
 
-
 [**编辑器**](/zh-cn/docs/code-editor/index.html)
-- 更简单地录制和完善测试套件 
+- 更简单地录制和完善测试套件
 - 录制器生成的代码很容易编写和修改
 - 可以轻松地导入复用的测试用例和套件
-- 支持多个测试用例一键生成测试套件
-
+- 支持CSS、XPath及Sizzle多种选择器 [了解更多](footer/blog/compare-selenium-selectors.html)
 
 [**编程语言 - Lemoncase2**](/zh-cn/docs/Lemoncase2/index.html)
 - LC2语言内置于灵萌测客户端
@@ -26,12 +23,11 @@ layout: page without sidebar
 - 具有很高的阅读性，代码一目了然，并且容易维护及改动
 - 简单直观的语法，易于学习，不需要高级的编程能力
 - 同时也支持高级的编程，可用更少的编码工作量实现更多的编程目标
-<br>
 
+<br/>
 ## 完整的录制回放和平稳测试的执行
 ---
-
-[**LemonceDriver - 比 WebDriver 更好的选择**]
+[**LemonceDriver - 比 WebDriver 更好的选择**](/feature.html)
 - 支持直接跨域测试公网及本地项目（例如IFrame）
 - 支持IFrame多层穿透，直接选取IFrame中的元素，不需要编写额外的脚本 [了解更多](/footer/blog/selenium-iframe-element-testing.html)
 - 准确地模拟用户与任何web应用的交互
@@ -43,21 +39,19 @@ layout: page without sidebar
 - 支持 http/https 
 - 无需安装浏览器扩展或附加组件来执行测试
 - 支持面向设备编程
-<br>
 
+<br/>
 ## 详细的报告日志优化整个测试项目
 ---
-
 [**详细的报告和错误跟踪日志**](/zh-cn/docs/guide/reports.html)
 - 包含浏览器调试信息
 - 用例每个步骤生成小日志
 - 对测试出现错误的步骤进行截图
-<br>
 
+<br/>
 ## 轻松自动测试网页应用程序
 ---
-
-[**设备及用户友好**]()
+[**设备及用户友好**](/feature.html)
 - 支持 Windows，Mac 和 Linux 操作系统
 - 支持任何虚拟移动 web app 测试
 - 基于本地系统建立的工作空间，能够让用户方便地获取到项目中所有的测试数据
