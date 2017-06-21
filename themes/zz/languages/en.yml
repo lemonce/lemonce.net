@@ -62,8 +62,8 @@ docs:
 
 doc_sidebar:
   setup: 'Set Up'
-  setup_download: 'download-install'
-  setup_trial: 'trial and purchase'
+  setup_download: 'download and install'
+  setup_trial : 'trial and license'
   setup_interface: 'Lemonce interface'
   guide: 'Getting Started'
   guide_case: 'create a test case'

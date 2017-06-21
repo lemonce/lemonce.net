@@ -1,4 +1,4 @@
-title: 'Trial and Purchase'
+title: 'Trial and License'
 ---
 ## License Interface
 ---

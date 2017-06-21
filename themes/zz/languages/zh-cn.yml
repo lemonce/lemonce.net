@@ -65,7 +65,7 @@ docs:
 doc_sidebar:
   setup: '设置'
   setup_download: '下载与安装'
-  setup_trial: '试用与购买'
+  setup_trial: '试用与授权'
   setup_interface: '灵萌测界面'
   guide: '开始测试'
   guide_case: '创建测试用例'
