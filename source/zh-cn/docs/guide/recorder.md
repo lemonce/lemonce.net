@@ -13,9 +13,9 @@ title: '录制器的使用'
 <br/>
 ## 录制中断言
 ---
-在录制时，按住 <button>CTRL</button> 键并使用鼠标选中页面中的元素，录制器可以自动在代码中添加断言的语句。
+在录制时，按住 <button>Ctrl</button> 键并使用鼠标选中页面中的元素，录制器可以自动在代码中添加断言的语句。
 
-如下图，登录成功之后，按住 <button>CTRL</button> 键选择页面中 "lemonceide" 这个元素，以判定页面确实跳转成功。
+如下图，登录成功之后，按住 <button>Ctrl</button> 键选择页面中 "lemonceide" 这个元素，以判定页面确实跳转成功。
 
 <img class="guide-images" src="/images/guide/recorder-02.png">
 

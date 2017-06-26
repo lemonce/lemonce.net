@@ -1,4 +1,4 @@
-title: '试用与授权'
+title: '试用与购买'
 ---
 ## License界面
 ---
@@ -33,7 +33,6 @@ title: '试用与授权'
 <br/>
 ## 工具购买
 ---
-
 在一个月试用期结束之后，用户打开客户端，license 界面会再次弹出。再次点击 <button>Trial</button> 生成的激活码此时是无法进行激活的，在license界面里会出现 `verified failed`。
 
 <img class="license-images" src="/images/setup/interface-license-04.png">

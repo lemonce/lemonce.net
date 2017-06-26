@@ -1,4 +1,4 @@
-title: 'Complete a test suite'
+title: 'Complete a Test Suite'
 ---
 
 ## Create a test suite
