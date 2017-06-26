@@ -1,21 +1,21 @@
-title: 'Handling IFrames in Web Test Automation'
+title: 'Handling IFrames in Web Testing Automation'
 layout: page without sidebar
 ---
 
-**Lemonce Editor** is a professional web application testing tool that offers a convenient way to handle iframes in any automated web test project. You never need to write additional codes or testing scripts for handling iframes, no matter your test case need identify nested ifrmaes or switch over the elements in iframes. Compared to Selenium that requires much coding work and tedious steps, Lemonce Editor is the best web testing tool to handle iframes in web test automation.
+**Lemonce Editor** is a great automated testing tool for web applications. It can easily handle iframes in any automation testing project. You don't need to write additional codes for iframe testing, no matter your test case need identify multiple nested ifrmaes or switch over elements inside iframes. As a powerful iframe testing tool, Lemonce Editor is much better than Selenium that requires heavy coding workload.
 
 <br/>
-## Why and how to handle iframes in automated web test with Lemonce Editor?
+## How to handle iframes in automated web test with Lemonce Editor?
 ---
 
-As **a better alternative to Selenium**, Lemonce Editor has some outstanding advantages in terms of Iframe testing:
-- Record Iframe related user actions automatically without extra coding
+As **the best alternative to Selenium**, Lemonce Editor has some outstanding advantages in terms of Iframe testing:
+- Accurately record any user actions related to iframe without extra coding
 - Directly penetrate elements to exactly locate iframes with its unique iframe penetration selector. And the “Inspect Element” button built in the test case editor can facilitate the process of editing test case. 
 (When handling Iframes using WebDriver, you need switch in and out the iframe frequently.)
 - No OS and browser compatibility issues when executing test case consisting iframe selector
 (When handling iframes using selenium webdriver, you need install browser add-ons and extensions and take care of OS and browse compatibility problems)
 
-Lemonce editor is a great iframe testing tool that is much better than Selenium. Here are more details and examples about how to handle iframe in web testing projects with Lemonce Editor.
+Here are more details and examples about how to handle iframe in web testing projects with Lemonce Editor.
 
 **1.Recoding Iframe for automation web test**
 
