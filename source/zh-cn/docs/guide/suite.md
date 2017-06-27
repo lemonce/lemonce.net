@@ -24,8 +24,7 @@ title: '完善测试套件'
 
 <img class="guide-images" src="/images/guide/suite-03-zh.png">
 
-<br>
-
+<br/>
 ## 编辑测试套件
 ---
 
@@ -44,4 +43,3 @@ title: '完善测试套件'
 **运行测试套件**
 
 编辑完成并保存套件之后，点击工具栏中的 <i class="fa fa-play"></i> / <i class="fa fa-stop"></i>  来开始/停止运行测试套件。
-

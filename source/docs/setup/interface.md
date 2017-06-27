@@ -100,7 +100,7 @@ There are just two functions below in side bar now,more functions are coming soo
 Reports are listed in side bar chronologically.Click one of them you will see [more details](/docs/guide/reports.html) in popup of reports.
 <br/>
 
-<img class="large-images" src="/images/setup/interface-report.png">
+<img class="guide-images" src="/images/setup/interface-report.png">
 
 <br/>
 ## 3 Editor Groups
@@ -123,17 +123,13 @@ You can display different panels below the editor region for output or debug inf
 
 Take "logout" case as an example in the video, the following contents will be generated in the output panel.
 <pre class='sublemon'>
-[3:10:57.926] Testing Start.
-[3:10:57.932] Line:4 Jump to 'https://www.deepin.org/en/'.
-[3:10:58.490] Line:5 Wait 555 ms.
-[3:11:00.157] Line:7 click 'div.hs-toggle-menu'.
-[3:11:01.495] Line:11 Jump to 'https://www.deepin.org/wp-login.php'.
-[3:11:02.052] Line:12 Wait 555 ms.
-[3:11:02.250] Line:14 click '#loginform > div:nth-child(3) > a:nth-child(1)'.
-[3:11:02.746] Line:16 Jump to 'https://login.deepin.org/oauth2/authorize?client_id=0634ab169bf76a5df39812c4350778c83b3450e4'.
-[3:11:03.305] Line:17 Wait 555 ms.
-[3:11:08.306] RuntimeError, line:19,Error: No-response from last fetching.
-[3:11:08.310] End of execution
+ [18:57:32.488] Testing Start.
+ [18:57:32.551] Line:4 Jump to 'https://www.npmjs.com/~lemoncase'.
+ [18:57:32.561] Line:5 Wait 2333 ms.
+ [18:57:35.585] Line:7 click '#user-info-drop-down-menu-toggle > svg:nth-child(4) > path:nth-child(1)'.
+ [18:57:36.234] Line:9 click '#user-info-menu > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > form:nth-child(1) > button:nth-child(2)'.
+ [18:57:36.242] Line:11 Wait 2000 ms.
+ [18:57:38.235] End of execution
 </pre>
 
 Output information can be divided into the following sections:

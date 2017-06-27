@@ -21,8 +21,8 @@ You can also create a new test suite by click the <i class="fa fa-file-text-o"><
 The work space is associated with local file system,in which any changes about the cases such as create,rename or remove will be synchronized to the local folder.
 
 <img class="guide-images" src="/images/guide/suite-03.png">
-<br>
 
+<br/>
 ## Edit the test suite
 ---
 

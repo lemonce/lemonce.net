@@ -1,6 +1,5 @@
-title: 'Use of recorder'
+title: 'Use of Recorder'
 ---
-
 ## Record scripts
 ---
 
@@ -13,9 +12,9 @@ Click <i class="fa fa-circle" style="color:red"></i> to start recording. With th
 <br/>
 ## Create an assertion while recording
 ---
-In recording, hold the <button>CTRL</button> key and select the very page elements with the mouse, you can automatically add assertion statement.
+In recording, hold the <button>Ctrl</button> key and select the very page elements with the mouse, you can automatically add assertion statement.
 
-As the figure shows below, after logging in hold the `CTRL` key to select the "lemonceide" element in the page to determine the success of page jump.
+As the figure shows below, after logging in hold the <button>Ctrl</button> key to select the "lemonceide" element in the page to determine the success of page jump.
 
 <img class="guide-images" src="/images/guide/recorder-02.png">
 
