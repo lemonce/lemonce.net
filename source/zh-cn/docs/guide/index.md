@@ -5,6 +5,9 @@ title: '开始测试'
 <br/>
 ## [创建测试用例](/zh-cn/docs/guide/case.html)
 ---
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=11689477&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+<br/>
 **从菜单栏中建立新测试用例**
 
 用户可以从菜单栏中或者采用快捷键 <button>Ctrl+N</button> 新建测试用例，以这种方式建立的测试用例需要用户寻找路径保存。
@@ -20,6 +23,9 @@ title: '开始测试'
 <br/>
 ## [录制器的使用](/zh-cn/docs/guide/recorder.html)
 ---
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=11701463&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+<br/>
  **录制脚本**
  
 在录制开始之前，需要点击`process main`的大括号中部，以保证代码生成在正确的位置。随着录制的进行，编辑区中会自动生成代码和注释。
