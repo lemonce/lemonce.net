@@ -6,6 +6,9 @@ This guide helps you with step-by-step instructions on how to create a web test 
 <br/>
 ## [Create a Test Case](/docs/guide/case.html)
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Piq3TZGE2jA" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 **create in menu bar**
 
 You can create new test cases from the toolbar or use the shortcut key <button>Ctrl+N</button> , and you need to create a path to save each test case.
