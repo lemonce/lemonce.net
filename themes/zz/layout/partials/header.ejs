@@ -34,12 +34,16 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="<%= url_for_lang('https://license.lemonce.com') %>" class="nav-link">
+					<a href="<%= url_for_lang('https://license.lemonce.com') %>"
+						class="nav-link"
+						onclick="ga('send', 'event', 'click', 'license', 'header button')">
 						<%= __('nav.license') %>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="<%= __('index.download_link') %>" class="nav-link">
+					<a href="<%= __('index.download_link') %>"
+						class="nav-link"
+						onclick="ga('send', 'event', 'download', 'free trial', 'header button')">
 						<%= __('nav.download') %>
 					</a>
 				</li>
