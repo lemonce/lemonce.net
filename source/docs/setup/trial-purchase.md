@@ -7,12 +7,12 @@ When you open Lemonce Editor the first time,a license interface will automatical
 <img class="license-images" src="/images/setup/interface-license-01-en.png">
 
 - **Machine Code** The machine code of the your device used to run Lemonce.
-- **Copy** Click to copy the machine code.
-- **Activation Code** Input the activation code to the input box.
-- **Activate**  Click to activate Lemonce.
-- **Purchase** Click to jump to the Purchase page.
-- **Trial** Click to generate an activation code.
-- **Quit** Click to quit the license interface,and the client will close meanwhile.
+- **<button>Copy</button>** Click to copy the machine code.
+- **Please enter activation code** Input the activation code to the input box.
+- **<button class="btn-teal">Activate</button>**  Click to activate Lemonce.
+- **<button class="btn-teal">Purchase</button>** Click to jump to the Purchase page.
+- **<button>Trial</button>** Click to generate an activation code.
+- **<button>Quit</button>** Click to quit the license interface,and the client will close meanwhile.
 
 <br/>
 ## Trial
@@ -50,7 +50,7 @@ After login, go to the top bar of the <button class= "btn-black" >Pricing</butto
 
 - **1 Bind**
 
-    The user can copy the machine code that needs to be bound to the `Machine Code` input box and click <button class= "btn-teal" >Bind</button> to bind. Then you can run Lemonce on this machine permanently.
+    The user can copy the machine code that needs to be bound to the **Machine Code** input box and click <button class= "btn-teal" >Bind</button> to bind. Then you can run Lemonce on this machine permanently.
 
 - **2 Bind List**
 

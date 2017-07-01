@@ -22,6 +22,26 @@ title: '设置'
 - Lemonce 的 Linux 版本即将上线
 
 <br/>
+## [试用与购买](/zh-cn/docs/setup/trial-purchase.html)
+---
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=11790913&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+<br/>
+**License界面**
+
+- Machine Code / <button>Copy</button>
+- Please enter activation code　/ <button class="btn-teal">Activate</button>
+- <button class="btn-teal">Purchase</button> / <button>Trial</button> / <button>Quit</button>
+
+**工具试用**
+
+用户可以先对客户端进行试用，先点击 <button>Trial</button> 再点击 <button class="btn-teal">Activate</button> 即可。
+
+**工具购买**
+
+在一个月试用期结束之后，用户打开客户端，license 界面会再次弹出。如果用户需要继续使用灵萌测，请点击 <button class="btn-teal">Purchase</button>，根据视频或者[文档](/zh-cn/docs/setup/trial-purchase.html)中的具体步骤完成购买。
+
+<br/>
 ## [灵萌测界面](/zh-cn/docs/setup/interface.html)
 ---
 灵萌测客户端的界面被分为四个区域：

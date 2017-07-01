@@ -7,12 +7,12 @@ title: '试用与购买'
 <img class="license-images" src="/images/setup/interface-license-01.png">
 
 - **Machine Code** 用户用于运行灵萌测的设备的机器码。
-- **Copy** 复制机器码，用于购买License。
-- **Activation Code** 在输入框中输入激活码。
-- **Activate**  点击以激活软件。
-- **Purchase** 点击以进入购买页面。
-- **Trial** 试用客户端，点击后自动生成一段激活码到输入框中。
-- **Quit** 退出license界面，点击该按钮之后，客户端也会关闭。
+- **<button>Copy</button>** 复制机器码，用于购买License。
+- **Please enter activation code** 在输入框中输入激活码。
+- **<button class="btn-teal">Activate</button>**  点击以激活软件。
+- **<button class="btn-teal">Purchase</button>** 点击以进入购买页面。
+- **<button>Trial</button>** 试用客户端，点击后自动生成一段激活码到输入框中。
+- **<button>Quit</button>** 退出license界面，点击该按钮之后，客户端也会关闭。
 
 <br/>
 ## 工具试用
