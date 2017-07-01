@@ -3,6 +3,9 @@ title: 'View Test Report'
 The test report is divided into three areas. The case-area lists all of the test cases for the entire test task, the contents of the log-area and the code-area correspond to each other as a sub area of each test case.
 <img class="guide-images" src="/images/guide/report-01.png">
 
+At the bottom of report shows the numbers of passed and failed cases and the execution duration time.
+
+<img class="box-shadow" src="/images/guide/report-02.png">
 <br/>
 ## 1 Case list
 ---

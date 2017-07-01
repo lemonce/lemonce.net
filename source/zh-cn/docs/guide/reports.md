@@ -7,7 +7,7 @@ title: '查看测试报告'
 
 在本次示例中，如下图所示。可见测试套件中共有两个用例，通过1个，失败1个，执行时间总计为32.742秒（包括了单独用例执行时间及用例间切换时间）。
 
-<img class="long-images" src="/images/guide/report-02.png">
+<img class="box-shadow" src="/images/guide/report-02.png">
 
 <br/>
 ## 1 用例列表区

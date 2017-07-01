@@ -254,11 +254,18 @@ figure.highlight pre {
 	width:640px;
     height:450px;
 }
-
 .license-images{
 	width:640px;
     height:256px;
 }
+.toolbar-images{
+	width:640px;
+    height:40px;
+}
+.box-shadow{
+	box-shadow:5px 5px 5px rgba(0,0,0,.4);  
+}
+
 
 /* style for better md */
 .page-inner2 > h2 {
@@ -314,9 +321,4 @@ aside#doc-sidebar li:before {
 	left: -16px;
 	color: #727375;
 	position: absolute;
-}
-
-.black-container {
-    width: 1170px;
-    margin: 0 auto;
 }

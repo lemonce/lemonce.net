@@ -4,7 +4,7 @@ title: '套件编辑器'
 ---
 整个工具栏显示如下。
 
-<img class="long-images" src="/images/code-editor/suite-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/suite-toolbar.png"> 
 <br>
 
 <i class="fa fa-file-text-o"></i> **新建 Suite**  

@@ -4,7 +4,7 @@ title: 'Case Editor'
 ---
 The whole toolbar is shown below.
 
-<img  src="/images/code-editor/case-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/case-toolbar.png">
 
 <br/>
 <i class="fa fa-file-code-o"></i>  **New Case**  

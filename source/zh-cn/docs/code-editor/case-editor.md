@@ -4,7 +4,7 @@ title: '用例编辑器'
 ---
 整个工具栏显示如下。
 
-<img src="/images/code-editor/case-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/case-toolbar.png">
 
 <br/>
 <i class="fa fa-file-code-o"></i>  **新建 Case**  

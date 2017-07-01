@@ -4,7 +4,7 @@ title: 'Suite Editor'
 ---
 The whole toolbar is shown below.
 
-<img class="long-images" src="/images/code-editor/suite-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/suite-toolbar.png">
 <br>
 
 <i class="fa fa-file-text-o"></i> **New Suite**  

@@ -8,7 +8,7 @@ title: '网页视图'
 
 整个工具栏显示如下。地址输入栏位于工具栏中部，输入地址后输入 <button>Enter</button> 去完成跳转。
 
-<img class="long-images" src="/images/code-editor/webview-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/webview-toolbar.png">
 
 <i class="fa fa-arrow-left"></i> **后退** / <i class="fa fa-arrow-right"></i> **前进**  
 

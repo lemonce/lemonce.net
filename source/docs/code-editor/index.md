@@ -7,6 +7,7 @@ title: 'Code Editor'
 **Tool Bar**
 
 - New Case/ Open Case/ Save Case
+- Import Case
 - Check Element/ Insert Link
 - Start Case/ Pause Case/ Continue Case
 - Stop Case

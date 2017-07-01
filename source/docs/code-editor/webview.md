@@ -7,7 +7,7 @@ Webview is Chromium browser with two main functional areas in Lemonce.
 ---
 The whole toolbar is shown below. The address input box is in the middle, which you can enter URL in and press <button>Enter</button> on your keyboard to jump.
 
-<img class="long-images" src="/images/code-editor/webview-toolbar.png">
+<img class="box-shadow" src="/images/code-editor/webview-toolbar.png">
 
 <i class="fa fa-arrow-left"></i> **Back** / <i class="fa fa-arrow-right"></i> **Next**  
 
