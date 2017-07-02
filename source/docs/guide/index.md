@@ -25,17 +25,20 @@ Any changes on the cases such as create, rename, or remove will be synchronized 
 <br/>
 ## [Use of Recorder](/docs/guide/recorder.html)
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PR5tlMqxKSI" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 **record scripts** 
 
-Before recording begins, you need to click on the middle of the bracket of `process main` to ensure that the code is generated in the correct position[...]
+Before recording begins, you need to Click the middle of the bracket in the `process main` to ensure the code is generated in the correct position[...]
 
 **create an assertion while recording** 
 
-In recording, press the <button>Ctrl</button> and select the very page elements with the mouse, you can automatically add assertion statement.
+During recording, you can add assertion statement by holding the <button>Ctrl</button> key and select page elements.
 
 **play back the recorded steps** 
 
-Click <i class="fa fa-stop-circle-o" style="color:red"></i> to end the recording. Click <i class="fa fa-play"></i> to begin playback of the recording process.
+Click <i class="fa fa-stop-circle-o" style="color:red"></i> to end the recording,then we can click <i class="fa fa-play"></i> to play back the script to check if there exist any manual mistakes during the recording process.
 
 <br/>
 ## [Complete a Test Suite](/docs/guide/suite.html)

@@ -12,7 +12,7 @@ Click <i class="fa fa-circle" style="color:red"></i> to start recording. With th
 <br/>
 ## Create an assertion while recording
 ---
-In recording, hold the <button>Ctrl</button> key and select the very page elements with the mouse, you can automatically add assertion statement.
+During recording, you can add assertion statement by holding the <button>Ctrl</button> key and select page elements.
 
 As the figure shows below, after logging in hold the <button>Ctrl</button> key to select the "lemonceide" element in the page to determine the success of page jump.
 
