@@ -49,7 +49,7 @@ title: '试用与购买'
 
 - **1 Bind**
 
-    用户可将需要绑定的机器码复制到 `Machine Code` 输入框，点击 <button class="btn-teal">Bind</button> 进行绑定，该机器即可永久使用 Lemonce。
+    用户可将需要绑定的机器码复制到 **Machine Code** 输入框，点击 <button class="btn-teal">Bind</button> 进行绑定，该机器即可永久使用 Lemonce。
 
 - **2 Bind List**
 

@@ -64,14 +64,14 @@ title: '灵萌测界面'
 
 资源管理器用于浏览，打开和管理用户项目中所有的文件及文件夹。
 
-在资源管理器的顶部为“**已打开的编辑器**”的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到“**已打开的编辑器**”中。
+在资源管理器的顶部为 <span class="btn-gray">**已打开的编辑器**</span> 的区域，用于临时显示正在编辑或者待编辑的多个文件。例如，如果用户正在对文件进行以下四种操作，该文件就会被列入到 <span class="btn-gray">**已打开的编辑器**</span> 中。
 
 - 对一个文件做出改动。
 - 在编辑器顶栏上双击文件名称。
 - 在资源管理器中双击一个文件。
 - 打开一个不属于当前文件夹的文件。
 
-只需在“**已打开的编辑器**”的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在“**已打开的编辑器**”中移出该文件。
+只需在 <span class="btn-gray">**已打开的编辑器**</span> 的区域点击一个文件，该文件立即在灵萌测中被激活。当用户结束当前文件的编辑之后，只需点击文件名之前的 <i class="fa fa-times"></i> 即可在 <span class="btn-gray">**已打开的编辑器**</span> 中移出该文件。
 
 <br/>
 **II. 编辑区激活按钮**
@@ -87,7 +87,7 @@ title: '灵萌测界面'
 <br/>
 **III. 工作空间** 
 
-用户可以点击 **NO WORKSPCACE** 标签下的 <span class="button"> open folder</span> 按钮来打开一个文件夹作为工作空间。
+用户可以点击 <span class="btn-gray">**没有设定工作空间**</span> 标签下的 <button class="btn-blue">打开文件夹</button> 按钮来打开一个文件夹作为工作空间。
 
 打开选中的文件夹之后，资源管理器会显示当前文件夹中的文件目录，此时用户可以在这里通过鼠标右键完成以下的操作：
 - 新建、删除、重命名文件或者文件夹。
@@ -133,21 +133,17 @@ title: '灵萌测界面'
 
 以视频中的"logout"用例为例，运行完毕之后会在面板中生成以下内容。
 <pre class='sublemon'>
-[3:10:57.926] Testing Start.
-[3:10:57.932] Line:4 Jump to 'https://www.deepin.org/en/'.
-[3:10:58.490] Line:5 Wait 555 ms.
-[3:11:00.157] Line:7 click 'div.hs-toggle-menu'.
-[3:11:01.495] Line:11 Jump to 'https://www.deepin.org/wp-login.php'.
-[3:11:02.052] Line:12 Wait 555 ms.
-[3:11:02.250] Line:14 click '#loginform > div:nth-child(3) > a:nth-child(1)'.
-[3:11:02.746] Line:16 Jump to 'https://login.deepin.org/oauth2/authorize?client_id=0634ab169bf76a5df39812c4350778c83b3450e4'.
-[3:11:03.305] Line:17 Wait 555 ms.
-[3:11:08.306] RuntimeError, line:19,Error: No-response from last fetching.
-[3:11:08.310] End of execution
+ [18:57:32.488] Testing Start.
+ [18:57:32.551] Line:4 Jump to 'https://www.npmjs.com/~lemoncase'.
+ [18:57:32.561] Line:5 Wait 2333 ms.
+ [18:57:35.585] Line:7 click '#user-info-drop-down-menu-toggle > svg:nth-child(4) > path:nth-child(1)'.
+ [18:57:36.234] Line:9 click '#user-info-menu > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > form:nth-child(1) > button:nth-child(2)'.
+ [18:57:36.242] Line:11 Wait 2000 ms.
+ [18:57:38.235] End of execution
 </pre>
 
 可见输出信息可分为以下几个部分：
-- 测试开始（Testing Start）与执行结束（End of execution 会以蓝色高亮来区隔连续的用例）
+- 测试开始（Testing Start）与执行结束（<span class="btn-blue">End of execution</span> 会以蓝色高亮来区隔连续的用例）
 - 系统时间（中括号内部）
 - 执行代码所在的行数
 - 具体的执行用例的内容

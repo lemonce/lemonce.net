@@ -54,16 +54,16 @@ The Explorer is used to browse, open, and manage all of the files and folders in
 
 **I. OPEN EDITORS** 
 
-At the top of the Explorer is a section labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the **OPEN EDITORS** section if you:
+At the top of the Explorer is a section labeled  <span class="btn-gray">**OPEN EDITORS**</span> . This is a list of active files or previews. These are files you previously opened in Lemonce that you're working on. For example, a file will be listed in the <span class="btn-gray">**OPEN EDITORS**</span> section if you:
 
 - Make a change to a file.
 - Double-click a file's header.
 - Double-click a file in the Explorer.
 - Open a file that is not part of the current folder.
 
-Just click an item in the OPEN EDITORS section, and it becomes active in Lemonce.
+Just click an item in the <span class="btn-gray">**OPEN EDITORS**</span> section, and it becomes active in Lemonce.
 
-Once you are done with your task, you can remove but not delete files seperately from the **OPEN EDITORS** section by click <i class="fa fa-times"></i>.
+Once you are done with your task, you can remove but not delete files seperately from the <span class="btn-gray">**OPEN EDITORS**</span> section by click <i class="fa fa-times"></i>.
 
 **II. Buttons of editor groups**
 
@@ -77,7 +77,7 @@ There are three buttons to active different corresponding areas of editor groups
 
 **III. WORKSPACE** 
 
-You can click the button <span class="button"> open folder</span> under the label **NO WORKSPCACE** to open a folder as workspace at the first time.
+You can click the button <button class="btn-blue"> open folder</button> under the label <span class="btn-gray">**NO WORKSPCACE**</span> to open a folder as workspace at the first time.
 
 After opening a folder in Lemonce, the contents of the folder are shown in the Explorer. You can do many things by right-click from here:
 - Create, delete, and rename files and folders.
@@ -133,7 +133,7 @@ Take "logout" case as an example in the video, the following contents will be ge
 </pre>
 
 Output information can be divided into the following sections:
-- Testing Start && End of execution (hightlighted blue to interval test cases)
+- Testing Start && <span class="btn-blue">End of execution</span> (hightlighted blue to interval test cases)
 - System time (show in the brackets)
 - The line number of the executing codes
 - Details of the running test cases
