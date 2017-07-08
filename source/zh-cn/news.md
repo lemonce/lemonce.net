@@ -1,16 +1,36 @@
 title: '版本更新消息'
 layout: page without sidebar
 ---
+## 版本更新 2.0.9
+---
+
+**修复**
+
+- 测试报告中代码区域不显示代码的问题
+- 在某些页面中脚本不能顺利回放的问题
+
+**优化**
+
+- CSV文件名中有空格时导入可能会失败的情况
+
+**新增**
+ 
+- 可以使用 <button>Ctrl+F</button> 查找编辑器代码区域的代码或注释
+- 可以使用 <button>F5</button> 运行测试用例
+- 可以使用 <button>F9</button> 运行测试套件
+- 可以选择六种不同的字体大小
+- 配置设定模块中增加 <button>打开调试输出</button> 和 <button>关闭调试输出</button> 按钮
+
 ## 版本更新 2.0.8
 ---
 
 **修复**
 
-- 修复了录制器生成语法的转译错误
+- 录制器生成语法的转译错误
 
 **优化**
 
-- 修正了部分语法高亮
+- 部分语法高亮
 - XPath分析器
 - 控制台中的日志可以被选中复制
 - 在用例编辑器中点击<i class="fa fa-play"></i>可自动打开 webview 窗口
@@ -19,7 +39,7 @@ layout: page without sidebar
 
 **新增**
  
-- 新增仿真完整的键盘操作语法 `keyboard`
+- 仿真完整的键盘操作语法 `keyboard`
 - case 工具栏中增加快速 import 的按钮 <i class="fa fa-download"></i>
 - 可以使用 <button>Ctrl+S</button> 保存当前激活的 case
 

@@ -91,7 +91,8 @@ After opening a folder in Lemonce, the contents of the folder are shown in the E
 
 There are just two functions below in side bar now,more functions are coming soon.
 - Change the language to English/Chinese
-- Open/close command pallete
+- Open/Close Cmd(command pallete)
+- Open/Close Output
 
 <br/>
 #### 2.3 **View Reports** <i class="fa fa-bar-chart fa-2x"></i>
