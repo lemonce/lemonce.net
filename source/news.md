@@ -1,6 +1,29 @@
 title: 'Lemonce Update News'
 layout: page without sidebar
 ---
+## Updates for version 2.0.9
+---
+
+**Bug Fix**
+
+- Fixed the issue that sometimes the codes in the report couldn't display correctly.
+- Fixed the issue that the test case couldn't run correctly in some pages.
+- Fixed the issue that the CSV file couldn't be imported when the name include a space.
+- Fixed the issue that the code couldn‘t get line wrapped when adjusting the area size of code-editor.
+
+**Optimized**
+
+- Optimized when the test case running error, the error line in the case editing area will be highlighted.
+
+**New Functions**
+
+- Added a shortcut key that press <button>Ctrl+F</button> to find the string in the case editor.
+- Added a shortcut key that press <button>Ctrl+F</button> twice to replace the string in the case editor.
+- Added a shortcut key that press <button>F5</button> to start running the current active test case.
+- Added a shortcut key that press <button>F9</button> to start running the current active test suite.
+- Added a function to set the font size of the case in the menu bar with six font sizes to choose.
+- Added <button>Open Output</button> 和 <button>Close Output</button> in Config Panel
+
 ## Updates for version 2.0.8
 ---
 
