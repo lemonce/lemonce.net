@@ -1,6 +1,32 @@
 title: 'Instruction keyword'
 ---
 
+## import
+---
+<p class="alert alert-warning">import "./../case.lc2"</p>
+Import another case or more.You should write the code  before `process main`,or you can click the button <i class="fa fa-download"></i> in the toolbar of [Case-Editor](/docs/code-editor/case-editor.html) to complete import.
+
+The case below shows how to import `$BUTTON` in [Magic Keyword](/docs/lemoncase2/magic.html).
+<pre class='sublemon'>//Import the case named "rightclick.lc2"
+import "./rightclick.lc2";
+process main () {
+	// New Page
+	jumpto "https://www.github.com/";
+	wait 2333;
+	// click a text field
+	click "#user\\[login\\]"; //Here click means rightclick
+}</pre>
+
+The case "rightclick.lc2" shows below.
+
+<pre class='sublemon'>
+//This is a sub-process simulating right-click with $BUTTON.​
+process rightclick(a) {
+    $BUTTON = "right";
+    click a;
+}</pre>
+
+<br/>
 ## process
 ---
 <p class="alert alert-warning">process main{ }<br/>process sub{ }</p>

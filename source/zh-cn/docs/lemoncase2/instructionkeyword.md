@@ -4,18 +4,27 @@ title: '指令关键字'
 ## import
 ---
 <p class="alert alert-warning">import "./../case.lc2"</p>
-调用一个或多个其它的子过程 case 文件，写在当前 case 的 process main之前。也可以使用[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)工具栏中的 <i class="fa fa-download"></i> 来进行调用。
+调用一个或多个其它的子过程 case 文件，写在当前 case 的 `process main` 之前。也可以使用[用例编辑器](/zh-cn/docs/code-editor/case-editor.html)工具栏中的 <i class="fa fa-download"></i> 来进行调用。
 
 下面的示例为调用[魔术字](/zh-cn/docs/lemoncase2/magic.html)中 `$BUTTON` 的示例子过程。
 <pre class='sublemon'>//引用文件名为"rightclick.lc2"的case文件
-import "./rightclick.lc2";
 
+import "./rightclick.lc2";
 process main () {
 	// New Page
 	jumpto "https://www.github.com/";
 	wait 2333;
 	// click a text field
 	click "#user\\[login\\]"; //此处点击方式为右键点击
+}</pre>
+
+关于`$BUTTON` 文件名为"rightclick.lc2"的 case 文件如下所示。
+
+<pre class='sublemon'>
+//这是一个用 $BUTTON 模拟右键点击的子过程
+process rightclick(a) {
+    $BUTTON = "right";
+    click a;
 }</pre>
 
 <br/>
