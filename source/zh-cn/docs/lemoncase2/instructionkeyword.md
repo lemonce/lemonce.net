@@ -14,8 +14,7 @@ process main () {
 	// New Page
 	jumpto "https://www.github.com/";
 	wait 2333;
-	// click a text field
-	click "#user\\[login\\]"; //此处点击方式为右键点击
+	rightclick ("a:contains('Sign up')"); //此处使用调用文件"rightclick.lc2"中的 rightclick() 过程右键 Sign up
 }</pre>
 
 关于`$BUTTON` 文件名为"rightclick.lc2"的 case 文件如下所示。

@@ -13,8 +13,7 @@ process main () {
 	// New Page
 	jumpto "https://www.github.com/";
 	wait 2333;
-	// click a text field
-	click "#user\\[login\\]"; //Here click means rightclick
+	rightclick ("a:contains('Sign up')");//Here we use process rightclick() from the case "rightclick.lc2"
 }</pre>
 
 The case "rightclick.lc2" shows below.
