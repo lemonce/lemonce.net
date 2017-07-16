@@ -22,7 +22,7 @@ title: "表达式"
 
 示例如下：
 
-```
+<pre class="sublemon">
 process main () {
 
 	// The world's leading software development platform · GitHub
@@ -42,8 +42,7 @@ process main () {
 	// <! "selector"/>
 	log <! "#js"/>; // "js"ID在html中不存在
 	log <! "a"/>;// "a"标签在html中存在
-}
-```
+}</pre>
 
 <br>
 ## 比较符

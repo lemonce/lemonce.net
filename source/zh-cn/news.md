@@ -35,7 +35,7 @@ layout: page without sidebar
 - 部分语法高亮
 - XPath分析器
 - 控制台中的日志可以被选中复制
-- 在用例编辑器中点击<i class="fa fa-play"></i>可自动打开 webview 窗口
+- 在用例编辑器中点击 <i class="fa fa-play"></i> 可自动打开 webview 窗口
 - 优化了通讯模型，提高了测试执行的健壮性
 - 退出软件时会询问是否保存
 

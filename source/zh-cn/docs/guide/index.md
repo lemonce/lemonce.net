@@ -70,6 +70,9 @@ title: '开始测试'
 <br/>
 ## [查看测试报告](/zh-cn/docs/guide/reports.html)
 ---
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=12259302&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+<br/>
 测试报告一共分为三个区域。
 
 - **用例列表区**  用例列表区域在最左部的黑色区域。
