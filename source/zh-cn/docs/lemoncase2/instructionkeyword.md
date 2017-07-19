@@ -72,14 +72,23 @@ process square(x){
 
 <pre class="sublemon">
 process main () {
-	A = {a:1,b:2};
-	for (x in A){
-    	log "A["+x+"]="+A[x];
+    // for...in(数组)
+    X=["Smartisan","Mi"];
+    for (i in X){
+    log "X[" +i+ "]="+ X[i];
+  }
+  
+    // for...in(数组)
+    A = {1:1,2:2};
+    for (a in A){
+    log "A["+a+"]="+A[a];
   }
 }
 //输出:
-//A[a]=1
-//A[b]=2</pre>
+//X[0]=Smartisan
+//X[1]=Mi
+//A[1]=1
+//A[2]=2</pre>
 
 <br/>
 ## for...of
@@ -88,32 +97,32 @@ process main () {
 在可迭代对象上创建一个迭代循环，对每个不同属性的属性值,调用一个自定义的有执行语句的迭代挂钩.
 
 <pre class='sublemon'>
-//遍历一个数组
-process main () {
- A = [10,20,30];
-  for (x of A){
-      log x;
-  }
-}
-//输出
-//10
-//20
-//30
 
-//遍历一个字符串
 process main () {
-  for (x of "Lemonce"){
-      log x;
+  // for...of(字符串)，遍历一个字符串
+  B = "Lemonce";
+  for (b of B){
+    log b;
+  }
+  
+  // for...of(数组)，遍历一个数组
+  C = [20,30,40];
+  for (c of C){
+    log c;
   }
 }
-//输出:
+
+//输出
 //L
 //e
 //m
 //o
 //n
 //c
-//e</pre>
+//e
+//20
+//30
+//40</pre>
 
 <br/>
 ## if...else
@@ -150,7 +159,6 @@ i = 0;
 n = 0;
 while (i < 5) {
    i=i+1;
-   log i;
    if (i === 3) {
       continue;
    }
@@ -186,5 +194,5 @@ process counter() {
 向控制台输出一条消息。可以输出测试用例中已定义的变量，表达式，字符串等等。
 
 <pre class='sublemon'>
-log '2'+3	//输出  23
-log true	//输出  true</pre>
+log '2'+3;	//输出  23
+log true;	//输出  true</pre>

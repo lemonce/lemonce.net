@@ -90,8 +90,8 @@ log format(now(),"isoDateTime");//输出：2017-01-01T00:00+0800</pre>
 <pre class='sublemon'>
 abs(-3.14) // 输出  3.14
 abs('') // 输出  0
-abs() // 输出  NaN
-abs('string') // 输出  NaN</pre>
+abs() // 输出  null
+abs('string') // 输出  null</pre>
 
 **ceil**
 <p class="alert alert-warning">ceil([number])</p>

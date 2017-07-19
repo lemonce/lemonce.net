@@ -155,7 +155,19 @@ assert <# "textarea#test"/> == 1;
 assert <@ "testarea#test"/> ~~ "Lemonce"
 
 //断言id名为'test'的输入框会在两秒钟内出现
-assert <# "textarea#test"/> in 2000;</pre>
+assert <# "textarea#test"/> in 2000;
+
+process main () {
+    
+	// The world's leading software development platform · GitHub
+	jumpto "https://github.com/";
+	// wait
+	wait 2333;
+	// click "login"
+	click "#user\\[login\\]";
+	// assert
+	assert <@'h1'/> ~~ "Built" in 1000;
+}</pre>
 
 <br/>
 ## upload

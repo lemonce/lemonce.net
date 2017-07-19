@@ -72,14 +72,23 @@ Iterates over the enumerable properties of an object, in original insertion orde
 
 <pre class='sublemon'>
 process main () {
-	A = {a:1,b:2};
-	for (x in A){
-    	log "A["+x+"]="+A[x];
+    // for...in(array)
+    X=["Smartisan","Mi"];
+    for (i in X){
+    log "X[" +i+ "]="+ X[i];
+  }
+  
+    // for...in(array)
+    A = {1:1,2:2};
+    for (a in A){
+    log "A["+a+"]="+A[a];
   }
 }
 //Output:
-//A[a]=1
-//A[b]=2</pre>
+//X[0]=Smartisan
+//X[1]=Mi
+//A[1]=1
+//A[2]=2</pre>
 
 <br/>
 ## for...of
@@ -88,32 +97,32 @@ process main () {
 Creates a loop iterating over iterable objects, invoking a custom iteration hook with statements to be executed for the value of each distinct property.
 
 <pre class='sublemon'>
-//Iterating over an Array.
-process main () {
- A = [10,20,30];
-  for (x of A){
-      log x;
-  }
-}
-//Output
-//10
-//20
-//30
 
-//Iterating over a String.
 process main () {
-  for (x of "Lemonce"){
-      log x;
+  // for...of(string),Iterating over a String.
+  B = "Lemonce";
+  for (b of B){
+    log b;
+  }
+  
+  // for...of(array),Iterating over an Array.
+  C = [20,30,40];
+  for (c of C){
+    log c;
   }
 }
-//Output:
+
+//Output
 //L
 //e
 //m
 //o
 //n
 //c
-//e</pre>
+//e
+//20
+//30
+//40</pre>
 
 <br/>
 ## if...else
@@ -150,7 +159,6 @@ i = 0;
 n = 0;
 while (i < 5) {
    i=i+1;
-   log i;
    if (i === 3) {
       continue;
    }
@@ -186,5 +194,5 @@ process counter() {
 Output a message to the console. You can output variables, expressions, strings etc. that have been defined in the test case.
 
 <pre class='sublemon'>
-log '2'+3	//Output  23
-log true	//Output  true</pre>
+log '2'+3;	//Output  23
+log true;	//Output  true</pre>

@@ -92,8 +92,8 @@ returns the absolute value of a number, that is abs(x)=|x|.
 <pre class='sublemon'>
 abs(-3.14) // Output  3.14
 abs('') // Output  0
-abs() // Output  NaN
-abs('string') // Output  NaN</pre>
+abs() // Output null
+abs('string') // Output null</pre>
 
 **ceil**
 <p class="alert alert-warning">ceil([number])</p>

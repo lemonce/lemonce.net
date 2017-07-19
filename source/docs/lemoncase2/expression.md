@@ -14,7 +14,7 @@ Get the number of elements that matches the selector. Calculation expressions an
 <br/>
 <span class="alert alert-warning">**<@ ["selector"](/docs/lemoncase2/selector.html) />** </span>
 
-Get the innerHTML of the 1st element that matches the selector. If related content does not exist, output `null`.
+Get the visible contents of inner-text of the 1st element that matches the selector. If related content does not exist, output `null`.
 
 <br/>
 <span class="alert alert-warning">**<! ["selector"](/docs/lemoncase2/selector.html) />** </span>
@@ -31,8 +31,8 @@ process main () {
 	wait 2333;
 	
 	// <# "selector"/>
-	log <# "div"/>; // Output the number of tag "div"
-	log <# ".form"/>+1; // Output the number of class "form"
+	log <# "div" />; // Output the number of tag "div"
+	log <# ".form" />+1; // Output the number of class "form"
 	
 	// <@ "selector"/>
 	log <@ "h1"/>;  // Output the inner text of  tag "h1"

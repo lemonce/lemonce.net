@@ -13,16 +13,16 @@ title: "表达式"
 <br/>
 <span class="alert alert-warning">**<@ ["selector"](/zh-cn/docs/lemoncase2/selector.html) />** </span>
 
-选取 HTML 内部第一个与该选择器匹配的元素中的内容。如果不存在相应内容，则输出：`null`。
+选取 HTML 内部第一个与该选择器匹配页面中可见的内容。如果不存在相应内容，则输出：`null`。
 
 <br/>
 <span class="alert alert-warning">**<! ["selector"](/zh-cn/docs/lemoncase2/selector.html) />** </span>
 
-检查该元素是否存在。如果存在输出：`true`，不存在输出：`null`.
+检查该元素是否存在。如果存在输出：`true`，不存在输出：`null`。
 
 示例如下：
 
-<pre class="sublemon">
+```
 process main () {
 
 	// The world's leading software development platform · GitHub
@@ -42,7 +42,8 @@ process main () {
 	// <! "selector"/>
 	log <! "#js"/>; // "js"ID在html中不存在
 	log <! "a"/>;// "a"标签在html中存在
-}</pre>
+}
+```
 
 <br>
 ## 比较符

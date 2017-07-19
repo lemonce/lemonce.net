@@ -148,7 +148,19 @@ Assert that the expression is true [within certain time].
 assert <#"textarea#test"/>;
 
 //Asserts that a input box with the id of "test" will appear in 2 seconds.
-assert <#"textarea#test"/> in 2000;</pre>
+assert <#"textarea#test"/> in 2000;
+
+process main () {
+    
+	// The world's leading software development platform · GitHub
+	jumpto "https://github.com/";
+	// wait
+	wait 2333;
+	// click "login"
+	click "#user\\[login\\]";
+	// assert
+	assert <@'h1'/> ~~ "Built" in 1000;
+}</pre>
 
 <br/>
 ## upload
