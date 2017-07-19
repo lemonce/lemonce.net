@@ -6,10 +6,20 @@
   "dependencies": {
     "nuxt": "latest"
   },
+  "config": {
+    "nuxt": {
+      "port": 4000
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5"
   }
 }
