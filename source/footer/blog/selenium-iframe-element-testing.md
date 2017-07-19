@@ -51,6 +51,8 @@ First, it is difficult to locate and recognize elements inside an iframe using s
 
 To identify iframe and find elements inside, a human can easily inspect the web page by viewing page source codes manually.  But it is impossible to locate the element by clicking iframe directly through xpath since it is a special web component - iframe.  You must have a test script specifically to switch to the frame and then to click it using xpath. That is, if you need to switch to other frames, you have to switch back to the main frame( default frame ), or move back to the parent frame. Even though it is quite complicated to handle iframes using selenium webdriver and it requires huge coding workload, some web app testers and programmers have to spend much time and effort to write scripts for this because many other web application testing tools don’t provide a solution for handling iframes in test automation. 
 
+<img src="/images/blog/iframe-3.png">
+
 Lemonce Editor obviously can overcome this hurdle with its iframe penetration selector that can easily locate and recognize iframe and identify the elements in side any frame. Testing professionals will not need figure out how to find element in iframe using selenium webdriver anymore.
 
 Second, Selenium recorder is just a Firefox add-on, Selenium IDE, which only performs limited recording and playback functions for web app tests, and cannot work with other browsers, like Chrome, IE, etc. In addition, when handling iframes, Selenium IDE can record and play back tests properly, but it cannot export testing scripts correctly. That is, Selenium IDE recorder is unable to automatically generate testing codes, and you have to manually edit and modify codes!
