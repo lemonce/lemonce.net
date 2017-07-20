@@ -6,7 +6,7 @@ This guide helps you with step-by-step instructions on how to create a web test 
 <br/>
 ## [Create a Test Case](/docs/guide/case.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Piq3TZGE2jA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S5wNw6feAk0" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 **create in menu bar**
@@ -25,7 +25,7 @@ Any changes on the cases such as create, rename, or remove will be synchronized 
 <br/>
 ## [Use of Recorder](/docs/guide/recorder.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PR5tlMqxKSI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tnf6GQdyvRc" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 **record scripts** 
@@ -43,8 +43,10 @@ Click <i class="fa fa-stop-circle-o" style="color:red"></i> to end the recording
 <br/>
 ## [Complete a Test Suite](/docs/guide/suite.html)
 ---
-**create a test suite** 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krnloYfmayc" frameborder="0" allowfullscreen></iframe>
+ 
+<br/>
+**create a test suite**
 - **create in menu bar**
 You can create a new test suite from the toolbar, and you need to create a path to save each test suite.
 
@@ -69,4 +71,7 @@ After the editing and saving of the test suite ,then you can click <i class="fa 
 <br/>
 ## [View Test Reports](/docs/guide/reports.html)
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xU3N7V7UQl8" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 The test report is divided into three areas. The case-area lists all of the test cases for the entire test task, the contents of the log-area and the code-area [...]

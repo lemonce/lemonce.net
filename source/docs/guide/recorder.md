@@ -1,5 +1,10 @@
 title: 'Use of Recorder'
 ---
+## Video Instruction
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tnf6GQdyvRc" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 ## Record scripts
 ---
 

@@ -6,6 +6,10 @@ The test report is divided into three areas. The case-area lists all of the test
 At the bottom of report shows the numbers of passed and failed cases and the execution duration time.
 
 <img class="box-shadow" src="/images/guide/report-02.png">
+<br/>
+
+Below is the video instruction about how to view test report.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xU3N7V7UQl8" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 ## 1 Case list
