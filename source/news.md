@@ -1,6 +1,18 @@
 title: 'Lemonce Update News'
 layout: page without sidebar
 ---
+## Updates for version 2.0.10
+---
+
+**Optimized**
+
+- Optimized that when click the case/suite-running button in the suite editor,the webview will be opened automatically.
+
+**New Functions**
+
+- Added "Help" button in help submemu of menu bar which links to the offical help docs.
+- Added "Feedback" button in help submemu of menu bar which links to the offical feedback page.
+
 ## Updates for version 2.0.9
 ---
 
