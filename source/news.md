@@ -11,7 +11,7 @@ layout: page without sidebar
 **New Functions**
 
 - Added "Help" button in help submemu of menu bar which links to the offical help docs.
-- Added "Feedback" button in help submemu of menu bar which links to the offical feedback page.
+- Added "Feedback" button in help submemu of menu bar which links to the official feedback page.
 
 ## Updates for version 2.0.9
 ---

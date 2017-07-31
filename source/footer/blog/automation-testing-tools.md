@@ -4,7 +4,7 @@ layout: page without sidebar
 
 Lemonce Editor is a great UI automation testing tool for web applications, and can become a better alternative to selenium. Automation testing tools are very popular and important in web development and testing industry, which will need to handle many functional and regression web tests. Even though Selenium is the most popular automated browser testing framework for web app development and testing, it has a lot of issues and problems in automated testing, especially with defects in cross browser testing. Selenium usually also requires heavy coding efforts to achieve multiple testing goals. Instead, Lemonce Editor requires minimal coding to perform complex tests for different types of web applications, and it has many advantages, ranging from reliable recoding/playback to writing test cases with ease. After you review and compare different automation testing tools, Selenium, and Lemonce, you will love Lemonce Editor, a great testing application tool and the best alternative to selenium.
 
-<img class="guide-images box-shadow" alt="automation_testing_tools" src="/images/blog/automation-testing-tools.PNG">
+<img class="guide-images box-shadow" alt="automation_testing_tools" src="/images/blog/automation-testing-tools.png">
 
 (The above screenshot is the main interface of Lemonce Editor, one of the best web automation testing tools in market.)
 
@@ -26,40 +26,25 @@ If you are planning to evaluate some gui automation testing tools for web applic
 
 <br/>
 #### 1. A test studio or test team
-<hr width=35% align="left">
+<hr width=50% align="left">
 A test team or an outsourcing test company usually needs to have a list of automation testing tools for desktop applications (e.g. for microsoft dynamics crm 365), mobile apps, or even embedded systems. Definitely, web automation testing tools will be more frequently-used and most important because web apps and projects will be developed and updated quickly nowadays, and there are a great deal of regression and functional testing needs generated. So, a test team will pay more attention on choosing web app testing tools than other types of automation testing tools. Particularly, mobile electronic devices are very popular everywhere, mobile automation testing tools are needed to test android apps for mobile devices including cell phones and tablets, and ios apps for iphone and ipad. A test studio need automated testing tools for mobile apps,  as long as they can perform virtual mobile testing on desktop computers.
 
 Usually, a testing team will choose the best one from a list of automation test tools for web applications, which should meet such following criteria:
 
-**- Selenium Alternative**
+- **Selenium Alternative:** The automation tool can become a great selenium alternative, which can not only have selenium testing features, but also solve problems in selenium web driver, IDE, etc.
 
-The automation tool can become a great selenium alternative, which can not only have selenium testing features, but also solve problems in selenium web driver, IDE, etc.
+- **Minimal Coding Required:** The testing software can automate browser testing with accurate recording and playback, as well as with less-coding or codeless automation process.
 
-**- Minimal Coding Required**
+- **Automatic Operation and Reusable Modules:** The testing utility can run test cases automatically, and all testing processes and modules can be reusable when users need create a new test suite.
 
-The testing software can automate browser testing with accurate recording and playback, as well as with less-coding or codeless automation process.
+- **Work With All Web Applications:** The automation testing software can work with all web applications including legacy web apps. At least automation testing tools for mobile applications can perform virtual mobile tests on desktop computers.
 
-**- Automatic Operation and Reusable Modules**
+- **Detailed Testing Reports:** The qualified software candidate is capable to automate testing tools to generate detailed reports and logs for each test suite that is executed.
 
-The testing utility can run test cases automatically, and all testing processes and modules can be reusable when users need create a new test suite.
+- **Cross platforms:** The testing software tool must be platform agnostic. For example, some teams need automation testing tools for Mac, Linux, not limited on Microsoft Windows platforms. (Indeed, there is less automated testing tools for mac machines in market.)
 
-**- Work With All Web Applications**
+- **Easy-to-Use:** The automated testing software can be easy to master and deploy with low learning cost. You may compare different automation testing tools, selenium, and manual testing solutions, and then you will know which one is the most efficient and easiest.
 
-The automation testing software can work with all web applications including legacy web apps. At least automation testing tools for mobile applications can perform virtual mobile tests on desktop computers.
-
-**- Detailed Testing Reports**
-
-The qualified software candidate is capable to automate testing tools to generate detailed reports and logs for each test suite that is executed.
-
-**- Cross platforms**
-
-The testing software tool must be platform agnostic. For example, some teams need automation testing tools for Mac, Linux, not limited on Microsoft Windows platforms. (Indeed, there is less automated testing tools for mac machines in market.)
-
-**- Easy-to-Use**
-
-The automated testing software can be easy to master and deploy with low learning cost. You may compare different automation testing tools, selenium, and manual testing solutions, and then you will know which one is the most efficient and easiest.
-
-</br>
 Lemonce Editor can meet all the above criteria to become the best automation testing selenium alternative tool. If your team feels tired of writing test cases based on Selenium, it is recommended to put Lemonce Editor in the list of automation testing tools for web applications.
 
 Even though there are many online cloud-testing services, such as amazon automated software testing service, are available online, but many professional development and testing companies still don’t want to use a web based automation testing tool for security reasons, because they don’t want to put their codes as “open sources” publicly or contribute their internal development and testing methods to outside big data cloud companies. So, most testing teams would still like to use client software tools, such as Lemonce Editor, to run automatic web tests in house. Lemonce Team will also plan to launch cloud-based automation testing services in future according to the market demands for web-based online testing services.
@@ -86,7 +71,7 @@ Surely, Lemonce Editor is an easy to learn and use. Usually, Lemonce can automat
 In addition, beginners in the web application testing industry still need to prepare for automation testing interview questions when they apply for a job. Those questions may include selenium automation testing framework, selenium issues and problems, as well as latest automated testing tools for web applications. Some knowledge can be learned from automating testing courses in a testing engineering institute, but some must be from real experience of studding a new testing tool. Especially, if you can talk something about Lemonce Editor, a new amazing and outstanding testing tool for webapp, it will show your professionalism and your familiarity to the automation testing industry during interviews because you even have much knowledge of the latest automation testing tool. This will certainly help you get some great offers of automation testing jobs.
 
 <br/>
-<hr width=35% align="left">
+<hr width=50% align="left">
 In summary, Lemonce Editor is the best automation testing tool for web applications. This great alternative to selenium has many advantages, even compared with the well-known ones which boast themselves as top-ten automated testing tools. With Lemonce Editor, you may forget many difficult challenges in selenium, and don't need tedious steps and waste much time to write testing codes anymore, so that you can complete testing projects easily and efficiently. And all the functional and regression testing process for web applications will be seamlessly integrated to the web app system development. All testing team members will agree a great testing tool can improve the cooperation with web app developers and make all projects run more smoothly.
 
 If you are looking for automation testing tools for web applications online, please go to Lemonce.com to get a free download to install and evaluate the great testing program no matter you need automation testing tools for mac, windows or linux. As more and more testing professionals know and use Lemonce Editor, it will become the most demanding automation testing tool.

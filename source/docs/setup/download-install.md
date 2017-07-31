@@ -27,5 +27,3 @@ Lemonce for Mac is coming soon.
 ---
 
 Lemonce for Linux is coming soon.
-
-
