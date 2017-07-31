@@ -4,7 +4,7 @@ layout: page without sidebar
 
 Lemonce Editor is a great UI automation testing tool for web applications, and can become a better alternative to selenium. Automation testing tools are very popular and important in web development and testing industry, which will need to handle many functional and regression web tests. Even though Selenium is the most popular automated browser testing framework for web app development and testing, it has a lot of issues and problems in automated testing, especially with defects in cross browser testing. Selenium usually also requires heavy coding efforts to achieve multiple testing goals. Instead, Lemonce Editor requires minimal coding to perform complex tests for different types of web applications, and it has many advantages, ranging from reliable recoding/playback to writing test cases with ease. After you review and compare different automation testing tools, Selenium, and Lemonce, you will love Lemonce Editor, a great testing application tool and the best alternative to selenium.
 
-<img class="guide-images box-shadow" alt="automation_testing_tools" src="/images/blog/automation-testing-tools.png">
+<img class="guide-images box-shadow" alt="automation_testing_tools" src="/images/interface.PNG">
 
 (The above screenshot is the main interface of Lemonce Editor, one of the best web automation testing tools in market.)
 
