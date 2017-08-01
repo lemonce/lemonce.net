@@ -3,7 +3,7 @@ title: 'Set Up'
 Since Lemonce can be used on different operating systems, it is distributed as an installation file for Windows (MacOS and Linux is coming soon).
 
 <br/>
-## [Download and Install](/docs/setup/distribution.html)
+## [Download and Install](/docs/setup/download-install.html)
 ---
 
 **Windows**
