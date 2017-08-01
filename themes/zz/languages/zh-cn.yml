@@ -46,12 +46,14 @@ footer:
 
 nav:
   home: '首页'
+  product: '购买'
+  download: '下载'
+  docs: '文档'
+  help: '帮助'
   feature: '特性'
   compare: '对比'
   news: '新闻'
-  docs: '文档'
-  license: '购买'
-  download: '下载'
+  license: '授权'
   contact: '联系'
 
 page:

@@ -14,6 +14,13 @@
 					</a>
 				</li>
 				<li class="nav-item">
+					<a target="_blank" href="https://license.lemonce.com:8082/#/product/lemonce"
+						class="nav-link"
+						onclick="ga('send', 'event', 'download', 'free trial', 'header button')">
+						<%= __('nav.product') %>
+					</a>
+				</li>
+				<li class="nav-item">
 					<a target="_blank" href="<%= __('index.download_link') %>"
 						class="nav-link"
 						onclick="ga('send', 'event', 'download', 'free trial', 'header button')">
@@ -23,6 +30,11 @@
 				<li class="nav-item">
 					<a href="<%= url_for_lang('/docs/guide/index.html') %>" class="nav-link">
 						<%= __('nav.docs') %>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a target="_blank" href="https://license.lemonce.com:8082/#/help/index" class="nav-link">
+						<%= __('nav.help') %>
 					</a>
 				</li>
 				<li class="nav-item">
@@ -40,7 +52,6 @@
 						<%= __('nav.news') %>
 					</a>
 				</li>
-				
 				<li class="nav-item">
 					<a target="_blank" href="<%= url_for_lang('https://license.lemonce.com') %>"
 						class="nav-link"

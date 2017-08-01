@@ -45,12 +45,14 @@ footer:
 
 nav:
   home: 'Home'
+  product: 'Product'
+  download: 'Download'
+  docs: 'Docs'
+  help: 'Help'
   feature: 'Features'
   compare: 'Compare'
   news: 'News'
-  docs: 'Docs'
   license: 'License'
-  download: 'Download'
   contact: 'Contact'
 
 page:
