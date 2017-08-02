@@ -1,6 +1,6 @@
 title: 'Set Up'
 ---
-Since Lemonce can be used on different operating systems, it is distributed as an installation file for Windows (MacOS and Linux is coming soon).
+Since Lemonce can be used on different operating systems, it is distributed as an installation file for Windows, MacOS and Linux.
 
 <br/>
 ## [Download and Install](/docs/setup/download-install.html)
@@ -8,8 +8,8 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 
 **Windows**
 
-- Visit Lemonce download page and click <button class="btn-teal">Download Free Trial</button> button to jump to to lemonce-publisher page on Github.
-- Choose the right URL to download the **Windows** Version.
+- Visit Lemonce home-page and click <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">Download Free Trial</a> button to jump to to download page.
+- Choose the **Windows** Version.
 - Save the Lemonce installer to your computer, then open the file.
 - Install according to the prompt, double-click on the Lemonce icon when finishing installation.
 
