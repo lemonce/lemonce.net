@@ -1,6 +1,20 @@
 title: '版本更新消息'
 layout: page without sidebar
 ---
+## 版本更新 2.0.11
+---
+
+**优化**
+
+- 调整了license业务流程
+- 统一使用邮箱验证license
+
+**新增**
+ 
+- 新增了Lemonce Editor对Mac系统的支持
+- 新增了Lemonce Editor对Linux系统的支持
+- 当网页使用了HTTP协议的basic验证进行用户认证时，webview弹出对应输入用户信息的窗口
+
 ## 版本更新 2.0.10
 ---
 

@@ -16,7 +16,7 @@ title: '选择器'
 
 在录制的过程中，选择器下拉菜单默认选择 selector，即以 css 选择器进行录制，也可以自己在编辑器中手写，手写的 css 选择器会更加简洁。
 
-假设用户要完成在谷歌首页**点击搜索栏**，再**把鼠标移动到右上角登录按钮**这两个操作，用 css 选择器显示的语句如下：
+假设用户要完成在谷歌首页**点击搜索栏**，再**把鼠标移动到右上Gmail按钮**这两个操作，用 css 选择器显示的语句如下：
 <pre class="sublemon">
 process main () {
 
@@ -26,13 +26,13 @@ process main () {
 
 	// 点击搜索栏
 	click "#lst-ib";
-	// 鼠标移动到右上角登录按钮
-	move "#gb_70";
+	// 鼠标移动到右上 Gmail 按钮
+	move "#gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)";
 }</pre>
 
 `click` 和 `move` 动作关键词之后，跟随的即为 css selector 的 id 选择器，分别为：
 - #lst-ib
-- #gb_70
+- #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)
 
 <br/>
 ## [xpath](http://www.w3school.com.cn/xpath/xpath_intro.asp)
@@ -49,13 +49,13 @@ process main () {
 	
 	// 点击搜索栏
 	click "/*[@id='lst-ib']";
-	// 鼠标移动到右上角登录按钮
-	move "/*[@id='gbw']/div/div/div[2]/div[3]/div/a";
+	// 鼠标移动到右上 Gmail 按钮
+    move "/*[@id='gbw']/div/div/div[1]/div[1]/a";
 }</pre>
 
 `click` 和 `move` 动作关键词之后，跟随的即为 xpath 选择器，分别为：
 - /*[@id='lst-ib']
-- /*[@id='gbw']/div/div/div[2]/div[3]/div/a
+- /*[@id='gbw']/div/div/div[1]/div[1]/a
 
 <br/>
 ## [sizzle](https://github.com/jquery/sizzle/wiki)
@@ -74,12 +74,12 @@ process main () {
 
 	// 点击搜索栏
 	click "#lst-ib:eq(0)";
-	// 鼠标移动到右上角登录按钮
-	move "a:contains(Sign in)";
+	// 鼠标移动到右上 Gmail 按钮
+	move "#gbw a:contains(Gmail)";
 }</pre>
 
 `click` 和 `move` 动作关键词之后，跟随的即为 sizzle 选择器，分别为：
 - #lst-ib:eq(0)
-- a:contains(Sign in)
+- #gbw a:contains(Gmail)
 
 其中 `:contains(innerText)`是一种比较常用的 sizzle 选择方式，对于一些 css 和 xpath 选择器可能产生变化，但网页显示内容却不发生改变的元素，sizzle 能够大幅提高同一 case 复用度，降低维护成本。

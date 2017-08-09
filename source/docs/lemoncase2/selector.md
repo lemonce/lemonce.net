@@ -26,13 +26,13 @@ process main () {
 
 	// Click the search bar.
 	click "#lst-ib";
-	// Move the mouse to the login button in the upper right corner.
-	move "#gb_70";
+	// Move the mouse to the Gmail.
+	move "#gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)";
 }</pre>
 
 The action keywords `click` and `move` are followed by the id selectors of css selectors as follows:
 - #lst-ib
-- #gb_70
+- #gbw > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)
 
 <br/>
 ## [xpath](https://www.w3schools.com/xml/xpath_intro.asp)
@@ -50,13 +50,13 @@ process main () {
 	
 	// Click the search bar.
 	click "/*[@id='lst-ib']";
-	// Move the mouse to the login button in the upper right corner.
-	move "/*[@id='gbw']/div/div/div[2]/div[3]/div/a";
+	// Move the mouse to the Gmail
+    move "/*[@id='gbw']/div/div/div[1]/div[1]/a";
 }</pre>
 
 The action keywords `click` and` move` are followed by the xpath selectors as follows:
 - /*[@id='lst-ib']
-- /*[@id='gbw']/div/div/div[2]/div[3]/div/a
+- /*[@id='gbw']/div/div/div[1]/div[1]/a
 
 <br/>
 ## [sizzle](https://github.com/jquery/sizzle/wiki)
@@ -76,12 +76,12 @@ process main () {
 
 	// Click the search bar.
 	click "#lst-ib:eq(0)";
-	// Move the mouse to the login button in the upper right corner.
-	move "a:contains(Sign in)";
+	// Move the mouse to the Gmail
+    move "#gbw a:contains(Gmail)";
 }</pre>
 
 The action keywords `click` and` move` are followed by the sizzle selectors as follows:
 - #lst-ib:eq(0)
-- a:contains(Sign in)
+- #gbw a:contains(Gmail)
 
 Among them,  `:contains(innerText)` is a frequently used sizzle selection method. For those elements whose contant will not change but the css and xpath selectors will change, using sizzle will significantly improve case reuse rate and reduce maintenance costs.

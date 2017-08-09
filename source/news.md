@@ -1,6 +1,20 @@
 title: 'Lemonce Update News'
 layout: page without sidebar
 ---
+## Updates for version 2.0.11
+---
+
+**Optimized**
+
+- Optimized the business process of license.
+- Optimized mailbox authentication of license.
+
+**New Functions**
+
+- Added versions available on Mac.
+- Added versions available on Linux.
+- When the web page uses the basic authentication of the HTTP protocol for user authentication, the webview will pop up corresponding window for inputing user information.
+
 ## Updates for version 2.0.10
 ---
 
