@@ -2,7 +2,7 @@ title: ' Create a Test Case'
 ---
 ## Video Instruction
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S5wNw6feAk0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rfx19g1IwBk" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 ## Create in menu bar

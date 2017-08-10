@@ -6,7 +6,7 @@ This guide helps you with step-by-step instructions on how to create a web test 
 <br/>
 ## [Create a Test Case](/docs/guide/case.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S5wNw6feAk0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rfx19g1IwBk" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 **create in menu bar**
@@ -25,7 +25,7 @@ Any changes on the cases such as create, rename, or remove will be synchronized 
 <br/>
 ## [Use of Recorder](/docs/guide/recorder.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tnf6GQdyvRc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O7dBDi_8RBo" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 **record scripts** 
@@ -43,7 +43,7 @@ Click <i class="fa fa-stop-circle-o" style="color:red"></i> to end the recording
 <br/>
 ## [Complete a Test Suite](/docs/guide/suite.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/krnloYfmayc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bZj09KrlFe4" frameborder="0" allowfullscreen></iframe>
  
 <br/>
 **create a test suite**
