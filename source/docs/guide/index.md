@@ -71,7 +71,7 @@ After the editing and saving of the test suite ,then you can click <i class="fa 
 <br/>
 ## [View Test Reports](/docs/guide/reports.html)
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xU3N7V7UQl8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZ9XvdWr-uA" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 The test report is divided into three areas. The case-area lists all of the test cases for the entire test task, the contents of the log-area and the code-area [...]
