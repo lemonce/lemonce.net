@@ -4,6 +4,8 @@ title: 'Instruction keyword'
 ## import
 ---
 <p class="alert alert-warning">import "./../case.lc2"</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Coh3m9dBBgs" frameborder="0" allowfullscreen></iframe>
+
 Import another case or more.You should write the code  before `process main`,or you can click the button <i class="fa fa-download"></i> in the toolbar of [Case-Editor](/docs/code-editor/case-editor.html) to complete import.
 
 The case below shows how to import `$BUTTON` in [Magic Keyword](/docs/lemoncase2/magic.html).

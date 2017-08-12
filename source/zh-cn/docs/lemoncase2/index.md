@@ -1,7 +1,9 @@
 title: 'Lemoncase2 语言指南'
 ---
 
-Lemoncase2 是一门类似 JavaScript 的编程语言，用于 Lemonce 中的用例编写。以下的指南会帮助您更好地理解这门编程语言。
+Lemoncase2 是一门类似 JavaScript 的编程语言，由我们的技术团队开发，专门用于 Lemonce 中的用例编写。
+该语言专门针对测试开发，比其它的编程语言更加专业、简捷。
+以下的指南会帮助您更好地理解这门编程语言。
 
 <br/>
 ## [语法](/zh-cn/docs/lemoncase2/index.html)
@@ -32,6 +34,16 @@ var a = 1; // 在JS中，您需要使用'var'字符
 //但在 Lemoncase2 中，您不需要使用'var'字符，该语句为错误写法。
 a = 1;
 a = true;</pre>
+
+在变量的定义上， Lemoncase2 采用UTF-8编码，支持使用多国语言来命名变量。比如定义一个"Lemonce"的字符串：
+<pre class='sublemon'>
+Hello = "Lemonce"; // 英文变量
+bonjour = "Lemonce"; // 法文变量
+Hallo = "Lemonce"; // 德文变量
+Hola = "Lemonce"; // 西班牙文变量
+你好 = "Lemonce"; // 中文变量
+こんにちは = "Lemonce"; // 日文变量
+안녕하세요 = "Lemonce"; // 韩文变量</pre>
 
 <br/>
  **数据类型**

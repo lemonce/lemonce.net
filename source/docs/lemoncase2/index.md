@@ -1,6 +1,10 @@
 title: 'Lemoncase2 Guide'
 ---
-Lemoncase2 is a Javascript-like scripting language,which is used for developing scripts in Lemonce. Read this guide to help you understand the language.
+Lemoncase2 is a Javascript-like scripting language developed by our technical team, which is used for developing scripts in Lemonce. 
+
+The language is **specifically developed for automation testing**, so it's more professional and refined than other traditonal programming languages.
+
+Read this guide to help you understand the language.
 
 <br/>
 ## [Grammar](/docs/lemoncase2/index.html)
@@ -32,6 +36,17 @@ var a = 1; // You have to identify 'var' in JS.
 //So this is a wrong statement in Lemoncase.
 a = 1;
 a = true;</pre>
+
+Because Lemoncase2 is in UTF-8 encoding, in the definition of variables, many languages are allowed to be used。For example, define a string "Lemonce":
+<pre class='sublemon'>
+Hello = "Lemonce"; // English variable
+bonjour = "Lemonce"; // French variable
+Hallo = "Lemonce"; // German variable
+Hola = "Lemonce"; // Spanish variable
+你好 = "Lemonce"; // Chinese variable
+こんにちは = "Lemonce"; // Japanese variable
+안녕하세요 = "Lemonce"; // Korean variable
+</pre>
 
 <br/>
 **Datatype**

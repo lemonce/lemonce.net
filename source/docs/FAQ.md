@@ -33,7 +33,7 @@ There are serveral reasons to cause the situation:
 <hr width="75%" align="left">
 **Q:** Is there **global variable** that is for all of the test cases in a suite?
 
-**A:** We do not have global variables at the moment. However, we have something that we think is better than globals. The `import` keyword. Example: If you have a globals.lc2 file, which contains all of your global variables. Let's assume you have a link variable defined in that file.
+**A:** We do not have global variables at the moment. However, we have something that we think is better than globals. The `import` keyword,you can [click here](/docs/lemoncase2/instructionkeyword.html) to see the video instruction. Example: If you have a globals.lc2 file, which contains all of your global variables. Let's assume you have a link variable defined in that file.
 
 The "global.lc2" file just like:
 <pre class="sublemon">
@@ -56,5 +56,3 @@ process main () {
    log var;// output "Lemonce"
    jumpToBaidu();// jump to google
  }</pre>
-
-You can [click here](/docs/lemoncase2/instructionkeyword.html) to see how to use `import`.
