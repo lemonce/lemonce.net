@@ -103,7 +103,7 @@ Below are the expressions in LC2. [`Read more.`](/docs/lemoncase2/expression.htm
 <br/>
 **Selector** 
 
-Below are the type of selectors applied in Lemoncase2.[`Read more.`](docs/lemoncase2/selector.html)
+Below are the type of selectors applied in Lemoncase2.[`Read more.`](/docs/lemoncase2/selector.html)
 - css selector
 - xpath
 - sizzle

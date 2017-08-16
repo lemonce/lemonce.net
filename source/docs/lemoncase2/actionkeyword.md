@@ -141,7 +141,7 @@ wait 3000;</pre>
 ## assert
 ---
 <p class="alert alert-warning">assert [expression] in [time:number]</p>
-Assert that the expression is true [within certain time].
+Assert that the expression is true [within certain time]. More about [expression](/docs/lemoncase2/expression.html).
 
 <pre class='sublemon'>
 //Asserts the existence of a input box with the id of "test".
