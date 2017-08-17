@@ -1,7 +1,7 @@
 title: 'Code Editor'
 ---
 
-## [1 Case-Editor](/docs/code-editor/case-editor.html)
+## [Case-Editor](/docs/code-editor/case-editor.html)
 ---
 
 **Tool Bar**
@@ -22,7 +22,7 @@ title: 'Code Editor'
 - Case Code
 
 <br/>
-## [2 Suite-Editor](/docs/code-editor/suite-editor.html)
+## [Suite-Editor](/docs/code-editor/suite-editor.html)
 ---
 
 **Tool Bar**
@@ -39,16 +39,3 @@ title: 'Code Editor'
 - Suite List
 - Case List
 - Case Library
-
-<br/>
-## [3 Webview](/docs/code-editor/webview.html)
----
-
-**Tool Bar**
-
-- Back/ Next
-- Homepage
-- Refresh
-- Devtool
-
-**Debugger**

@@ -1,7 +1,7 @@
 title: '编辑器'
 ---
 
-## [1 用例编辑器](/zh-cn/docs/code-editor/case-editor.html)
+## [用例编辑器](/zh-cn/docs/code-editor/case-editor.html)
 ---
 
 **工具栏**
@@ -22,7 +22,7 @@ title: '编辑器'
 - Case 代码
 
 <br/>
-## [2 套件编辑器](/zh-cn/docs/code-editor/suite-editor.html)
+## [套件编辑器](/zh-cn/docs/code-editor/suite-editor.html)
 ---
 
 **工具栏**
@@ -39,16 +39,3 @@ title: '编辑器'
 - Suite 列表
 - Case 列表
 - 用例库
-
-<br/>
-## [3 网页视图](/zh-cn/docs/code-editor/webview.html)
----
-
-**工具栏**
-
-- 后退/前进
-- 主页
-- 刷新
-- 开发者工具
-
-**调试器**
