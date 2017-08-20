@@ -8,38 +8,48 @@ title: '设置'
 
 **Windows**
 
-- 访问 Lemonce 下载页面，点击 <button class="btn-teal">下载最新版 </button> 按键，跳转到 Github 上的 lemonce-publisher 界面
-- 选择正确的链接，下载 Lemonce 的 Windows 版本
+- 访问 Lemonce 首页，点击 <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">下载最新版 </a> 按键，或者点击顶栏的 <a class="btn-black" href="https://license.lemonce.com:8082/#/download"> 下载 </a>，跳转到下载页面
+- 选择 Lemonce 的 Windows 版本
 - 保存 Lemonce 的安装文件到您的电脑并打开
 - 根据提示安装文件，在安装完成之后双击 Lemonce 的图标即可打开[……]
 
 **MacOS**
 
-- Lemonce 的 Mac 版本即将上线
+- 同 Windows 步骤一
+- 选择 Lemonce 的 Mac 版本，下载 Zip 文件并解压
+- 双击 Lemonce 的图标即可开始使用（由于权限设置的问题，一些用户在打开 Lemonce 时可能会被系统阻止，此时需要先解除阻止）
 
 **Linux** 
 
-- Lemonce 的 Linux 版本即将上线
+- 同 Windows 步骤一
+- 选择 Lemonce 的 Linux 版本
 
 <br/>
 ## [试用与购买](/zh-cn/docs/setup/trial-purchase.html)
 ---
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=11790913&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+**试用-注册用户**
 
-<br/>
-**License界面**
+用户只需在注册界面添加一个新的用户即可对客户端进行试用。注册仅需以下三步即可完成。
 
-- Machine Code / <button>Copy</button>
-- Please enter activation code　/ <button class="btn-teal">Activate</button>
-- <button class="btn-teal">Purchase</button> / <button>Trial</button> / <button>Quit</button>
+- **创建新用户** 进入[注册用户界面](https://license.lemonce.com/#/register)，按照页面引导创建用户。
+- **完善个人信息** 无需填写其他个人信息。我们统计的国籍信息仅用于网站的国际化工作。
+- **注册成功** 点击 <button class="btn-success">Trial Now</button> 即可进入下一步操作。
 
-**工具试用**
+**试用-验证邮箱**
 
-用户可以先对客户端进行试用，先点击 <button>Trial</button> 再点击 <button class="btn-teal">Activate</button> 即可。
+注册成功之后，我们会发送一封验证邮件到您的注册邮箱，您需要去邮箱中点击以完成注册验证。
 
-**工具购买**
+**试用-开始试用**
 
-在一个月试用期结束之后，用户打开客户端，license 界面会再次弹出。如果用户需要继续使用灵萌测，请点击 <button class="btn-teal">Purchase</button>，根据视频或者[文档](/zh-cn/docs/setup/trial-purchase.html)中的具体步骤完成购买。
+在同一台设备上，未购买用户可试用一个月，已购买用户可无限期使用。试用成功之后，一个月内客户端内不会再弹出 license 界面。
+
+**试用-管理设备**
+
+用户可以进入到自己的账户中的  [Machines页面](https://license.lemonce.com/#/machine) 查看当前绑定 license 的机器的情况。
+
+**购买**
+
+如果您需要购买 license，可以点击顶栏中的 <button class="btn-black" >购买</button>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)。目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
 
 <br/>
 ## [灵萌测界面](/zh-cn/docs/setup/interface.html)

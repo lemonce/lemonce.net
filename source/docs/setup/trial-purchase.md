@@ -71,7 +71,7 @@ In the machine page you can:
 ---
 <img class="box-shadow" src="/images/setup/purchase-1.png">
 
-If you need to purchase licenses, just click <button class="btn-black" >Purchase</button> in the header to jump to [purchase page](https://license.lemonce.com:8082/#/product/lemonce), as shows above.
+If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com:8082/#/product/lemonce), as shows above.
 
 Now we have six packages for you to choose from. More purchase,more discount.
 
