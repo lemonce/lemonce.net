@@ -22,7 +22,7 @@ Below describes how to download and install Lemonce on Windows (Apply to Version
 
 Below describes how to download and install Lemonce on Mac (Apply to Version 10.9+ ). There exist serveral steps.
 
-1.Visit [Lemonce Home page](/index.html) in any browser,click on the <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">Download Free Trial</a> button or <a class="btn-black" href="https://license.lemonce.com:8082/#/download">Download</a> in the header to jump to download page. 
+1.Same with the step 1 of Windows above.
 
 2.Then, select the Mac version and download the zip file and unzip it.The below interface appears,double-click the Lemonce Editor to start.
 
@@ -44,8 +44,8 @@ Below describes how to download and install Lemonce on Mac (Apply to Version 10.
 
 Below describes how to download and install Lemonce on Linux. There exist serveral steps.
 
-1.Visit [Lemonce Home page](/index.html) in any browser,click on the <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">Download Free Trial</a> button or <a class="btn-black" href="https://license.lemonce.com:8082/#/download">Download</a> in the header to jump to download page. 
+1.Same with the step 1 of Windows above.
 
-2.Then, choose the Linux version and follow the installer's instruction,choose the physical path you want to install Lemonce and click <button>Install</button> button to complete installation.
+2.Then, choose the Linux version and follow the installer's instruction to complete installation.
 
 3.Finally, Double-click on the Lemonce icon and start you test ^_^

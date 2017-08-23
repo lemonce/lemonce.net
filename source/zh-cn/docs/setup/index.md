@@ -49,7 +49,7 @@ title: '设置'
 
 **购买**
 
-如果您需要购买 license，可以点击顶栏中的 <button class="btn-black" >购买</button>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)。目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
+如果您需要购买 license，可以点击顶栏中的 <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce" >购买</a>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)。目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
 
 <br/>
 ## [灵萌测界面](/zh-cn/docs/setup/interface.html)

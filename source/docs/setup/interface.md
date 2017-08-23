@@ -3,7 +3,11 @@ title: 'Lemonce Interface'
 
 After the configuration, you will see the UI of Lemonce is divided into four areas a as below. Like code editors, Lemonce adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
-<img class="setup-images" src="/images/setup/interface-whole.png">
+<center><img src="/images/setup/interface-whole.png"></center>
+<p align="center">Lemonce interface on Windows</p>
+
+<center><img class="box-shadow" src="/images/setup/interface-mac.jpg"></center>
+<p align="center">Lemonce interface on Mac</p>
 
 <br/>
 ## 1 Menu bar

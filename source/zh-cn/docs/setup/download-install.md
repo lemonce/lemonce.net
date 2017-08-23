@@ -6,7 +6,7 @@ title: '下载与安装'
 
 从 Windows 上下载 Lemonce （支持 Win7、Win8、Win10），共分为以下几步。
 
-1.访问 [Lemonce首页](/index.html)，点击 <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">下载最新版</a>  按键，或者点击顶栏的 <a class="btn-black" href="https://license.lemonce.com:8082/#/download"> 下载 </a>，跳转到下载界面。
+1.访问 [Lemonce首页](/zh-cn/index.html)，点击 <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">下载最新版</a>  按键，或者点击顶栏的 <a class="btn-black" href="https://license.lemonce.com:8082/#/download"> 下载 </a>，跳转到下载界面。
 
 2.选择 Windows 版本，并按照安装向导进行操作，用户可以选择需要的安装路径进行安装。
 
@@ -23,7 +23,7 @@ title: '下载与安装'
 
 从 Mac 上下载 Lemonce （支持 Mac 10.9+），共分为以下几步。
 
-1.访问 [Lemonce首页](/index.html)，点击 <a class="btn-teal">下载最新版</a>  按键，或者点击顶栏的 <a class="btn-black" href="https://license.lemonce.com:8082/#/download"> 下载 </a>，跳转到下载界面。
+1.同 Windows 下载第一步相同。
 
 2.选择 Mac 版本，下载 Zip 文件并解压，会出现以下界面，双击 Lemonce 的图标即可开始使用。
 

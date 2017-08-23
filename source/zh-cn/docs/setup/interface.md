@@ -5,7 +5,11 @@ title: '灵萌测界面'
 
 下图是一个完整的灵萌测界面，下面会进行详细介绍。
 
-<img class="setup-images" src="/images/setup/interface-whole.png">
+<center><img src="/images/setup/interface-whole.png"></center>
+<p align="center">Windows 系统中的灵萌测界面</p>
+
+<center><img class="box-shadow" src="/images/setup/interface-mac.jpg"></center>
+<p align="center">Mac 系统中的灵萌测界面</p>
 
 <br/>
 ## 1 菜单栏
