@@ -1,4 +1,4 @@
-title: 'Standard built-in objects'
+title: 'Standard Built-in Objects'
 ---
 All the standard built-in objects in LC2 are shown below.
 

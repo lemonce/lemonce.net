@@ -4,10 +4,10 @@ title: 'Lemonce Interface'
 After the configuration, you will see the UI of Lemonce is divided into four areas a as below. Like code editors, Lemonce adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
 <center><img src="/images/setup/interface-whole.png"></center>
-<p align="center">Lemonce interface on Windows</p>
+<p align="center">Lemonce on Windows</p>
 
 <center><img class="box-shadow" src="/images/setup/interface-mac.jpg"></center>
-<p align="center">Lemonce interface on Mac</p>
+<p align="center">Lemonce on Mac</p>
 
 <br/>
 ## 1 Menu bar
@@ -111,7 +111,7 @@ Reports are listed in side bar chronologically.Click one of them you will see [m
 ## 3 Editor Groups
 ---
 The main area to edit your files. You can open as many as editors you want and you can also open Webview at one side while editing.
-More details are offered in [Code Editor](docs/code-editor/index.html).
+More details are offered in [Code Editor](/docs/code-editor/index.html).
 
 <br/>
 ## 4 Output && Console panel

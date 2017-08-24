@@ -1,4 +1,4 @@
-title: 'Magic keyword'
+title: 'Magic Keyword'
 ---
 
 ## $HREF

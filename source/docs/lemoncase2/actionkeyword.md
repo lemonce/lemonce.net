@@ -1,4 +1,4 @@
-title: 'Action keyword'
+title: 'Action Keyword'
 ---
 
 ## click / dblclick

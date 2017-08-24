@@ -69,12 +69,12 @@ title: '试用与购买'
 ---
 <img class="box-shadow" src="/images/setup/purchase-1.png">
 
-如果您需要购买 license，可以点击顶栏中的 <button class="btn-black" >购买</button>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)，如上图所示。
+如果您需要购买 license，可以点击顶栏中的 <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce">购买</a>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)，如上图所示。
 
 目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
 
 <img class="box-shadow" src="/images/setup/purchase-2.png">
 
-选定套餐之后页面会跳转到 My Commerce 界面如上图所示，您需要在这个界面上完成付款。其中需要注意的是在 Bill Information 的 Email 一栏（图中以红框标注），您需要填写注册当前账户使用的邮箱，否则会造成收不到 license 配额。
+选定套餐之后页面会跳转到 [My Commerce](https://order.shareit.com/cart/view) 界面如上图所示，您需要在这个界面上完成付款。其中需要注意的是在 Bill Information 的 Email 一栏（图中以红框标注），您需要填写注册当前账户使用的邮箱，否则会造成收不到 license 配额。
 
 购买完成之后，特别是在购买数量比较多的情况下，您可以参考上方的1.4管理自己的设备。如果您在试用和购买中有任何的疑问，欢迎您[联系我们](/contact.html)。
