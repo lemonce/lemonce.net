@@ -65,3 +65,24 @@ title: '兼容性测试'
 -  Manual proxy configuration → 填入 Address 和 Port（**要和客户端中保持一致**）→ 点击 OK
 
 <img class="box-shadow" src="/images/test-mode/firefox-2.png">
+
+<br/>
+## 2 HTTP & HTTPS
+---
+在配置完代理服务器之后，需要继续选择网页的待测环境。分为 HTTP 及 HTTPS 两种环境，要想了解这两种网络环境的区别请[查看这里](https://www.instantssl.com/https-tutorials/what-is-https.html)。
+
+#### 2.1 HTTP
+
+如果待测网页本来就属于 HTTP 环境，则不需要多余的配置。
+
+#### 2.2 HTTPS
+
+如果待测网页处于 HTTPS 环境，那么用户可以有两种选择。
+
+**① 将待测网页退回到 HTTP 环境。** 
+
+**② 继续保持 HTTPS 环境。** 
+
+使用了代理服务器之后，相较于 HTTP 环境，如果还继续采用 HTTPS 环境进行功能测试，会给本地的 CPU 造成极大的负担，代理服务器会占用大部分内存。
+
+例如，当测试人员中断某个请求 A 之后并向服务器派发新的请求B时，代理服务器仍然与远端继续保持连接并继续派发并接收请求 A，直至。因此测试的过程也会显得非常缓慢，甚至会出现中断的情况。
