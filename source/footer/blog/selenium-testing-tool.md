@@ -1,0 +1,38 @@
+title: 'Selenium Testing Tool – Download Lemonce Editor for Web Automation Testing'
+layout: page without sidebar
+---
+
+Are you looking for a selenium testing tool download site, on which you can download some selenium testing toolkits or an alternative to selenium tool software? You are coming to the right place. Here you can download the best selenium alternative tool – Lemonce Editor, which has many great advantages，and can enable a tester to create test suites to perform complex web app tests with less coding and efforts.
+
+<img class="guide-images box-shadow" alt="selenium_testing_tool.jpg" src="/images/interface.PNG">
+
+Please visit this great alternative to selenium tool download web page:
+[Lemonce Editor Free Download](https://license.lemonce.com:8082/#/download)
+
+Here is the alternative to selenium testing tool tutorial & documentation:
+[Lemonce Editor Tutorial & Documentation](/docs/guide/index.html)
+
+As we know, it is not easy to find a great selenium testing tool for automation regression testing. And there is no a specific selenium automation download website to let you find automated testing tools for web applications. Usually, a testing professional have to go to the official selenium test download site [official selenium test download site](http://www.seleniumhq.org/) to obtain selenium ide tutorial or selenium webdriver documentation to learn the whole framework and technologies from scratch. Unavoidably, many headache selenium issues and problems will come one after another. It will cost a lot of time and efforts to write some test cases for web app functional tests on chrome or firefox. Even though there are many open source automation testing tools for web applications, which are based on selenium, but you cannot use them directly, and you still need spend much time to learn selenium webdriver tutorial pdf, download and install browser extensions or add-ons, write tedious selenium test cases. Some web test automation forums or online IT communities will offer selenium test case scripts download, which may help testers to a certain level. However, it is also time consuming to reuse and edit those test scripts for own use due to the natural defects in selenium.
+
+Lemonce Editor can overcome many challenges in selenium. Its powerful recorder and playback tool let you perform complex browser testing efficiently with less coding work. Lemonce recorder can accurately record any user web actions and create test cases while the testing codes are generated at the same time. This feature is much better than any selenium recorder. With Lemonce Editor, you can easily edit and modify the test case codes, and reuse any test case in the future for a new regression test for a web application. Lemonce driver is also work smarter and more powerful than selenium webdriver, so the test playback or test execution is more reliable than any test suite designed with selenium webdriver. With lemonce editor, you don’t need to learn how to use selenium ide anymore, and you will never get trouble caused by selenium web driver again and again. You will agree Lemonce is a great automated browse testing tool, especially after you try other different types of selenium testing tools.
+
+In addition to the recording & playback features that are better than selenium recorder tool, here are more concrete advantages, compared to any selenium test tools downloaded from open source resources from github or google.
+- Handle iframes easily without extra coding work. Its iframe penetration selector helps to locate and manage elements inside iframes conveniently. You neither write additional codes, nor need download extensions to install.
+- Use enhanced CSS selector, Xpath selector, and Sizzle selector, which can make the element location and identification in smarter way.
+- Create and edit new test cases with the simple and intuitive script language, LemonCase2. Learning cost is much lower than selenium and other automation testing tools for web apps.
+
+So, if you want to get a great selenium testing tool software download, please go to Lemonce Editor official Product website, and there are three downloadable software packages for Windows, Mac and Linux respectively, which are listed on the “Download” page. 
+
+Certainly, Selenium is a big name in web automation testing industry. Especially for open source testing tools, selenium will be widely used as the basic automation testing framework for web applications. For some web testing beginners, they have to learn some basic web app automation testing knowledge, for example, how to install selenium ide in firefox, how to use selenium recorder/playback tool to perform browser testing for chrome or firefox, and so on. A tester job seeker, who need prepare an interview for web testing career, will look around to get more materials to be familiar to selenium tools. So, it will be helpful to know where to get selenium ide 2.9.0 download, or where to find selenium tutorial pdf download resources, etc.
+Therefore, selenium testing tools and materials are inevitable for most beginner testers to start their automation web test career. Here is the major selenium test download website:
+[http://www.seleniumhq.org/download/](http://www.seleniumhq.org/download/)
+
+From the above download webpage, you may download latest releases of all the Selenium components and source codes, including Selenium WebDriver and client language bindings for Java, C#, Rubby, Python, Javascript (Node).
+
+Also, you can download Selenium IDE from the above official download page. Selenium ide Firefox plugin can record and play back web user interactions with the firefox browser. Testers can use this selenium tool to create simple testing scripts, facilitate exploratory testing, and even can export selenium webDriver or Remote Control or scripts
+
+In addition, from the above selenium testing download page, you may get third party drivers, plugins, and bindings, such as selenium ide download for chrome, Opera, Safari, Mozilla, and Microsoft edge, as well as some open source testing scripts developed with php or Perl 6. 
+
+Lemonce Editor will never be listed on the above page because it is a selenium alternative tool instead of selenium-based third party tool, and its automation testing framework is totally different from selenium. Therefore, Lemoce can overcome most problems in selenium webdriver and has more powerful features. For example, lemonce editor’s web test recorder can beat selenium recorder after you download lemonce editor to evaluate the free trial download version. With lemonce, the testing playback will also reliably complete test execution. If you are an experienced web browser automation testing professional, you may be very tired of the selenium issues and problems, no matter which are caused by the defects in selenium web driver, or some pitfalls even in some simple selenium setup process. (such as: how to install selenium ide in firefox). More important, Lemonce Editor will let you spend less time in test case coding, and it will save you a lot of time and effort to learn how to complete a complex web app testing project. 
+
+Please don’t hesitate to download Lemonce editor, and stop searching efforts to find good selenium alternative tools from github, Google, or any selenium testing download site. You will totally agree Lemonce Editor is the best automation testing tool for web applications or browsers.
