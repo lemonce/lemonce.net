@@ -8,7 +8,7 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 
 **Windows**
 
-- Visit Lemonce home-page and click <a class="btn-teal" href="https://license.lemonce.com:8082/#/download">Download Free Trial</a> button or <a class="btn-black" href="https://license.lemonce.com:8082/#/download">Download</a> in the header to jump to to download page.
+- Visit Lemonce home-page and click <a class="btn-teal" href="https://license.lemonce.com">Download Free Trial</a> button or <a class="btn-black" href="https://license.lemonce.com">Download</a> in the header to jump to to download page.
 - Choose the **Windows** Version.
 - Save the Lemonce installer to your computer, then open the file.
 - Install according to the prompt, double-click on the Lemonce icon when finishing installation.
@@ -30,7 +30,7 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 
 You can start the trial by simply signing up.Below are the three steps of register.
 
-- **Create personal account** Jump to [register page](https://license.lemonce.com/#/register)，according to the instruction to fill in Username,Email Address and Password.**Please make sure the email address is correct cause a wrong email may prevente you from purchasing.**
+- **Create personal account** Jump to [register page](https://license.lemonce.com)，according to the instruction to fill in Username,Email Address and Password.**Please make sure the email address is correct cause a wrong email may prevente you from purchasing.**
 
 - **Complete your information** You can select your nationality information which is for statistics only.
 
@@ -46,11 +46,11 @@ On the same device, the user who has not purchased the product have one-month tr
 
 **Trial-Manage machines**
 
-Then you can access to [Machines page](https://license.lemonce.com/#/machine) in your account to check the machine bindings.
+Then you can access to [Machines page](https://license.lemonce.com) in your account to check the machine bindings.
 
 **Purchase**
 
-If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com:8082/#/product/lemonce), as shows above.Now we have six packages for you to choose from. More purchase,more discount.
+If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com), as shows above.Now we have six packages for you to choose from. More purchase,more discount.
 
 <br/>
 ## [Lemonce Interface](/docs/setup/interface.html)

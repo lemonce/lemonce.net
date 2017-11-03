@@ -12,7 +12,7 @@ title: '试用与购买'
 <hr width="35%" align="left">
 <img class="box-shadow"  src="/images/setup/trial-1.png">
 
-进入[注册用户界面](https://license.lemonce.com/#/register)，按照页面引导填写用户名、注册邮箱以及密码创建用户。
+进入[注册用户界面](https://license.lemonce.com)，按照页面引导填写用户名、注册邮箱以及密码创建用户。
 
 **请保证注册邮箱的真实性，否则可能会造成 license 购买失败！**
 
@@ -56,7 +56,7 @@ title: '试用与购买'
 
 <img class="box-shadow" src="/images/setup/trial-6.png">
 
-此时用户可以进入到自己的账户中的 [Machines页面](https://license.lemonce.com/#/machine)查看当前绑定 license 的机器的情况。
+此时用户可以进入到自己的账户中的 [Machines页面](https://license.lemonce.com)查看当前绑定 license 的机器的情况。
 
 在本页面您可以获得如下信息及进行如下操作：
 - 查看 license数量及已经绑定的设备数量
@@ -69,7 +69,7 @@ title: '试用与购买'
 ---
 <img class="box-shadow" src="/images/setup/purchase-1.png">
 
-如果您需要购买 license，可以点击顶栏中的 <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce">购买</a>，页面会自动跳转到[购买页面](https://license.lemonce.com:8082/#/product/lemonce)，如上图所示。
+如果您需要购买 license，可以点击顶栏中的 <a class="btn-black" href="https://license.lemonce.com">购买</a>，页面会自动跳转到[购买页面](https://license.lemonce.com)，如上图所示。
 
 目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
 

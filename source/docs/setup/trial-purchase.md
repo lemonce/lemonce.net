@@ -12,7 +12,7 @@ You can start the trial by simply signing up.Below are the three steps of regist
 <hr width="35%" align="left">
 <img class="box-shadow"  src="/images/setup/trial-1.png">
 
-Jump to [register page](https://license.lemonce.com/#/register)，according to the instruction to fill in Username,Email Address and Password.
+Jump to [register page](https://license.lemonce.com)，according to the instruction to fill in Username,Email Address and Password.
 
 **Please make sure the email address is correct cause a wrong email may prevente you from purchasing.**
 
@@ -58,7 +58,7 @@ On the same device, the user who has not purchased the product have one-month tr
 
 <img class="box-shadow" src="/images/setup/trial-6.png">
 
-Then you can access to [Machines page](https://license.lemonce.com/#/machine) in your account to check the machine bindings.
+Then you can access to [Machines page](https://license.lemonce.com) in your account to check the machine bindings.
 
 In the machine page you can:
 - Check the number of licenses and machine bindings in your current account.
@@ -71,7 +71,7 @@ In the machine page you can:
 ---
 <img class="box-shadow" src="/images/setup/purchase-1.png">
 
-If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com:8082/#/product/lemonce" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com:8082/#/product/lemonce), as shows above.
+If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com), as shows above.
 
 Now we have six packages for you to choose from. More purchase,more discount.
 
