@@ -21,36 +21,32 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 
 **Linux** 
 
-- Linux for Lemonce is coming soon.
+- Same with the step 1 of Windows above.
+- Select Linux version and follow the installer's instruction to complete installation.
+- Finally, Double-click on the Lemonce icon and start you test
 
 <br/>
 ## [Trial and Purchase](/docs/setup/trial-purchase.html)
 ---
-**Trial-Sign up**
+**Trial**
 
-You can start the trial by simply signing up.Below are the three steps of register.
+You can start the trial by simply three steps.
 
-- **Create personal account** Jump to [register page](https://license.lemonce.com)，according to the instruction to fill in Username,Email Address and Password.**Please make sure the email address is correct cause a wrong email may prevente you from purchasing.**
+- **Click "Generate" to enter the license web page** The license interface will show up when you first open Lemonce,and you need a "Serial Key" to start your test. Just click the "Generate" to enter the license web page from your default browser.
 
-- **Complete your information** You can select your nationality information which is for statistics only.
+- **Get the "Serial Key"** Click the CheckBox at the left of "Trial" to skip the process of "Order Number".Input your email and captcha.Click <button class="btn-primary">Submit</button> to get a "Serial Key".
 
-- **Start Lemonce by your account** Click <button class="btn btn-success">Trial Now</button> to next operation.
-
-**Trial-Verify email address**
-
-After successful registration, we will send a verification mail to your email box.Please check it.
-
-**Trial-Start trial**
-
-On the same device, the user who has not purchased the product have one-month trail. After the success of trial, Lemonce Editor will not pop up the license interface within a month.
-
-**Trial-Manage machines**
-
-Then you can access to [Machines page](https://license.lemonce.com) in your account to check the machine bindings.
+- **Paste Serial Key to the license interface** Copy the Serial Key and paste it to the license interface，and click <button class="btn-success">Submit</button> to start your trial.
 
 **Purchase**
 
-If you need to purchase licenses, just click <a class="btn-black" href="https://license.lemonce.com" >Purchase</a> in the header to jump to [purchase page](https://license.lemonce.com), as shows above.Now we have six packages for you to choose from. More purchase,more discount.
+- Click shopping cart icon in download page
+
+- Complete payment  on the page of My Commerce
+
+- Input your Order Number and email to generate the Serial Key
+
+- Paste Serial Key to the license interface to activate Lemonce
 
 <br/>
 ## [Lemonce Interface](/docs/setup/interface.html)

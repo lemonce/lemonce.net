@@ -29,27 +29,18 @@ title: '设置'
 ---
 **试用**
 
-用户只需在注册界面添加一个新的用户即可对客户端进行试用。注册仅需以下三步即可完成。
+用户对客户端进行试用仅需以下三步。
 
-- **创建新用户** 进入[注册用户界面](https://license.lemonce.com)，按照页面引导创建用户。
-- **完善个人信息** 无需填写其他个人信息。我们统计的国籍信息仅用于网站的国际化工作。
-- **注册成功** 点击 <button class="btn-success">Trial Now</button> 即可进入下一步操作。
-
-**试用-验证邮箱**
-
-注册成功之后，我们会发送一封验证邮件到您的注册邮箱，您需要去邮箱中点击以完成注册验证。
-
-**试用-开始试用**
-
-在同一台设备上，未购买用户可试用一个月，已购买用户可无限期使用。试用成功之后，一个月内客户端内不会再弹出 license 界面。
-
-**试用-管理设备**
-
-用户可以进入到自己的账户中的  [Machines页面](https://license.lemonce.com) 查看当前绑定 license 的机器的情况。
+- **点击"Generate"进入license页面** 下载完客户端之后，第一次打开使用会出现需要输入一个 Serial Key 的界面，点击“Generate”，系统会启动从默认的浏览器中进入license页面。
+- **提交试用获取 Serial Key** 点击“Trial”之前的 CheckBox 跳过输入Order Number的步骤。分别输入您的常用的邮箱地址和验证码之后，点击 <button class="btn-primary">Submit</button> 提交获取Serial Key。
+- **粘贴 Serial Key 到客户端license界面** 复制并粘贴刚才获得的 Serial Key 到 license页面中，点击 <button class="btn-success">Submit</button> 即可开始使用。
 
 **购买**
 
-如果您需要购买 license，可以点击顶栏中的 <a class="btn-black" href="https://license.lemonce.com" >购买</a>，页面会自动跳转到[购买页面](https://license.lemonce.com)。目前我们有六种套餐供您选择，购买包含 license 数量越多的套餐，您将享受到越多折扣。
+- 可以点击[下载页面](https://license.lemonce.com)中页面右下角的购物车图标。
+- 在 MyCommerce 页面完成付款，在 Bill Information 的 Email 一栏，请一定填写您常用的Email地址
+- 输入订单号及购买 license 时使用的邮箱获得 Serial Key
+- 粘贴 Serial Key 到客户端 license 界面以永久激活 Lemonce
 
 <br/>
 ## [灵萌测界面](/zh-cn/docs/setup/interface.html)
