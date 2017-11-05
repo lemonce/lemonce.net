@@ -18,7 +18,7 @@ When testers need to make a decision to choose cheap automation testing tools, o
 
 If you are planning to evaluate some gui automation testing tools for web applications, please don’t hesitate to download Lemonce Editor, which has a powerful testing toolkit, code editor, and its own LemonceDriver that is similar to selenium webdriver. Please click the following online download link:
 
-[**Download Free Trial**](https://license.lemonce.com)
+[**Download Free Trial**](http://license.lemonce.com)
 
 <br/>
 ## Who will need Lemonce Editor as an auto testing tool for web apps?

@@ -35,7 +35,7 @@ title: '试用与购买'
 ## 2 购买
 ---
 
-如果您需要购买 license，可以点击[下载页面](https://license.lemonce.com)中页面右下角的购物车图标。如下图红框中所标的位置。
+如果您需要购买 license，可以点击[下载页面](http://license.lemonce.com)中页面右下角的购物车图标。如下图红框中所标的位置。
 
 <img class="box-shadow" src="/images/setup/purchase-1pro.png">
 

@@ -39,7 +39,7 @@ Copy the Serial Key and paste it to the license interface，and click <button cl
 ## 2 Purchase
 ---
 
-If you need to purchase our product, you have to go to the[download page](https://license.lemonce.com) and click the shopping cart icon in the lower right corner of the page (in the red box).
+If you need to purchase our product, you have to go to the[download page](http://license.lemonce.com) and click the shopping cart icon in the lower right corner of the page (in the red box).
 
 <img class="box-shadow" src="/images/setup/purchase-1pro.png">
 

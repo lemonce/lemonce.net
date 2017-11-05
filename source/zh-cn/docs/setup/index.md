@@ -8,7 +8,7 @@ title: '设置'
 
 **Windows**
 
-- 访问 Lemonce 首页，点击 <a class="btn-teal" href="https://license.lemonce.com">下载最新版 </a> 按键，或者点击顶栏的 <a class="btn-black" href="https://license.lemonce.com"> 下载 </a>，跳转到下载页面
+- 访问 Lemonce 首页，点击 <a class="btn-teal" href="http://license.lemonce.com">下载最新版 </a> 按键，或者点击顶栏的 <a class="btn-black" href="http://license.lemonce.com"> 下载 </a>，跳转到下载页面
 - 选择 Lemonce 的 Windows 版本
 - 保存 Lemonce 的安装文件到您的电脑并打开
 - 根据提示安装文件，在安装完成之后双击 Lemonce 的图标即可打开[……]
@@ -37,7 +37,7 @@ title: '设置'
 
 **购买**
 
-- 可以点击[下载页面](https://license.lemonce.com)中页面右下角的购物车图标。
+- 可以点击[下载页面](http://license.lemonce.com)中页面右下角的购物车图标。
 - 在 MyCommerce 页面完成付款，在 Bill Information 的 Email 一栏，请一定填写您常用的Email地址
 - 输入订单号及购买 license 时使用的邮箱获得 Serial Key
 - 粘贴 Serial Key 到客户端 license 界面以永久激活 Lemonce
