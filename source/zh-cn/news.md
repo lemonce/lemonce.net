@@ -1,6 +1,14 @@
 title: '版本更新消息'
 layout: page without sidebar
 ---
+## 版本更新 2.0.12
+---
+
+**优化**
+
+- 调整了license业务流程
+- 简化了license的验证方式
+
 ## 版本更新 2.0.11
 ---
 

@@ -1,6 +1,14 @@
 title: 'Lemonce Update News'
 layout: page without sidebar
 ---
+## Updates for version 2.0.12
+---
+
+**Optimized**
+
+- Optimized the business process of license.
+- Simplify the verification method of license.
+
 ## Updates for version 2.0.11
 ---
 
