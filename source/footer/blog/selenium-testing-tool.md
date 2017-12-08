@@ -7,7 +7,7 @@ Are you looking for a selenium testing tool download site, on which you can down
 <img class="guide-images box-shadow" alt="selenium_testing_tool.jpg" src="/images/interface.PNG">
 
 Please visit this great alternative to selenium tool download web page:
-[Lemonce Editor Free Download](http://license.lemonce.com)
+[Lemonce Editor Free Download](http://www.lemonce.net)
 
 Here is the alternative to selenium testing tool tutorial & documentation:
 [Lemonce Editor Tutorial & Documentation](/docs/guide/index.html)

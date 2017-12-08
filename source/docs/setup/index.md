@@ -8,7 +8,7 @@ Since Lemonce can be used on different operating systems, it is distributed as a
 
 **Windows**
 
-- Visit Lemonce home-page and click <a class="btn-teal" href="http://license.lemonce.com">Download Free Trial</a> button or <a class="btn-black" href="http://license.lemonce.com">Download</a> in the header to jump to to download page.
+- Visit Lemonce home-page and click <a class="btn-teal" href="http://www.lemonce.net">Download Free Trial</a> button or <a class="btn-black" href="http://www.lemonce.net">Download</a> in the header to jump to to download page.
 - Choose the **Windows** Version.
 - Save the Lemonce installer to your computer, then open the file.
 - Install according to the prompt, double-click on the Lemonce icon when finishing installation.
